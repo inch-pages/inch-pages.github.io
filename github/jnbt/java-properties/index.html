@@ -10,7 +10,7 @@
 
   <title>
     
-      splattael/libnotify &middot; Inch Pages
+      jnbt/java-properties &middot; Inch Pages
     
   </title>
 
@@ -67,11 +67,11 @@
   <div class="repo-card">
     <div class="topbar">
       <h1>
-        splattael/libnotify
-        <a target="_blank" class="github-link" href="https://github.com/splattael/libnotify"><img alt="Github mark 32px" class="github-logo" src="/public/images/GitHub-Mark-32px.png" /></a>
+        jnbt/java-properties
+        <a target="_blank" class="github-link" href="https://github.com/jnbt/java-properties"><img alt="Github mark 32px" class="github-logo" src="/public/images/GitHub-Mark-32px.png" /></a>
       </h1>
       <p class="description">
-        Ruby bindings for libnotify using FFI.
+        Loader and writer for *.properties files
         
           &ndash;
           <a target="_blank" href="">Read the documentation</a>
@@ -81,15 +81,15 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 59%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 35%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 96%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
       <div class="explanation">
-        <p>This page shows an <strong><em>evaluation of the documentation</em></strong> of splattael/libnotify.</p>
+        <p>This page shows an <strong><em>evaluation of the documentation</em></strong> of jnbt/java-properties.</p>
 
 <p>Each class, module, method, etc. is given a grade based on how complete the docs are.</p>
 
@@ -113,7 +113,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#show!
+          JavaProperties::Encoding.decode!
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -127,7 +127,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify
+          JavaProperties::Encoding.encode!
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -141,10 +141,10 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API
+          JavaProperties::Parsing::Normalizer::Rule#apply!
         </td>
         <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
+          <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
     
@@ -155,10 +155,10 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::IconFinder::Icon#fullpath
+          JavaProperties::Parsing::Normalizer.normalize!
         </td>
         <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
+          <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
     
@@ -169,17 +169,17 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#icon_path
+          JavaProperties::Encoding::SpecialChars.encode!
         </td>
         <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
+          <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
     
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 19 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 41 more ...</a>
         </td>
       </tr>
     
@@ -191,7 +191,91 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#transient
+          JavaProperties::Encoding::SpecialChars.decode!
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Separators.encode!
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Separators.decode!
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Unicode.encode!
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Unicode.decode!
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Parsing::Normalizer::Rule#initialize
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -205,7 +289,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#urgency
+          JavaProperties::Parsing::Normalizer::Rule
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -219,7 +303,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#summary
+          JavaProperties::Generating::Generator
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -233,7 +317,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#timeout
+          JavaProperties::Parsing::Parser.parse
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -247,7 +331,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#append
+          JavaProperties::Parsing::Normalizer
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -261,7 +345,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::API#body
+          JavaProperties::Parsing::Parser
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -275,7 +359,7 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::FFI
+          JavaProperties::Encoding
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -289,164 +373,388 @@
           </div>
         </td>
         <td class="path">
-          Libnotify.new
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API.icon_dirs=
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#transient=
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API.icon_dirs
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#urgency=
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#summary=
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#append=
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#close
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#body=
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API.show
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify.show
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#icon_path=
+          JavaProperties::Generating::Generator.generate
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::SpecialChars
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Separators
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Unicode
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties.generate
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties.parse
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties.write
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties.load
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Separators::ENCODE_SEPARATOR_MARKER
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Separators::DECODE_SEPARATOR_MARKER
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Generating::Generator::KEY_VALUE_SEPARATOR
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::SpecialChars::DESCAPING_MARKER
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Generating::Generator::DEFAULT_OPTIONS
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Separators::ESCAPING_MARKER
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::SpecialChars::DESCAPING
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Unicode::UNICODE_MARKER
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Parsing::Parser::KEY_VALUE_MARKER
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Unicode::UNICODE_ESCAPE
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Parsing::Parser::KEY_ONLY_MARKER
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::SpecialChars::ESCAPING
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::Separators::ESCAPE
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::SKIP_SPECIAL_CHARS
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Parsing::Parser::KEY_ESCAPE
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Parsing::Normalizer::RULES
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::SKIP_SEPARATORS
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Encoding::SKIP_UNICODE
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::VERSION
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          JavaProperties::Properties
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -462,34 +770,12 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#update
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
+      <tr class="show_more">
+        <td colspan=3>
+          &ndash;
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#initialize
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
     
     
     
@@ -505,20 +791,12 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::API#timeout=
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
+      <tr class="show_more">
+        <td colspan=3>
+          &ndash;
         </td>
       </tr>
+    
     
     
     
@@ -543,216 +821,28 @@
           </div>
         </td>
         <td class="path">
-          Libnotify::FFI.attach_functions!
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::FFI#method_missing
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder::Icon#resolution
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder::Icon#initialize
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder#initialize
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 10 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder::Icon#to_s
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder#icon_path
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder::Icon#<=>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::FFI#lookup_urgency
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder::Icon
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::FFI.load_libs
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::IconFinder::Icon::ICON_REGEX
+          JavaProperties::Generating
         </td>
         <td>
           <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
-      <tr class="more_object">
+      <tr>
         <td>
           <div class="grade-circle grade-circle-U">
             U
           </div>
         </td>
         <td class="path">
-          Libnotify::FFI::URGENCY
+          JavaProperties::Parsing
         </td>
         <td>
           <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          Libnotify::VERSION
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
+    
     
   </tbody>
 </table>
@@ -768,12 +858,12 @@
     <div class="what-is-this">
       <h2>Let&#39;s raise the visiblity of documentation in Ruby!</h2>
 
-<p>This page is for <code>splattael/libnotify</code> and is part of a project called &quot;Inch Pages&quot;, showing documentation measurement provided by <a href="http://trivelop.de/inch">Inch</a>.
-<span style="white-space: nowrap;">Inch Pages</span> also provide a badge: <img src="/github/splattael/libnotify.png"></p>
+<p>This page is for <code>jnbt/java-properties</code> and is part of a project called &quot;Inch Pages&quot;, showing documentation measurement provided by <a href="http://trivelop.de/inch">Inch</a>.
+<span style="white-space: nowrap;">Inch Pages</span> also provide a badge: <img src="/github/jnbt/java-properties.png"></p>
 
 <h3>Can I have my own badges?</h3>
 
-<p><a href="/participate?repo=splattael/libnotify">Sure!</a></p>
+<p><a href="/participate?repo=jnbt/java-properties">Sure!</a></p>
 
 <h3>What is the goal of this?</h3>
 
