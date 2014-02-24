@@ -81,10 +81,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 73%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 21%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 67%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 9%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 24%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -127,7 +127,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Router#resources">Lotus::Router#resources</span>
+          <span title="Lotus::Router#namespace">Lotus::Router#namespace</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -141,7 +141,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Router#namespace">Lotus::Router#namespace</span>
+          <span title="Lotus::Router#resources">Lotus::Router#resources</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -179,7 +179,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 64 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 58 more ...</a>
         </td>
       </tr>
     
@@ -219,20 +219,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Router#trace">Lotus::Router#trace</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Router#patch">Lotus::Router#patch</span>
         </td>
         <td>
@@ -247,7 +233,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Router#post">Lotus::Router#post</span>
+          <span title="Lotus::Router#trace">Lotus::Router#trace</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -262,6 +248,34 @@
         </td>
         <td class="path">
           <span title="Lotus::Router#path">Lotus::Router#path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Router#call">Lotus::Router#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Router#post">Lotus::Router#post</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -317,24 +331,10 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Router#call">Lotus::Router#call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Router">Lotus::Router</span>
         </td>
         <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -373,10 +373,38 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Routing::InvalidRouteException">Lotus::Routing::InvalidRouteException</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::EndpointNotFound">Lotus::Routing::EndpointNotFound</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Routing::Resource::Action#initialize">Lotus::Routing::Resource::Action#initialize</span>
         </td>
         <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -388,6 +416,20 @@
         </td>
         <td class="path">
           <span title="Lotus::Routing::Resource::Action#generate">Lotus::Routing::Resource::Action#generate</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Resource::Action#resource_name">Lotus::Routing::Resource::Action#resource_name</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -415,147 +457,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::InvalidRouteException">Lotus::Routing::InvalidRouteException</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::EndpointNotFound">Lotus::Routing::EndpointNotFound</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Routing::Route#generate">Lotus::Routing::Route#generate</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#initialize">Lotus::Routing::HttpRouter#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#options">Lotus::Routing::HttpRouter#options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#path">Lotus::Routing::HttpRouter#path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#url">Lotus::Routing::HttpRouter#url</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Resource::Action#resource_name">Lotus::Routing::Resource::Action#resource_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Resource::Options#initialize">Lotus::Routing::Resource::Options#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::EndpointResolver#initialize">Lotus::Routing::EndpointResolver#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#action_separator">Lotus::Routing::HttpRouter#action_separator</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -597,35 +499,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Routing::Resource::Options#initialize">Lotus::Routing::Resource::Options#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#action_separator">Lotus::Routing::HttpRouter#action_separator</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::EndpointResolver#initialize">Lotus::Routing::EndpointResolver#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Routing::EndpointResolver#find">Lotus::Routing::EndpointResolver#find</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::LazyEndpoint#call">Lotus::Routing::LazyEndpoint#call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#find">Lotus::Routing::HttpRouter#find</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -668,6 +584,48 @@
         </td>
         <td class="path">
           <span title="Lotus::Routing::Resource::DefaultMemberAction">Lotus::Routing::Resource::DefaultMemberAction</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::EndpointResolver">Lotus::Routing::EndpointResolver</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::ClassEndpoint">Lotus::Routing::ClassEndpoint</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter">Lotus::Routing::HttpRouter</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -737,20 +695,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::EndpointResolver">Lotus::Routing::EndpointResolver</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Routing::Resources::Edit">Lotus::Routing::Resources::Edit</span>
         </td>
         <td>
@@ -765,35 +709,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::ClassEndpoint">Lotus::Routing::ClassEndpoint</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Routing::LazyEndpoint">Lotus::Routing::LazyEndpoint</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter">Lotus::Routing::HttpRouter</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -849,6 +765,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Routing::Endpoint">Lotus::Routing::Endpoint</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Routing::Resources::CollectionAction">Lotus::Routing::Resources::CollectionAction</span>
         </td>
         <td>
@@ -891,35 +821,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::Resource::Destroy">Lotus::Routing::Resource::Destroy</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Routing::Resources::Action">Lotus::Routing::Resources::Action</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Resources::Create">Lotus::Routing::Resources::Create</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -947,7 +849,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::Resources::Index">Lotus::Routing::Resources::Index</span>
+          <span title="Lotus::Routing::Resource::Destroy">Lotus::Routing::Resource::Destroy</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -961,7 +863,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::Resource::Update">Lotus::Routing::Resource::Update</span>
+          <span title="Lotus::Routing::Resources::Create">Lotus::Routing::Resources::Create</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -989,6 +891,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Routing::Resource::Update">Lotus::Routing::Resource::Update</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Resources::Index">Lotus::Routing::Resources::Index</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Routing::Resources::Show">Lotus::Routing::Resources::Show</span>
         </td>
         <td>
@@ -1003,7 +933,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::Resources::New">Lotus::Routing::Resources::New</span>
+          <span title="Lotus::Routing::Resource::Edit">Lotus::Routing::Resource::Edit</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -1017,7 +947,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing::Resource::Edit">Lotus::Routing::Resource::Edit</span>
+          <span title="Lotus::Routing::Resources::New">Lotus::Routing::Resources::New</span>
         </td>
         <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
@@ -1066,20 +996,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Endpoint">Lotus::Routing::Endpoint</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -1103,11 +1019,75 @@
           <span title="Lotus::Routing::Namespace#namespace">Lotus::Routing::Namespace#namespace</span>
         </td>
         <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#initialize">Lotus::Routing::HttpRouter#initialize</span>
+        </td>
+        <td>
           <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
       <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#options">Lotus::Routing::HttpRouter#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#path">Lotus::Routing::HttpRouter#path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#url">Lotus::Routing::HttpRouter#url</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('B'); return false;">Show 4 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-B">
             B
@@ -1121,7 +1101,7 @@
         </td>
       </tr>
     
-      <tr>
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-B">
             B
@@ -1135,7 +1115,33 @@
         </td>
       </tr>
     
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::LazyEndpoint#call">Lotus::Routing::LazyEndpoint#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
     
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#find">Lotus::Routing::HttpRouter#find</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
     
   </tbody>
 </table>
@@ -1149,294 +1155,14 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Resource#initialize">Lotus::Routing::Resource#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#reset!">Lotus::Routing::HttpRouter#reset!</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Resource::CollectionAction#method_missing">Lotus:: <em>&hellip;</em> ::CollectionAction#method_missing</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#initialize">Lotus::Routing::Namespace#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#redirect">Lotus::Routing::Namespace#redirect</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-    
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('C'); return false;">Show 15 more ...</a>
+          &ndash;
         </td>
       </tr>
     
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#delete">Lotus::Routing::Namespace#delete</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#trace">Lotus::Routing::Namespace#trace</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#patch">Lotus::Routing::Namespace#patch</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#post">Lotus::Routing::Namespace#post</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#get">Lotus::Routing::Namespace#get</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#put">Lotus::Routing::Namespace#put</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::EndpointResolver#action_separator">Lotus::Routing::EndpointResolver#action_separator</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#pass_on_response">Lotus::Routing::HttpRouter#pass_on_response</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Resource::Options#actions">Lotus::Routing::Resource::Options#actions</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::HttpRouter#no_response">Lotus::Routing::HttpRouter#no_response</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#resources">Lotus::Routing::Namespace#resources</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::Namespace#resource">Lotus::Routing::Namespace#resource</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::EndpointResolver#constantize">Lotus::Routing::EndpointResolver#constantize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::EndpointResolver#classify">Lotus::Routing::EndpointResolver#classify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Routing::EndpointResolver#default">Lotus::Routing::EndpointResolver#default</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
     
   </tbody>
 </table>
@@ -1473,7 +1199,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Router::VERSION">Lotus::Router::VERSION</span>
+          <span title="Lotus::Routing::Resource#initialize">Lotus::Routing::Resource#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#reset!">Lotus::Routing::HttpRouter#reset!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Resource::CollectionAction#method_missing">Lotus:: <em>&hellip;</em> ::CollectionAction#method_missing</span>
         </td>
         <td>
           <img src="/public/images/priority/SE.png" title="Priority"/>
@@ -1487,7 +1241,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Routing">Lotus::Routing</span>
+          <span title="Lotus::Router::VERSION">Lotus::Router::VERSION</span>
         </td>
         <td>
           <img src="/public/images/priority/SE.png" title="Priority"/>
@@ -1495,6 +1249,264 @@
       </tr>
     
     
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('U'); return false;">Show 18 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#initialize">Lotus::Routing::Namespace#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#redirect">Lotus::Routing::Namespace#redirect</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#delete">Lotus::Routing::Namespace#delete</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#trace">Lotus::Routing::Namespace#trace</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#patch">Lotus::Routing::Namespace#patch</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#post">Lotus::Routing::Namespace#post</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#put">Lotus::Routing::Namespace#put</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#get">Lotus::Routing::Namespace#get</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing">Lotus::Routing</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::EndpointResolver#action_separator">Lotus::Routing::EndpointResolver#action_separator</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#pass_on_response">Lotus::Routing::HttpRouter#pass_on_response</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Resource::Options#actions">Lotus::Routing::Resource::Options#actions</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::HttpRouter#no_response">Lotus::Routing::HttpRouter#no_response</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#resources">Lotus::Routing::Namespace#resources</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::Namespace#resource">Lotus::Routing::Namespace#resource</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::EndpointResolver#constantize">Lotus::Routing::EndpointResolver#constantize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::EndpointResolver#classify">Lotus::Routing::EndpointResolver#classify</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Routing::EndpointResolver#default">Lotus::Routing::EndpointResolver#default</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
     
   </tbody>
 </table>
