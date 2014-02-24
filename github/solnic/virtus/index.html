@@ -1,0 +1,3207 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      solnic/virtus &middot; Inch Pages
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/tooltip.css">
+  <link rel="stylesheet" href="/public/css/site.css">
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    function showMore(grade) {
+      var table = $(".grade-table-"+grade);
+      table.find("tr.show_more").hide();
+      table.find("tr.more_object").show();
+    }
+    jQuery(function() {
+      $("[data-toggle=tooltip]").tooltip({delay: { show: 300, hide: 100 }});
+    });
+  </script>
+
+  <!-- Icons
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+ -->
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="masthead">
+      <!--
+      <div class="container">
+        <h1 class="masthead-title"><em>#</em> Inch</h1>
+        <small class="tagline">Documentation measurement for Ruby</small>
+      </div>
+    -->
+      <div class="container disclaimer">
+        Let's raise the visiblity of code documentation in Ruby!
+        
+          
+            <a href="#about">What is this about?</a>
+          
+        
+      </div>
+    </div>
+
+    <div class="container content">
+      <div class="repo-wrapper">
+  <div class="repo-card">
+    <div class="topbar">
+      <h1>
+        solnic/virtus
+        <a target="_blank" class="github-link" href="https://github.com/solnic/virtus"><img alt="Github mark 32px" class="github-logo" src="/public/images/GitHub-Mark-32px.png" /></a>
+      </h1>
+      <p class="description">
+        Attributes on Steroids for Plain Old Ruby Objects
+        
+          &ndash;
+          <a target="_blank" href="">Read the documentation</a>
+        
+      </p>
+    </div>
+
+    <div class="stats">
+      <div class='progress'>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 62%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 30%' title='Undocumented'></div>
+      </div>
+    </div>
+    <div class="repo-info">
+      <div class="explanation">
+        <p>This page shows an <strong><em>evaluation of the documentation</em></strong> of solnic/virtus.</p>
+
+<p>Each class, module, method, etc. is given a grade based on how complete the docs are.</p>
+
+<p>The bar above shows the distribution of these grades.</p>
+
+      </div>
+
+      <table class="table grade-table grade-table-A">
+  <thead>
+    <tr>
+      <th colspan=3>Seems really good</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods#set_default_attributes!">Virtus::InstanceMethods#set_default_attributes!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods::MassAssignment#attributes">Virtus::InstanceMethods::MassAssignment#attributes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::InstanceMethods#clone">Virtus::ValueObject::InstanceMethods#clone</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods::MassAssignment#attributes=">Virtus::InstanceMethods::MassAssignment#attributes=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection::Type#member_type=">Virtus::Attribute::Collection::Type#member_type=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('A'); return false;">Show 122 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection::Type#member_type">Virtus::Attribute::Collection::Type#member_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods::MassAssignment#to_hash">Virtus::InstanceMethods::MassAssignment#to_hash</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection::Type#primitive=">Virtus::Attribute::Collection::Type#primitive=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection::Type#primitive">Virtus::Attribute::Collection::Type#primitive</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#set_default_value">Virtus::Attribute::Accessor#set_default_value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::ClassMethods#equalizer">Virtus::ValueObject::ClassMethods#equalizer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::InstanceMethods#dup">Virtus::ValueObject::InstanceMethods#dup</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::TypeLookup#determine_type">Virtus::TypeLookup#determine_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#name">Virtus::Attribute::Accessor#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Options#accepted_options">Virtus::Options#accepted_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#get">Virtus::Attribute::Accessor#get</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#set">Virtus::Attribute::Accessor#set</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods#freeze">Virtus::InstanceMethods#freeze</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Equalizer::Methods#==">Virtus::Equalizer::Methods#==</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods#[]=">Virtus::InstanceMethods#[]=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods#[]">Virtus::InstanceMethods#[]</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#merge">Virtus::AttributeSet#merge</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#coerce">Virtus::Attribute#coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#rename">Virtus::Attribute#rename</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#[]=">Virtus::AttributeSet#[]=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#<<">Virtus::AttributeSet#<<</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Options#options">Virtus::Options#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#[]">Virtus::AttributeSet#[]</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute.build">Virtus::Attribute.build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#type">Virtus::Attribute#type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Coercer#call">Virtus::Coercer#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.finalize">Virtus.finalize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#mass_assignment=">Virtus::Configuration#mass_assignment=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#mass_assignment">Virtus::Configuration#mass_assignment</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#constructor=">Virtus::Configuration#constructor=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#constructor">Virtus::Configuration#constructor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#finalize=">Virtus::Configuration#finalize=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#finalize">Virtus::Configuration#finalize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#strict=">Virtus::Configuration#strict=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#coerce=">Virtus::Configuration#coerce=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#strict">Virtus::Configuration#strict</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#coerce">Virtus::Configuration#coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::ClassMethods#attribute">Virtus::ValueObject::ClassMethods#attribute</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::Methods#attribute">Virtus::Extensions::Methods#attribute</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#each">Virtus::AttributeSet#each</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection#coerce">Virtus::Attribute::Collection#coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassMethods#attribute_set">Virtus::ClassMethods#attribute_set</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash#coerce">Virtus::Attribute::Hash#coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus">Virtus</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#defined?">Virtus::Attribute::Accessor#defined?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#value_coerced?">Virtus::Attribute#value_coerced?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Equalizer::Methods#eql?">Virtus::Equalizer::Methods#eql?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#finalized?">Virtus::Attribute#finalized?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#coercible?">Virtus::Attribute#coercible?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#required?">Virtus::Attribute#required?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#strict?">Virtus::Attribute#strict?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Coercer#success?">Virtus::Coercer#success?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#lazy?">Virtus::Attribute#lazy?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::AllowedWriterMethods#allowed_writer_methods">Virtus:: <em>&hellip;</em> ::AllowedWriterMethods#allowed_writer_methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::AllowedWriterMethods#allowed_writer_methods">Virtus:: <em>&hellip;</em> ::AllowedWriterMethods#allowed_writer_methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassInclusions::Methods#allowed_writer_methods">Virtus::ClassInclusions::Methods#allowed_writer_methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromCallable#call">Virtus::Attribute::DefaultValue::FromCallable#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods::Constructor#initialize">Virtus::InstanceMethods::Constructor#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods#set_default_attributes">Virtus::InstanceMethods#set_default_attributes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ConstMissingExtensions#const_missing">Virtus::ConstMissingExtensions#const_missing</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue#initialize">Virtus::Attribute::DefaultValue#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#define_reader_method">Virtus::AttributeSet#define_reader_method</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#define_writer_method">Virtus::AttributeSet#define_writer_method</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue#value">Virtus::Attribute::DefaultValue#value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue#call">Virtus::Attribute::DefaultValue#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#initialize">Virtus::Configuration#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassInclusions.included">Virtus::ClassInclusions.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#initialize">Virtus::AttributeSet#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassMethods.extended">Virtus::ClassMethods.extended</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Equalizer#initialize">Virtus::Equalizer#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::TypeLookup.extended">Virtus::TypeLookup.extended</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions.extended">Virtus::Extensions.extended</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#reset">Virtus::AttributeSet#reset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#instance_variable_name">Virtus::Attribute::Accessor#instance_variable_name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.configuration">Virtus.configuration</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Equalizer#<<">Virtus::Equalizer#<<</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromSymbol#call">Virtus::Attribute::DefaultValue::FromSymbol#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Boolean#value_coerced?">Virtus::Attribute::Boolean#value_coerced?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Options#add_accepted_options">Virtus::Options#add_accepted_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercer#success?">Virtus::Attribute::Coercer#success?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::TypeLookup#primitive">Virtus::TypeLookup#primitive</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Options#set_options">Virtus::Options#set_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute">Virtus::Attribute</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#set">Virtus::AttributeSet#set</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromClonable#call">Virtus::Attribute::DefaultValue::FromClonable#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::AllowedWriterMethods">Virtus::Extensions::AllowedWriterMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods::MassAssignment">Virtus::InstanceMethods::MassAssignment</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection::Type">Virtus::Attribute::Collection::Type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::EmbeddedValue">Virtus::Attribute::EmbeddedValue</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercer#call">Virtus::Attribute::Coercer#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Model::MassAssignment">Virtus::Model::MassAssignment</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection">Virtus::Attribute::Collection</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercible">Virtus::Attribute::Coercible</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor">Virtus::Attribute::Accessor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Model::Constructor">Virtus::Model::Constructor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Boolean">Virtus::Attribute::Boolean</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Equalizer::Methods">Virtus::Equalizer::Methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Strict">Virtus::Attribute::Strict</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash">Virtus::Attribute::Hash</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassInclusions">Virtus::ClassInclusions</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods">Virtus::InstanceMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration">Virtus::Configuration</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet">Virtus::AttributeSet</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassMethods">Virtus::ClassMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject">Virtus::ValueObject</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::TypeLookup">Virtus::TypeLookup</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions">Virtus::Extensions</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Equalizer">Virtus::Equalizer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Coercer">Virtus::Coercer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Options">Virtus::Options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromClonable.handle?">Virtus::Attribute::DefaultValue::FromClonable.handle?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromCallable.handle?">Virtus::Attribute::DefaultValue::FromCallable.handle?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromSymbol.handle?">Virtus::Attribute::DefaultValue::FromSymbol.handle?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#public_writer?">Virtus::Attribute::Accessor#public_writer?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Accessor#public_reader?">Virtus::Attribute::Accessor#public_reader?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection#finalized?">Virtus::Attribute::Collection#finalized?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash#finalized?">Virtus::Attribute::Hash#finalized?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromClonable">Virtus::Attribute::DefaultValue::FromClonable</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromCallable">Virtus::Attribute::DefaultValue::FromCallable</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromSymbol">Virtus::Attribute::DefaultValue::FromSymbol</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue">Virtus::Attribute::DefaultValue</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercer">Virtus::Attribute::Coercer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+  </tbody>
+</table>
+
+
+<table class="table grade-table grade-table-B">
+  <thead>
+    <tr>
+      <th colspan=3>Proper documentation present</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Options#accept_options">Virtus::Options#accept_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration.build">Virtus::Configuration.build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.value_object">Virtus.value_object</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::InstanceMethods#with">Virtus::ValueObject::InstanceMethods#with</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods#reset_attribute">Virtus::InstanceMethods#reset_attribute</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('B'); return false;">Show 9 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercible#set">Virtus::Attribute::Coercible#set</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#coercer">Virtus::Configuration#coercer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#call">Virtus::Configuration#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue.build">Virtus::Attribute::DefaultValue.build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#set_defaults">Virtus::AttributeSet#set_defaults</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject.included">Virtus::ValueObject.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#coerce">Virtus::AttributeSet#coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#get">Virtus::AttributeSet#get</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Options#define_option_method">Virtus::Options#define_option_method</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+  </tbody>
+</table>
+
+
+<table class="table grade-table grade-table-C">
+  <thead>
+    <tr>
+      <th colspan=3>Needs work</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::Methods#values">Virtus::Extensions::Methods#values</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassMethods#attributes">Virtus::ClassMethods#attributes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute.coerce">Virtus::Attribute.coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Strict#coerce">Virtus::Attribute::Strict#coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Boolean#define_accessor_methods">Virtus::Attribute::Boolean#define_accessor_methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('C'); return false;">Show 1 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercer#initialize">Virtus::Attribute::Coercer#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+  </tbody>
+</table>
+
+
+
+<table class="table grade-table grade-table-U">
+  <thead>
+    <tr>
+      <th colspan=3>Undocumented</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.coercer">Virtus.coercer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.config">Virtus.config</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.module">Virtus.module</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.model">Virtus.model</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::LazyDefault#get">Virtus::Attribute::LazyDefault#get</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('U'); return false;">Show 59 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::CoercionError#initialize">Virtus::CoercionError#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::CoercionError#primitive">Virtus::CoercionError#primitive</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::CoercionError#output">Virtus::CoercionError#output</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.coerce=">Virtus.coerce=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.coerce">Virtus.coerce</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute.merge_options!">Virtus::Attribute.merge_options!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::AllowedWriterMethods::INVALID_WRITER_METHODS">Virtus:: <em>&hellip;</em> ::INVALID_WRITER_METHODS</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::DefaultValue::FromClonable::SINGLETON_CLASSES">Virtus:: <em>&hellip;</em> ::SINGLETON_CLASSES</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::AllowedWriterMethods::WRITER_METHOD_REGEXP">Virtus:: <em>&hellip;</em> ::WRITER_METHOD_REGEXP</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::INVALID_WRITER_METHODS">Virtus::Extensions::INVALID_WRITER_METHODS</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::WRITER_METHOD_REGEXP">Virtus::Extensions::WRITER_METHOD_REGEXP</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::EmbeddedValue::TYPES">Virtus::Attribute::EmbeddedValue::TYPES</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::RESERVED_NAMES">Virtus::Extensions::RESERVED_NAMES</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::TypeLookup::TYPE_FORMAT">Virtus::TypeLookup::TYPE_FORMAT</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::EXTRA_CONST_ARGS">Virtus::EXTRA_CONST_ARGS</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Undefined">Virtus::Undefined</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::VERSION">Virtus::VERSION</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection.merge_options!">Virtus::Attribute::Collection.merge_options!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash.merge_options!">Virtus::Attribute::Hash.merge_options!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/SE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection#member_type">Virtus::Attribute::Collection#member_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#define_accessor_methods">Virtus::Attribute#define_accessor_methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercer#coercers">Virtus::Attribute::Coercer#coercers</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash#value_type">Virtus::Attribute::Hash#value_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Coercer#method">Virtus::Attribute::Coercer#method</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash#key_type">Virtus::Attribute::Hash#key_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute.build_coercer">Virtus::Attribute.build_coercer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#default_value">Virtus::Attribute#default_value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet#finalize">Virtus::AttributeSet#finalize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute.build_type">Virtus::Attribute.build_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#initialize">Virtus::Attribute#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::AttributeSet.create">Virtus::AttributeSet.create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#primitive">Virtus::Attribute#primitive</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#finalize">Virtus::Attribute#finalize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Configuration#to_h">Virtus::Configuration#to_h</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Coercer#initialize">Virtus::Coercer#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#options">Virtus::Attribute#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Coercer#primitive">Virtus::Coercer#primitive</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute#coercer">Virtus::Attribute#coercer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Coercer#type">Virtus::Coercer#type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus.warn">Virtus.warn</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::EmbeddedValue.build_coercer">Virtus::Attribute::EmbeddedValue.build_coercer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::EmbeddedValue.build_type">Virtus::Attribute::EmbeddedValue.build_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::AllowedWriterMethods">Virtus::ValueObject::AllowedWriterMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection.build_type">Virtus::Attribute::Collection.build_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Collection#finalize">Virtus::Attribute::Collection#finalize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Boolean.build_type">Virtus::Attribute::Boolean.build_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::InstanceMethods::Constructor">Virtus::InstanceMethods::Constructor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::InstanceMethods">Virtus::ValueObject::InstanceMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash.build_type">Virtus::Attribute::Hash.build_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ValueObject::ClassMethods">Virtus::ValueObject::ClassMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::Hash#finalize">Virtus::Attribute::Hash#finalize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ClassInclusions::Methods">Virtus::ClassInclusions::Methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::LazyDefault">Virtus::Attribute::LazyDefault</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::ConstMissingExtensions">Virtus::ConstMissingExtensions</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Extensions::Methods">Virtus::Extensions::Methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::CoercionError">Virtus::CoercionError</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Model::Core">Virtus::Model::Core</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Model">Virtus::Model</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Virtus::Attribute::EmbeddedValue.handles?">Virtus::Attribute::EmbeddedValue.handles?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/S.png" title="Priority"/>
+        </td>
+      </tr>
+    
+  </tbody>
+</table>
+
+
+      <div class="everything-box">
+        <b>Everything Inch Pages</b>
+        <ul>
+          <li><a href="/participate?repo=solnic/virtus">Get your own badge!</a></li>
+          <li><a target="_blank" href="trivelop.de/2014/02/17/why-inch-doesnot-use-percentages/">Why Inch doesn't use percentages</a></li>
+          <li><a target="_blank" href="">Inch project page</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <a name="about"></a>
+    <div class="what-is-this">
+      <h2>Let&#39;s raise the visiblity of documentation in Ruby!</h2>
+
+<p>This page is for <code>solnic/virtus</code> and is part of a project called &quot;Inch Pages&quot;, showing documentation measurements provided by <a href="http://trivelop.de/inch">Inch</a>.
+<span style="white-space: nowrap;">Inch Pages</span> also provides a badge: <img src="/github/solnic/virtus.png"></p>
+
+<h3>Can I have my own badges?</h3>
+
+<p><a href="/participate?repo=solnic/virtus">Sure!</a></p>
+
+<h3>What is the goal of this?</h3>
+
+<p>I really think that posting badges for documentation in READMEs will benefit you (because <strong>people can see that your project is well documented</strong>) and our community in general by improving the visibility of documentation.</p>
+
+<p>Let&#39;s start a discussion, let&#39;s raise the visibility of documentation, let&#39;s talk.</p>
+
+<p><strong><em>Suggestions, feedback, critique</em></strong>: <a target="_blank" href="https://twitter.com/rrrene">Hit me up on Twitter</a> or <a target="_blank" href="https://github.com/rrrene/inch-pages/issues/new">via issue</a>.</p>
+
+    </div>
+  </div>
+</div>
+
+
+    </div>
+
+<a href="https://github.com/rrrene/inch"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+
+
+
+      <div class="container pages-footer">
+        <h1 class="pages-title"><a href="/"><img src="/public/images/logo.png">nch Pages</a></h1>
+        <small>
+          built with
+          <a target="_blank" href="https://pages.github.com/">GitHub Pages</a>,
+          <a target="_blank" href="https://github.com/jekyll/jekyll">Jekyll</a>,
+          <a target="_blank" href="https://github.com/poole/poole">Poole</a>,
+          <a target="_blank" href="https://github.com/octokit/octokit.rb">Octokit</a>,
+          <a target="_blank" href="https://github.com/rubygems/gems">Gems</a> and
+          <a target="_blank" href="https://github.com/rrrene/inch">Inch</a>.
+        </small>
+        <small>
+          <a target="_blank" href="https://github.com/rrrene/inch-pages">Source Code</a>
+          on GitHub
+        </small>
+      </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47478322-2', 'inch-pages.github.io');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
