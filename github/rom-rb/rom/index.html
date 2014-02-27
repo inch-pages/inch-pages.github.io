@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/rom-rb/rom.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/rom-rb/rom.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/rom-rb/rom.png)](http://inch-pages.github.io/github/rom-rb/rom)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/rom-rb/rom.png!:http://inch-pages.github.io/github/rom-rb/rom" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/rom-rb/rom.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rom-rb/rom]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         rom-rb/rom
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 34%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 15%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 11%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 40%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 81%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 11%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 44 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 21 more ...</a>
         </td>
       </tr>
     
@@ -233,7 +255,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#last">ROM::Relation#last</span>
+          <span title="ROM::Relation#take">ROM::Relation#take</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -261,21 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#take">ROM::Relation#take</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper#model">ROM::Mapper#model</span>
+          <span title="ROM::Relation#last">ROM::Relation#last</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -290,6 +298,20 @@
         </td>
         <td class="path">
           <span title="ROM::Relation#one">ROM::Relation#one</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Mapper#model">ROM::Mapper#model</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -443,7 +465,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#each">ROM::Relation#each</span>
+          <span title="ROM::Repository#[]">ROM::Repository#[]</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -457,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Repository#[]">ROM::Repository#[]</span>
+          <span title="ROM::Relation#each">ROM::Relation#each</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -475,328 +497,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::UnknownAdapterError">Axiom::UnknownAdapterError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter::REGISTRY">Axiom::Adapter::REGISTRY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::ManyTuplesError">ROM::ManyTuplesError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::NoTuplesError">ROM::NoTuplesError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::EMPTY_ARRAY">ROM::EMPTY_ARRAY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::EMPTY_HASH">ROM::EMPTY_HASH</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Undefined">ROM::Undefined</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Infinity">ROM::Infinity</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter::Postgres">Axiom::Adapter::Postgres</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter::Sqlite3">Axiom::Adapter::Sqlite3</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter::Memory">Axiom::Adapter::Memory</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session#clean?">ROM::Session#clean?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter::DataObjects#gateway">Axiom::Adapter::DataObjects#gateway</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#initialize">ROM::Session::Tracker#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter::DataObjects#uri">Axiom::Adapter::DataObjects#uri</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Environment.build">ROM::Environment.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Repository.build">ROM::Repository.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter.build">Axiom::Adapter.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter.get">Axiom::Adapter.get</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Environment">ROM::Session::Environment</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Relation">ROM::Session::Relation</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session">ROM::Session</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Repository">ROM::Repository</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
@@ -886,7 +586,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 18 more ...</a>
+          <a href="#" onclick="showMore('B'); return false;">Show 12 more ...</a>
         </td>
       </tr>
     
@@ -968,7 +668,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#delete">ROM::Relation#delete</span>
+          <span title="ROM::Mapper#identity">ROM::Mapper#identity</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -982,7 +682,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper#identity">ROM::Mapper#identity</span>
+          <span title="ROM::Relation#delete">ROM::Relation#delete</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1059,90 +759,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Relation#tracking?">ROM::Session::Relation#tracking?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapping#initialize">ROM::Mapping#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Environment#[]=">ROM::Environment#[]=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Axiom::Adapter.require_adapter">Axiom::Adapter.require_adapter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper#dump">ROM::Mapper#dump</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper#load">ROM::Mapper#load</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -1205,7 +821,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Session::Relation#track">ROM::Session::Relation#track</span>
+          <span title="ROM::Session::Relation#state">ROM::Session::Relation#state</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1219,7 +835,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Session::Relation#state">ROM::Session::Relation#state</span>
+          <span title="ROM::Session::Relation#track">ROM::Session::Relation#track</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1229,7 +845,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('C'); return false;">Show 12 more ...</a>
+          <a href="#" onclick="showMore('C'); return false;">Show 5 more ...</a>
         </td>
       </tr>
     
@@ -1304,104 +920,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#delete">ROM::Session::State#delete</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#update">ROM::Session::State#update</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#save">ROM::Session::State#save</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Persisted#delete">ROM::Session::State::Persisted#delete</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Persisted#update">ROM::Session::State::Persisted#update</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Persisted#save">ROM::Session::State::Persisted#save</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Transient#save">ROM::Session::State::Transient#save</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -1472,797 +990,7 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::TransitionError">ROM::Session::State::TransitionError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 55 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper::DEFAULT_LOADER">ROM::Mapper::DEFAULT_LOADER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper::DEFAULT_DUMPER">ROM::Mapper::DEFAULT_DUMPER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Relation::VERSION">ROM::Relation::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::VERSION">ROM::Session::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper::VERSION">ROM::Mapper::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper::LOADERS">ROM::Mapper::LOADERS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Mapper::DUMPERS">ROM::Mapper::DUMPERS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::VERSION">ROM::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::IdentityMap#fetch_object">ROM::Session::IdentityMap#fetch_object</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Schema#call">ROM::Schema#call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper#store_in_identity_map">ROM::Session::Mapper#store_in_identity_map</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#store_persisted">ROM::Session::Tracker#store_persisted</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#store_transient">ROM::Session::Tracker#store_transient</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::IdentityMap#fetch_tuple">ROM::Session::IdentityMap#fetch_tuple</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Environment#initialize">ROM::Session::Environment#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Deleted#commit">ROM::Session::State::Deleted#commit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Created#commit">ROM::Session::State::Created#commit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Updated#commit">ROM::Session::State::Updated#commit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper#identity_map">ROM::Session::Mapper#identity_map</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Relation#initialize">ROM::Session::Relation#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Environment#commit">ROM::Session::Environment#commit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper#initialize">ROM::Session::Mapper#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::IdentityMap#store">ROM::Session::IdentityMap#store</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::IdentityMap.build">ROM::Session::IdentityMap.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Environment.build">ROM::Session::Environment.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper#tracker">ROM::Session::Mapper#tracker</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#commit">ROM::Session::Tracker#commit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Relation.build">ROM::Session::Relation.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#update">ROM::Session::Tracker#update</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#identity">ROM::Session::State#identity</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::IdentityMap#[]">ROM::Session::IdentityMap#[]</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#queue">ROM::Session::Tracker#queue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#fetch">ROM::Session::Tracker#fetch</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper.build">ROM::Session::Mapper.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper#load">ROM::Session::Mapper#load</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Environment#clean?">ROM::Session::Environment#clean?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#persisted?">ROM::Session::State#persisted?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#include?">ROM::Session::Tracker#include?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#transient?">ROM::Session::State#transient?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker#clean?">ROM::Session::Tracker#clean?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#deleted?">ROM::Session::State#deleted?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#updated?">ROM::Session::State#updated?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State#created?">ROM::Session::State#created?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper#dirty?">ROM::Session::Mapper#dirty?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Persisted">ROM::Session::State::Persisted</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Transient">ROM::Session::State::Transient</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Created">ROM::Session::State::Created</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Deleted">ROM::Session::State::Deleted</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Updated">ROM::Session::State::Updated</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::IdentityMap">ROM::Session::IdentityMap</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Tracker">ROM::Session::Tracker</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::Mapper">ROM::Session::Mapper</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State">ROM::Session::State</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::IdentityMap::LoadedObject">ROM::Session::IdentityMap::LoadedObject</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Session::State::Deleted::Committed">ROM::Session::State::Deleted::Committed</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
     
   </tbody>
 </table>
@@ -2302,9 +1030,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/rom-rb/rom.png)](http://inch-pages.github.io/github/rom-rb/rom)
--->
 <!--
 Add docs badge to README
 

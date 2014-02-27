@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/rrrene/sparkr.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/rrrene/sparkr.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/rrrene/sparkr.png)](http://inch-pages.github.io/github/rrrene/sparkr)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/rrrene/sparkr.png!:http://inch-pages.github.io/github/rrrene/sparkr" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/rrrene/sparkr.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rrrene/sparkr]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         rrrene/sparkr
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 42%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 62%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 46%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 26%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -326,55 +348,7 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sparkr::Sparkline::DEFAULT_SEPARATOR">Sparkr::Sparkline::DEFAULT_SEPARATOR</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 2 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sparkr::Sparkline::TICKS">Sparkr::Sparkline::TICKS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sparkr::VERSION">Sparkr::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
     
   </tbody>
 </table>
@@ -414,9 +388,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/rrrene/sparkr.png)](http://inch-pages.github.io/github/rrrene/sparkr)
--->
 <!--
 Add docs badge to README
 

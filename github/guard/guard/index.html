@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/guard/guard.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/guard/guard.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/guard/guard.png)](http://inch-pages.github.io/github/guard/guard)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/guard/guard.png!:http://inch-pages.github.io/github/guard/guard" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/guard/guard.png" alt="Inline docs" />}[http://inch-pages.github.io/github/guard/guard]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         guard/guard
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 86%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 92%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 9%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 265 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 202 more ...</a>
         </td>
       </tr>
     
@@ -345,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Guardfile::Evaluator#guardfile_contents">Guard::Guardfile::Evaluator#guardfile_contents</span>
+          <span title="Guard::Guardfile::Evaluator#evaluate_guardfile">Guard::Guardfile::Evaluator#evaluate_guardfile</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -359,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Guardfile::Evaluator#evaluate_guardfile">Guard::Guardfile::Evaluator#evaluate_guardfile</span>
+          <span title="Guard::Guardfile::Evaluator#guardfile_contents">Guard::Guardfile::Evaluator#guardfile_contents</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -387,6 +409,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::Guardfile::Generator#options">Guard::Guardfile::Generator#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Guardfile::Evaluator#options">Guard::Guardfile::Evaluator#options</span>
         </td>
         <td>
@@ -401,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Guardfile::Generator#options">Guard::Guardfile::Generator#options</span>
+          <span title="Guard::Notifier::TerminalNotifier">Guard::Notifier::TerminalNotifier</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -429,20 +465,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::PluginUtil#plugin_location">Guard::PluginUtil#plugin_location</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Guard::Notifier::Base#images_path">Guard::Notifier::Base#images_path</span>
         </td>
         <td>
@@ -457,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Notifier::TerminalNotifier">Guard::Notifier::TerminalNotifier</span>
+          <span title="Guard::PluginUtil#plugin_location">Guard::PluginUtil#plugin_location</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -499,6 +521,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::Notifier::TerminalTitle">Guard::Notifier::TerminalTitle</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Notifier::Base.gem_name">Guard::Notifier::Base.gem_name</span>
         </td>
         <td>
@@ -514,34 +550,6 @@
         </td>
         <td class="path">
           <span title="Guard::PluginUtil.plugin_names">Guard::PluginUtil.plugin_names</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::TerminalTitle">Guard::Notifier::TerminalTitle</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Plugin::Base#callbacks">Guard::Plugin::Base#callbacks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -583,35 +591,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::Plugin::Base#callbacks">Guard::Plugin::Base#callbacks</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Notifier::GrowlNotify">Guard::Notifier::GrowlNotify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::PluginUtil#initialize">Guard::PluginUtil#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor#initialize">Guard::Interactor#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -639,7 +633,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::DslDescriber#options">Guard::DslDescriber#options</span>
+          <span title="Guard::Interactor#initialize">Guard::Interactor#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -653,21 +647,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Notifier::Base#title">Guard::Notifier::Base#title</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Base.title">Guard::Notifier::Base.title</span>
+          <span title="Guard::PluginUtil#initialize">Guard::PluginUtil#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -723,7 +703,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Watcher#call_action">Guard::Watcher#call_action</span>
+          <span title="Guard::Notifier::Base#title">Guard::Notifier::Base#title</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::DslDescriber#options">Guard::DslDescriber#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Notifier::Base.title">Guard::Notifier::Base.title</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Watcher.match_files">Guard::Watcher.match_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -751,7 +773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Watcher.match_files">Guard::Watcher.match_files</span>
+          <span title="Guard::Watcher#call_action">Guard::Watcher#call_action</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -793,6 +815,62 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::Plugin::Base#title">Guard::Plugin::Base#title</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Interactor.options">Guard::Interactor.options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Watcher#initialize">Guard::Watcher#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Options#initialize">Guard::Options#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Interactor.enabled">Guard::Interactor.enabled</span>
         </td>
         <td>
@@ -821,49 +899,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Options#initialize">Guard::Options#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor.options">Guard::Interactor.options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Plugin::Base#title">Guard::Plugin::Base#title</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Watcher#initialize">Guard::Watcher#initialize</span>
+          <span title="Guard::Plugin::Base#name">Guard::Plugin::Base#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -905,35 +941,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Plugin::Base#name">Guard::Plugin::Base#name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Guard::Notifier::Notifu">Guard::Notifier::Notifu</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Growl">Guard::Notifier::Growl</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -989,6 +997,48 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::Notifier::Growl">Guard::Notifier::Growl</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Notifier::Tmux">Guard::Notifier::Tmux</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Notifier::Base">Guard::Notifier::Base</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Dsl#interactor">Guard::Dsl#interactor</span>
         </td>
         <td>
@@ -1017,48 +1067,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Notifier::Tmux">Guard::Notifier::Tmux</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GNTP">Guard::Notifier::GNTP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Base">Guard::Notifier::Base</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Guard::Watcher#action">Guard::Watcher#action</span>
         </td>
         <td>
@@ -1073,7 +1081,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Watcher#match">Guard::Watcher#match</span>
+          <span title="Guard::Notifier::GNTP">Guard::Notifier::GNTP</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1115,6 +1123,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::Watcher#match">Guard::Watcher#match</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Group#title">Guard::Group#title</span>
         </td>
         <td>
@@ -1129,7 +1151,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::PluginUtil">Guard::PluginUtil</span>
+          <span title="Guard::UI.options">Guard::UI.options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1171,7 +1193,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::UI.options">Guard::UI.options</span>
+          <span title="Guard::PluginUtil">Guard::PluginUtil</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1199,7 +1221,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::CLI#init">Guard::CLI#init</span>
+          <span title="Guard::Notifier">Guard::Notifier</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1227,7 +1249,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Notifier">Guard::Notifier</span>
+          <span title="Guard::CLI#init">Guard::CLI#init</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Watcher">Guard::Watcher</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1269,7 +1305,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Watcher">Guard::Watcher</span>
+          <span title="Guard.running">Guard.running</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1284,20 +1320,6 @@
         </td>
         <td class="path">
           <span title="Guard::Runner">Guard::Runner</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard.running">Guard.running</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1535,20 +1557,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Notifier::Tmux.turn_on">Guard::Notifier::Tmux.turn_on</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Guard::Plugin::Base#watchers=">Guard::Plugin::Base#watchers=</span>
         </td>
         <td>
@@ -1563,7 +1571,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Plugin::Base#options=">Guard::Plugin::Base#options=</span>
+          <span title="Guard::Notifier::Tmux.turn_on">Guard::Notifier::Tmux.turn_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1578,6 +1586,20 @@
         </td>
         <td class="path">
           <span title="Guard::Setuper#clear_options">Guard::Setuper#clear_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Plugin::Base#options=">Guard::Plugin::Base#options=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1647,21 +1669,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Setuper#evaluator">Guard::Setuper#evaluator</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::RakeTask#options=">Guard::RakeTask#options=</span>
+          <span title="Guard::Commander#run_all">Guard::Commander#run_all</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1689,7 +1697,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Commander#run_all">Guard::Commander#run_all</span>
+          <span title="Guard::Setuper#evaluator">Guard::Setuper#evaluator</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::RakeTask#options=">Guard::RakeTask#options=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1731,7 +1753,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::RakeTask#options">Guard::RakeTask#options</span>
+          <span title="Guard::Interactor#start">Guard::Interactor#start</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1759,49 +1781,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Interactor#start">Guard::Interactor#start</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Setuper#options">Guard::Setuper#options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor#stop">Guard::Interactor#stop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Commander#pause">Guard::Commander#pause</span>
+          <span title="Guard::RakeTask#options">Guard::RakeTask#options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1829,6 +1809,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::Interactor#stop">Guard::Interactor#stop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Watcher#action=">Guard::Watcher#action=</span>
         </td>
         <td>
@@ -1843,7 +1837,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::RakeTask#name=">Guard::RakeTask#name=</span>
+          <span title="Guard::Setuper#options">Guard::Setuper#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Commander#pause">Guard::Commander#pause</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1871,6 +1879,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::RakeTask#name=">Guard::RakeTask#name=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Commander#stop">Guard::Commander#stop</span>
         </td>
         <td>
@@ -1885,7 +1907,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::RakeTask#name">Guard::RakeTask#name</span>
+          <span title="Guard::UI.reset_line">Guard::UI.reset_line</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1899,7 +1921,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::UI.reset_line">Guard::UI.reset_line</span>
+          <span title="Guard::RakeTask#name">Guard::RakeTask#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2067,7 +2089,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Plugin::Base#run_on_modifications">Guard::Plugin::Base#run_on_modifications</span>
+          <span title="Guard::Notifier::Base.require_gem_safely">Guard::Notifier::Base.require_gem_safely</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2081,7 +2103,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Notifier::Base.require_gem_safely">Guard::Notifier::Base.require_gem_safely</span>
+          <span title="Guard::Plugin::Base#run_on_modifications">Guard::Plugin::Base#run_on_modifications</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2207,20 +2229,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Setuper#evaluate_guardfile">Guard::Setuper#evaluate_guardfile</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Guard::Runner.stopping_symbol_for">Guard::Runner.stopping_symbol_for</span>
         </td>
         <td>
@@ -2235,7 +2243,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::PluginUtil#plugin_class">Guard::PluginUtil#plugin_class</span>
+          <span title="Guard::Setuper#evaluate_guardfile">Guard::Setuper#evaluate_guardfile</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2250,6 +2258,20 @@
         </td>
         <td class="path">
           <span title="Guard::DslDescriber#initialize">Guard::DslDescriber#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::PluginUtil#plugin_class">Guard::PluginUtil#plugin_class</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2291,7 +2313,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Guardfile::Generator">Guard::Guardfile::Generator</span>
+          <span title="Guard::Plugin::Base#run_all">Guard::Plugin::Base#run_all</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2305,7 +2327,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Plugin::Base#run_all">Guard::Plugin::Base#run_all</span>
+          <span title="Guard::Guardfile::Generator">Guard::Guardfile::Generator</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2333,7 +2355,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Interactor.options=">Guard::Interactor.options=</span>
+          <span title="Guard::Plugin::Base#reload">Guard::Plugin::Base#reload</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2361,7 +2383,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Plugin::Base#reload">Guard::Plugin::Base#reload</span>
+          <span title="Guard::Setuper#reset_scope">Guard::Setuper#reset_scope</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2375,7 +2397,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Setuper#reset_scope">Guard::Setuper#reset_scope</span>
+          <span title="Guard::Interactor.options=">Guard::Interactor.options=</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2459,20 +2481,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::Dsl#notification">Guard::Dsl#notification</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Guard::Guard#initialize">Guard::Guard#initialize</span>
         </td>
         <td>
@@ -2488,6 +2496,20 @@
         </td>
         <td class="path">
           <span title="Guard::Group#initialize">Guard::Group#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Guard::Dsl#notification">Guard::Dsl#notification</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2571,7 +2593,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::UI.options=">Guard::UI.options=</span>
+          <span title="Guard::CLI#version">Guard::CLI#version</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2585,7 +2607,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::CLI#version">Guard::CLI#version</span>
+          <span title="Guard::UI.options=">Guard::UI.options=</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2641,6 +2663,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Guard::CLI#start">Guard::CLI#start</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Guard::Dsl#guard">Guard::Dsl#guard</span>
         </td>
         <td>
@@ -2655,7 +2691,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard::CLI#start">Guard::CLI#start</span>
+          <span title="Guard::CLI#list">Guard::CLI#list</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2684,20 +2720,6 @@
         </td>
         <td class="path">
           <span title="Guard::CLI#show">Guard::CLI#show</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::CLI#list">Guard::CLI#list</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2795,7 +2817,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard.groups">Guard.groups</span>
+          <span title="Guard.plugin">Guard.plugin</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2809,7 +2831,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Guard.plugin">Guard.plugin</span>
+          <span title="Guard.groups">Guard.groups</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3009,888 +3031,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::INITIALIZE_ALL_TEMPLATES_DEPRECATION">Guard::Deprecator::INITIALIZE_ALL_TEMPLATES_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::INITIALIZE_TEMPLATE_DEPRECATION">Guard::Deprecator::INITIALIZE_TEMPLATE_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::EVALUATE_GUARDFILE_DEPRECATION">Guard::Deprecator::EVALUATE_GUARDFILE_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::CREATE_GUARDFILE_DEPRECATION">Guard::Deprecator::CREATE_GUARDFILE_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Guardfile::Generator::GUARDFILE_TEMPLATE">Guard::Guardfile::Generator::GUARDFILE_TEMPLATE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::GET_GUARD_CLASS_DEPRECATION">Guard::Deprecator::GET_GUARD_CLASS_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::GUARD_GEM_NAMES_DEPRECATION">Guard::Deprecator::GUARD_GEM_NAMES_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::LOCATE_GUARD_DEPRECATION">Guard::Deprecator::LOCATE_GUARD_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::GUARD_GUARD_DEPRECATION">Guard::Deprecator::GUARD_GUARD_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGMAGENTA">Guard::UI::Colors::ANSI_ESCAPE_BGMAGENTA</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::TerminalNotifier#notify">Guard::Notifier::TerminalNotifier#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGYELLOW">Guard::UI::Colors::ANSI_ESCAPE_BGYELLOW</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_MAGENTA">Guard::UI::Colors::ANSI_ESCAPE_MAGENTA</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGWHITE">Guard::UI::Colors::ANSI_ESCAPE_BGWHITE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GrowlNotify::DEFAULTS">Guard::Notifier::GrowlNotify::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::NotifySend::SUPPORTED">Guard::Notifier::NotifySend::SUPPORTED</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GNTP::CLIENT_DEFAULTS">Guard::Notifier::GNTP::CLIENT_DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGBLACK">Guard::UI::Colors::ANSI_ESCAPE_BGBLACK</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGGREEN">Guard::UI::Colors::ANSI_ESCAPE_BGGREEN</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::NotifySend::DEFAULTS">Guard::Notifier::NotifySend::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::TerminalTitle#notify">Guard::Notifier::TerminalTitle#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BRIGHT">Guard::UI::Colors::ANSI_ESCAPE_BRIGHT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGBLUE">Guard::UI::Colors::ANSI_ESCAPE_BGBLUE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGCYAN">Guard::UI::Colors::ANSI_ESCAPE_BGCYAN</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_YELLOW">Guard::UI::Colors::ANSI_ESCAPE_YELLOW</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_WHITE">Guard::UI::Colors::ANSI_ESCAPE_WHITE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_GREEN">Guard::UI::Colors::ANSI_ESCAPE_GREEN</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Libnotify::DEFAULTS">Guard::Notifier::Libnotify::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::FileNotifier#notify">Guard::Notifier::FileNotifier#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BGRED">Guard::UI::Colors::ANSI_ESCAPE_BGRED</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BLACK">Guard::UI::Colors::ANSI_ESCAPE_BLACK</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GrowlNotify#notify">Guard::Notifier::GrowlNotify#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_CYAN">Guard::UI::Colors::ANSI_ESCAPE_CYAN</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_BLUE">Guard::UI::Colors::ANSI_ESCAPE_BLUE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::NotifySend#notify">Guard::Notifier::NotifySend#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::UI::Colors::ANSI_ESCAPE_RED">Guard::UI::Colors::ANSI_ESCAPE_RED</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Notifu::DEFAULTS">Guard::Notifier::Notifu::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Libnotify#notify">Guard::Notifier::Libnotify#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Growl::DEFAULTS">Guard::Notifier::Growl::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::HISTORY_FILE">Guard::Interactor::HISTORY_FILE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Tmux::DEFAULTS">Guard::Notifier::Tmux::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GNTP::DEFAULTS">Guard::Notifier::GNTP::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Notifu#notify">Guard::Notifier::Notifu#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Growl#notify">Guard::Notifier::Growl#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GNTP#notify">Guard::Notifier::GNTP#notify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::SHORTCUTS">Guard::Interactor::SHORTCUTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::GUARD_RC">Guard::Interactor::GUARD_RC</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::NOTIFIERS">Guard::Notifier::NOTIFIERS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Guardfile::Evaluator#guardfile_include?">Guard::Guardfile::Evaluator#guardfile_include?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Watcher.match_guardfile?">Guard::Watcher.match_guardfile?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Watcher.match_files?">Guard::Watcher.match_files?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier#enabled?">Guard::Notifier#enabled?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Base.available?">Guard::Notifier::Base.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::TerminalNotifier.available?">Guard::Notifier::TerminalNotifier.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GrowlNotify.available?">Guard::Notifier::GrowlNotify.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::NotifySend.available?">Guard::Notifier::NotifySend.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Libnotify.available?">Guard::Notifier::Libnotify.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Notifu.available?">Guard::Notifier::Notifu.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Growl.available?">Guard::Notifier::Growl.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Emacs.available?">Guard::Notifier::Emacs.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Tmux.available?">Guard::Notifier::Tmux.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::GNTP.available?">Guard::Notifier::GNTP.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::FileNotifier.available?">Guard::Notifier::FileNotifier.available?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
@@ -4303,7 +3443,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 27 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 5 more ...</a>
         </td>
       </tr>
     
@@ -4378,314 +3518,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::MORE_INFO_ON_UPGRADING_TO_GUARD_1_1">Guard::Deprecator::MORE_INFO_ON_UPGRADING_TO_GUARD_1_1</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::MORE_INFO_ON_UPGRADING_TO_GUARD_2">Guard::Deprecator::MORE_INFO_ON_UPGRADING_TO_GUARD_2</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::ADD_GUARD_DEPRECATION">Guard::Deprecator::ADD_GUARD_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::FileNotifier::DEFAULTS">Guard::Notifier::FileNotifier::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Deprecator::GUARDS_DEPRECATION">Guard::Deprecator::GUARDS_DEPRECATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Runner::MODIFICATION_TASKS">Guard::Runner::MODIFICATION_TASKS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Emacs::DEFAULTS">Guard::Notifier::Emacs::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::NOTIFICATION">Guard::Interactor::NOTIFICATION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Setuper::DEFAULT_OPTIONS">Guard::Setuper::DEFAULT_OPTIONS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Setuper::DEFAULT_GROUPS">Guard::Setuper::DEFAULT_GROUPS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Runner::ADDITION_TASKS">Guard::Runner::ADDITION_TASKS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Notifier::Base::HOSTS">Guard::Notifier::Base::HOSTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Runner::REMOVAL_TASKS">Guard::Runner::REMOVAL_TASKS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::RELOAD">Guard::Interactor::RELOAD</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::CHANGE">Guard::Interactor::CHANGE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::SCOPE">Guard::Interactor::SCOPE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::PAUSE">Guard::Interactor::PAUSE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::SHOW">Guard::Interactor::SHOW</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::Interactor::ALL">Guard::Interactor::ALL</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::DEV_NULL">Guard::DEV_NULL</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::VERSION">Guard::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Guard::WINDOWS">Guard::WINDOWS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -4724,9 +3556,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/guard/guard.png)](http://inch-pages.github.io/github/guard/guard)
--->
 <!--
 Add docs badge to README
 

@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/colszowka/simplecov.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/colszowka/simplecov.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/colszowka/simplecov.png)](http://inch-pages.github.io/github/colszowka/simplecov)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/colszowka/simplecov.png!:http://inch-pages.github.io/github/colszowka/simplecov" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/colszowka/simplecov.png" alt="Inline docs" />}[http://inch-pages.github.io/github/colszowka/simplecov]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         colszowka/simplecov
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 58%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 20%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 64%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 19%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 22%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 17%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 74 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 67 more ...</a>
         </td>
       </tr>
     
@@ -289,6 +311,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SimpleCov::ResultMerger.stored_data">SimpleCov::ResultMerger.stored_data</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="SimpleCov::SourceFile#lines_of_code">SimpleCov::SourceFile#lines_of_code</span>
         </td>
         <td>
@@ -331,63 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::ResultMerger.stored_data">SimpleCov::ResultMerger.stored_data</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::Filter#filter_argument">SimpleCov::Filter#filter_argument</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::Configuration#profiles">SimpleCov::Configuration#profiles</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleCov::FileList#skipped_lines">SimpleCov::FileList#skipped_lines</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::FileList#lines_of_code">SimpleCov::FileList#lines_of_code</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -429,7 +409,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::FileList#missed_lines">SimpleCov::FileList#missed_lines</span>
+          <span title="SimpleCov::Configuration#profiles">SimpleCov::Configuration#profiles</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleCov::Filter#filter_argument">SimpleCov::Filter#filter_argument</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleCov::FileList#lines_of_code">SimpleCov::FileList#lines_of_code</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -457,7 +465,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::FileList#never_lines">SimpleCov::FileList#never_lines</span>
+          <span title="SimpleCov::FileList#missed_lines">SimpleCov::FileList#missed_lines</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -485,7 +493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::Result#source_files">SimpleCov::Result#source_files</span>
+          <span title="SimpleCov::FileList#never_lines">SimpleCov::FileList#never_lines</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -499,7 +507,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::Result#filenames">SimpleCov::Result#filenames</span>
+          <span title="SimpleCov::Result#source_files">SimpleCov::Result#source_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -527,7 +535,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::CommandGuesser">SimpleCov::CommandGuesser</span>
+          <span title="SimpleCov::Result#filenames">SimpleCov::Result#filenames</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -542,6 +550,20 @@
         </td>
         <td class="path">
           <span title="SimpleCov::Result#to_hash">SimpleCov::Result#to_hash</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleCov::CommandGuesser">SimpleCov::CommandGuesser</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -597,20 +619,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::FileList">SimpleCov::FileList</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleCov::Profiles">SimpleCov::Profiles</span>
         </td>
         <td>
@@ -625,7 +633,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov.running">SimpleCov.running</span>
+          <span title="SimpleCov::FileList">SimpleCov::FileList</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -640,6 +648,20 @@
         </td>
         <td class="path">
           <span title="SimpleCov::Filter">SimpleCov::Filter</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleCov.running">SimpleCov.running</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -821,20 +843,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile::Line#skipped">SimpleCov::SourceFile::Line#skipped</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleCov::FileList#covered_percent">SimpleCov::FileList#covered_percent</span>
         </td>
         <td>
@@ -849,7 +857,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile::Line#number">SimpleCov::SourceFile::Line#number</span>
+          <span title="SimpleCov::SourceFile::Line#skipped">SimpleCov::SourceFile::Line#skipped</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -877,7 +885,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile::Line#source">SimpleCov::SourceFile::Line#source</span>
+          <span title="SimpleCov::SourceFile#source_lines">SimpleCov::SourceFile#source_lines</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -905,7 +913,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile#source_lines">SimpleCov::SourceFile#source_lines</span>
+          <span title="SimpleCov::SourceFile::Line#source">SimpleCov::SourceFile::Line#source</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleCov::SourceFile::Line#number">SimpleCov::SourceFile::Line#number</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -933,20 +955,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile#never_lines">SimpleCov::SourceFile#never_lines</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleCov::ResultMerger.resultset">SimpleCov::ResultMerger.resultset</span>
         </td>
         <td>
@@ -961,7 +969,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile::Line#line">SimpleCov::SourceFile::Line#line</span>
+          <span title="SimpleCov::SourceFile#never_lines">SimpleCov::SourceFile#never_lines</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -976,6 +984,20 @@
         </td>
         <td class="path">
           <span title="SimpleCov::Configuration#groups=">SimpleCov::Configuration#groups=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleCov::SourceFile::Line#line">SimpleCov::SourceFile::Line#line</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1017,7 +1039,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile#coverage">SimpleCov::SourceFile#coverage</span>
+          <span title="SimpleCov::Result#command_name">SimpleCov::Result#command_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1045,7 +1067,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::Result#command_name">SimpleCov::Result#command_name</span>
+          <span title="SimpleCov::SourceFile#coverage">SimpleCov::SourceFile#coverage</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1073,7 +1095,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::Result#created_at">SimpleCov::Result#created_at</span>
+          <span title="SimpleCov::SourceFile#source">SimpleCov::SourceFile#source</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1087,7 +1109,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::SourceFile#source">SimpleCov::SourceFile#source</span>
+          <span title="SimpleCov::Result#created_at">SimpleCov::Result#created_at</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1119,104 +1141,6 @@
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::SourceFile::Line#covered?">SimpleCov::SourceFile::Line#covered?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::SourceFile::Line#skipped?">SimpleCov::SourceFile::Line#skipped?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::SourceFile::Line#missed?">SimpleCov::SourceFile::Line#missed?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::SourceFile::Line#never?">SimpleCov::SourceFile::Line#never?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::Formatter">SimpleCov::Formatter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov.usable?">SimpleCov.usable?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov.result?">SimpleCov.result?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -1306,7 +1230,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 24 more ...</a>
+          <a href="#" onclick="showMore('B'); return false;">Show 22 more ...</a>
         </td>
       </tr>
     
@@ -1430,7 +1354,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::Configuration#command_name">SimpleCov::Configuration#command_name</span>
+          <span title="SimpleCov::Configuration#coverage_dir">SimpleCov::Configuration#coverage_dir</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1458,21 +1382,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::Configuration#coverage_dir">SimpleCov::Configuration#coverage_dir</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::ResultMerger.store_result">SimpleCov::ResultMerger.store_result</span>
+          <span title="SimpleCov::Configuration#command_name">SimpleCov::Configuration#command_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1487,6 +1397,20 @@
         </td>
         <td class="path">
           <span title="SimpleCov::Configuration#use_merging">SimpleCov::Configuration#use_merging</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleCov::ResultMerger.store_result">SimpleCov::ResultMerger.store_result</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1619,34 +1543,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::StringFilter#matches?">SimpleCov::StringFilter#matches?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::BlockFilter#matches?">SimpleCov::BlockFilter#matches?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -1763,7 +1659,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 27 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 19 more ...</a>
         </td>
       </tr>
     
@@ -1859,7 +1755,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::HashMergeHelper">SimpleCov::HashMergeHelper</span>
+          <span title="Coverage.__broken_result__">Coverage.__broken_result__</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1873,7 +1769,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coverage.__broken_result__">Coverage.__broken_result__</span>
+          <span title="SimpleCov::HashMergeHelper">SimpleCov::HashMergeHelper</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1901,7 +1797,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::StringFilter">SimpleCov::StringFilter</span>
+          <span title="SimpleCov::LastRun.read">SimpleCov::LastRun.read</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1915,7 +1811,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::LastRun.read">SimpleCov::LastRun.read</span>
+          <span title="SimpleCov::StringFilter">SimpleCov::StringFilter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1999,7 +1895,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleCov::JSON">SimpleCov::JSON</span>
+          <span title="Coverage.result">Coverage.result</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2013,7 +1909,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coverage.result">Coverage.result</span>
+          <span title="SimpleCov::JSON">SimpleCov::JSON</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2031,118 +1927,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::ExitCodes::MAXIMUM_COVERAGE_DROP">SimpleCov::ExitCodes::MAXIMUM_COVERAGE_DROP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::ExitCodes::MINIMUM_COVERAGE">SimpleCov::ExitCodes::MINIMUM_COVERAGE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::ExitCodes::EXCEPTION">SimpleCov::ExitCodes::EXCEPTION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::ExitCodes::SUCCESS">SimpleCov::ExitCodes::SUCCESS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::VERSION">SimpleCov::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::Filter#matches?">SimpleCov::Filter#matches?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::Filter#passes?">SimpleCov::Filter#passes?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleCov::Railtie">SimpleCov::Railtie</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -2184,9 +1968,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/colszowka/simplecov.png)](http://inch-pages.github.io/github/colszowka/simplecov)
--->
 <!--
 Add docs badge to README
 

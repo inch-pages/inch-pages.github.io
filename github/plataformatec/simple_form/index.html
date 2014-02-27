@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/plataformatec/simple_form.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/plataformatec/simple_form.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/plataformatec/simple_form.png)](http://inch-pages.github.io/github/plataformatec/simple_form)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/plataformatec/simple_form.png!:http://inch-pages.github.io/github/plataformatec/simple_form" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/plataformatec/simple_form.png" alt="Inline docs" />}[http://inch-pages.github.io/github/plataformatec/simple_form]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         plataformatec/simple_form
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 23%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 34%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 5%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 7%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 65%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 55%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -141,20 +163,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::Base#input_html_classes">SimpleForm::Inputs::Base#input_html_classes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleForm::Inputs::Base#input_html_options">SimpleForm::Inputs::Base#input_html_options</span>
         </td>
         <td>
@@ -169,7 +177,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::BlockInput#initialize">SimpleForm::Inputs::BlockInput#initialize</span>
+          <span title="SimpleForm::Inputs::Base#input_html_classes">SimpleForm::Inputs::Base#input_html_classes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::ActionViewExtensions::Builder">SimpleForm::ActionViewExtensions::Builder</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 47 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 33 more ...</a>
         </td>
       </tr>
     
@@ -191,7 +213,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::ActionViewExtensions::Builder">SimpleForm::ActionViewExtensions::Builder</span>
+          <span title="SimpleForm::Inputs::BlockInput#initialize">SimpleForm::Inputs::BlockInput#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -275,7 +297,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::FormBuilder#object_name">SimpleForm::FormBuilder#object_name</span>
+          <span title="SimpleForm::Wrappers::Many#defaults">SimpleForm::Wrappers::Many#defaults</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -289,7 +311,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Many#defaults">SimpleForm::Wrappers::Many#defaults</span>
+          <span title="SimpleForm::FormBuilder#object_name">SimpleForm::FormBuilder#object_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -317,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::Base#initialize">SimpleForm::Inputs::Base#initialize</span>
+          <span title="SimpleForm::Inputs::Base#reflection">SimpleForm::Inputs::Base#reflection</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -331,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::Base#reflection">SimpleForm::Inputs::Base#reflection</span>
+          <span title="SimpleForm::Inputs::Base#initialize">SimpleForm::Inputs::Base#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -359,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::FormBuilder#attribute">SimpleForm::FormBuilder#attribute</span>
+          <span title="SimpleForm::Wrappers::Many#to_sym">SimpleForm::Wrappers::Many#to_sym</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -387,7 +409,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Many#to_sym">SimpleForm::Wrappers::Many#to_sym</span>
+          <span title="SimpleForm::FormBuilder#attribute">SimpleForm::FormBuilder#attribute</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -415,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::Readonly">SimpleForm::Components::Readonly</span>
+          <span title="SimpleForm::Inputs::Base#options">SimpleForm::Inputs::Base#options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -429,7 +451,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::Base#options">SimpleForm::Inputs::Base#options</span>
+          <span title="SimpleForm::Components::Readonly">SimpleForm::Components::Readonly</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -499,7 +521,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Builder">SimpleForm::Wrappers::Builder</span>
+          <span title="SimpleForm::Components::Hints">SimpleForm::Components::Hints</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -513,7 +535,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::Hints">SimpleForm::Components::Hints</span>
+          <span title="SimpleForm::Wrappers::Builder">SimpleForm::Wrappers::Builder</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -643,202 +665,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::FormBuilder::ACTIONS">SimpleForm::FormBuilder::ACTIONS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::WrapperNotFound">SimpleForm::WrapperNotFound</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components">SimpleForm::Components</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Helpers">SimpleForm::Helpers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::CollectionRadioButtonsInput#generate_label_for_attribute?">SimpleForm:: <em>&hellip;</em> ::CollectionRadioButtonsInput#generate_label_for_attribute?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::CollectionCheckBoxesInput#has_required?">SimpleForm:: <em>&hellip;</em> ::CollectionCheckBoxesInput#has_required?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::PriorityInput#skip_include_blank?">SimpleForm::Inputs::PriorityInput#skip_include_blank?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels::ClassMethods">SimpleForm::Components::Labels::ClassMethods</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::FormBuilder#initialize">SimpleForm::FormBuilder#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::FormBuilder#lookup_model_names">SimpleForm::FormBuilder#lookup_model_names</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::FormBuilder#lookup_action">SimpleForm::FormBuilder#lookup_action</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels#required_label_text">SimpleForm::Components::Labels#required_label_text</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels#label_translation">SimpleForm::Components::Labels#label_translation</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels#raw_label_text">SimpleForm::Components::Labels#raw_label_text</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
@@ -1145,10 +971,24 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('C'); return false;">Show 12 more ...</a>
+          <a href="#" onclick="showMore('C'); return false;">Show 11 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::Inputs::PriorityInput#input">SimpleForm::Inputs::PriorityInput#input</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -1172,20 +1012,6 @@
         </td>
         <td class="path">
           <span title="SimpleForm::Inputs::DateTimeInput#input">SimpleForm::Inputs::DateTimeInput#input</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::PriorityInput#input">SimpleForm::Inputs::PriorityInput#input</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1227,20 +1053,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::StringInput#input">SimpleForm::Inputs::StringInput#input</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleForm::Inputs::HiddenInput#input">SimpleForm::Inputs::HiddenInput#input</span>
         </td>
         <td>
@@ -1255,7 +1067,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::BlockInput#input">SimpleForm::Inputs::BlockInput#input</span>
+          <span title="SimpleForm::Inputs::StringInput#input">SimpleForm::Inputs::StringInput#input</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1270,6 +1082,20 @@
         </td>
         <td class="path">
           <span title="SimpleForm::Inputs::RangeInput#input">SimpleForm::Inputs::RangeInput#input</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::Inputs::BlockInput#input">SimpleForm::Inputs::BlockInput#input</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1301,20 +1127,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::CollectionInput#input">SimpleForm::Inputs::CollectionInput#input</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -1405,7 +1217,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 151 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 128 more ...</a>
         </td>
       </tr>
     
@@ -1557,7 +1369,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Generators::InstallGenerator#show_readme">SimpleForm::Generators::InstallGenerator#show_readme</span>
+          <span title="SimpleForm::Generators::InstallGenerator#copy_config">SimpleForm::Generators::InstallGenerator#copy_config</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1571,7 +1383,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Generators::InstallGenerator#copy_config">SimpleForm::Generators::InstallGenerator#copy_config</span>
+          <span title="SimpleForm::Generators::InstallGenerator#show_readme">SimpleForm::Generators::InstallGenerator#show_readme</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1613,7 +1425,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::GroupedCollectionSelectInput">SimpleForm::Inputs::GroupedCollectionSelectInput</span>
+          <span title="SimpleForm::Components::Placeholders#placeholder">SimpleForm::Components::Placeholders#placeholder</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1627,7 +1439,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::Placeholders#placeholder">SimpleForm::Components::Placeholders#placeholder</span>
+          <span title="SimpleForm::Inputs::GroupedCollectionSelectInput">SimpleForm::Inputs::GroupedCollectionSelectInput</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1711,6 +1523,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SimpleForm::Inputs::Base#additional_classes">SimpleForm::Inputs::Base#additional_classes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="SimpleForm::Components::Maxlength#maxlength">SimpleForm::Components::Maxlength#maxlength</span>
         </td>
         <td>
@@ -1726,34 +1552,6 @@
         </td>
         <td class="path">
           <span title="SimpleForm::Components::Labels#label_target">SimpleForm::Components::Labels#label_target</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::Base#additional_classes">SimpleForm::Inputs::Base#additional_classes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::CollectionSelectInput">SimpleForm::Inputs::CollectionSelectInput</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1795,7 +1593,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Builder#initialize">SimpleForm::Wrappers::Builder#initialize</span>
+          <span title="SimpleForm::Inputs::CollectionSelectInput">SimpleForm::Inputs::CollectionSelectInput</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::Components::HTML5#initialize">SimpleForm::Components::HTML5#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1823,20 +1635,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Tags::CollectionRadioButtons">SimpleForm::Tags::CollectionRadioButtons</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleForm::Generators::InstallGenerator">SimpleForm::Generators::InstallGenerator</span>
         </td>
         <td>
@@ -1851,7 +1649,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::HTML5#initialize">SimpleForm::Components::HTML5#initialize</span>
+          <span title="SimpleForm::Tags::CollectionRadioButtons">SimpleForm::Tags::CollectionRadioButtons</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::Wrappers::Builder#initialize">SimpleForm::Wrappers::Builder#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1893,7 +1705,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Tags::CollectionCheckBoxes">SimpleForm::Tags::CollectionCheckBoxes</span>
+          <span title="SimpleForm::I18nCache#reset_i18n_cache">SimpleForm::I18nCache#reset_i18n_cache</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1907,7 +1719,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::I18nCache#reset_i18n_cache">SimpleForm::I18nCache#reset_i18n_cache</span>
+          <span title="SimpleForm::Tags::CollectionCheckBoxes">SimpleForm::Tags::CollectionCheckBoxes</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1935,7 +1747,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::MinMax#min_max">SimpleForm::Components::MinMax#min_max</span>
+          <span title="SimpleForm::Inputs::Base#input_options">SimpleForm::Inputs::Base#input_options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1949,7 +1761,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::Base#input_options">SimpleForm::Inputs::Base#input_options</span>
+          <span title="SimpleForm::Components::MinMax#min_max">SimpleForm::Components::MinMax#min_max</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2005,7 +1817,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::Errors#error">SimpleForm::Components::Errors#error</span>
+          <span title="SimpleForm::I18nCache#get_i18n_cache">SimpleForm::I18nCache#get_i18n_cache</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2033,7 +1845,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::I18nCache#get_i18n_cache">SimpleForm::I18nCache#get_i18n_cache</span>
+          <span title="SimpleForm::ErrorNotification#render">SimpleForm::ErrorNotification#render</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2047,7 +1859,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::ErrorNotification#render">SimpleForm::ErrorNotification#render</span>
+          <span title="SimpleForm::Components::Errors#error">SimpleForm::Components::Errors#error</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2089,6 +1901,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SimpleForm::Components::LabelInput">SimpleForm::Components::LabelInput</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="SimpleForm::Components::Hints#hint">SimpleForm::Components::Hints#hint</span>
         </td>
         <td>
@@ -2117,7 +1943,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::LabelInput">SimpleForm::Components::LabelInput</span>
+          <span title="SimpleForm::Inputs::DateTimeInput">SimpleForm::Inputs::DateTimeInput</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2159,34 +1985,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::DateTimeInput">SimpleForm::Inputs::DateTimeInput</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Wrappers::Many#render">SimpleForm::Wrappers::Many#render</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleForm::Inputs::PriorityInput">SimpleForm::Inputs::PriorityInput</span>
         </td>
         <td>
@@ -2201,7 +1999,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::BooleanInput">SimpleForm::Inputs::BooleanInput</span>
+          <span title="SimpleForm::Wrappers::Many#render">SimpleForm::Wrappers::Many#render</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2230,6 +2028,34 @@
         </td>
         <td class="path">
           <span title="SimpleForm::Inputs::NumericInput">SimpleForm::Inputs::NumericInput</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::Inputs::BooleanInput">SimpleForm::Inputs::BooleanInput</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::Wrappers::Many#find">SimpleForm::Wrappers::Many#find</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2285,7 +2111,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Many#find">SimpleForm::Wrappers::Many#find</span>
+          <span title="SimpleForm::Inputs::BlockInput">SimpleForm::Inputs::BlockInput</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2313,7 +2139,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::Labels">SimpleForm::Components::Labels</span>
+          <span title="SimpleForm::Helpers::Autofocus">SimpleForm::Helpers::Autofocus</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2327,7 +2153,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::BlockInput">SimpleForm::Inputs::BlockInput</span>
+          <span title="SimpleForm::Components::Labels">SimpleForm::Components::Labels</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2355,7 +2181,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Helpers::Autofocus">SimpleForm::Helpers::Autofocus</span>
+          <span title="SimpleForm::Components::Errors">SimpleForm::Components::Errors</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2369,7 +2195,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::Errors">SimpleForm::Components::Errors</span>
+          <span title="SimpleForm::Helpers::Readonly">SimpleForm::Helpers::Readonly</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::Components::HTML5">SimpleForm::Components::HTML5</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::ErrorNotification">SimpleForm::ErrorNotification</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2411,34 +2265,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Helpers::Disabled">SimpleForm::Helpers::Disabled</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::HTML5">SimpleForm::Components::HTML5</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleForm::Inputs::FileInput">SimpleForm::Inputs::FileInput</span>
         </td>
         <td>
@@ -2453,21 +2279,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Helpers::Readonly">SimpleForm::Helpers::Readonly</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::ErrorNotification">SimpleForm::ErrorNotification</span>
+          <span title="SimpleForm::Helpers::Disabled">SimpleForm::Helpers::Disabled</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2649,7 +2461,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Components::Errors#errors">SimpleForm::Components::Errors#errors</span>
+          <span title="SimpleForm::Wrappers::Root#initialize">SimpleForm::Wrappers::Root#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2663,7 +2475,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Root#initialize">SimpleForm::Wrappers::Root#initialize</span>
+          <span title="SimpleForm::Components::Errors#errors">SimpleForm::Components::Errors#errors</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2705,7 +2517,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@include_default_input_wrapper_class">SimpleForm::@@include_default_input_wrapper_class</span>
+          <span title="SimpleForm::Inputs::CollectionInput#input_options">SimpleForm::Inputs::CollectionInput#input_options</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2719,7 +2531,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Inputs::CollectionInput#input_options">SimpleForm::Inputs::CollectionInput#input_options</span>
+          <span title="SimpleForm::@@include_default_input_wrapper_class">SimpleForm::@@include_default_input_wrapper_class</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2775,21 +2587,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@collection_label_methods">SimpleForm::@@collection_label_methods</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::@@error_notification_class">SimpleForm::@@error_notification_class</span>
+          <span title="SimpleForm::@@collection_wrapper_class">SimpleForm::@@collection_wrapper_class</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2817,7 +2615,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@collection_wrapper_class">SimpleForm::@@collection_wrapper_class</span>
+          <span title="SimpleForm::@@error_notification_class">SimpleForm::@@error_notification_class</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2831,7 +2629,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@collection_wrapper_tag">SimpleForm::@@collection_wrapper_tag</span>
+          <span title="SimpleForm::@@collection_label_methods">SimpleForm::@@collection_label_methods</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2859,7 +2657,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Single#render">SimpleForm::Wrappers::Single#render</span>
+          <span title="SimpleForm::@@collection_wrapper_tag">SimpleForm::@@collection_wrapper_tag</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2873,7 +2671,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@required_by_default">SimpleForm::@@required_by_default</span>
+          <span title="SimpleForm::Wrappers::Single#render">SimpleForm::Wrappers::Single#render</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2901,7 +2699,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::Wrappers::Root#render">SimpleForm::Wrappers::Root#render</span>
+          <span title="SimpleForm::@@required_by_default">SimpleForm::@@required_by_default</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2915,7 +2713,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@time_zone_priority">SimpleForm::@@time_zone_priority</span>
+          <span title="SimpleForm::Wrappers::Root#render">SimpleForm::Wrappers::Root#render</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2943,6 +2741,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SimpleForm::@@time_zone_priority">SimpleForm::@@time_zone_priority</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="SimpleForm::@@default_input_size">SimpleForm::@@default_input_size</span>
         </td>
         <td>
@@ -2957,35 +2769,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@field_error_proc">SimpleForm::@@field_error_proc</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleForm::@@wrapper_mappings">SimpleForm::@@wrapper_mappings</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::@@country_priority">SimpleForm::@@country_priority</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3027,6 +2811,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="SimpleForm::@@field_error_proc">SimpleForm::@@field_error_proc</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SimpleForm::@@country_priority">SimpleForm::@@country_priority</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="SimpleForm::@@translate_labels">SimpleForm::@@translate_labels</span>
         </td>
         <td>
@@ -3041,7 +2853,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@cache_discovery">SimpleForm::@@cache_discovery</span>
+          <span title="SimpleForm::@@default_wrapper">SimpleForm::@@default_wrapper</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3055,7 +2867,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@default_wrapper">SimpleForm::@@default_wrapper</span>
+          <span title="SimpleForm::@@cache_discovery">SimpleForm::@@cache_discovery</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3097,6 +2909,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SimpleForm::@@file_methods">SimpleForm::@@file_methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="SimpleForm::@@error_method">SimpleForm::@@error_method</span>
         </td>
         <td>
@@ -3125,7 +2951,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@file_methods">SimpleForm::@@file_methods</span>
+          <span title="SimpleForm::@@input_class">SimpleForm::@@input_class</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3153,7 +2979,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@input_class">SimpleForm::@@input_class</span>
+          <span title="SimpleForm::@@form_class">SimpleForm::@@form_class</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3181,346 +3007,10 @@
           </div>
         </td>
         <td class="path">
-          <span title="SimpleForm::@@form_class">SimpleForm::@@form_class</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="SimpleForm::@@wrappers">SimpleForm::@@wrappers</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::CollectionCheckBoxesInput#build_nested_boolean_style_item_tag">SimpleForm:: <em>&hellip;</em> ::CollectionCheckBoxesInput#build_nested_boolean_style_item_tag</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::CollectionCheckBoxesInput#item_wrapper_class">SimpleForm:: <em>&hellip;</em> ::CollectionCheckBoxesInput#item_wrapper_class</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::FormBuilder::ATTRIBUTE_COMPONENTS">SimpleForm::FormBuilder::ATTRIBUTE_COMPONENTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::VERSION">SimpleForm::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Helpers::Validators#has_validators?">SimpleForm::Helpers::Validators#has_validators?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::HTML5#has_required?">SimpleForm::Components::HTML5#has_required?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Errors#has_errors?">SimpleForm::Components::Errors#has_errors?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Hints#has_hint?">SimpleForm::Components::Hints#has_hint?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::HTML5#html5?">SimpleForm::Components::HTML5#html5?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::ActionViewExtensions">SimpleForm::ActionViewExtensions</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActionView::Helpers::FormBuilder">ActionView::Helpers::FormBuilder</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Generators">SimpleForm::Generators</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Wrappers">SimpleForm::Wrappers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActionView::Helpers">ActionView::Helpers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Railtie">SimpleForm::Railtie</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs">SimpleForm::Inputs</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Tags">SimpleForm::Tags</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels#generate_label_for_attribute?">SimpleForm:: <em>&hellip;</em> ::Labels#generate_label_for_attribute?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::ErrorNotification#has_errors?">SimpleForm::ErrorNotification#has_errors?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels::ClassMethods#translate_required_mark">SimpleForm:: <em>&hellip;</em> ::ClassMethods#translate_required_mark</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels::ClassMethods#translate_required_text">SimpleForm:: <em>&hellip;</em> ::ClassMethods#translate_required_text</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Components::Labels::ClassMethods#translate_required_html">SimpleForm:: <em>&hellip;</em> ::ClassMethods#translate_required_html</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SimpleForm::Inputs::PriorityInput#has_required?">SimpleForm::Inputs::PriorityInput#has_required?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
@@ -3562,9 +3052,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/plataformatec/simple_form.png)](http://inch-pages.github.io/github/plataformatec/simple_form)
--->
 <!--
 Add docs badge to README
 

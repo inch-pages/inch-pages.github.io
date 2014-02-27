@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/lotus/utils.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/lotus/utils.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/lotus/utils.png)](http://inch-pages.github.io/github/lotus/utils)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/lotus/utils.png!:http://inch-pages.github.io/github/lotus/utils" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/lotus/utils.png" alt="Inline docs" />}[http://inch-pages.github.io/github/lotus/utils]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         lotus/utils
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 82%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 86%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 15%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 11%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 16 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 15 more ...</a>
         </td>
       </tr>
     
@@ -247,6 +269,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Utils::PathPrefix#join">Lotus::Utils::PathPrefix#join</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Utils::Hash#initialize">Lotus::Utils::Hash#initialize</span>
         </td>
         <td>
@@ -262,20 +298,6 @@
         </td>
         <td class="path">
           <span title="Lotus::Utils::String#classify">Lotus::Utils::String#classify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Utils::PathPrefix#join">Lotus::Utils::PathPrefix#join</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -394,20 +416,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Utils::String::NAMESPACE_SEPARATOR">Lotus::Utils::String::NAMESPACE_SEPARATOR</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -514,20 +522,6 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Utils::VERSION">Lotus::Utils::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
     
     
   </tbody>
@@ -568,9 +562,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/lotus/utils.png)](http://inch-pages.github.io/github/lotus/utils)
--->
 <!--
 Add docs badge to README
 

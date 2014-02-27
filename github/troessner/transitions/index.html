@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/troessner/transitions.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/troessner/transitions.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/troessner/transitions.png)](http://inch-pages.github.io/github/troessner/transitions)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/troessner/transitions.png!:http://inch-pages.github.io/github/troessner/transitions" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/troessner/transitions.png" alt="Inline docs" />}[http://inch-pages.github.io/github/troessner/transitions]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         troessner/transitions
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 26%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 40%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 70%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 56%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -141,7 +163,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Machine#auto_scopes">Transitions::Machine#auto_scopes</span>
+          <span title="Transitions::Machine#state_index">Transitions::Machine#state_index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -155,7 +177,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Machine#state_index">Transitions::Machine#state_index</span>
+          <span title="Transitions::Machine#auto_scopes">Transitions::Machine#auto_scopes</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 15 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 14 more ...</a>
         </td>
       </tr>
     
@@ -233,20 +255,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Event#success">Transitions::Event#success</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Transitions::Machine#klass">Transitions::Machine#klass</span>
         </td>
         <td>
@@ -262,6 +270,20 @@
         </td>
         <td class="path">
           <span title="Transitions::State#options">Transitions::State#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Transitions::Event#success">Transitions::Event#success</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -345,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Machine#events=">Transitions::Machine#events=</span>
+          <span title="Transitions::Machine#states=">Transitions::Machine#states=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -359,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Machine#states=">Transitions::Machine#states=</span>
+          <span title="Transitions::Machine#events=">Transitions::Machine#events=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -377,20 +399,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions::Event#timestamp_defined?">Transitions::Event#timestamp_defined?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -567,7 +575,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 51 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 40 more ...</a>
         </td>
       </tr>
     
@@ -677,20 +685,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::ClassMethods#available_events">Transitions::ClassMethods#available_events</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Transitions::ClassMethods#available_states">Transitions::ClassMethods#available_states</span>
         </td>
         <td>
@@ -705,7 +699,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Presenter#available_states">Transitions::Presenter#available_states</span>
+          <span title="Transitions::ClassMethods#available_events">Transitions::ClassMethods#available_events</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -734,6 +728,20 @@
         </td>
         <td class="path">
           <span title="Transitions::StateTransition#initialize">Transitions::StateTransition#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Transitions::Presenter#available_states">Transitions::Presenter#available_states</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -789,7 +797,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::StateTransition#==">Transitions::StateTransition#==</span>
+          <span title="Transitions::Machine#events_for">Transitions::Machine#events_for</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -817,7 +825,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Machine#events_for">Transitions::Machine#events_for</span>
+          <span title="Transitions::StateTransition#==">Transitions::StateTransition#==</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -845,7 +853,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::State#for_select">Transitions::State#for_select</span>
+          <span title="Transitions::State#initialize">Transitions::State#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -859,7 +867,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::State#initialize">Transitions::State#initialize</span>
+          <span title="Transitions::State#for_select">Transitions::State#for_select</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -887,7 +895,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::State#update">Transitions::State#update</span>
+          <span title="Transitions::ClassMethods">Transitions::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -915,7 +923,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::ClassMethods">Transitions::ClassMethods</span>
+          <span title="Transitions::State#update">Transitions::State#update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -985,7 +993,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::State">Transitions::State</span>
+          <span title="Transitions::Event">Transitions::Event</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -999,7 +1007,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Transitions::Event">Transitions::Event</span>
+          <span title="Transitions::State">Transitions::State</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1132,160 +1140,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions::StateTransition#executable?">Transitions::StateTransition#executable?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions#cant_transition?">Transitions#cant_transition?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions#can_transition?">Transitions#can_transition?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActiveRecord::Transitions">ActiveRecord::Transitions</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions::VERSION">Transitions::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions::Event#transitions_from_state?">Transitions::Event#transitions_from_state?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions.active_record_descendant?">Transitions.active_record_descendant?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions::InvalidMethodOverride">Transitions::InvalidMethodOverride</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions::StateTransition#from?">Transitions::StateTransition#from?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Transitions::InvalidTransition">Transitions::InvalidTransition</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActiveModel::Transitions#state_not_set?">ActiveModel::Transitions#state_not_set?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -1324,9 +1178,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/troessner/transitions.png)](http://inch-pages.github.io/github/troessner/transitions)
--->
 <!--
 Add docs badge to README
 

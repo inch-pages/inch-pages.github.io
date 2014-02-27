@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/rkh/mustermann.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/rkh/mustermann.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/rkh/mustermann.png)](http://inch-pages.github.io/github/rkh/mustermann)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/rkh/mustermann.png!:http://inch-pages.github.io/github/rkh/mustermann" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/rkh/mustermann.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rkh/mustermann]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         rkh/mustermann
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 74%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 80%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 12%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 8%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 48 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 43 more ...</a>
         </td>
       </tr>
     
@@ -345,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mustermann::Pattern#to_s">Mustermann::Pattern#to_s</span>
+          <span title="Mustermann::Router::Rack">Mustermann::Router::Rack</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -359,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mustermann::Router::Rack">Mustermann::Router::Rack</span>
+          <span title="Mustermann::Pattern#to_s">Mustermann::Pattern#to_s</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -625,7 +647,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mustermann::SimpleMatch">Mustermann::SimpleMatch</span>
+          <span title="Mustermann::RegexpBased">Mustermann::RegexpBased</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -639,7 +661,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mustermann::RegexpBased">Mustermann::RegexpBased</span>
+          <span title="Mustermann::SimpleMatch">Mustermann::SimpleMatch</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -709,7 +731,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mustermann::Pattern">Mustermann::Pattern</span>
+          <span title="Mustermann::Regular">Mustermann::Regular</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -723,7 +745,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mustermann::Regular">Mustermann::Regular</span>
+          <span title="Mustermann::Pattern">Mustermann::Pattern</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -783,76 +805,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Identity#===">Mustermann::Identity#===</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Shell#===">Mustermann::Shell#===</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Pattern.supported?">Mustermann::Pattern.supported?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Sinatra">Mustermann::Sinatra</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Rails">Mustermann::Rails</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
@@ -1058,55 +1010,7 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Router">Mustermann::Router</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Expander#eql?">Mustermann::Expander#eql?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('C'); return false;">Show 1 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::AST">Mustermann::AST</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
     
   </tbody>
 </table>
@@ -1164,34 +1068,6 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::Expander#expandable?">Mustermann::Expander#expandable?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mustermann::SimpleMatch#initialize">Mustermann::SimpleMatch#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
     
     
   </tbody>
@@ -1232,9 +1108,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/rkh/mustermann.png)](http://inch-pages.github.io/github/rkh/mustermann)
--->
 <!--
 Add docs badge to README
 

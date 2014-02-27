@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/solnic/coercible.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/solnic/coercible.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/solnic/coercible.png)](http://inch-pages.github.io/github/solnic/coercible)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/solnic/coercible.png!:http://inch-pages.github.io/github/solnic/coercible" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/solnic/coercible.png" alt="Inline docs" />}[http://inch-pages.github.io/github/solnic/coercible]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         solnic/coercible
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 78%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 99%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 16%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -141,7 +163,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::TimeCoercions#to_date">Coercible::Coercer::TimeCoercions#to_date</span>
+          <span title="Coercible::Coercer::TimeCoercions#to_time">Coercible::Coercer::TimeCoercions#to_time</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -155,7 +177,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::TimeCoercions#to_time">Coercible::Coercer::TimeCoercions#to_time</span>
+          <span title="Coercible::Coercer::TimeCoercions#to_date">Coercible::Coercer::TimeCoercions#to_date</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 82 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 40 more ...</a>
         </td>
       </tr>
     
@@ -192,20 +214,6 @@
         </td>
         <td class="path">
           <span title="Coercible::Coercer::Configurable#config">Coercible::Coercer::Configurable#config</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Numeric#to_decimal">Coercible::Coercer::Numeric#to_decimal</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -233,20 +241,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::String#to_datetime">Coercible::Coercer::String#to_datetime</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Coercible::Coercer::Integer#to_boolean">Coercible::Coercer::Integer#to_boolean</span>
         </td>
         <td>
@@ -261,7 +255,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::String#to_decimal">Coercible::Coercer::String#to_decimal</span>
+          <span title="Coercible::Coercer::Numeric#to_decimal">Coercible::Coercer::Numeric#to_decimal</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Coercible::Coercer::String#to_datetime">Coercible::Coercer::String#to_datetime</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -303,21 +311,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::Numeric#to_float">Coercible::Coercer::Numeric#to_float</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String#to_symbol">Coercible::Coercer::String#to_symbol</span>
+          <span title="Coercible::Coercer::String#to_decimal">Coercible::Coercer::String#to_decimal</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -345,6 +339,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Coercible::Coercer::Numeric#to_float">Coercible::Coercer::Numeric#to_float</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Coercible::TypeLookup#determine_type">Coercible::TypeLookup#determine_type</span>
         </td>
         <td>
@@ -359,21 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::Object#to_array">Coercible::Coercer::Object#to_array</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String#to_float">Coercible::Coercer::String#to_float</span>
+          <span title="Coercible::Coercer::String#to_symbol">Coercible::Coercer::String#to_symbol</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -401,7 +395,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::String#to_time">Coercible::Coercer::String#to_time</span>
+          <span title="Coercible::Coercer::String#to_float">Coercible::Coercer::String#to_float</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Coercible::Coercer::Object#to_array">Coercible::Coercer::Object#to_array</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -444,6 +452,20 @@
         </td>
         <td class="path">
           <span title="Coercible::Coercer::String#to_date">Coercible::Coercer::String#to_date</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Coercible::Coercer::String#to_time">Coercible::Coercer::String#to_time</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -541,7 +563,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::FalseClass#to_string">Coercible::Coercer::FalseClass#to_string</span>
+          <span title="Coercible::Coercer::DateTime#to_datetime">Coercible::Coercer::DateTime#to_datetime</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -555,7 +577,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::DateTime#to_datetime">Coercible::Coercer::DateTime#to_datetime</span>
+          <span title="Coercible::Coercer::FalseClass#to_string">Coercible::Coercer::FalseClass#to_string</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -597,20 +619,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::Numeric#to_integer">Coercible::Coercer::Numeric#to_integer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Coercible::Coercer::Integer#to_integer">Coercible::Coercer::Integer#to_integer</span>
         </td>
         <td>
@@ -625,7 +633,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::Numeric#to_string">Coercible::Coercer::Numeric#to_string</span>
+          <span title="Coercible::Coercer::Numeric#to_integer">Coercible::Coercer::Numeric#to_integer</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -653,7 +661,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::Integer#to_string">Coercible::Coercer::Integer#to_string</span>
+          <span title="Coercible::Coercer::Numeric#to_string">Coercible::Coercer::Numeric#to_string</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -668,6 +676,20 @@
         </td>
         <td class="path">
           <span title="Coercible::Coercer::String#to_integer">Coercible::Coercer::String#to_integer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Coercible::Coercer::Integer#to_string">Coercible::Coercer::Integer#to_string</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -723,20 +745,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::Time#to_time">Coercible::Coercer::Time#to_time</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Coercible::Coercer::Date#to_date">Coercible::Coercer::Date#to_date</span>
         </td>
         <td>
@@ -751,584 +759,10 @@
           </div>
         </td>
         <td class="path">
-          <span title="Coercible::Coercer::Configurable#configuration_class">Coercible::Coercer::Configurable#configuration_class</span>
+          <span title="Coercible::Coercer::Time#to_time">Coercible::Coercer::Time#to_time</span>
         </td>
         <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Configurable#config_name">Coercible::Coercer::Configurable#config_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Integer#datetime_format">Coercible::Coercer::Integer#datetime_format</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Integer#datetime_proc">Coercible::Coercer::Integer#datetime_proc</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Integer#boolean_map">Coercible::Coercer::Integer#boolean_map</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String#boolean_map">Coercible::Coercer::String#boolean_map</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Object#initialize">Coercible::Coercer::Object#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Hash#to_datetime">Coercible::Coercer::Hash#to_datetime</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Object#coercers">Coercible::Coercer::Object#coercers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Hash#to_time">Coercible::Coercer::Hash#to_time</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Array#to_set">Coercible::Coercer::Array#to_set</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Hash#to_date">Coercible::Coercer::Hash#to_date</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::TypeLookup.extended">Coercible::TypeLookup.extended</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer.config_keys">Coercible::Coercer.config_keys</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer#initialize">Coercible::Coercer#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Options.extended">Coercible::Options.extended</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer#coercers">Coercible::Coercer#coercers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer#config">Coercible::Coercer#config</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Options#add_accepted_options">Coercible::Options#add_accepted_options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::TypeLookup#primitive">Coercible::TypeLookup#primitive</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Options#set_options">Coercible::Options#set_options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String">Coercible::Coercer::String</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer">Coercible::Coercer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Integer#initialize">Coercible::Coercer::Integer#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String#initialize">Coercible::Coercer::String#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String.config">Coercible::Coercer::String.config</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::TimeCoercions">Coercible::Coercer::TimeCoercions</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::FalseClass">Coercible::Coercer::FalseClass</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::TrueClass">Coercible::Coercer::TrueClass</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::DateTime">Coercible::Coercer::DateTime</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Decimal">Coercible::Coercer::Decimal</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Numeric">Coercible::Coercer::Numeric</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Integer">Coercible::Coercer::Integer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Symbol">Coercible::Coercer::Symbol</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Object">Coercible::Coercer::Object</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Float">Coercible::Coercer::Float</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Array">Coercible::Coercer::Array</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Date">Coercible::Coercer::Date</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Time">Coercible::Coercer::Time</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Hash">Coercible::Coercer::Hash</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Integer.config">Coercible::Coercer::Integer.config</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible.rbx?">Coercible.rbx?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
+          <img src="/public/images/priority/E.png" title="Priority"/>
         </td>
       </tr>
     
@@ -1373,83 +807,7 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Object#coerced?">Coercible::Coercer::Object#coerced?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer.configurable_coercers">Coercible::Coercer.configurable_coercers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Configuration.build">Coercible::Configuration.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 2 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Configurable.extended">Coercible::Coercer::Configurable.extended</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Options#define_option_method">Coercible::Options#define_option_method</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
     
   </tbody>
 </table>
@@ -1500,251 +858,7 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Object::COERCION_METHOD_REGEXP">Coercible::Coercer::Object::COERCION_METHOD_REGEXP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String::FRACTIONAL_REGEXP">Coercible::Coercer::String::FRACTIONAL_REGEXP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String::EXPONENT_REGEXP">Coercible::Coercer::String::EXPONENT_REGEXP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String::NUMERIC_REGEXP">Coercible::Coercer::String::NUMERIC_REGEXP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 13 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String::INTEGER_REGEXP">Coercible::Coercer::String::INTEGER_REGEXP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Decimal::FLOAT_FORMAT">Coercible::Coercer::Decimal::FLOAT_FORMAT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Array::TIME_SEGMENTS">Coercible::Coercer::Array::TIME_SEGMENTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String::FALSE_VALUES">Coercible::Coercer::String::FALSE_VALUES</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String::BOOLEAN_MAP">Coercible::Coercer::String::BOOLEAN_MAP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Hash::TIME_SEGMENTS">Coercible::Coercer::Hash::TIME_SEGMENTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::String::TRUE_VALUES">Coercible::Coercer::String::TRUE_VALUES</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::TypeLookup::TYPE_FORMAT">Coercible::TypeLookup::TYPE_FORMAT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::UnsupportedCoercion">Coercible::UnsupportedCoercion</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Options::Undefined">Coercible::Options::Undefined</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::EXTRA_CONST_ARGS">Coercible::EXTRA_CONST_ARGS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::VERSION">Coercible::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Coercible::Coercer::Configurable">Coercible::Coercer::Configurable</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
     
   </tbody>
 </table>
@@ -1784,9 +898,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/solnic/coercible.png)](http://inch-pages.github.io/github/solnic/coercible)
--->
 <!--
 Add docs badge to README
 

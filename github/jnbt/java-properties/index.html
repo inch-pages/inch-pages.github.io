@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/jnbt/java-properties.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/jnbt/java-properties.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/jnbt/java-properties.png)](http://inch-pages.github.io/github/jnbt/java-properties)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/jnbt/java-properties.png!:http://inch-pages.github.io/github/jnbt/java-properties" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/jnbt/java-properties.png" alt="Inline docs" />}[http://inch-pages.github.io/github/jnbt/java-properties]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         jnbt/java-properties
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 96%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 100%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -155,7 +177,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="JavaProperties::Parsing::Normalizer.normalize!">JavaProperties::Parsing::Normalizer.normalize!</span>
+          <span title="JavaProperties::Encoding::SpecialChars.decode!">JavaProperties::Encoding::SpecialChars.decode!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 41 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 21 more ...</a>
         </td>
       </tr>
     
@@ -191,21 +213,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="JavaProperties::Encoding::SpecialChars.decode!">JavaProperties::Encoding::SpecialChars.decode!</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::Separators.encode!">JavaProperties::Encoding::Separators.encode!</span>
+          <span title="JavaProperties::Parsing::Normalizer.normalize!">JavaProperties::Parsing::Normalizer.normalize!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -220,6 +228,20 @@
         </td>
         <td class="path">
           <span title="JavaProperties::Encoding::Separators.decode!">JavaProperties::Encoding::Separators.decode!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="JavaProperties::Encoding::Separators.encode!">JavaProperties::Encoding::Separators.encode!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -303,7 +325,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="JavaProperties::Generating::Generator">JavaProperties::Generating::Generator</span>
+          <span title="JavaProperties::Parsing::Parser.parse">JavaProperties::Parsing::Parser.parse</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -317,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="JavaProperties::Parsing::Parser.parse">JavaProperties::Parsing::Parser.parse</span>
+          <span title="JavaProperties::Generating::Generator">JavaProperties::Generating::Generator</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -478,286 +500,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::Separators::ENCODE_SEPARATOR_MARKER">JavaProperties:: <em>&hellip;</em> ::ENCODE_SEPARATOR_MARKER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::Separators::DECODE_SEPARATOR_MARKER">JavaProperties:: <em>&hellip;</em> ::DECODE_SEPARATOR_MARKER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Generating::Generator::KEY_VALUE_SEPARATOR">JavaProperties:: <em>&hellip;</em> ::KEY_VALUE_SEPARATOR</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::SpecialChars::DESCAPING_MARKER">JavaProperties:: <em>&hellip;</em> ::DESCAPING_MARKER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Generating::Generator::DEFAULT_OPTIONS">JavaProperties::Generating::Generator::DEFAULT_OPTIONS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::Separators::ESCAPING_MARKER">JavaProperties::Encoding::Separators::ESCAPING_MARKER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::SpecialChars::DESCAPING">JavaProperties::Encoding::SpecialChars::DESCAPING</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::Unicode::UNICODE_MARKER">JavaProperties::Encoding::Unicode::UNICODE_MARKER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Parsing::Parser::KEY_VALUE_MARKER">JavaProperties::Parsing::Parser::KEY_VALUE_MARKER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::Unicode::UNICODE_ESCAPE">JavaProperties::Encoding::Unicode::UNICODE_ESCAPE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Parsing::Parser::KEY_ONLY_MARKER">JavaProperties::Parsing::Parser::KEY_ONLY_MARKER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::SpecialChars::ESCAPING">JavaProperties::Encoding::SpecialChars::ESCAPING</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::Separators::ESCAPE">JavaProperties::Encoding::Separators::ESCAPE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::SKIP_SPECIAL_CHARS">JavaProperties::Encoding::SKIP_SPECIAL_CHARS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Parsing::Parser::KEY_ESCAPE">JavaProperties::Parsing::Parser::KEY_ESCAPE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Parsing::Normalizer::RULES">JavaProperties::Parsing::Normalizer::RULES</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::SKIP_SEPARATORS">JavaProperties::Encoding::SKIP_SEPARATORS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Encoding::SKIP_UNICODE">JavaProperties::Encoding::SKIP_UNICODE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::VERSION">JavaProperties::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Properties">JavaProperties::Properties</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -813,34 +555,12 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Generating">JavaProperties::Generating</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
+      <tr class="show_more">
+        <td colspan=3>
+          &ndash;
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="JavaProperties::Parsing">JavaProperties::Parsing</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
     
     
     
@@ -882,9 +602,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/jnbt/java-properties.png)](http://inch-pages.github.io/github/jnbt/java-properties)
--->
 <!--
 Add docs badge to README
 

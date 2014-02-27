@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/eboutic/smartfocus.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/eboutic/smartfocus.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/eboutic/smartfocus.png)](http://inch-pages.github.io/github/eboutic/smartfocus)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/eboutic/smartfocus.png!:http://inch-pages.github.io/github/eboutic/smartfocus" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/eboutic/smartfocus.png" alt="Inline docs" />}[http://inch-pages.github.io/github/eboutic/smartfocus]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         eboutic/smartfocus
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 57%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 64%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 9%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 28%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 21%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 31 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 25 more ...</a>
         </td>
       </tr>
     
@@ -205,7 +227,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Smartfocus::Notification#debug">Smartfocus::Notification#debug</span>
+          <span title="Smartfocus::Notification.debug">Smartfocus::Notification.debug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -233,7 +255,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Smartfocus::Notification.debug">Smartfocus::Notification.debug</span>
+          <span title="Smartfocus::Notification#debug">Smartfocus::Notification#debug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -317,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Smartfocus::Request#body">Smartfocus::Request#body</span>
+          <span title="Smartfocus::Logger#debug">Smartfocus::Logger#debug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -331,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Smartfocus::Logger#debug">Smartfocus::Logger#debug</span>
+          <span title="Smartfocus::Request#body">Smartfocus::Request#body</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -443,7 +465,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Smartfocus::Notification#debug=">Smartfocus::Notification#debug=</span>
+          <span title="Smartfocus::Notification.debug=">Smartfocus::Notification.debug=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -457,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Smartfocus::Notification.debug=">Smartfocus::Notification.debug=</span>
+          <span title="Smartfocus::Notification#debug=">Smartfocus::Notification#debug=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -531,90 +553,6 @@
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::Api::HTTP_VERBS">Smartfocus::Api::HTTP_VERBS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::MalformedResponse">Smartfocus::MalformedResponse</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::Api#connected?">Smartfocus::Api#connected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::RequestError">Smartfocus::RequestError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::SessionError">Smartfocus::SessionError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::Exception">Smartfocus::Exception</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -881,10 +819,24 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 13 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 9 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Smartfocus::Generators::Install">Smartfocus::Generators::Install</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -908,20 +860,6 @@
         </td>
         <td class="path">
           <span title="Smartfocus::Response#initialize">Smartfocus::Response#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::Generators::Install">Smartfocus::Generators::Install</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1012,62 +950,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::Api::ATTRIBUTES">Smartfocus::Api::ATTRIBUTES</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::Version">Smartfocus::Version</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartfocus::Generators">Smartfocus::Generators</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Smartocus::Railtie">Smartocus::Railtie</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -1106,9 +988,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/eboutic/smartfocus.png)](http://inch-pages.github.io/github/eboutic/smartfocus)
--->
 <!--
 Add docs badge to README
 

@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/thoughtbot/paperclip.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/thoughtbot/paperclip.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/thoughtbot/paperclip.png)](http://inch-pages.github.io/github/thoughtbot/paperclip)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/thoughtbot/paperclip.png!:http://inch-pages.github.io/github/thoughtbot/paperclip" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/thoughtbot/paperclip.png" alt="Inline docs" />}[http://inch-pages.github.io/github/thoughtbot/paperclip]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         thoughtbot/paperclip
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 30%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 12%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 41%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 11%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 57%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 47%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 127 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 101 more ...</a>
         </td>
       </tr>
     
@@ -331,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::ContentTypeDetector#detect">Paperclip::ContentTypeDetector#detect</span>
+          <span title="Paperclip::Attachment#convert_options">Paperclip::Attachment#convert_options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -345,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Thumbnail#current_geometry">Paperclip::Thumbnail#current_geometry</span>
+          <span title="Paperclip::ContentTypeDetector#detect">Paperclip::ContentTypeDetector#detect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -373,7 +395,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#convert_options">Paperclip::Attachment#convert_options</span>
+          <span title="Paperclip::Thumbnail#current_geometry">Paperclip::Thumbnail#current_geometry</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -401,20 +423,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Thumbnail#target_geometry">Paperclip::Thumbnail#target_geometry</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Thumbnail#convert_options">Paperclip::Thumbnail#convert_options</span>
         </td>
         <td>
@@ -429,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#default_style">Paperclip::Attachment#default_style</span>
+          <span title="Paperclip::Thumbnail#target_geometry">Paperclip::Thumbnail#target_geometry</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -444,6 +452,20 @@
         </td>
         <td class="path">
           <span title="Paperclip::Attachment#uploaded_file">Paperclip::Attachment#uploaded_file</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Attachment#default_style">Paperclip::Attachment#default_style</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -513,6 +535,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::Attachment#instance">Paperclip::Attachment#instance</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Storage::Filesystem">Paperclip::Storage::Filesystem</span>
         </td>
         <td>
@@ -527,7 +563,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#instance">Paperclip::Attachment#instance</span>
+          <span title="Paperclip::Attachment#options">Paperclip::Attachment#options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -569,49 +605,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#options">Paperclip::Attachment#options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Thumbnail#animated">Paperclip::Thumbnail#animated</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Processor#options">Paperclip::Processor#options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Attachment#errors">Paperclip::Attachment#errors</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -639,7 +633,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::Processor#options">Paperclip::Processor#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Geometry#modifier">Paperclip::Geometry#modifier</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Attachment#errors">Paperclip::Attachment#errors</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Attachment#whiny">Paperclip::Attachment#whiny</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -695,35 +731,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#whiny">Paperclip::Attachment#whiny</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Geometry#larger">Paperclip::Geometry#larger</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Attachment#name">Paperclip::Attachment#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Geometry#height">Paperclip::Geometry#height</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -751,7 +773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Geometry#height">Paperclip::Geometry#height</span>
+          <span title="Paperclip::Geometry#larger">Paperclip::Geometry#larger</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -807,7 +829,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Style#format">Paperclip::Style#format</span>
+          <span title="Paperclip::Storage::Fog">Paperclip::Storage::Fog</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -821,7 +843,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Storage::Fog">Paperclip::Storage::Fog</span>
+          <span title="Paperclip::Style#format">Paperclip::Style#format</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1031,7 +1053,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Thumbnail#target_geometry=">Paperclip::Thumbnail#target_geometry=</span>
+          <span title="Paperclip::Thumbnail#convert_options=">Paperclip::Thumbnail#convert_options=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1045,7 +1067,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Thumbnail#convert_options=">Paperclip::Thumbnail#convert_options=</span>
+          <span title="Paperclip::Thumbnail#target_geometry=">Paperclip::Thumbnail#target_geometry=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1101,20 +1123,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::UriAdapter#content_type=">Paperclip::UriAdapter#content_type=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::TempfileEncoding#binmode">Paperclip::TempfileEncoding#binmode</span>
         </td>
         <td>
@@ -1129,7 +1137,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#content_type">Paperclip::Attachment#content_type</span>
+          <span title="Paperclip::UriAdapter#content_type=">Paperclip::UriAdapter#content_type=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1171,6 +1179,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::Attachment#content_type">Paperclip::Attachment#content_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Attachment#fingerprint">Paperclip::Attachment#fingerprint</span>
         </td>
         <td>
@@ -1186,20 +1208,6 @@
         </td>
         <td class="path">
           <span title="Paperclip::Thumbnail#auto_orient=">Paperclip::Thumbnail#auto_orient=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Processor#attachment=">Paperclip::Processor#attachment=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1241,7 +1249,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Geometry#auto_orient">Paperclip::Geometry#auto_orient</span>
+          <span title="Paperclip::Processor#attachment=">Paperclip::Processor#attachment=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1256,6 +1264,20 @@
         </td>
         <td class="path">
           <span title="Paperclip::Style#default_format">Paperclip::Style#default_format</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Geometry#auto_orient">Paperclip::Geometry#auto_orient</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1297,7 +1319,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Geometry#modifier=">Paperclip::Geometry#modifier=</span>
+          <span title="Paperclip::Attachment#destroy">Paperclip::Attachment#destroy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1311,7 +1333,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#destroy">Paperclip::Attachment#destroy</span>
+          <span title="Paperclip::Geometry#modifier=">Paperclip::Geometry#modifier=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1339,6 +1361,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::Interpolations#id">Paperclip::Interpolations#id</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Thumbnail#format=">Paperclip::Thumbnail#format=</span>
         </td>
         <td>
@@ -1353,7 +1389,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Interpolations#id">Paperclip::Interpolations#id</span>
+          <span title="Paperclip::Geometry#height=">Paperclip::Geometry#height=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1409,7 +1445,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Geometry#height=">Paperclip::Geometry#height=</span>
+          <span title="Paperclip::Attachment#save">Paperclip::Attachment#save</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1423,21 +1459,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Geometry#aspect">Paperclip::Geometry#aspect</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Geometry#width=">Paperclip::Geometry#width=</span>
+          <span title="Paperclip::Attachment#size">Paperclip::Attachment#size</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1465,7 +1487,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#save">Paperclip::Attachment#save</span>
+          <span title="Paperclip::Geometry#width=">Paperclip::Geometry#width=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1479,7 +1501,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#size">Paperclip::Attachment#size</span>
+          <span title="Paperclip::Geometry#aspect">Paperclip::Geometry#aspect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1598,370 +1620,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::ContentTypeDetector::EMPTY_TYPE">Paperclip::ContentTypeDetector::EMPTY_TYPE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Thumbnail::ANIMATED_FORMATS">Paperclip::Thumbnail::ANIMATED_FORMATS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Interpolations::RIGHT_HERE">Paperclip::Interpolations::RIGHT_HERE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Errors::NotIdentifiedByImageMagickError">Paperclip::Errors::NotIdentifiedByImageMagickError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Errors::MissingRequiredValidatorError">Paperclip::Errors::MissingRequiredValidatorError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Errors::InfiniteInterpolationError">Paperclip::Errors::InfiniteInterpolationError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Errors::StorageMethodNotFound">Paperclip::Errors::StorageMethodNotFound</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Errors::CommandNotFoundError">Paperclip::Errors::CommandNotFoundError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Thumbnail#convert_options?">Paperclip::Thumbnail#convert_options?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Geometry#horizontal?">Paperclip::Geometry#horizontal?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Attachment#present?">Paperclip::Attachment#present?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Geometry#vertical?">Paperclip::Geometry#vertical?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Attachment#staged?">Paperclip::Attachment#staged?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Attachment#dirty?">Paperclip::Attachment#dirty?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Geometry#square?">Paperclip::Geometry#square?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Thumbnail#crop?">Paperclip::Thumbnail#crop?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Style#whiny?">Paperclip::Style#whiny?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Error">Paperclip::Error</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Thumbnail#identified_as_animated?">Paperclip::Thumbnail#identified_as_animated?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Thumbnail#animated?">Paperclip::Thumbnail#animated?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Filesystem#flush_deletes">Paperclip::Storage::Filesystem#flush_deletes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Filesystem#flush_writes">Paperclip::Storage::Filesystem#flush_writes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::S3#flush_deletes">Paperclip::Storage::S3#flush_deletes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::S3#flush_writes">Paperclip::Storage::S3#flush_writes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Logger#logger">Paperclip::Logger#logger</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Logger#logging?">Paperclip::Logger#logging?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -2048,7 +1706,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 51 more ...</a>
+          <a href="#" onclick="showMore('B'); return false;">Show 49 more ...</a>
         </td>
       </tr>
     
@@ -2270,7 +1928,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Interpolations#style">Paperclip::Interpolations#style</span>
+          <span title="Paperclip::Interpolations#param">Paperclip::Interpolations#param</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2284,7 +1942,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Interpolations#param">Paperclip::Interpolations#param</span>
+          <span title="Paperclip::Interpolations#style">Paperclip::Interpolations#style</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2396,20 +2054,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Interpolations#updated_at">Paperclip::Interpolations#updated_at</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Attachment#instance_write">Paperclip::Attachment#instance_write</span>
         </td>
         <td>
@@ -2424,7 +2068,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::Interpolations#updated_at">Paperclip::Interpolations#updated_at</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Interpolations#attachment">Paperclip::Interpolations#attachment</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Interpolations#extension">Paperclip::Interpolations#extension</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2453,20 +2125,6 @@
         </td>
         <td class="path">
           <span title="Paperclip::Interpolations#timestamp">Paperclip::Interpolations#timestamp</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Interpolations#extension">Paperclip::Interpolations#extension</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2522,20 +2180,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Geometry#initialize">Paperclip::Geometry#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Interpolations#hash">Paperclip::Interpolations#hash</span>
         </td>
         <td>
@@ -2550,7 +2194,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Processor#identify">Paperclip::Processor#identify</span>
+          <span title="Paperclip::Geometry#initialize">Paperclip::Geometry#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2578,7 +2222,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::Processor#identify">Paperclip::Processor#identify</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Geometry.from_file">Paperclip::Geometry.from_file</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Processor#convert">Paperclip::Processor#convert</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2607,20 +2279,6 @@
         </td>
         <td class="path">
           <span title="Paperclip::Attachment#assign">Paperclip::Attachment#assign</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Processor#convert">Paperclip::Processor#convert</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2736,34 +2394,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Attachment#instance_respond_to?">Paperclip::Attachment#instance_respond_to?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::ProcessorHelpers#processor">Paperclip::ProcessorHelpers#processor</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
@@ -2939,7 +2569,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 257 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 213 more ...</a>
         </td>
       </tr>
     
@@ -3077,7 +2707,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Schema::TableDefinition#attachment">Paperclip::Schema::TableDefinition#attachment</span>
+          <span title="Paperclip::AttachmentRegistry.each_definition">Paperclip::AttachmentRegistry.each_definition</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3091,7 +2721,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AttachmentRegistry.each_definition">Paperclip::AttachmentRegistry.each_definition</span>
+          <span title="Paperclip::Schema::TableDefinition#attachment">Paperclip::Schema::TableDefinition#attachment</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3203,7 +2833,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentContentTypeMatcher#description">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentContentTypeMatcher#description</span>
+          <span title="Paperclip::Validators::AttachmentFileTypeIgnoranceValidator.helper_method_name">Paperclip:: <em>&hellip;</em> ::AttachmentFileTypeIgnoranceValidator.helper_method_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3217,7 +2847,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentFileTypeIgnoranceValidator.helper_method_name">Paperclip:: <em>&hellip;</em> ::AttachmentFileTypeIgnoranceValidator.helper_method_name</span>
+          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentContentTypeMatcher#description">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentContentTypeMatcher#description</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3259,7 +2889,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#failure_message">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#failure_message</span>
+          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentPresenceMatcher#description">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentPresenceMatcher#description</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3273,7 +2903,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentPresenceMatcher#description">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentPresenceMatcher#description</span>
+          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#failure_message">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#failure_message</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3302,6 +2932,20 @@
         </td>
         <td class="path">
           <span title="Paperclip::Validators::AttachmentFileTypeIgnoranceValidator#validate_each">Paperclip:: <em>&hellip;</em> ::AttachmentFileTypeIgnoranceValidator#validate_each</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Validators::AttachmentContentTypeValidator#validate_blacklist">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#validate_blacklist</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3357,20 +3001,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentContentTypeValidator#validate_blacklist">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#validate_blacklist</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#description">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#description</span>
         </td>
         <td>
@@ -3386,6 +3016,20 @@
         </td>
         <td class="path">
           <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#initialize">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Validators::AttachmentContentTypeValidator#forbidden_types">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#forbidden_types</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3441,49 +3085,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentContentTypeValidator#forbidden_types">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#forbidden_types</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Validators::AttachmentFileNameValidator#validate_whitelist">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#validate_whitelist</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Validators::MediaTypeSpoofDetectionValidator#validate_each">Paperclip:: <em>&hellip;</em> ::MediaTypeSpoofDetectionValidator#validate_each</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Validators::AttachmentFileNameValidator#validate_blacklist">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#validate_blacklist</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3511,7 +3113,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentContentTypeValidator#validate_each">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#validate_each</span>
+          <span title="Paperclip::Validators::AttachmentFileNameValidator#validate_whitelist">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#validate_whitelist</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3525,7 +3127,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::ClassMethods#create_validating_before_filter">Paperclip:: <em>&hellip;</em> ::ClassMethods#create_validating_before_filter</span>
+          <span title="Paperclip::Validators::AttachmentFileNameValidator#validate_blacklist">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#validate_blacklist</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3553,7 +3155,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentContentTypeValidator#mark_invalid">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#mark_invalid</span>
+          <span title="Paperclip::Validators::ClassMethods#create_validating_before_filter">Paperclip:: <em>&hellip;</em> ::ClassMethods#create_validating_before_filter</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Validators::AttachmentContentTypeValidator#validate_each">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#validate_each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3581,7 +3197,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::HaveAttachedFileMatcher#description">Paperclip:: <em>&hellip;</em> ::HaveAttachedFileMatcher#description</span>
+          <span title="Paperclip::Validators::AttachmentContentTypeValidator#mark_invalid">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#mark_invalid</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3609,21 +3225,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentContentTypeValidator#initialize">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::HaveAttachedFileMatcher#initialize">Paperclip:: <em>&hellip;</em> ::HaveAttachedFileMatcher#initialize</span>
+          <span title="Paperclip::Shoulda::Matchers::HaveAttachedFileMatcher#description">Paperclip:: <em>&hellip;</em> ::HaveAttachedFileMatcher#description</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3651,6 +3253,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::Shoulda::Matchers::HaveAttachedFileMatcher#initialize">Paperclip:: <em>&hellip;</em> ::HaveAttachedFileMatcher#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Validators::AttachmentFileNameValidator#validate_each">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#validate_each</span>
         </td>
         <td>
@@ -3665,7 +3281,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentPresenceMatcher">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentPresenceMatcher</span>
+          <span title="Paperclip::Validators::AttachmentContentTypeValidator#initialize">Paperclip:: <em>&hellip;</em> ::AttachmentContentTypeValidator#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3679,7 +3295,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentFileNameValidator#mark_invalid">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#mark_invalid</span>
+          <span title="Paperclip::Interpolations::PluralCache#underscore_and_pluralize">Paperclip:: <em>&hellip;</em> ::PluralCache#underscore_and_pluralize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3707,7 +3323,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Interpolations::PluralCache#underscore_and_pluralize">Paperclip:: <em>&hellip;</em> ::PluralCache#underscore_and_pluralize</span>
+          <span title="Paperclip::Validators::AttachmentFileNameValidator#mark_invalid">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#mark_invalid</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentPresenceMatcher">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentPresenceMatcher</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3763,20 +3393,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentSizeValidator#validate_each">Paperclip:: <em>&hellip;</em> ::AttachmentSizeValidator#validate_each</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Validators::AttachmentFileNameValidator#forbidden">Paperclip:: <em>&hellip;</em> ::AttachmentFileNameValidator#forbidden</span>
         </td>
         <td>
@@ -3791,7 +3407,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Validators::AttachmentFileTypeIgnoranceValidator">Paperclip:: <em>&hellip;</em> ::AttachmentFileTypeIgnoranceValidator</span>
+          <span title="Paperclip::Validators::AttachmentSizeValidator#validate_each">Paperclip:: <em>&hellip;</em> ::AttachmentSizeValidator#validate_each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3806,6 +3422,20 @@
         </td>
         <td class="path">
           <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Validators::AttachmentFileTypeIgnoranceValidator">Paperclip:: <em>&hellip;</em> ::AttachmentFileTypeIgnoranceValidator</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3945,7 +3575,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::FileCommandContentTypeDetector#detect">Paperclip::FileCommandContentTypeDetector#detect</span>
+          <span title="Paperclip::Interpolations::PluralCache#pluralize">Paperclip::Interpolations::PluralCache#pluralize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3959,7 +3589,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Interpolations::PluralCache#pluralize">Paperclip::Interpolations::PluralCache#pluralize</span>
+          <span title="Paperclip::FileCommandContentTypeDetector#detect">Paperclip::FileCommandContentTypeDetector#detect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3988,6 +3618,20 @@
         </td>
         <td class="path">
           <span title="Paperclip::AttachmentRegistry#each_definition">Paperclip::AttachmentRegistry#each_definition</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Storage::S3#obtain_s3_instance_for">Paperclip::Storage::S3#obtain_s3_instance_for</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4043,7 +3687,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Storage::S3#obtain_s3_instance_for">Paperclip::Storage::S3#obtain_s3_instance_for</span>
+          <span title="Paperclip::MediaTypeSpoofDetector#initialize">Paperclip::MediaTypeSpoofDetector#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4058,20 +3702,6 @@
         </td>
         <td class="path">
           <span title="Paperclip.registered_attachments_styles_path">Paperclip.registered_attachments_styles_path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::MediaTypeSpoofDetector#initialize">Paperclip::MediaTypeSpoofDetector#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4141,34 +3771,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::FileCommandContentTypeDetector">Paperclip::FileCommandContentTypeDetector</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::ContentTypeDetector#initialize">Paperclip::ContentTypeDetector#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Storage::S3#copy_to_local_file">Paperclip::Storage::S3#copy_to_local_file</span>
         </td>
         <td>
@@ -4183,7 +3785,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::FileCommandContentTypeDetector">Paperclip::FileCommandContentTypeDetector</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Storage::Fog#parse_credentials">Paperclip::Storage::Fog#parse_credentials</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::ContentTypeDetector#initialize">Paperclip::ContentTypeDetector#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4239,35 +3869,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AttachmentAdapter#initialize">Paperclip::AttachmentAdapter#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::AttachmentRegistry#names_for">Paperclip::AttachmentRegistry#names_for</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::MediaTypeSpoofDetector.using">Paperclip::MediaTypeSpoofDetector.using</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::AttachmentAdapter#initialize">Paperclip::AttachmentAdapter#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4295,6 +3911,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::AttachmentRegistry#names_for">Paperclip::AttachmentRegistry#names_for</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::Storage::Fog#fog_credentials">Paperclip::Storage::Fog#fog_credentials</span>
         </td>
         <td>
@@ -4309,21 +3939,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::GeometryDetector#initialize">Paperclip::GeometryDetector#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::TempfileFactory#random_name">Paperclip::TempfileFactory#random_name</span>
+          <span title="Paperclip::AbstractAdapter#fingerprint">Paperclip::AbstractAdapter#fingerprint</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4351,7 +3967,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Storage::S3#set_permissions">Paperclip::Storage::S3#set_permissions</span>
+          <span title="Paperclip::AttachmentRegistry#register">Paperclip::AttachmentRegistry#register</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::TempfileFactory#random_name">Paperclip::TempfileFactory#random_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4393,7 +4023,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Interpolations.plural_cache">Paperclip::Interpolations.plural_cache</span>
+          <span title="Paperclip::GeometryDetector#initialize">Paperclip::GeometryDetector#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4421,7 +4051,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AbstractAdapter#fingerprint">Paperclip::AbstractAdapter#fingerprint</span>
+          <span title="Paperclip::Storage::S3#set_permissions">Paperclip::Storage::S3#set_permissions</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Interpolations.plural_cache">Paperclip::Interpolations.plural_cache</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4449,63 +4093,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AttachmentRegistry#register">Paperclip::AttachmentRegistry#register</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::StringioAdapter#initialize">Paperclip::StringioAdapter#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::HasAttachedFile#initialize">Paperclip::HasAttachedFile#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="PaperclipGenerator#generate_migration">PaperclipGenerator#generate_migration</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::S3#s3_credentials">Paperclip::Storage::S3#s3_credentials</span>
+          <span title="Paperclip::Attachment.default_options">Paperclip::Attachment.default_options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4533,7 +4121,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment.default_options">Paperclip::Attachment.default_options</span>
+          <span title="Paperclip::Storage::S3#s3_credentials">Paperclip::Storage::S3#s3_credentials</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::StringioAdapter#initialize">Paperclip::StringioAdapter#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Storage::S3#s3_permissions">Paperclip::Storage::S3#s3_permissions</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="PaperclipGenerator#generate_migration">PaperclipGenerator#generate_migration</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4575,49 +4205,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Storage::S3#s3_permissions">Paperclip::Storage::S3#s3_permissions</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::TempfileFactory#extension">Paperclip::TempfileFactory#extension</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Fog#expiring_url">Paperclip::Storage::Fog#expiring_url</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Fog#flush_writes">Paperclip::Storage::Fog#flush_writes</span>
+          <span title="Paperclip::HasAttachedFile#initialize">Paperclip::HasAttachedFile#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4659,34 +4247,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::GeometryParser#initialize">Paperclip::GeometryParser#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Validators::HelperMethods">Paperclip::Validators::HelperMethods</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Storage::S3#create_bucket">Paperclip::Storage::S3#create_bucket</span>
         </td>
         <td>
@@ -4715,7 +4275,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::TempfileFactory#generate">Paperclip::TempfileFactory#generate</span>
+          <span title="Paperclip::GeometryParser#initialize">Paperclip::GeometryParser#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4729,7 +4289,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::TempfileFactory#basename">Paperclip::TempfileFactory#basename</span>
+          <span title="Paperclip::Validators::HelperMethods">Paperclip::Validators::HelperMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Storage::Fog#flush_writes">Paperclip::Storage::Fog#flush_writes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::TempfileFactory#extension">Paperclip::TempfileFactory#extension</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Storage::Fog#expiring_url">Paperclip::Storage::Fog#expiring_url</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4757,35 +4359,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Storage::S3#s3_host_name">Paperclip::Storage::S3#s3_host_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Validators::ClassMethods">Paperclip::Validators::ClassMethods</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::S3#expiring_url">Paperclip::Storage::S3#expiring_url</span>
+          <span title="Paperclip::AttachmentRegistry.clear">Paperclip::AttachmentRegistry.clear</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4813,7 +4387,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AttachmentRegistry.clear">Paperclip::AttachmentRegistry.clear</span>
+          <span title="Paperclip::Storage::S3#s3_host_name">Paperclip::Storage::S3#s3_host_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4827,7 +4401,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Schema::TableDefinition">Paperclip::Schema::TableDefinition</span>
+          <span title="Paperclip::TempfileFactory#basename">Paperclip::TempfileFactory#basename</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4841,7 +4415,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::UrlGenerator#initialize">Paperclip::UrlGenerator#initialize</span>
+          <span title="Paperclip::Storage::S3#expiring_url">Paperclip::Storage::S3#expiring_url</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::TempfileFactory#generate">Paperclip::TempfileFactory#generate</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Validators::ClassMethods">Paperclip::Validators::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4869,49 +4471,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Storage::S3#s3_protocol">Paperclip::Storage::S3#s3_protocol</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::S3#bucket_name">Paperclip::Storage::S3#bucket_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Attachment#only_process">Paperclip::Attachment#only_process</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Fog#public_url">Paperclip::Storage::Fog#public_url</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4940,6 +4500,76 @@
         </td>
         <td class="path">
           <span title="Paperclip::Storage::Fog#fog_public">Paperclip::Storage::Fog#fog_public</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::UrlGenerator#initialize">Paperclip::UrlGenerator#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Storage::S3#s3_protocol">Paperclip::Storage::S3#s3_protocol</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Schema::TableDefinition">Paperclip::Schema::TableDefinition</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Storage::Fog#public_url">Paperclip::Storage::Fog#public_url</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Storage::S3#bucket_name">Paperclip::Storage::S3#bucket_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5023,20 +4653,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Attachment#processors">Paperclip::Attachment#processors</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::Style#convert_options">Paperclip::Style#convert_options</span>
         </td>
         <td>
@@ -5065,20 +4681,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Storage::S3#s3_bucket">Paperclip::Storage::S3#s3_bucket</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip::NilAdapter#initialize">Paperclip::NilAdapter#initialize</span>
         </td>
         <td>
@@ -5093,7 +4695,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::UriAdapter#initialize">Paperclip::UriAdapter#initialize</span>
+          <span title="Paperclip::Storage::S3#s3_bucket">Paperclip::Storage::S3#s3_bucket</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5107,7 +4709,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AbstractAdapter#read">Paperclip::AbstractAdapter#read</span>
+          <span title="Paperclip::Attachment#processors">Paperclip::Attachment#processors</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::UriAdapter#initialize">Paperclip::UriAdapter#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5149,63 +4765,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::HttpUrlProxyAdapter">Paperclip::HttpUrlProxyAdapter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::GeometryParser#make">Paperclip::GeometryParser#make</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Callbacks::Defining">Paperclip::Callbacks::Defining</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::IdentityAdapter#new">Paperclip::IdentityAdapter#new</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="PaperclipGenerator.source_root">PaperclipGenerator.source_root</span>
+          <span title="Paperclip::AbstractAdapter#read">Paperclip::AbstractAdapter#read</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5247,6 +4807,48 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::HttpUrlProxyAdapter">Paperclip::HttpUrlProxyAdapter</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="PaperclipGenerator.source_root">PaperclipGenerator.source_root</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::GeometryParser#make">Paperclip::GeometryParser#make</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::UploadedFileAdapter">Paperclip::UploadedFileAdapter</span>
         </td>
         <td>
@@ -5261,7 +4863,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AttachmentRegistry">Paperclip::AttachmentRegistry</span>
+          <span title="Paperclip::Callbacks::Defining">Paperclip::Callbacks::Defining</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::IdentityAdapter#new">Paperclip::IdentityAdapter#new</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::EmptyStringAdapter">Paperclip::EmptyStringAdapter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5317,7 +4947,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::EmptyStringAdapter">Paperclip::EmptyStringAdapter</span>
+          <span title="Paperclip::AttachmentRegistry">Paperclip::AttachmentRegistry</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5373,7 +5003,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::GeometryDetector">Paperclip::GeometryDetector</span>
+          <span title="Paperclip::TempfileEncoding">Paperclip::TempfileEncoding</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5387,7 +5017,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::ProcessorHelpers">Paperclip::ProcessorHelpers</span>
+          <span title="Paperclip::GeometryDetector">Paperclip::GeometryDetector</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5415,49 +5045,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::TempfileEncoding">Paperclip::TempfileEncoding</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::TempfileFactory">Paperclip::TempfileFactory</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::HasAttachedFile">Paperclip::HasAttachedFile</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::FilenameCleaner">Paperclip::FilenameCleaner</span>
+          <span title="Paperclip::ProcessorHelpers">Paperclip::ProcessorHelpers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5485,7 +5073,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::AdapterRegistry">Paperclip::AdapterRegistry</span>
+          <span title="Paperclip::TempfileFactory">Paperclip::TempfileFactory</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::FilenameCleaner">Paperclip::FilenameCleaner</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5513,6 +5115,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Paperclip::AdapterRegistry">Paperclip::AdapterRegistry</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Paperclip::IdentityAdapter">Paperclip::IdentityAdapter</span>
         </td>
         <td>
@@ -5527,7 +5143,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::DataUriAdapter">Paperclip::DataUriAdapter</span>
+          <span title="Paperclip::HasAttachedFile">Paperclip::HasAttachedFile</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Logger#logger=">Paperclip::Logger#logger=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5555,7 +5185,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Processor#make">Paperclip::Processor#make</span>
+          <span title="Paperclip::DataUriAdapter">Paperclip::DataUriAdapter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5583,7 +5213,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::GeometryParser">Paperclip::GeometryParser</span>
+          <span title="Paperclip::Processor#make">Paperclip::Processor#make</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5597,7 +5227,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Logger#logger=">Paperclip::Logger#logger=</span>
+          <span title="Paperclip::GeometryParser">Paperclip::GeometryParser</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5639,20 +5269,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::FileAdapter">Paperclip::FileAdapter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Paperclip.io_adapters=">Paperclip.io_adapters=</span>
         </td>
         <td>
@@ -5667,21 +5283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::NilAdapter">Paperclip::NilAdapter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::UriAdapter">Paperclip::UriAdapter</span>
+          <span title="Paperclip::FileAdapter">Paperclip::FileAdapter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5709,7 +5311,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Paperclip::Callbacks">Paperclip::Callbacks</span>
+          <span title="Paperclip::UriAdapter">Paperclip::UriAdapter</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::NilAdapter">Paperclip::NilAdapter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5724,6 +5340,20 @@
         </td>
         <td class="path">
           <span title="Paperclip::Style#[]=">Paperclip::Style#[]=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Paperclip::Callbacks">Paperclip::Callbacks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5926,622 +5556,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Validators::AttachmentSizeValidator::AVAILABLE_CHECKS">Paperclip:: <em>&hellip;</em> ::AVAILABLE_CHECKS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Fog::AWS_BUCKET_SUBDOMAIN_RESTRICTON_REGEX">Paperclip:: <em>&hellip;</em> ::AWS_BUCKET_SUBDOMAIN_RESTRICTON_REGEX</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::FileCommandContentTypeDetector::SENSIBLE_DEFAULT">Paperclip:: <em>&hellip;</em> ::SENSIBLE_DEFAULT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::AbstractAdapter::OS_RESTRICTED_CHARACTERS">Paperclip::AbstractAdapter::OS_RESTRICTED_CHARACTERS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Geometry::EXIF_ROTATED_ORIENTATION_VALUES">Paperclip::Geometry::EXIF_ROTATED_ORIENTATION_VALUES</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::ContentTypeDetector::SENSIBLE_DEFAULT">Paperclip::ContentTypeDetector::SENSIBLE_DEFAULT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::HttpUrlProxyAdapter::REGEXP">Paperclip::HttpUrlProxyAdapter::REGEXP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::GeometryParser::FORMAT">Paperclip::GeometryParser::FORMAT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::DataUriAdapter::REGEXP">Paperclip::DataUriAdapter::REGEXP</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Schema::COLUMNS">Paperclip::Schema::COLUMNS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::VERSION">Paperclip::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentContentTypeMatcher#matches?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentContentTypeMatcher#matches?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentPresenceMatcher#matches?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentPresenceMatcher#matches?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#matches?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#matches?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::HaveAttachedFileMatcher#matches?">Paperclip:: <em>&hellip;</em> ::HaveAttachedFileMatcher#matches?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::AdapterRegistry::NoHandlerError">Paperclip::AdapterRegistry::NoHandlerError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::MediaTypeSpoofDetector#spoofed?">Paperclip::MediaTypeSpoofDetector#spoofed?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::S3#using_http_proxy?">Paperclip::Storage::S3#using_http_proxy?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::AdapterRegistry#registered?">Paperclip::AdapterRegistry#registered?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Filesystem#exists?">Paperclip::Storage::Filesystem#exists?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::AbstractAdapter#assignment?">Paperclip::AbstractAdapter#assignment?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::AbstractAdapter#nil?">Paperclip::AbstractAdapter#nil?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::Fog#exists?">Paperclip::Storage::Fog#exists?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage::S3#exists?">Paperclip::Storage::S3#exists?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Attachment#blank?">Paperclip::Attachment#blank?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::NilAdapter#eof?">Paperclip::NilAdapter#eof?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Validators">Paperclip::Validators</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Storage">Paperclip::Storage</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda">Paperclip::Shoulda</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Errors">Paperclip::Errors</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentContentTypeMatcher#rejected_types_rejected?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentContentTypeMatcher#rejected_types_rejected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentContentTypeMatcher#allowed_types_allowed?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentContentTypeMatcher#allowed_types_allowed?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentPresenceMatcher#error_when_not_valid?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentPresenceMatcher#error_when_not_valid?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentPresenceMatcher#no_error_when_valid?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentPresenceMatcher#no_error_when_valid?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentContentTypeMatcher#type_allowed?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentContentTypeMatcher#type_allowed?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#higher_than_high?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#higher_than_high?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#lower_than_high?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#lower_than_high?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#higher_than_low?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#higher_than_low?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::ValidateAttachmentSizeMatcher#lower_than_low?">Paperclip:: <em>&hellip;</em> ::ValidateAttachmentSizeMatcher#lower_than_low?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::HaveAttachedFileMatcher#has_column?">Paperclip:: <em>&hellip;</em> ::HaveAttachedFileMatcher#has_column?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::Shoulda::Matchers::HaveAttachedFileMatcher#responds?">Paperclip:: <em>&hellip;</em> ::HaveAttachedFileMatcher#responds?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::EmptyStringAdapter#assignment?">Paperclip::EmptyStringAdapter#assignment?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::EmptyStringAdapter#nil?">Paperclip::EmptyStringAdapter#nil?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Paperclip::NilAdapter#nil?">Paperclip::NilAdapter#nil?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -6580,9 +5594,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/thoughtbot/paperclip.png)](http://inch-pages.github.io/github/thoughtbot/paperclip)
--->
 <!--
 Add docs badge to README
 

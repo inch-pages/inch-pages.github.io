@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/splattael/libnotify.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/splattael/libnotify.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/splattael/libnotify.png)](http://inch-pages.github.io/github/splattael/libnotify)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/splattael/libnotify.png!:http://inch-pages.github.io/github/splattael/libnotify" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/splattael/libnotify.png" alt="Inline docs" />}[http://inch-pages.github.io/github/splattael/libnotify]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         splattael/libnotify
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 59%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 66%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 35%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 28%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -303,7 +325,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Libnotify::API.icon_dirs=">Libnotify::API.icon_dirs=</span>
+          <span title="Libnotify::API#transient=">Libnotify::API#transient=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -317,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Libnotify::API#transient=">Libnotify::API#transient=</span>
+          <span title="Libnotify::API.icon_dirs=">Libnotify::API.icon_dirs=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -345,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Libnotify::API#urgency=">Libnotify::API#urgency=</span>
+          <span title="Libnotify::API#summary=">Libnotify::API#summary=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -359,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Libnotify::API#summary=">Libnotify::API#summary=</span>
+          <span title="Libnotify::API#urgency=">Libnotify::API#urgency=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -609,7 +631,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 10 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 7 more ...</a>
         </td>
       </tr>
     
@@ -712,48 +734,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Libnotify::IconFinder::Icon::ICON_REGEX">Libnotify::IconFinder::Icon::ICON_REGEX</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Libnotify::FFI::URGENCY">Libnotify::FFI::URGENCY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Libnotify::VERSION">Libnotify::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -792,9 +772,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/splattael/libnotify.png)](http://inch-pages.github.io/github/splattael/libnotify)
--->
 <!--
 Add docs badge to README
 

@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/lotus/controller.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/lotus/controller.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/lotus/controller.png)](http://inch-pages.github.io/github/lotus/controller)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/lotus/controller.png!:http://inch-pages.github.io/github/lotus/controller" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/lotus/controller.png" alt="Inline docs" />}[http://inch-pages.github.io/github/lotus/controller]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         lotus/controller
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 71%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 77%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 27%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 22%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 49 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 28 more ...</a>
         </td>
       </tr>
     
@@ -247,7 +269,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Controller::Dsl">Lotus::Controller::Dsl</span>
+          <span title="Lotus::Action::Session">Lotus::Action::Session</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -261,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Session">Lotus::Action::Session</span>
+          <span title="Lotus::Controller::Dsl">Lotus::Controller::Dsl</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -345,20 +367,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Session#session">Lotus::Action::Session#session</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Action::Cookies#cookies">Lotus::Action::Cookies#cookies</span>
         </td>
         <td>
@@ -373,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Rack#status=">Lotus::Action::Rack#status=</span>
+          <span title="Lotus::Action::Session#session">Lotus::Action::Session#session</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -401,7 +409,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Action::Rack#status=">Lotus::Action::Rack#status=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Action::Rack#body=">Lotus::Action::Rack#body=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Action::Throwable">Lotus::Action::Throwable</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -444,20 +480,6 @@
         </td>
         <td class="path">
           <span title="Lotus::Action::CookieJar">Lotus::Action::CookieJar</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Throwable">Lotus::Action::Throwable</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -576,300 +598,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::CookieJar::COOKIE_STRING_KEY">Lotus::Action::CookieJar::COOKIE_STRING_KEY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::CookieJar::COOKIE_HASH_KEY">Lotus::Action::CookieJar::COOKIE_HASH_KEY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Mime::DEFAULT_CONTENT_TYPE">Lotus::Action::Mime::DEFAULT_CONTENT_TYPE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::CookieJar::HTTP_HEADER">Lotus::Action::CookieJar::HTTP_HEADER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Params::ROUTER_PARAMS">Lotus::Action::Params::ROUTER_PARAMS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Session::SESSION_KEY">Lotus::Action::Session::SESSION_KEY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Mime::DEFAULT_ACCEPT">Lotus::Action::Mime::DEFAULT_ACCEPT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Params::RACK_INPUT">Lotus::Action::Params::RACK_INPUT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Mime::CONTENT_TYPE">Lotus::Action::Mime::CONTENT_TYPE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Mime::HTTP_ACCEPT">Lotus::Action::Mime::HTTP_ACCEPT</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Controller::VERSION">Lotus::Controller::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Http::Status::ALL">Lotus::Http::Status::ALL</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Exposable::ClassMethods#exposures">Lotus::Action::Exposable::ClassMethods#exposures</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Http::Status.for_code">Lotus::Http::Status.for_code</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Mime#accept?">Lotus::Action::Mime#accept?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Callable#finish">Lotus::Action::Callable#finish</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Cookies#finish">Lotus::Action::Cookies#finish</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Rack#response">Lotus::Action::Rack#response</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Mime#finish">Lotus::Action::Mime#finish</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action#finish">Lotus::Action#finish</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Http::Status">Lotus::Http::Status</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -882,20 +610,12 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Callbacks::InstanceMethods#call">Lotus::Action::Callbacks::InstanceMethods#call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
+      <tr class="show_more">
+        <td colspan=3>
+          &ndash;
         </td>
       </tr>
+    
     
     
     
@@ -991,7 +711,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Callbacks::ClassMethods">Lotus::Action::Callbacks::ClassMethods</span>
+          <span title="Lotus::Action::Throwable::ClassMethods">Lotus::Action::Throwable::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1015,7 +735,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 16 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 12 more ...</a>
         </td>
       </tr>
     
@@ -1027,7 +747,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Throwable::ClassMethods">Lotus::Action::Throwable::ClassMethods</span>
+          <span title="Lotus::Action::Callbacks::ClassMethods">Lotus::Action::Callbacks::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1055,7 +775,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Throwable.included">Lotus::Action::Throwable.included</span>
+          <span title="Lotus::Action::Callbacks.included">Lotus::Action::Callbacks.included</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1069,7 +789,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Callbacks.included">Lotus::Action::Callbacks.included</span>
+          <span title="Lotus::Action::Throwable.included">Lotus::Action::Throwable.included</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1188,62 +908,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Rack::DEFAULT_RESPONSE_BODY">Lotus::Action::Rack::DEFAULT_RESPONSE_BODY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Rack::DEFAULT_RESPONSE_CODE">Lotus::Action::Rack::DEFAULT_RESPONSE_CODE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Rack::SESSION_KEY">Lotus::Action::Rack::SESSION_KEY</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Http">Lotus::Http</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -1282,9 +946,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/lotus/controller.png)](http://inch-pages.github.io/github/lotus/controller)
--->
 <!--
 Add docs badge to README
 
