@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/jekyll/jekyll.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/jekyll/jekyll.png" type="text" class="url">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/jekyll/jekyll.png)](http://inch-pages.github.io/github/jekyll/jekyll)" type="text" class="url">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/jekyll/jekyll.png!:http://inch-pages.github.io/github/jekyll/jekyll" type="text" class="url">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/jekyll/jekyll.png" alt="Inline docs" />}[http://inch-pages.github.io/github/jekyll/jekyll]' type="text" class="url">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         jekyll/jekyll
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 59%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 65%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 5%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 36%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 30%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -169,7 +191,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Configuration#backwards_compatibilize">Jekyll::Configuration#backwards_compatibilize</span>
+          <span title="Jekyll::Generators::Pagination.first_page_url">Jekyll::Generators::Pagination.first_page_url</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -179,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 273 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 254 more ...</a>
         </td>
       </tr>
     
@@ -191,21 +213,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Generators::Pagination.first_page_url">Jekyll::Generators::Pagination.first_page_url</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Commands::New.initialized_post_name">Jekyll::Commands::New.initialized_post_name</span>
+          <span title="Jekyll::Configuration#backwards_compatibilize">Jekyll::Configuration#backwards_compatibilize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -233,7 +241,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converter#highlighter_suffix">Jekyll::Converter#highlighter_suffix</span>
+          <span title="Jekyll::Converter#highlighter_prefix">Jekyll::Converter#highlighter_prefix</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -261,7 +269,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converter.highlighter_prefix">Jekyll::Converter.highlighter_prefix</span>
+          <span title="Jekyll::Converter#highlighter_suffix">Jekyll::Converter#highlighter_suffix</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -275,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converter#highlighter_prefix">Jekyll::Converter#highlighter_prefix</span>
+          <span title="Jekyll::Converter.highlighter_prefix">Jekyll::Converter.highlighter_prefix</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -317,35 +325,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Pager.remove_leading_slash">Jekyll::Pager.remove_leading_slash</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Configuration#config_files">Jekyll::Configuration#config_files</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Pager.ensure_leading_slash">Jekyll::Pager.ensure_leading_slash</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -373,6 +353,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Pager.remove_leading_slash">Jekyll::Pager.remove_leading_slash</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Pager.ensure_leading_slash">Jekyll::Pager.ensure_leading_slash</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Configuration#csv_to_array">Jekyll::Configuration#csv_to_array</span>
         </td>
         <td>
@@ -387,7 +395,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Filters#date_to_xmlschema">Jekyll::Filters#date_to_xmlschema</span>
+          <span title="Jekyll::Stevenson#formatted_topic">Jekyll::Stevenson#formatted_topic</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -401,7 +409,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Stevenson#formatted_topic">Jekyll::Stevenson#formatted_topic</span>
+          <span title="Jekyll::Filters#date_to_xmlschema">Jekyll::Filters#date_to_xmlschema</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -443,6 +451,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Filters#number_of_words">Jekyll::Filters#number_of_words</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Tags::PostComparer#date">Jekyll::Tags::PostComparer#date</span>
         </td>
         <td>
@@ -471,7 +493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Filters#number_of_words">Jekyll::Filters#number_of_words</span>
+          <span title="Jekyll::Filters#date_to_string">Jekyll::Filters#date_to_string</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -499,20 +521,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Filters#date_to_rfc822">Jekyll::Filters#date_to_rfc822</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::StaticFile#destination">Jekyll::StaticFile#destination</span>
         </td>
         <td>
@@ -527,7 +535,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Filters#date_to_string">Jekyll::Filters#date_to_string</span>
+          <span title="Jekyll::Filters#date_to_rfc822">Jekyll::Filters#date_to_rfc822</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -569,7 +577,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Convertible#converter">Jekyll::Convertible#converter</span>
+          <span title="Jekyll::Convertible#transform">Jekyll::Convertible#transform</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -597,7 +605,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Convertible#transform">Jekyll::Convertible#transform</span>
+          <span title="Jekyll::Convertible#converter">Jekyll::Convertible#converter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -625,6 +633,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Configuration#source">Jekyll::Configuration#source</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Pager#next_page_path">Jekyll::Pager#next_page_path</span>
         </td>
         <td>
@@ -639,7 +661,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Configuration#source">Jekyll::Configuration#source</span>
+          <span title="Jekyll::Pager.paginate_path">Jekyll::Pager.paginate_path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Stevenson#log_level">Jekyll::Stevenson#log_level</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -667,7 +703,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Pager.paginate_path">Jekyll::Pager.paginate_path</span>
+          <span title="Jekyll::Site#filter_entries">Jekyll::Site#filter_entries</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -709,21 +745,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#filter_entries">Jekyll::Site#filter_entries</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Stevenson#log_level">Jekyll::Stevenson#log_level</span>
+          <span title="Jekyll::Filters#cgi_escape">Jekyll::Filters#cgi_escape</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -751,77 +773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Filters#cgi_escape">Jekyll::Filters#cgi_escape</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Filters#uri_escape">Jekyll::Filters#uri_escape</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Pager#total_pages">Jekyll::Pager#total_pages</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#static_files">Jekyll::Site#static_files</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::RelatedPosts#site">Jekyll::RelatedPosts#site</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::LayoutReader#site">Jekyll::LayoutReader#site</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -849,21 +801,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#plugins_path">Jekyll::Site#plugins_path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Filters#textilize">Jekyll::Filters#textilize</span>
+          <span title="Jekyll::Pager#total_pages">Jekyll::Pager#total_pages</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -891,20 +829,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Plugin.subclasses">Jekyll::Plugin.subclasses</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::RelatedPosts#post">Jekyll::RelatedPosts#post</span>
         </td>
         <td>
@@ -919,7 +843,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#destination">Jekyll::Page#destination</span>
+          <span title="Jekyll::RelatedPosts#site">Jekyll::RelatedPosts#site</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -933,7 +857,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::URL#generate_url">Jekyll::URL#generate_url</span>
+          <span title="Jekyll::Site#static_files">Jekyll::Site#static_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -947,7 +871,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#highlighter">Jekyll::Site#highlighter</span>
+          <span title="Jekyll::Plugin.subclasses">Jekyll::Plugin.subclasses</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -961,7 +885,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#destination">Jekyll::Post#destination</span>
+          <span title="Jekyll::Filters#textilize">Jekyll::Filters#textilize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -975,21 +899,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#get_entries">Jekyll::Site#get_entries</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Convertible#to_s">Jekyll::Convertible#to_s</span>
+          <span title="Jekyll::LayoutReader#site">Jekyll::LayoutReader#site</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1017,49 +927,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#limit_posts">Jekyll::Site#limit_posts</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::StaticFile#mtime">Jekyll::StaticFile#mtime</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::RelatedPosts.lsi">Jekyll::RelatedPosts.lsi</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#site">Jekyll::EntryFilter#site</span>
+          <span title="Jekyll::Post#destination">Jekyll::Post#destination</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1087,7 +955,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Excerpt#content">Jekyll::Excerpt#content</span>
+          <span title="Jekyll::StaticFile#mtime">Jekyll::StaticFile#mtime</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1101,7 +969,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Excerpt#inspect">Jekyll::Excerpt#inspect</span>
+          <span title="Jekyll::Site#highlighter">Jekyll::Site#highlighter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1115,7 +983,77 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#keep_files">Jekyll::Site#keep_files</span>
+          <span title="Jekyll::Convertible#to_s">Jekyll::Convertible#to_s</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::EntryFilter#site">Jekyll::EntryFilter#site</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#get_entries">Jekyll::Site#get_entries</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#destination">Jekyll::Page#destination</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::RelatedPosts.lsi">Jekyll::RelatedPosts.lsi</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#limit_posts">Jekyll::Site#limit_posts</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1143,62 +1081,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#categories">Jekyll::Site#categories</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#categories">Jekyll::Post#categories</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Plugin.priority">Jekyll::Plugin.priority</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Pager#to_liquid">Jekyll::Pager#to_liquid</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::StaticFile#path">Jekyll::StaticFile#path</span>
         </td>
         <td>
@@ -1213,7 +1095,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#generators">Jekyll::Site#generators</span>
+          <span title="Jekyll::Site#keep_files">Jekyll::Site#keep_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1255,7 +1137,91 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#permalink">Jekyll::Page#permalink</span>
+          <span title="Jekyll::Excerpt#content">Jekyll::Excerpt#content</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Excerpt#inspect">Jekyll::Excerpt#inspect</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#categories">Jekyll::Site#categories</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#generators">Jekyll::Site#generators</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Plugin.priority">Jekyll::Plugin.priority</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Pager#to_liquid">Jekyll::Pager#to_liquid</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#categories">Jekyll::Post#categories</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1283,7 +1249,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#permalink">Jekyll::Post#permalink</span>
+          <span title="Jekyll::Site#site_data">Jekyll::Site#site_data</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1311,7 +1277,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#site_data">Jekyll::Site#site_data</span>
+          <span title="Jekyll::Page#permalink">Jekyll::Page#permalink</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1326,6 +1292,62 @@
         </td>
         <td class="path">
           <span title="Jekyll::Pager#per_page">Jekyll::Pager#per_page</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#permalink">Jekyll::Post#permalink</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#basename">Jekyll::Page#basename</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#template">Jekyll::Page#template</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#generate">Jekyll::Site#generate</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1367,7 +1389,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#template">Jekyll::Page#template</span>
+          <span title="Jekyll::Site#exclude">Jekyll::Site#exclude</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1381,77 +1403,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#basename">Jekyll::Page#basename</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#generate">Jekyll::Site#generate</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#baseurl">Jekyll::Site#baseurl</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#plugins">Jekyll::Site#plugins</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#layouts">Jekyll::Site#layouts</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Excerpt#path">Jekyll::Excerpt#path</span>
+          <span title="Jekyll::Site#process">Jekyll::Site#process</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1479,91 +1431,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Excerpt#data">Jekyll::Excerpt#data</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Excerpt#post">Jekyll::Excerpt#post</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#exclude">Jekyll::Site#exclude</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#content">Jekyll::Post#content</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#content">Jekyll::Page#content</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#excerpt">Jekyll::Post#excerpt</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#process">Jekyll::Site#process</span>
+          <span title="Jekyll.configuration">Jekyll.configuration</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1605,7 +1473,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll.configuration">Jekyll.configuration</span>
+          <span title="Jekyll::Page#content">Jekyll::Page#content</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#excerpt">Jekyll::Post#excerpt</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1633,7 +1515,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#output">Jekyll::Post#output</span>
+          <span title="Jekyll::Excerpt#path">Jekyll::Excerpt#path</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1647,7 +1529,77 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#source">Jekyll::Site#source</span>
+          <span title="Jekyll::Site#plugins">Jekyll::Site#plugins</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Excerpt#data">Jekyll::Excerpt#data</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Excerpt#post">Jekyll::Excerpt#post</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#content">Jekyll::Post#content</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#baseurl">Jekyll::Site#baseurl</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#layouts">Jekyll::Site#layouts</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1689,7 +1641,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#output">Jekyll::Page#output</span>
+          <span title="Jekyll::Excerpt#ext">Jekyll::Excerpt#ext</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1704,6 +1656,48 @@
         </td>
         <td class="path">
           <span title="Jekyll::Site#render">Jekyll::Site#render</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#source">Jekyll::Site#source</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#output">Jekyll::Post#output</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#output">Jekyll::Page#output</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1745,21 +1739,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Excerpt#ext">Jekyll::Excerpt#ext</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#write">Jekyll::Site#write</span>
+          <span title="Jekyll::Site#setup">Jekyll::Site#setup</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1787,35 +1767,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Excerpt#id">Jekyll::Excerpt#id</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#posts">Jekyll::Site#posts</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#setup">Jekyll::Site#setup</span>
+          <span title="Jekyll::Site#write">Jekyll::Site#write</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1843,7 +1795,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Pager#page">Jekyll::Pager#page</span>
+          <span title="Jekyll::Page#pager">Jekyll::Page#pager</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Excerpt#id">Jekyll::Excerpt#id</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1871,7 +1837,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#pager">Jekyll::Page#pager</span>
+          <span title="Jekyll::Site#posts">Jekyll::Site#posts</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1885,77 +1851,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#path">Jekyll::Post#path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#safe">Jekyll::Site#safe</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#path">Jekyll::Page#path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#date">Jekyll::Post#date</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#time">Jekyll::Site#time</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#name">Jekyll::Post#name</span>
+          <span title="Jekyll::Pager#page">Jekyll::Pager#page</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1983,35 +1879,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#tags">Jekyll::Site#tags</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#read">Jekyll::Site#read</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#site">Jekyll::Page#site</span>
+          <span title="Jekyll::Post#slug">Jekyll::Post#slug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2039,7 +1907,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#name">Jekyll::Page#name</span>
+          <span title="Jekyll::Page#path">Jekyll::Page#path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#read">Jekyll::Site#read</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#date">Jekyll::Post#date</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#site">Jekyll::Page#site</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2067,7 +1977,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#site">Jekyll::Post#site</span>
+          <span title="Jekyll::Site#data">Jekyll::Site#data</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#tags">Jekyll::Site#tags</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#time">Jekyll::Site#time</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#name">Jekyll::Page#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#path">Jekyll::Post#path</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2109,7 +2075,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#slug">Jekyll::Post#slug</span>
+          <span title="Jekyll::Post#site">Jekyll::Post#site</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2123,7 +2089,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#data">Jekyll::Site#data</span>
+          <span title="Jekyll::Site#safe">Jekyll::Site#safe</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2137,35 +2103,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#lsi">Jekyll::Site#lsi</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#url">Jekyll::Post#url</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#dir">Jekyll::Page#dir</span>
+          <span title="Jekyll::Post#name">Jekyll::Post#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2193,7 +2131,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#ext">Jekyll::Post#ext</span>
+          <span title="Jekyll::URL#to_s">Jekyll::URL#to_s</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#url">Jekyll::Post#url</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2221,7 +2173,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::URL#to_s">Jekyll::URL#to_s</span>
+          <span title="Jekyll::Page#dir">Jekyll::Page#dir</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#lsi">Jekyll::Site#lsi</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#ext">Jekyll::Post#ext</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2403,6 +2383,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Convertible#to_liquid">Jekyll::Convertible#to_liquid</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Page#url_placeholders">Jekyll::Page#url_placeholders</span>
         </td>
         <td>
@@ -2418,20 +2412,6 @@
         </td>
         <td class="path">
           <span title="Jekyll::Site#permalink_style=">Jekyll::Site#permalink_style=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Convertible#to_liquid">Jekyll::Convertible#to_liquid</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2501,20 +2481,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#relative_path">Jekyll::Post#relative_path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Page#relative_path">Jekyll::Page#relative_path</span>
         </td>
         <td>
@@ -2543,7 +2509,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#highlighter=">Jekyll::Site#highlighter=</span>
+          <span title="Jekyll::Post#relative_path">Jekyll::Post#relative_path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::RelatedPosts.lsi=">Jekyll::RelatedPosts.lsi=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2558,6 +2538,20 @@
         </td>
         <td class="path">
           <span title="Jekyll::Site#limit_posts=">Jekyll::Site#limit_posts=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#highlighter=">Jekyll::Site#highlighter=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2599,7 +2593,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::RelatedPosts.lsi=">Jekyll::RelatedPosts.lsi=</span>
+          <span title="Jekyll::Excerpt#content=">Jekyll::Excerpt#content=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2627,7 +2621,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#keep_files=">Jekyll::Site#keep_files=</span>
+          <span title="Jekyll::Site#converters=">Jekyll::Site#converters=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2655,48 +2649,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#generators=">Jekyll::Site#generators=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Excerpt#content=">Jekyll::Excerpt#content=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#converters=">Jekyll::Site#converters=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Site#categories=">Jekyll::Site#categories=</span>
         </td>
         <td>
@@ -2711,7 +2663,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Excerpt#output=">Jekyll::Excerpt#output=</span>
+          <span title="Jekyll::Site#generators=">Jekyll::Site#generators=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#keep_files=">Jekyll::Site#keep_files=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2739,7 +2705,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#basename=">Jekyll::Page#basename=</span>
+          <span title="Jekyll::Excerpt#output=">Jekyll::Excerpt#output=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2767,49 +2733,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#baseurl=">Jekyll::Site#baseurl=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#layouts=">Jekyll::Site#layouts=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#plugins=">Jekyll::Site#plugins=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Excerpt#post=">Jekyll::Excerpt#post=</span>
+          <span title="Jekyll::Page#basename=">Jekyll::Page#basename=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2837,7 +2761,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#content=">Jekyll::Page#content=</span>
+          <span title="Jekyll::Site#exclude=">Jekyll::Site#exclude=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2865,7 +2789,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#exclude=">Jekyll::Site#exclude=</span>
+          <span title="Jekyll::Site#plugins=">Jekyll::Site#plugins=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#baseurl=">Jekyll::Site#baseurl=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#content=">Jekyll::Page#content=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#layouts=">Jekyll::Site#layouts=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Excerpt#post=">Jekyll::Excerpt#post=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2880,6 +2860,48 @@
         </td>
         <td class="path">
           <span title="Jekyll::Page#output=">Jekyll::Page#output=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Excerpt#ext=">Jekyll::Excerpt#ext=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#source=">Jekyll::Site#source=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#config=">Jekyll::Site#config=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2921,34 +2943,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Excerpt#ext=">Jekyll::Excerpt#ext=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#config=">Jekyll::Site#config=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Layout#data=">Jekyll::Layout#data=</span>
         </td>
         <td>
@@ -2963,21 +2957,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#source=">Jekyll::Site#source=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#pager=">Jekyll::Page#pager=</span>
+          <span title="Jekyll::Layout#name">Jekyll::Layout#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3005,7 +2985,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#posts=">Jekyll::Site#posts=</span>
+          <span title="Jekyll::Page#pager=">Jekyll::Page#pager=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3033,7 +3013,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Layout#name">Jekyll::Layout#name</span>
+          <span title="Jekyll::Site#posts=">Jekyll::Site#posts=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3075,7 +3055,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#tags=">Jekyll::Post#tags=</span>
+          <span title="Jekyll::Site#safe=">Jekyll::Site#safe=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3103,105 +3083,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#name=">Jekyll::Page#name=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#dest=">Jekyll::Site#dest=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#data=">Jekyll::Site#data=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Site#gems=">Jekyll::Site#gems=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#slug=">Jekyll::Post#slug=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#tags=">Jekyll::Site#tags=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#date=">Jekyll::Post#date=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#site=">Jekyll::Page#site=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3229,7 +3111,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#data=">Jekyll::Post#data=</span>
+          <span title="Jekyll::Site#tags=">Jekyll::Site#tags=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3243,7 +3125,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#safe=">Jekyll::Site#safe=</span>
+          <span title="Jekyll::Site#dest=">Jekyll::Site#dest=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3271,6 +3153,62 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Page#name=">Jekyll::Page#name=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#data=">Jekyll::Site#data=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#tags=">Jekyll::Post#tags=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#data=">Jekyll::Post#data=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Page#data=">Jekyll::Page#data=</span>
         </td>
         <td>
@@ -3285,7 +3223,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#ext=">Jekyll::Post#ext=</span>
+          <span title="Jekyll::Post#date=">Jekyll::Post#date=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3299,7 +3237,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#dir=">Jekyll::Page#dir=</span>
+          <span title="Jekyll::Post#slug=">Jekyll::Post#slug=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Page#site=">Jekyll::Page#site=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Site#lsi=">Jekyll::Site#lsi=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3327,7 +3293,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#lsi=">Jekyll::Site#lsi=</span>
+          <span title="Jekyll::Page#dir=">Jekyll::Page#dir=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Post#ext=">Jekyll::Post#ext=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3411,20 +3391,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Commands::Build.build">Jekyll::Commands::Build.build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Commands::Build.watch">Jekyll::Commands::Build.watch</span>
         </td>
         <td>
@@ -3439,7 +3405,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#read_directories">Jekyll::Site#read_directories</span>
+          <span title="Jekyll::Commands::Build.build">Jekyll::Commands::Build.build</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3467,7 +3433,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Command.process_site">Jekyll::Command.process_site</span>
+          <span title="Jekyll::Site#read_directories">Jekyll::Site#read_directories</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3482,6 +3448,20 @@
         </td>
         <td class="path">
           <span title="Jekyll::Stevenson#abort_with">Jekyll::Stevenson#abort_with</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Command.process_site">Jekyll::Command.process_site</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3565,7 +3545,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Stevenson#debug">Jekyll::Stevenson#debug</span>
+          <span title="Jekyll::Site#read_posts">Jekyll::Site#read_posts</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3579,7 +3559,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site#read_posts">Jekyll::Site#read_posts</span>
+          <span title="Jekyll::Stevenson#debug">Jekyll::Stevenson#debug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3607,7 +3587,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Layout#process">Jekyll::Layout#process</span>
+          <span title="Jekyll::Stevenson#warn">Jekyll::Stevenson#warn</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3621,7 +3601,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Stevenson#warn">Jekyll::Stevenson#warn</span>
+          <span title="Jekyll::Layout#process">Jekyll::Layout#process</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3649,7 +3629,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#process">Jekyll::Post#process</span>
+          <span title="Jekyll::Page#process">Jekyll::Page#process</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3663,7 +3643,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#process">Jekyll::Page#process</span>
+          <span title="Jekyll::Post#process">Jekyll::Post#process</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3709,20 +3689,6 @@
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Excerpt#extract_excerpt">Jekyll::Excerpt#extract_excerpt</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
         </td>
       </tr>
     
@@ -3793,216 +3759,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::HighlightBlock::SYNTAX">Jekyll::Tags::HighlightBlock::SYNTAX</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page::ATTRIBUTES_FOR_LIQUID">Jekyll::Page::ATTRIBUTES_FOR_LIQUID</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post::ATTRIBUTES_FOR_LIQUID">Jekyll::Post::ATTRIBUTES_FOR_LIQUID</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Configuration::DEFAULTS">Jekyll::Configuration::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Draft::MATCHER">Jekyll::Draft::MATCHER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post::MATCHER">Jekyll::Post::MATCHER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Pager.pagination_enabled?">Jekyll::Pager.pagination_enabled?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Convertible#published?">Jekyll::Convertible#published?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::StaticFile#modified?">Jekyll::StaticFile#modified?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#index?">Jekyll::Page#index?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Page#html?">Jekyll::Page#html?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Pager.pagination_candidate?">Jekyll::Pager.pagination_candidate?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Excerpt#include?">Jekyll::Excerpt#include?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post.valid?">Jekyll::Post.valid?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Draft.valid?">Jekyll::Draft.valid?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
         </td>
       </tr>
     
@@ -4092,7 +3848,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 21 more ...</a>
+          <a href="#" onclick="showMore('B'); return false;">Show 20 more ...</a>
         </td>
       </tr>
     
@@ -4104,7 +3860,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Layout#initialize">Jekyll::Layout#initialize</span>
+          <span title="Jekyll::Plugin#initialize">Jekyll::Plugin#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4118,7 +3874,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Plugin#initialize">Jekyll::Plugin#initialize</span>
+          <span title="Jekyll::Layout#initialize">Jekyll::Layout#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4216,7 +3972,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#render">Jekyll::Page#render</span>
+          <span title="Jekyll::Post#render">Jekyll::Post#render</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4230,7 +3986,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#render">Jekyll::Post#render</span>
+          <span title="Jekyll::Page#render">Jekyll::Page#render</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4377,20 +4133,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#glob_include?">Jekyll::EntryFilter#glob_include?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -4497,6 +4239,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Post">Jekyll::Post</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Page">Jekyll::Page</span>
         </td>
         <td>
@@ -4518,24 +4274,10 @@
         </td>
       </tr>
     
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post">Jekyll::Post</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 173 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 143 more ...</a>
         </td>
       </tr>
     
@@ -4701,7 +4443,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converters::Markdown::RedcarpetParser#initialize">Jekyll:: <em>&hellip;</em> ::RedcarpetParser#initialize</span>
+          <span title="Jekyll::Converters::Markdown::RDiscountParser#initialize">Jekyll:: <em>&hellip;</em> ::RDiscountParser#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4729,21 +4471,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converters::Markdown::RDiscountParser#initialize">Jekyll:: <em>&hellip;</em> ::RDiscountParser#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Commands::Doctor.deprecated_relative_permalinks">Jekyll::Commands::Doctor.deprecated_relative_permalinks</span>
+          <span title="Jekyll::Converters::Markdown::RedcarpetParser#initialize">Jekyll:: <em>&hellip;</em> ::RedcarpetParser#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4771,7 +4499,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converters::Markdown::RDiscountParser#convert">Jekyll::Converters::Markdown::RDiscountParser#convert</span>
+          <span title="Jekyll::Commands::Doctor.deprecated_relative_permalinks">Jekyll::Commands::Doctor.deprecated_relative_permalinks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4800,6 +4528,20 @@
         </td>
         <td class="path">
           <span title="Jekyll::Converters::Markdown::MarukuParser#initialize">Jekyll::Converters::Markdown::MarukuParser#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Converters::Markdown::RDiscountParser#convert">Jekyll::Converters::Markdown::RDiscountParser#convert</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4883,20 +4625,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Sass#sass_dir_relative_to_site_source">Jekyll::Sass#sass_dir_relative_to_site_source</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Converters::Markdown::RDiscountParser">Jekyll::Converters::Markdown::RDiscountParser</span>
         </td>
         <td>
@@ -4926,6 +4654,20 @@
         </td>
         <td class="path">
           <span title="Jekyll::Sass#sass_build_configuration_options">Jekyll::Sass#sass_build_configuration_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Sass#sass_dir_relative_to_site_source">Jekyll::Sass#sass_dir_relative_to_site_source</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4995,20 +4737,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Tags::HighlightBlock#add_code_tags">Jekyll::Tags::HighlightBlock#add_code_tags</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Converters::Markdown::MarukuParser">Jekyll::Converters::Markdown::MarukuParser</span>
         </td>
         <td>
@@ -5023,7 +4751,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Tags::HighlightBlock#render_rouge">Jekyll::Tags::HighlightBlock#render_rouge</span>
+          <span title="Jekyll::Tags::HighlightBlock#add_code_tags">Jekyll::Tags::HighlightBlock#add_code_tags</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Commands::Doctor.conflicting_urls">Jekyll::Commands::Doctor.conflicting_urls</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5051,7 +4793,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Commands::Doctor.conflicting_urls">Jekyll::Commands::Doctor.conflicting_urls</span>
+          <span title="Jekyll::Tags::HighlightBlock#render_rouge">Jekyll::Tags::HighlightBlock#render_rouge</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5135,35 +4877,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Commands::Serve.webrick_options">Jekyll::Commands::Serve.webrick_options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Converters::Identity#output_ext">Jekyll::Converters::Identity#output_ext</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Configuration#fix_common_issues">Jekyll::Configuration#fix_common_issues</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5191,7 +4905,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::RelatedPosts#lsi_related_posts">Jekyll::RelatedPosts#lsi_related_posts</span>
+          <span title="Jekyll::Configuration#fix_common_issues">Jekyll::Configuration#fix_common_issues</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Commands::Serve.webrick_options">Jekyll::Commands::Serve.webrick_options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5219,6 +4947,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Deprecator.deprecation_message">Jekyll::Deprecator.deprecation_message</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::RelatedPosts#most_recent_posts">Jekyll::RelatedPosts#most_recent_posts</span>
         </td>
         <td>
@@ -5233,7 +4975,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Deprecator.deprecation_message">Jekyll::Deprecator.deprecation_message</span>
+          <span title="Jekyll::RelatedPosts#lsi_related_posts">Jekyll::RelatedPosts#lsi_related_posts</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5261,7 +5003,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converters::Textile#output_ext">Jekyll::Converters::Textile#output_ext</span>
+          <span title="Jekyll::Tags::IncludeTag#validate_path">Jekyll::Tags::IncludeTag#validate_path</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5275,7 +5017,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Tags::IncludeTag#validate_path">Jekyll::Tags::IncludeTag#validate_path</span>
+          <span title="Jekyll::Converters::Textile#output_ext">Jekyll::Converters::Textile#output_ext</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5303,7 +5045,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Tags::IncludeTag#parse_params">Jekyll::Tags::IncludeTag#parse_params</span>
+          <span title="Jekyll::Page#uses_relative_permalinks">Jekyll::Page#uses_relative_permalinks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5317,7 +5059,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Page#uses_relative_permalinks">Jekyll::Page#uses_relative_permalinks</span>
+          <span title="Jekyll::Tags::IncludeTag#parse_params">Jekyll::Tags::IncludeTag#parse_params</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5345,34 +5087,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Configuration#safe_load_file">Jekyll::Configuration#safe_load_file</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Converters::Identity#convert">Jekyll::Converters::Identity#convert</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Converters::Identity#matches">Jekyll::Converters::Identity#matches</span>
         </td>
         <td>
@@ -5387,7 +5101,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Configuration#safe_load_file">Jekyll::Configuration#safe_load_file</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Converters::Markdown#matches">Jekyll::Converters::Markdown#matches</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Converters::Identity#convert">Jekyll::Converters::Identity#convert</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5443,6 +5185,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Sass#syntax_type_of_content">Jekyll::Sass#syntax_type_of_content</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Tags::IncludeTag#initialize">Jekyll::Tags::IncludeTag#initialize</span>
         </td>
         <td>
@@ -5458,20 +5214,6 @@
         </td>
         <td class="path">
           <span title="Jekyll::Tags::HighlightBlock#render">Jekyll::Tags::HighlightBlock#render</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Sass#syntax_type_of_content">Jekyll::Sass#syntax_type_of_content</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5541,7 +5283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Site::Cleaner#initialize">Jekyll::Site::Cleaner#initialize</span>
+          <span title="Jekyll::Post#populate_categories">Jekyll::Post#populate_categories</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5555,7 +5297,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Commands::Doctor.process">Jekyll::Commands::Doctor.process</span>
+          <span title="Jekyll::Site::Cleaner#initialize">Jekyll::Site::Cleaner#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5583,20 +5325,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#populate_categories">Jekyll::Post#populate_categories</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Deprecator.no_subcommand">Jekyll::Deprecator.no_subcommand</span>
         </td>
         <td>
@@ -5611,7 +5339,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Commands::Doctor.process">Jekyll::Commands::Doctor.process</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Tags::PostUrl#initialize">Jekyll::Tags::PostUrl#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Commands::Build.process">Jekyll::Commands::Build.process</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::LayoutReader#initialize">Jekyll::LayoutReader#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5653,20 +5423,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Commands::Build.process">Jekyll::Commands::Build.process</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Commands::Serve.process">Jekyll::Commands::Serve.process</span>
         </td>
         <td>
@@ -5681,7 +5437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::LayoutReader#initialize">Jekyll::LayoutReader#initialize</span>
+          <span title="Jekyll::EntryFilter#initialize">Jekyll::EntryFilter#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5696,20 +5452,6 @@
         </td>
         <td class="path">
           <span title="Jekyll::Generators::Pagination">Jekyll::Generators::Pagination</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#initialize">Jekyll::EntryFilter#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5751,35 +5493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::StaticFile#to_liquid">Jekyll::StaticFile#to_liquid</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Converters::Identity">Jekyll::Converters::Identity</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::RelatedPosts#display">Jekyll::RelatedPosts#display</span>
+          <span title="Jekyll::Tags::HighlightBlock">Jekyll::Tags::HighlightBlock</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5807,6 +5521,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Converters::Identity">Jekyll::Converters::Identity</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Tags::PostUrl#render">Jekyll::Tags::PostUrl#render</span>
         </td>
         <td>
@@ -5821,7 +5549,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Tags::HighlightBlock">Jekyll::Tags::HighlightBlock</span>
+          <span title="Jekyll::StaticFile#to_liquid">Jekyll::StaticFile#to_liquid</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::RelatedPosts#display">Jekyll::RelatedPosts#display</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5863,48 +5605,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::RelatedPosts#build">Jekyll::RelatedPosts#build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#filter">Jekyll::EntryFilter#filter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::PostComparer">Jekyll::Tags::PostComparer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Deprecator.process">Jekyll::Deprecator.process</span>
         </td>
         <td>
@@ -5933,7 +5633,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::LayoutReader#read">Jekyll::LayoutReader#read</span>
+          <span title="Jekyll::Tags::PostComparer">Jekyll::Tags::PostComparer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::RelatedPosts#build">Jekyll::RelatedPosts#build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::EntryFilter#filter">Jekyll::EntryFilter#filter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5948,6 +5676,20 @@
         </td>
         <td class="path">
           <span title="Jekyll::Site#read_content">Jekyll::Site#read_content</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::LayoutReader#read">Jekyll::LayoutReader#read</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5989,7 +5731,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Tags::IncludeTag">Jekyll::Tags::IncludeTag</span>
+          <span title="Jekyll::Commands::Doctor">Jekyll::Commands::Doctor</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6003,7 +5745,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Commands::Doctor">Jekyll::Commands::Doctor</span>
+          <span title="Jekyll::Tags::IncludeTag">Jekyll::Tags::IncludeTag</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6087,35 +5829,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Configuration">Jekyll::Configuration</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Sass#sass_dir">Jekyll::Sass#sass_dir</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Commands::New">Jekyll::Commands::New</span>
+          <span title="Jekyll::Post#previous">Jekyll::Post#previous</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6143,7 +5857,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Tags::PostUrl">Jekyll::Tags::PostUrl</span>
+          <span title="Jekyll::Sass#sass_dir">Jekyll::Sass#sass_dir</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Configuration">Jekyll::Configuration</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Commands::New">Jekyll::Commands::New</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6171,20 +5913,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Post#previous">Jekyll::Post#previous</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Jekyll::Command.globs">Jekyll::Command.globs</span>
         </td>
         <td>
@@ -6199,35 +5927,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::RelatedPosts">Jekyll::RelatedPosts</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Sass#matches">Jekyll::Sass#matches</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::LayoutReader">Jekyll::LayoutReader</span>
+          <span title="Jekyll::Tags::PostUrl">Jekyll::Tags::PostUrl</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6255,7 +5955,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Convertible">Jekyll::Convertible</span>
+          <span title="Jekyll::Sass#matches">Jekyll::Sass#matches</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6269,7 +5969,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::EntryFilter">Jekyll::EntryFilter</span>
+          <span title="Jekyll::RelatedPosts">Jekyll::RelatedPosts</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::LayoutReader">Jekyll::LayoutReader</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Convertible">Jekyll::Convertible</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6297,7 +6025,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::StaticFile">Jekyll::StaticFile</span>
+          <span title="Jekyll::EntryFilter">Jekyll::EntryFilter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6325,7 +6053,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Jekyll::Converter">Jekyll::Converter</span>
+          <span title="Jekyll::StaticFile">Jekyll::StaticFile</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6353,7 +6081,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Jekyll::Converter">Jekyll::Converter</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Jekyll::Stevenson">Jekyll::Stevenson</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Command">Jekyll::Command</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Jekyll::Excerpt">Jekyll::Excerpt</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6382,34 +6152,6 @@
         </td>
         <td class="path">
           <span title="Jekyll::Filters">Jekyll::Filters</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Excerpt">Jekyll::Excerpt</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Command">Jekyll::Command</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6542,426 +6284,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post::EXCERPT_ATTRIBUTES_FOR_LIQUID">Jekyll::Post::EXCERPT_ATTRIBUTES_FOR_LIQUID</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::IncludeTag::VARIABLE_SYNTAX">Jekyll::Tags::IncludeTag::VARIABLE_SYNTAX</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::IncludeTag::SYNTAX_EXAMPLE">Jekyll::Tags::IncludeTag::SYNTAX_EXAMPLE</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::IncludeTag::VALID_SYNTAX">Jekyll::Tags::IncludeTag::VALID_SYNTAX</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::IncludeTag::INCLUDES_DIR">Jekyll::Tags::IncludeTag::INCLUDES_DIR</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::PostComparer::MATCHER">Jekyll::Tags::PostComparer::MATCHER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Plugin::PRIORITIES">Jekyll::Plugin::PRIORITIES</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Stevenson::ERROR">Jekyll::Stevenson::ERROR</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Stevenson::DEBUG">Jekyll::Stevenson::DEBUG</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Stevenson::INFO">Jekyll::Stevenson::INFO</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Stevenson::WARN">Jekyll::Stevenson::WARN</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::VERSION">Jekyll::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::IncludeTag#realpath_prefixed_with?">Jekyll::Tags::IncludeTag#realpath_prefixed_with?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Deprecator.arg_is_present?">Jekyll::Deprecator.arg_is_present?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Commands::Doctor.healthy?">Jekyll::Commands::Doctor.healthy?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags::IncludeTag#blank?">Jekyll::Tags::IncludeTag#blank?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#excluded?">Jekyll::EntryFilter#excluded?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#included?">Jekyll::EntryFilter#included?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#special?">Jekyll::EntryFilter#special?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#symlink?">Jekyll::EntryFilter#symlink?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Site#plugin_allowed?">Jekyll::Site#plugin_allowed?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::EntryFilter#backup?">Jekyll::EntryFilter#backup?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Sass#allow_caching?">Jekyll::Sass#allow_caching?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::FatalException">Jekyll::FatalException</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Converters">Jekyll::Converters</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Generators">Jekyll::Generators</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Generator">Jekyll::Generator</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Commands">Jekyll::Commands</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Tags">Jekyll::Tags</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Jekyll::Post#generate_excerpt?">Jekyll::Post#generate_excerpt?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/S.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -7000,9 +6322,6 @@
     </div>
   </div>
 </div>
-<!--
-  [![Inline docs](http://inch-pages.github.io/github/jekyll/jekyll.png)](http://inch-pages.github.io/github/jekyll/jekyll)
--->
 <!--
 Add docs badge to README
 
