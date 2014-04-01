@@ -96,17 +96,17 @@
         Simple, efficient background processing for Ruby
         
           &ndash;
-          <a target="_blank" href="http://rubydoc.info/gems/sidekiq/2.17.7/frames">Read the documentation</a>
+          <a target="_blank" href="http://rubydoc.info/gems/sidekiq/3.0.0/frames">Read the documentation</a>
         
       </p>
     </div>
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 25%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 27%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 5%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 71%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 68%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 68 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 71 more ...</a>
         </td>
       </tr>
     
@@ -241,7 +241,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::Chain#entries">Sidekiq::Middleware::Chain#entries</span>
+          <span title="Sidekiq::Extensions::DelayedMailer">Sidekiq::Extensions::DelayedMailer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -255,7 +255,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Extensions::DelayedMailer">Sidekiq::Extensions::DelayedMailer</span>
+          <span title="Sidekiq::Middleware::Chain#entries">Sidekiq::Middleware::Chain#entries</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -283,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::I18n::Client">Sidekiq::Middleware::I18n::Client</span>
+          <span title="Sidekiq::Middleware::I18n::Server">Sidekiq::Middleware::I18n::Server</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -297,7 +297,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::I18n::Server">Sidekiq::Middleware::I18n::Server</span>
+          <span title="Sidekiq::Middleware::I18n::Client">Sidekiq::Middleware::I18n::Client</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -353,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Testing.__test_mode">Sidekiq::Testing.__test_mode</span>
+          <span title="Sidekiq::Logging.reopen_logs">Sidekiq::Logging.reopen_logs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -367,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Logging.reopen_logs">Sidekiq::Logging.reopen_logs</span>
+          <span title="Sidekiq::Testing.__test_mode">Sidekiq::Testing.__test_mode</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -409,7 +409,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Scheduled::Poller">Sidekiq::Scheduled::Poller</span>
+          <span title="Sidekiq::Client#redis_pool">Sidekiq::Client#redis_pool</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -437,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Launcher#fetcher">Sidekiq::Launcher#fetcher</span>
+          <span title="Sidekiq::Scheduled::Poller">Sidekiq::Scheduled::Poller</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -452,6 +452,20 @@
         </td>
         <td class="path">
           <span title="Sidekiq::Launcher#manager">Sidekiq::Launcher#manager</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Launcher#fetcher">Sidekiq::Launcher#fetcher</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -549,21 +563,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Manager#busy">Sidekiq::Manager#busy</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::ScheduledSet">Sidekiq::ScheduledSet</span>
+          <span title="Sidekiq.error_handlers">Sidekiq.error_handlers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -605,7 +605,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Worker#jid">Sidekiq::Worker#jid</span>
+          <span title="Sidekiq::Manager#busy">Sidekiq::Manager#busy</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::ScheduledSet">Sidekiq::ScheduledSet</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -620,6 +634,20 @@
         </td>
         <td class="path">
           <span title="Sidekiq::ProcessSet">Sidekiq::ProcessSet</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Worker#jid">Sidekiq::Worker#jid</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -661,20 +689,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::RetrySet">Sidekiq::RetrySet</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Job#item">Sidekiq::Job#item</span>
         </td>
         <td>
@@ -690,6 +704,20 @@
         </td>
         <td class="path">
           <span title="Sidekiq::Launcher">Sidekiq::Launcher</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::RetrySet">Sidekiq::RetrySet</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -801,7 +829,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Worker::ClassMethods#clear">Sidekiq::Worker::ClassMethods#clear</span>
+          <span title="Sidekiq::Worker::ClassMethods#drain">Sidekiq::Worker::ClassMethods#drain</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -815,7 +843,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Worker::ClassMethods#drain">Sidekiq::Worker::ClassMethods#drain</span>
+          <span title="Sidekiq::Worker::ClassMethods#clear">Sidekiq::Worker::ClassMethods#clear</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -899,21 +927,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Manager#fetcher=">Sidekiq::Manager#fetcher=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Worker.clear_all">Sidekiq::Worker.clear_all</span>
+          <span title="Sidekiq::Client#redis_pool=">Sidekiq::Client#redis_pool=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -941,7 +955,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::Manager#fetcher=">Sidekiq::Manager#fetcher=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::CLI#environment=">Sidekiq::CLI#environment=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Worker.clear_all">Sidekiq::Worker.clear_all</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1220,7 +1262,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Client.enqueue_in">Sidekiq::Client.enqueue_in</span>
+          <span title="Sidekiq.on">Sidekiq.on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1234,7 +1276,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Client.enqueue_to">Sidekiq::Client.enqueue_to</span>
+          <span title="Sidekiq::Client.enqueue_in">Sidekiq::Client.enqueue_in</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1244,10 +1286,24 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 8 more ...</a>
+          <a href="#" onclick="showMore('B'); return false;">Show 11 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Client.enqueue_to">Sidekiq::Client.enqueue_to</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -1284,7 +1340,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::Client#initialize">Sidekiq::Client#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Client#push">Sidekiq::Client#push</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Client.via">Sidekiq::Client.via</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1491,7 +1575,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 214 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 198 more ...</a>
         </td>
       </tr>
     
@@ -1517,7 +1601,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Extensions::ActiveRecord#sidekiq_delay_until">Sidekiq::Extensions::ActiveRecord#sidekiq_delay_until</span>
+          <span title="Sidekiq::Extensions::ActionMailer#sidekiq_delay_until">Sidekiq::Extensions::ActionMailer#sidekiq_delay_until</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1531,7 +1615,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Extensions::ActionMailer#sidekiq_delay_until">Sidekiq::Extensions::ActionMailer#sidekiq_delay_until</span>
+          <span title="Sidekiq::Extensions::ActiveRecord#sidekiq_delay_until">Sidekiq::Extensions::ActiveRecord#sidekiq_delay_until</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1643,6 +1727,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::Middleware::I18n::Client#call">Sidekiq::Middleware::I18n::Client#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Middleware::Chain#invoke">Sidekiq::Middleware::Chain#invoke</span>
         </td>
         <td>
@@ -1657,7 +1755,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::SortedSet#clear">Sidekiq::SortedSet#clear</span>
+          <span title="Sidekiq::Web.custom_tabs">Sidekiq::Web.custom_tabs</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1671,7 +1769,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Web.custom_tabs">Sidekiq::Web.custom_tabs</span>
+          <span title="Sidekiq::SortedSet#clear">Sidekiq::SortedSet#clear</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1727,7 +1825,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::Server::ActiveRecord#call">Sidekiq::Middleware::Server::ActiveRecord#call</span>
+          <span title="Sidekiq::Worker::ClassMethods#sidekiq_retry_in">Sidekiq::Worker::ClassMethods#sidekiq_retry_in</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1741,7 +1839,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Worker::ClassMethods#sidekiq_retry_in">Sidekiq::Worker::ClassMethods#sidekiq_retry_in</span>
+          <span title="Sidekiq::Middleware::Server::ActiveRecord#call">Sidekiq::Middleware::Server::ActiveRecord#call</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1853,7 +1951,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Actor::ClassMethods#new_link">Sidekiq::Actor::ClassMethods#new_link</span>
+          <span title="Sidekiq::Middleware::Entry#initialize">Sidekiq::Middleware::Entry#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1867,7 +1965,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::Entry#initialize">Sidekiq::Middleware::Entry#initialize</span>
+          <span title="Sidekiq::Actor::ClassMethods#new_link">Sidekiq::Actor::ClassMethods#new_link</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1895,7 +1993,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::SortedEntry#reschedule">Sidekiq::SortedEntry#reschedule</span>
+          <span title="Sidekiq::Middleware::Chain#each">Sidekiq::Middleware::Chain#each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1909,7 +2007,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::Chain#each">Sidekiq::Middleware::Chain#each</span>
+          <span title="Sidekiq::SortedEntry#reschedule">Sidekiq::SortedEntry#reschedule</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1979,20 +2077,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Stats#reset">Sidekiq::Stats#reset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::JobSet#each">Sidekiq::JobSet#each</span>
         </td>
         <td>
@@ -2007,7 +2091,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Util#redis">Sidekiq::Util#redis</span>
+          <span title="Sidekiq::Stats#reset">Sidekiq::Stats#reset</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2022,6 +2106,20 @@
         </td>
         <td class="path">
           <span title="Sidekiq::Queue#each">Sidekiq::Queue#each</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Util#redis">Sidekiq::Util#redis</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2063,20 +2161,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq.on">Sidekiq.on</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Middleware::Server::RetryJobs#initialize">Sidekiq::Middleware::Server::RetryJobs#initialize</span>
         </td>
         <td>
@@ -2105,35 +2189,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Extensions::ActionMailer#delay_until">Sidekiq::Extensions::ActionMailer#delay_until</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Actor::InstanceMethods#current_actor">Sidekiq::Actor::InstanceMethods#current_actor</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::ActiveRecord#delay_until">Sidekiq::Extensions::ActiveRecord#delay_until</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2161,7 +2217,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Extensions::ActionMailer#delay_for">Sidekiq::Extensions::ActionMailer#delay_for</span>
+          <span title="Sidekiq::Middleware::Server::RetryJobs#call">Sidekiq::Middleware::Server::RetryJobs#call</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2176,34 +2232,6 @@
         </td>
         <td class="path">
           <span title="Sidekiq::Middleware::Server::Logging#logger">Sidekiq::Middleware::Server::Logging#logger</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::ActiveRecord#delay_for">Sidekiq::Extensions::ActiveRecord#delay_for</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Middleware::Server::RetryJobs#call">Sidekiq::Middleware::Server::RetryJobs#call</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2246,20 +2274,6 @@
         </td>
         <td class="path">
           <span title="Sidekiq::Middleware::Server::Logging#call">Sidekiq::Middleware::Server::Logging#call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::WebHelpers#number_with_delimiter">Sidekiq::WebHelpers#number_with_delimiter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2329,35 +2343,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Worker::ClassMethods#perform_at">Sidekiq::Worker::ClassMethods#perform_at</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::ActionMailer#delay">Sidekiq::Extensions::ActionMailer#delay</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::ActiveRecord#delay">Sidekiq::Extensions::ActiveRecord#delay</span>
+          <span title="Sidekiq::WebHelpers#number_with_delimiter">Sidekiq::WebHelpers#number_with_delimiter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2385,20 +2371,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Extensions::Klass#delay_until">Sidekiq::Extensions::Klass#delay_until</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::WebHelpers#retries_with_score">Sidekiq::WebHelpers#retries_with_score</span>
         </td>
         <td>
@@ -2413,21 +2385,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::I18n::Client#call">Sidekiq::Middleware::I18n::Client#call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::Proxy#initialize">Sidekiq::Extensions::Proxy#initialize</span>
+          <span title="Sidekiq::Actor::InstanceMethods#defer">Sidekiq::Actor::InstanceMethods#defer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2455,7 +2413,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Actor::InstanceMethods#defer">Sidekiq::Actor::InstanceMethods#defer</span>
+          <span title="Sidekiq::Extensions::Proxy#initialize">Sidekiq::Extensions::Proxy#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2497,35 +2455,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::Server::Logging">Sidekiq::Middleware::Server::Logging</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::Klass#delay_for">Sidekiq::Extensions::Klass#delay_for</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::WebHelpers#redis_connection">Sidekiq::WebHelpers#redis_connection</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Middleware::Server::Logging">Sidekiq::Middleware::Server::Logging</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2567,20 +2511,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Stats::History#initialize">Sidekiq::Stats::History#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::WebHelpers#current_status">Sidekiq::WebHelpers#current_status</span>
         </td>
         <td>
@@ -2609,7 +2539,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::ExceptionHandler::Logger">Sidekiq::ExceptionHandler::Logger</span>
+          <span title="Sidekiq::Stats::History#initialize">Sidekiq::Stats::History#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2623,7 +2553,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Middleware::Chain#remove">Sidekiq::Middleware::Chain#remove</span>
+          <span title="Sidekiq::BasicFetch#retrieve_work">Sidekiq::BasicFetch#retrieve_work</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2637,7 +2567,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Launcher#start_heartbeat">Sidekiq::Launcher#start_heartbeat</span>
+          <span title="Sidekiq::Extensions::ActiveRecord">Sidekiq::Extensions::ActiveRecord</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::WebHelpers#relative_time">Sidekiq::WebHelpers#relative_time</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2679,7 +2623,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Extensions::ActiveRecord">Sidekiq::Extensions::ActiveRecord</span>
+          <span title="Sidekiq::Middleware::Chain#remove">Sidekiq::Middleware::Chain#remove</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2693,21 +2637,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::BasicFetch#retrieve_work">Sidekiq::BasicFetch#retrieve_work</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::WebHelpers#relative_time">Sidekiq::WebHelpers#relative_time</span>
+          <span title="Sidekiq::ExceptionHandler::Logger">Sidekiq::ExceptionHandler::Logger</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2735,91 +2665,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Launcher#stop_heartbeat">Sidekiq::Launcher#stop_heartbeat</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Logging::Pretty#context">Sidekiq::Logging::Pretty#context</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::Klass#delay">Sidekiq::Extensions::Klass#delay</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::WebHelpers#current_path">Sidekiq::WebHelpers#current_path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::WebHelpers#display_args">Sidekiq::WebHelpers#display_args</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Middleware::Chain#clear">Sidekiq::Middleware::Chain#clear</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::WebHelpers#parse_params">Sidekiq::WebHelpers#parse_params</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2847,7 +2693,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Scheduled::Poller#poll">Sidekiq::Scheduled::Poller#poll</span>
+          <span title="Sidekiq::WebHelpers#parse_params">Sidekiq::WebHelpers#parse_params</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2861,7 +2707,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::BasicFetch::UnitOfWork">Sidekiq::BasicFetch::UnitOfWork</span>
+          <span title="Sidekiq::WebHelpers#display_args">Sidekiq::WebHelpers#display_args</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::WebHelpers#current_path">Sidekiq::WebHelpers#current_path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Logging::Pretty#context">Sidekiq::Logging::Pretty#context</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::RedisConnection.create">Sidekiq::RedisConnection.create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2889,6 +2777,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq.default_worker_options=">Sidekiq.default_worker_options=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Manager#processor_died">Sidekiq::Manager#processor_died</span>
         </td>
         <td>
@@ -2903,7 +2805,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq.default_worker_options=">Sidekiq.default_worker_options=</span>
+          <span title="Sidekiq::BasicFetch::UnitOfWork">Sidekiq::BasicFetch::UnitOfWork</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2931,7 +2833,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::RedisConnection.create">Sidekiq::RedisConnection.create</span>
+          <span title="Sidekiq::Scheduled::Poller#poll">Sidekiq::Scheduled::Poller#poll</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq.default_worker_options">Sidekiq.default_worker_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::WebHelpers#get_locale">Sidekiq::WebHelpers#get_locale</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2987,49 +2917,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::WebHelpers#get_locale">Sidekiq::WebHelpers#get_locale</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq.default_worker_options">Sidekiq.default_worker_options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Processor#initialize">Sidekiq::Processor#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::WebHelpers#root_path">Sidekiq::WebHelpers#root_path</span>
+          <span title="Sidekiq::Client#raw_push_real">Sidekiq::Client#raw_push_real</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3071,6 +2959,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::Processor#initialize">Sidekiq::Processor#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::WebHelpers#root_path">Sidekiq::WebHelpers#root_path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Logging.with_context">Sidekiq::Logging.with_context</span>
         </td>
         <td>
@@ -3099,35 +3015,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Client#raw_push_real">Sidekiq::Client#raw_push_real</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::WebHelpers#truncate">Sidekiq::WebHelpers#truncate</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Launcher#initialize">Sidekiq::Launcher#initialize</span>
+          <span title="Sidekiq::WebHelpers#location">Sidekiq::WebHelpers#location</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3155,7 +3043,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::WebHelpers#location">Sidekiq::WebHelpers#location</span>
+          <span title="Sidekiq::WebHelpers#truncate">Sidekiq::WebHelpers#truncate</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3170,6 +3058,20 @@
         </td>
         <td class="path">
           <span title="Sidekiq::Launcher#actor_died">Sidekiq::Launcher#actor_died</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Launcher#initialize">Sidekiq::Launcher#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3211,7 +3113,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Manager#initialize">Sidekiq::Manager#initialize</span>
+          <span title="Sidekiq::WebHelpers#strings">Sidekiq::WebHelpers#strings</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3225,7 +3127,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::WebHelpers#strings">Sidekiq::WebHelpers#strings</span>
+          <span title="Sidekiq::Manager#initialize">Sidekiq::Manager#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3253,49 +3155,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::DeadSet#retry_all">Sidekiq::DeadSet#retry_all</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Middleware::Chain">Sidekiq::Middleware::Chain</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::SortedEntry#retry">Sidekiq::SortedEntry#retry</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Middleware::Entry">Sidekiq::Middleware::Entry</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Extensions::Proxy">Sidekiq::Extensions::Proxy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3323,7 +3197,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Manager#heartbeat">Sidekiq::Manager#heartbeat</span>
+          <span title="Sidekiq::Processor#inspect">Sidekiq::Processor#inspect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3337,7 +3211,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Processor#inspect">Sidekiq::Processor#inspect</span>
+          <span title="Sidekiq::Middleware::Entry">Sidekiq::Middleware::Entry</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3365,7 +3239,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::DeadSet#retry_all">Sidekiq::DeadSet#retry_all</span>
+          <span title="Sidekiq::Extensions::Proxy">Sidekiq::Extensions::Proxy</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::SortedEntry#retry">Sidekiq::SortedEntry#retry</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3393,7 +3281,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Web.default_tabs">Sidekiq::Web.default_tabs</span>
+          <span title="Sidekiq::Manager#heartbeat">Sidekiq::Manager#heartbeat</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3407,7 +3295,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Stats#retry_size">Sidekiq::Stats#retry_size</span>
+          <span title="Sidekiq::Web.default_tabs">Sidekiq::Web.default_tabs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3435,7 +3323,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::ExceptionHandler">Sidekiq::ExceptionHandler</span>
+          <span title="Sidekiq::WebHelpers#stats">Sidekiq::WebHelpers#stats</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3449,7 +3337,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::WebHelpers#stats">Sidekiq::WebHelpers#stats</span>
+          <span title="Sidekiq::ExceptionHandler">Sidekiq::ExceptionHandler</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3477,6 +3365,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::Stats#retry_size">Sidekiq::Stats#retry_size</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Logging.logger=">Sidekiq::Logging.logger=</span>
         </td>
         <td>
@@ -3491,35 +3393,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Logging::Pretty">Sidekiq::Logging::Pretty</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::RedisConnection">Sidekiq::RedisConnection</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Client#raw_push">Sidekiq::Client#raw_push</span>
+          <span title="Sidekiq::JobSet#schedule">Sidekiq::JobSet#schedule</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3575,20 +3449,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::JobSet#schedule">Sidekiq::JobSet#schedule</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Job#enqueued_at">Sidekiq::Job#enqueued_at</span>
         </td>
         <td>
@@ -3603,7 +3463,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::SortedSet#size">Sidekiq::SortedSet#size</span>
+          <span title="Sidekiq::RedisConnection">Sidekiq::RedisConnection</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3617,7 +3477,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::SortedEntry#at">Sidekiq::SortedEntry#at</span>
+          <span title="Sidekiq::Client#raw_push">Sidekiq::Client#raw_push</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3631,21 +3491,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Stats#enqueued">Sidekiq::Stats#enqueued</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Logging#logger">Sidekiq::Logging#logger</span>
+          <span title="Sidekiq::Logging::Pretty">Sidekiq::Logging::Pretty</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3673,35 +3519,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Manager#assign">Sidekiq::Manager#assign</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Client.default">Sidekiq::Client.default</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Job#initialize">Sidekiq::Job#initialize</span>
+          <span title="Sidekiq::SortedEntry#at">Sidekiq::SortedEntry#at</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3729,6 +3547,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::Logging#logger">Sidekiq::Logging#logger</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Client.default">Sidekiq::Client.default</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Queue#find_job">Sidekiq::Queue#find_job</span>
         </td>
         <td>
@@ -3743,7 +3589,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Util#hostname">Sidekiq::Util#hostname</span>
+          <span title="Sidekiq::SortedSet#size">Sidekiq::SortedSet#size</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3757,7 +3603,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq.error_handlers">Sidekiq.error_handlers</span>
+          <span title="Sidekiq::Job#initialize">Sidekiq::Job#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3771,7 +3617,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Queue#latency">Sidekiq::Queue#latency</span>
+          <span title="Sidekiq::Stats#enqueued">Sidekiq::Stats#enqueued</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Manager#assign">Sidekiq::Manager#assign</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3799,49 +3659,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Worker#logger">Sidekiq::Worker#logger</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::JobSet#delete">Sidekiq::JobSet#delete</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Manager#start">Sidekiq::Manager#start</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Launcher#stop">Sidekiq::Launcher#stop</span>
+          <span title="Sidekiq::Util#hostname">Sidekiq::Util#hostname</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3883,7 +3701,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Stats#queues">Sidekiq::Stats#queues</span>
+          <span title="Sidekiq::Launcher#stop">Sidekiq::Launcher#stop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Manager#start">Sidekiq::Manager#start</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::JobSet#delete">Sidekiq::JobSet#delete</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Worker#logger">Sidekiq::Worker#logger</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Queue#latency">Sidekiq::Queue#latency</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3925,20 +3799,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Stats#failed">Sidekiq::Stats#failed</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Manager#stop">Sidekiq::Manager#stop</span>
         </td>
         <td>
@@ -3954,6 +3814,34 @@
         </td>
         <td class="path">
           <span title="Sidekiq::WebHelpers#t">Sidekiq::WebHelpers#t</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Stats#failed">Sidekiq::Stats#failed</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Stats#queues">Sidekiq::Stats#queues</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3995,20 +3883,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::SortedEntry">Sidekiq::SortedEntry</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Client.push">Sidekiq::Client.push</span>
         </td>
         <td>
@@ -4037,7 +3911,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::SortedSet#💣">Sidekiq::SortedSet#💣</span>
+          <span title="Sidekiq::SortedEntry">Sidekiq::SortedEntry</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::BasicFetch">Sidekiq::BasicFetch</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4079,21 +3967,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::BasicFetch">Sidekiq::BasicFetch</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::CLI#parse">Sidekiq::CLI#parse</span>
+          <span title="Sidekiq::Job#klass">Sidekiq::Job#klass</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4135,7 +4009,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Paginator">Sidekiq::Paginator</span>
+          <span title="Sidekiq::CLI#parse">Sidekiq::CLI#parse</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4149,7 +4023,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Job#klass">Sidekiq::Job#klass</span>
+          <span title="Sidekiq.redis_pool">Sidekiq.redis_pool</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Paginator">Sidekiq::Paginator</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4177,35 +4065,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Job#args">Sidekiq::Job#args</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::Web.tabs">Sidekiq::Web.tabs</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq.dump_json">Sidekiq.dump_json</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Job#args">Sidekiq::Job#args</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4233,63 +4107,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Queue#💣">Sidekiq::Queue#💣</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::DeadSet">Sidekiq::DeadSet</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Sidekiq::Logging">Sidekiq::Logging</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq::CLI#run">Sidekiq::CLI#run</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Sidekiq.options=">Sidekiq.options=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4317,6 +4135,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Sidekiq::DeadSet">Sidekiq::DeadSet</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq.options=">Sidekiq.options=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Sidekiq::Job#jid">Sidekiq::Job#jid</span>
         </td>
         <td>
@@ -4331,7 +4177,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq.options">Sidekiq.options</span>
+          <span title="Sidekiq::CLI#run">Sidekiq::CLI#run</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sidekiq::Client">Sidekiq::Client</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4373,7 +4233,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Client">Sidekiq::Client</span>
+          <span title="Sidekiq.options">Sidekiq.options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4415,7 +4275,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq.redis=">Sidekiq.redis=</span>
+          <span title="Sidekiq::Actor">Sidekiq::Actor</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4429,7 +4289,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Sidekiq::Actor">Sidekiq::Actor</span>
+          <span title="Sidekiq.redis=">Sidekiq.redis=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
