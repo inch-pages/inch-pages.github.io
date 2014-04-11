@@ -53,7 +53,7 @@
       </div>
     -->
       <div class="container disclaimer">
-        Let's raise the visiblity of code documentation in Ruby!
+        Let's raise the visibility of code documentation in Ruby!
         
           
             <a href="#about">What is this about?</a>
@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 45%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 56%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 53%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 42%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -136,6 +136,20 @@
         </td>
         <td class="path">
           <span title="Concurrent">Concurrent</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ActorRef#post!">Concurrent::ActorRef#post!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -184,7 +198,15 @@
         </td>
       </tr>
     
-      <tr>
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('A'); return false;">Show 198 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-A">
             A
@@ -198,13 +220,47 @@
         </td>
       </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 142 more ...</a>
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::CopyOnNotifyObserverSet#add_observer">Concurrent::CopyOnNotifyObserverSet#add_observer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
     
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaThreadPoolExecutor#length">Concurrent::JavaThreadPoolExecutor#length</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#length">Concurrent::RubyThreadPoolExecutor#length</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -242,6 +298,20 @@
         </td>
         <td class="path">
           <span title="Concurrent::Dereferenceable#value">Concurrent::Dereferenceable#value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::SimpleActorRef#post!">Concurrent::SimpleActorRef#post!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -297,6 +367,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor#post">Concurrent::RubySingleThreadExecutor#post</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::RubyThreadPoolExecutor#post">Concurrent::RubyThreadPoolExecutor#post</span>
         </td>
         <td>
@@ -325,7 +409,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Promise#initialize">Concurrent::Promise#initialize</span>
+          <span title="Concurrent::TimerTask#kill">Concurrent::TimerTask#kill</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -339,7 +423,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::TimerTask#kill">Concurrent::TimerTask#kill</span>
+          <span title="Concurrent::ActorRef#post">Concurrent::ActorRef#post</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -409,7 +493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#completed_task_count">Concurrent::RubyThreadPoolExecutor#completed_task_count</span>
+          <span title="Concurrent::JavaThreadPoolExecutor#completed_task_count">Concurrent::JavaThreadPoolExecutor#completed_task_count</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -423,7 +507,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#scheduled_task_count">Concurrent::RubyThreadPoolExecutor#scheduled_task_count</span>
+          <span title="Concurrent::JavaThreadPoolExecutor#scheduled_task_count">Concurrent::JavaThreadPoolExecutor#scheduled_task_count</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#remaining_capacity">Concurrent::RubyThreadPoolExecutor#remaining_capacity</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaThreadPoolExecutor#remaining_capacity">Concurrent::JavaThreadPoolExecutor#remaining_capacity</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -479,7 +591,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#overflow_policy">Concurrent::RubyThreadPoolExecutor#overflow_policy</span>
+          <span title="Concurrent::JavaThreadPoolExecutor#overflow_policy">Concurrent::JavaThreadPoolExecutor#overflow_policy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -507,34 +619,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#overflow_policy">Concurrent::JavaThreadPoolExecutor#overflow_policy</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#largest_length">Concurrent::RubyThreadPoolExecutor#largest_length</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Supervisor::WorkerCounts#supervisors=">Concurrent::Supervisor::WorkerCounts#supervisors=</span>
         </td>
         <td>
@@ -549,7 +633,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::CopyOnNotifyObserverSet#add_observer">Concurrent::CopyOnNotifyObserverSet#add_observer</span>
+          <span title="Concurrent::JavaThreadPoolExecutor#largest_length">Concurrent::JavaThreadPoolExecutor#largest_length</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -577,7 +661,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::CopyOnWriteObserverSet#add_observer">Concurrent::CopyOnWriteObserverSet#add_observer</span>
+          <span title="Concurrent::JavaThreadPoolExecutor#queue_length">Concurrent::JavaThreadPoolExecutor#queue_length</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#queue_length">Concurrent::RubyThreadPoolExecutor#queue_length</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -592,6 +690,20 @@
         </td>
         <td class="path">
           <span title="Concurrent::Configuration#global_operation_pool">Concurrent::Configuration#global_operation_pool</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::CopyOnWriteObserverSet#add_observer">Concurrent::CopyOnWriteObserverSet#add_observer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -633,7 +745,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Supervisor::WorkerCounts#workers=">Concurrent::Supervisor::WorkerCounts#workers=</span>
+          <span title="Concurrent::Supervisor::WorkerContext#restart">Concurrent::Supervisor::WorkerContext#restart</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -661,7 +773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::CopyOnWriteObserverSet#initialize">Concurrent::CopyOnWriteObserverSet#initialize</span>
+          <span title="Concurrent::Supervisor::WorkerCounts#workers=">Concurrent::Supervisor::WorkerCounts#workers=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -675,7 +787,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Supervisor::WorkerContext#restart">Concurrent::Supervisor::WorkerContext#restart</span>
+          <span title="Concurrent::JavaThreadPoolExecutor#min_length">Concurrent::JavaThreadPoolExecutor#min_length</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -703,49 +815,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#min_length">Concurrent::RubyThreadPoolExecutor#min_length</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#max_queue">Concurrent::JavaThreadPoolExecutor#max_queue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#max_queue">Concurrent::RubyThreadPoolExecutor#max_queue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Condition::Result#remaining_time">Concurrent::Condition::Result#remaining_time</span>
+          <span title="Concurrent::CopyOnWriteObserverSet#initialize">Concurrent::CopyOnWriteObserverSet#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -773,7 +843,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::JavaThreadPoolExecutor#max_queue">Concurrent::JavaThreadPoolExecutor#max_queue</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Condition::Result#remaining_time">Concurrent::Condition::Result#remaining_time</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Supervisor::WorkerContext#worker">Concurrent::Supervisor::WorkerContext#worker</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaThreadPoolExecutor#idletime">Concurrent::JavaThreadPoolExecutor#idletime</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -801,35 +913,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#idletime">Concurrent::RubyThreadPoolExecutor#idletime</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Supervisor::WorkerContext#type=">Concurrent::Supervisor::WorkerContext#type=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Supervisor::WorkerCounts#specs">Concurrent::Supervisor::WorkerCounts#specs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -871,6 +955,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::Supervisor::WorkerCounts#specs">Concurrent::Supervisor::WorkerCounts#specs</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaSingleThreadExecutor#post">Concurrent::JavaSingleThreadExecutor#post</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::UnbufferedChannel#initialize">Concurrent::UnbufferedChannel#initialize</span>
         </td>
         <td>
@@ -885,7 +997,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Supervisor#monitor_interval">Concurrent::Supervisor#monitor_interval</span>
+          <span title="Concurrent::RubySingleThreadExecutor#<<">Concurrent::RubySingleThreadExecutor#<<</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -913,7 +1025,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#post">Concurrent::JavaThreadPoolExecutor#post</span>
+          <span title="Concurrent::Supervisor#monitor_interval">Concurrent::Supervisor#monitor_interval</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -927,7 +1039,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#<<">Concurrent::JavaThreadPoolExecutor#<<</span>
+          <span title="Concurrent::JavaSingleThreadExecutor#<<">Concurrent::JavaSingleThreadExecutor#<<</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaThreadPoolExecutor#post">Concurrent::JavaThreadPoolExecutor#post</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -955,7 +1081,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Runnable::Context#runner">Concurrent::Runnable::Context#runner</span>
+          <span title="Concurrent::JavaThreadPoolExecutor#<<">Concurrent::JavaThreadPoolExecutor#<<</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Runnable::Context#thread">Concurrent::Runnable::Context#thread</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -983,7 +1123,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Runnable::Context#thread">Concurrent::Runnable::Context#thread</span>
+          <span title="Concurrent::Runnable::Context#runner">Concurrent::Runnable::Context#runner</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1012,20 +1152,6 @@
         </td>
         <td class="path">
           <span title="Concurrent::CopyOnNotifyObserverSet">Concurrent::CopyOnNotifyObserverSet</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Transaction#initialize">Concurrent::Transaction#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1081,7 +1207,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Dereferenceable#mutex">Concurrent::Dereferenceable#mutex</span>
+          <span title="Concurrent::Transaction#initialize">Concurrent::Transaction#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1109,7 +1235,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Condition#initialize">Concurrent::Condition#initialize</span>
+          <span title="Concurrent::Dereferenceable#mutex">Concurrent::Dereferenceable#mutex</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1137,6 +1263,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::TimerTask#initialize">Concurrent::TimerTask#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::CountDownLatch#count">Concurrent::CountDownLatch#count</span>
         </td>
         <td>
@@ -1151,7 +1291,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::TimerTask#initialize">Concurrent::TimerTask#initialize</span>
+          <span title="Concurrent::Condition#initialize">Concurrent::Condition#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::UndoLogEntry#value=">Concurrent::UndoLogEntry#value=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::SimpleActorRef#post">Concurrent::SimpleActorRef#post</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::CountDownLatch#wait">Concurrent::CountDownLatch#wait</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1193,21 +1375,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::CountDownLatch#wait">Concurrent::CountDownLatch#wait</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::UndoLogEntry#value=">Concurrent::UndoLogEntry#value=</span>
+          <span title="Concurrent::Promise#initialize">Concurrent::Promise#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1263,20 +1431,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ReadLogEntry#tvar">Concurrent::ReadLogEntry#tvar</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::UndoLogEntry#tvar">Concurrent::UndoLogEntry#tvar</span>
         </td>
         <td>
@@ -1291,7 +1445,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::SafeTaskExecutor">Concurrent::SafeTaskExecutor</span>
+          <span title="Concurrent::ActorRef#shutdown">Concurrent::ActorRef#shutdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ReadLogEntry#tvar">Concurrent::ReadLogEntry#tvar</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1319,20 +1487,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Condition#signal">Concurrent::Condition#signal</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Event#initialize">Concurrent::Event#initialize</span>
         </td>
         <td>
@@ -1347,7 +1501,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::RingBuffer#peek">Concurrent::RingBuffer#peek</span>
+          <span title="Concurrent::Condition#signal">Concurrent::Condition#signal</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::SafeTaskExecutor">Concurrent::SafeTaskExecutor</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1375,6 +1543,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::RingBuffer#peek">Concurrent::RingBuffer#peek</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::RingBuffer#poll">Concurrent::RingBuffer#poll</span>
         </td>
         <td>
@@ -1389,7 +1571,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Future.execute">Concurrent::Future.execute</span>
+          <span title="Concurrent::CountDownLatch">Concurrent::CountDownLatch</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1403,7 +1585,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::CountDownLatch">Concurrent::CountDownLatch</span>
+          <span title="Concurrent::Future.execute">Concurrent::Future.execute</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1445,6 +1627,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::OptionsParser">Concurrent::OptionsParser</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Configuration">Concurrent::Configuration</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Agent#timeout">Concurrent::Agent#timeout</span>
         </td>
         <td>
@@ -1460,6 +1670,20 @@
         </td>
         <td class="path">
           <span title="Concurrent.configuration">Concurrent.configuration</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ActorRef#<<">Concurrent::ActorRef#<<</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1502,20 +1726,6 @@
         </td>
         <td class="path">
           <span title="Concurrent::Agent#post">Concurrent::Agent#post</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Event#wait">Concurrent::Event#wait</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1585,7 +1795,119 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#completed_task_count">Concurrent::RubyThreadPoolExecutor#completed_task_count</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#scheduled_task_count">Concurrent::RubyThreadPoolExecutor#scheduled_task_count</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#overflow_policy">Concurrent::RubyThreadPoolExecutor#overflow_policy</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#largest_length">Concurrent::RubyThreadPoolExecutor#largest_length</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaSingleThreadExecutor#shutdown">Concurrent::JavaSingleThreadExecutor#shutdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::RubyThreadPoolExecutor#max_length">Concurrent::RubyThreadPoolExecutor#max_length</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#min_length">Concurrent::RubyThreadPoolExecutor#min_length</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor#shutdown">Concurrent::RubySingleThreadExecutor#shutdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#max_queue">Concurrent::RubyThreadPoolExecutor#max_queue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1627,6 +1949,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#idletime">Concurrent::RubyThreadPoolExecutor#idletime</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::RubyThreadPoolExecutor#status">Concurrent::RubyThreadPoolExecutor#status</span>
         </td>
         <td>
@@ -1642,6 +1978,34 @@
         </td>
         <td class="path">
           <span title="Concurrent::JavaThreadPoolExecutor#status">Concurrent::JavaThreadPoolExecutor#status</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaSingleThreadExecutor#kill">Concurrent::JavaSingleThreadExecutor#kill</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor#kill">Concurrent::RubySingleThreadExecutor#kill</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1725,7 +2089,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::IVar#add_observer">Concurrent::IVar#add_observer</span>
+          <span title="Concurrent::ActorContext#on_shutdown">Concurrent::ActorContext#on_shutdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ActorContext#on_reset">Concurrent::ActorContext#on_reset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ActorContext#on_start">Concurrent::ActorContext#on_start</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ActorContext#on_error">Concurrent::ActorContext#on_error</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1740,6 +2146,20 @@
         </td>
         <td class="path">
           <span title="Concurrent.configuration=">Concurrent.configuration=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Event#wait">Concurrent::Event#wait</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1781,10 +2201,52 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::Exchanger#exchange">Concurrent::Exchanger#exchange</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::RingBuffer#offer">Concurrent::RingBuffer#offer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaSingleThreadExecutor#wait_for_termination">Concurrent:: <em>&hellip;</em> #wait_for_termination</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor#wait_for_termination">Concurrent:: <em>&hellip;</em> #wait_for_termination</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
         </td>
       </tr>
     
@@ -1823,7 +2285,105 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::Configuration#global_operation_pool=">Concurrent::Configuration#global_operation_pool=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor#initialize">Concurrent::RubySingleThreadExecutor#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaSingleThreadExecutor#initialize">Concurrent::JavaSingleThreadExecutor#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Dereferenceable#set_deref_options">Concurrent::Dereferenceable#set_deref_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubyThreadPoolExecutor#initialize">Concurrent::RubyThreadPoolExecutor#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Configuration#global_timer_pool">Concurrent::Configuration#global_timer_pool</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Configuration#global_task_pool=">Concurrent::Configuration#global_task_pool=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::OptionsParser#get_executor_from">Concurrent::OptionsParser#get_executor_from</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1893,6 +2453,48 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::JavaSingleThreadExecutor">Concurrent::JavaSingleThreadExecutor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ScheduledTask#initialize">Concurrent::ScheduledTask#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor">Concurrent::RubySingleThreadExecutor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::AtomicFixnum#initialize">Concurrent::AtomicFixnum#initialize</span>
         </td>
         <td>
@@ -1908,6 +2510,34 @@
         </td>
         <td class="path">
           <span title="Concurrent.physical_processor_count">Concurrent.physical_processor_count</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::JavaCachedThreadPool">Concurrent::JavaCachedThreadPool</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Observable#observers">Concurrent::Observable#observers</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1991,6 +2621,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::ActorRef#join">Concurrent::ActorRef#join</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ActorContext">Concurrent::ActorContext</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::AtomicFixnum">Concurrent::AtomicFixnum</span>
         </td>
         <td>
@@ -2033,7 +2691,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent.timeout">Concurrent.timeout</span>
+          <span title="Concurrent.configure">Concurrent.configure</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ActorRef">Concurrent::ActorRef</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2061,7 +2733,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Event">Concurrent::Event</span>
+          <span title="Concurrent.timeout">Concurrent.timeout</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2103,7 +2775,63 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::Event">Concurrent::Event</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Delay">Concurrent::Delay</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent.timer">Concurrent.timer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ScheduledTask#add_observer">Concurrent::ScheduledTask#add_observer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Observable#observers=">Concurrent::Observable#observers=</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2131,7 +2859,63 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::Channel::Probe#initialize">Concurrent::Channel::Probe#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::SimpleActorRef#shutdown">Concurrent::SimpleActorRef#shutdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Obligation#fulfilled?">Concurrent::Obligation#fulfilled?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Channel::Probe#value">Concurrent::Channel::Probe#value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::SimpleActorRef#join">Concurrent::SimpleActorRef#join</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2187,7 +2971,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Probe#initialize">Concurrent::Probe#initialize</span>
+          <span title="Concurrent::IVar#add_observer">Concurrent::IVar#add_observer</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2218,34 +3002,6 @@
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ActorRef#<<">Concurrent::ActorRef#<<</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#initialize">Concurrent::RubyThreadPoolExecutor#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
         </td>
       </tr>
     
@@ -2299,34 +3055,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Configuration#global_operation_pool=">Concurrent::Configuration#global_operation_pool=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Configuration#global_task_pool=">Concurrent::Configuration#global_task_pool=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Promise#on_success">Concurrent::Promise#on_success</span>
         </td>
         <td>
@@ -2334,15 +3062,7 @@
         </td>
       </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('C'); return false;">Show 5 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
+      <tr>
         <td>
           <div class="grade-circle grade-circle-C">
             C
@@ -2356,7 +3076,7 @@
         </td>
       </tr>
     
-      <tr class="more_object">
+      <tr>
         <td>
           <div class="grade-circle grade-circle-C">
             C
@@ -2369,6 +3089,14 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('C'); return false;">Show 3 more ...</a>
+        </td>
+      </tr>
+    
     
       <tr class="more_object">
         <td>
@@ -2433,20 +3161,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::SimpleActorRef#post!">Concurrent::SimpleActorRef#post!</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Postable#post!">Concurrent::Postable#post!</span>
         </td>
         <td>
@@ -2489,6 +3203,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::MVar#try_put!">Concurrent::MVar#try_put!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Runnable#run!">Concurrent::Runnable#run!</span>
         </td>
         <td>
@@ -2499,24 +3227,10 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 182 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 154 more ...</a>
         </td>
       </tr>
     
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::MVar#try_put!">Concurrent::MVar#try_put!</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
     
       <tr class="more_object">
         <td>
@@ -2554,34 +3268,6 @@
         </td>
         <td class="path">
           <span title="Concurrent::Promise#synchronized_set_state!">Concurrent::Promise#synchronized_set_state!</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#length">Concurrent::JavaThreadPoolExecutor#length</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#length">Concurrent::RubyThreadPoolExecutor#length</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2651,6 +3337,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::PerThreadExecutor#post">Concurrent::PerThreadExecutor#post</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Supervisor#add_workers">Concurrent::Supervisor#add_workers</span>
         </td>
         <td>
@@ -2666,20 +3366,6 @@
         </td>
         <td class="path">
           <span title="Concurrent::Supervisor#stop_worker">Concurrent::Supervisor#stop_worker</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::PerThreadExecutor#post">Concurrent::PerThreadExecutor#post</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2721,35 +3407,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::SimpleActorRef#post">Concurrent::SimpleActorRef#post</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Promise#set_state!">Concurrent::Promise#set_state!</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Agent#add_observer">Concurrent::Agent#add_observer</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2791,7 +3449,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ScheduledTask#initialize">Concurrent::ScheduledTask#initialize</span>
+          <span title="Concurrent::Observable#delete_observer">Concurrent::Observable#delete_observer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2805,7 +3463,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ActorRef#delete_observer">Concurrent::ActorRef#delete_observer</span>
+          <span title="Concurrent::Observable#add_observer">Concurrent::Observable#add_observer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2875,20 +3533,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ActorRef#add_observer">Concurrent::ActorRef#add_observer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Promise.execute">Concurrent::Promise.execute</span>
         </td>
         <td>
@@ -2931,91 +3575,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#scheduled_task_count">Concurrent::JavaThreadPoolExecutor#scheduled_task_count</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#completed_task_count">Concurrent::JavaThreadPoolExecutor#completed_task_count</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#remaining_capacity">Concurrent::JavaThreadPoolExecutor#remaining_capacity</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#remaining_capacity">Concurrent::RubyThreadPoolExecutor#remaining_capacity</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#largest_length">Concurrent::JavaThreadPoolExecutor#largest_length</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RubyThreadPoolExecutor#queue_length">Concurrent::RubyThreadPoolExecutor#queue_length</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#queue_length">Concurrent::JavaThreadPoolExecutor#queue_length</span>
+          <span title="Concurrent::Channel::Probe#set_unless_assigned">Concurrent::Channel::Probe#set_unless_assigned</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3057,20 +3617,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#min_length">Concurrent::JavaThreadPoolExecutor#min_length</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Supervisor#current_restart_count">Concurrent::Supervisor#current_restart_count</span>
         </td>
         <td>
@@ -3099,21 +3645,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::JavaThreadPoolExecutor#idletime">Concurrent::JavaThreadPoolExecutor#idletime</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::OptionsParser#get_executor_from">Concurrent::OptionsParser#get_executor_from</span>
+          <span title="Concurrent::Channel::Probe#composite_value">Concurrent::Channel::Probe#composite_value</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3155,7 +3687,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::BlockingRingBuffer#initialize">Concurrent::BlockingRingBuffer#initialize</span>
+          <span title="Concurrent::TVar#unsafe_increment_version">Concurrent::TVar#unsafe_increment_version</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3169,7 +3701,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::TVar#unsafe_increment_version">Concurrent::TVar#unsafe_increment_version</span>
+          <span title="Concurrent::BlockingRingBuffer#initialize">Concurrent::BlockingRingBuffer#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3225,7 +3757,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::BlockingRingBuffer#capacity">Concurrent::BlockingRingBuffer#capacity</span>
+          <span title="Concurrent::SafeTaskExecutor#initialize">Concurrent::SafeTaskExecutor#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3239,7 +3771,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::SafeTaskExecutor#initialize">Concurrent::SafeTaskExecutor#initialize</span>
+          <span title="Concurrent::Observable#delete_observers">Concurrent::Observable#delete_observers</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::BlockingRingBuffer#capacity">Concurrent::BlockingRingBuffer#capacity</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3267,20 +3813,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ScheduledTask#add_observer">Concurrent::ScheduledTask#add_observer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::ThreadLocalSymbolAllocator">Concurrent::ThreadLocalSymbolAllocator</span>
         </td>
         <td>
@@ -3295,7 +3827,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::SimpleActorRef#initialize">Concurrent::SimpleActorRef#initialize</span>
+          <span title="Concurrent::Observable#count_observers">Concurrent::Observable#count_observers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3323,35 +3855,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ActorRef#delete_observers">Concurrent::ActorRef#delete_observers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Probe#set_unless_assigned">Concurrent::Probe#set_unless_assigned</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::ThreadLocalVar#initialize">Concurrent::ThreadLocalVar#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::SimpleActorRef#initialize">Concurrent::SimpleActorRef#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::BlockingRingBuffer#count">Concurrent::BlockingRingBuffer#count</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3393,21 +3925,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::BlockingRingBuffer#count">Concurrent::BlockingRingBuffer#count</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ActorContext#on_shutdown">Concurrent::ActorContext#on_shutdown</span>
+          <span title="Concurrent::SimpleActorRef::Message">Concurrent::SimpleActorRef::Message</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3449,35 +3967,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::SimpleActorRef::Message">Concurrent::SimpleActorRef::Message</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::SimpleActorRef#shutdown">Concurrent::SimpleActorRef#shutdown</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::BlockingRingBuffer#put">Concurrent::BlockingRingBuffer#put</span>
+          <span title="Concurrent::BufferedChannel#select">Concurrent::BufferedChannel#select</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3505,34 +3995,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::BufferedChannel#select">Concurrent::BufferedChannel#select</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::TimerTask#add_observer">Concurrent::TimerTask#add_observer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::UnbufferedChannel#push">Concurrent::UnbufferedChannel#push</span>
         </td>
         <td>
@@ -3547,7 +4009,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ScheduledTask#execute">Concurrent::ScheduledTask#execute</span>
+          <span title="Concurrent::Channel::Probe#channel">Concurrent::Channel::Probe#channel</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3561,77 +4023,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ThreadLocalVar#value=">Concurrent::ThreadLocalVar#value=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::UnbufferedChannel#pop">Concurrent::UnbufferedChannel#pop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Agent#delete_observer">Concurrent::Agent#delete_observer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ActorContext#on_error">Concurrent::ActorContext#on_error</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ActorContext#on_reset">Concurrent::ActorContext#on_reset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ActorContext#on_start">Concurrent::ActorContext#on_start</span>
+          <span title="Concurrent::BlockingRingBuffer#put">Concurrent::BlockingRingBuffer#put</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3659,7 +4051,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ThreadLocalOldStorage">Concurrent::ThreadLocalOldStorage</span>
+          <span title="Concurrent::UnbufferedChannel#pop">Concurrent::UnbufferedChannel#pop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ScheduledTask#execute">Concurrent::ScheduledTask#execute</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3687,7 +4093,91 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::ThreadLocalVar#value=">Concurrent::ThreadLocalVar#value=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ThreadLocalOldStorage">Concurrent::ThreadLocalOldStorage</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Supervisor#initialize">Concurrent::Supervisor#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Transaction.current=">Concurrent::Transaction.current=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::PerThreadExecutor#<<">Concurrent::PerThreadExecutor#<<</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ThreadLocalVar#value">Concurrent::ThreadLocalVar#value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Exchanger#initialize">Concurrent::Exchanger#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3729,147 +4219,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::JavaCachedThreadPool">Concurrent::JavaCachedThreadPool</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Exchanger#initialize">Concurrent::Exchanger#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Transaction.current=">Concurrent::Transaction.current=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ThreadLocalVar#value">Concurrent::ThreadLocalVar#value</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::PerThreadExecutor#<<">Concurrent::PerThreadExecutor#<<</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::WaitableList#delete">Concurrent::WaitableList#delete</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::JavaFixedThreadPool">Concurrent::JavaFixedThreadPool</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::SimpleActorRef#join">Concurrent::SimpleActorRef#join</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::BufferedChannel#pop">Concurrent::BufferedChannel#pop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RingBuffer#capacity">Concurrent::RingBuffer#capacity</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::TVar#unsafe_version">Concurrent::TVar#unsafe_version</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3897,6 +4247,62 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::BufferedChannel#pop">Concurrent::BufferedChannel#pop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::WaitableList#delete">Concurrent::WaitableList#delete</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::TVar#unsafe_version">Concurrent::TVar#unsafe_version</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RingBuffer#capacity">Concurrent::RingBuffer#capacity</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Transaction#unlock">Concurrent::Transaction#unlock</span>
         </td>
         <td>
@@ -3911,7 +4317,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Exchanger#exchange">Concurrent::Exchanger#exchange</span>
+          <span title="Concurrent::Transaction#commit">Concurrent::Transaction#commit</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3953,7 +4359,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Transaction#commit">Concurrent::Transaction#commit</span>
+          <span title="Concurrent::TVar#unsafe_value">Concurrent::TVar#unsafe_value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Transaction#write">Concurrent::Transaction#write</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::WaitableList#take">Concurrent::WaitableList#take</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::WaitableList#size">Concurrent::WaitableList#size</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Condition::Result">Concurrent::Condition::Result</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3968,6 +4430,20 @@
         </td>
         <td class="path">
           <span title="Concurrent::ImmediateExecutor">Concurrent::ImmediateExecutor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::UnbufferedChannel">Concurrent::UnbufferedChannel</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4009,76 +4485,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::PerThreadExecutor">Concurrent::PerThreadExecutor</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::WaitableList#size">Concurrent::WaitableList#size</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::WaitableList#take">Concurrent::WaitableList#take</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Condition::Result">Concurrent::Condition::Result</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::UnbufferedChannel">Concurrent::UnbufferedChannel</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Obligation#reason">Concurrent::Obligation#reason</span>
         </td>
         <td>
@@ -4093,35 +4499,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::TVar#unsafe_value">Concurrent::TVar#unsafe_value</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Transaction#write">Concurrent::Transaction#write</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::RingBuffer#count">Concurrent::RingBuffer#count</span>
+          <span title="Concurrent::PerThreadExecutor">Concurrent::PerThreadExecutor</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4149,35 +4527,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Obligation#state">Concurrent::Obligation#state</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::WaitableList#put">Concurrent::WaitableList#put</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent.abort_transaction">Concurrent.abort_transaction</span>
+          <span title="Concurrent::RingBuffer#count">Concurrent::RingBuffer#count</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4205,7 +4555,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::TVar#unsafe_lock">Concurrent::TVar#unsafe_lock</span>
+          <span title="Concurrent::WaitableList#put">Concurrent::WaitableList#put</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4233,7 +4583,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::MVar#initialize">Concurrent::MVar#initialize</span>
+          <span title="Concurrent.abort_transaction">Concurrent.abort_transaction</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4247,7 +4597,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::TVar#initialize">Concurrent::TVar#initialize</span>
+          <span title="Concurrent::Obligation#state">Concurrent::Obligation#state</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4261,7 +4611,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Supervisor#stop">Concurrent::Supervisor#stop</span>
+          <span title="Concurrent::TVar#unsafe_lock">Concurrent::TVar#unsafe_lock</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4290,6 +4640,62 @@
         </td>
         <td class="path">
           <span title="Concurrent::BufferedChannel">Concurrent::BufferedChannel</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Supervisor#stop">Concurrent::Supervisor#stop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::TVar#initialize">Concurrent::TVar#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::MVar#initialize">Concurrent::MVar#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::Channel::Probe">Concurrent::Channel::Probe</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4373,34 +4779,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Configuration">Concurrent::Configuration</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::OptionsParser">Concurrent::OptionsParser</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::ScheduledTask">Concurrent::ScheduledTask</span>
         </td>
         <td>
@@ -4416,20 +4794,6 @@
         </td>
         <td class="path">
           <span title="Concurrent::UndoLogEntry">Concurrent::UndoLogEntry</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Runnable#run">Concurrent::Runnable#run</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4471,7 +4835,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ActorContext">Concurrent::ActorContext</span>
+          <span title="Concurrent::Runnable#run">Concurrent::Runnable#run</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4499,7 +4863,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Postable#<<">Concurrent::Postable#<<</span>
+          <span title="Concurrent::MVar#modify">Concurrent::MVar#modify</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4527,21 +4891,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::MVar#modify">Concurrent::MVar#modify</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Obligation">Concurrent::Obligation</span>
+          <span title="Concurrent::Postable#<<">Concurrent::Postable#<<</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4569,7 +4919,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::IVar#fail">Concurrent::IVar#fail</span>
+          <span title="Concurrent::Observable">Concurrent::Observable</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4583,21 +4933,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::MVar#take">Concurrent::MVar#take</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::Stoppable">Concurrent::Stoppable</span>
+          <span title="Concurrent::Obligation">Concurrent::Obligation</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4625,6 +4961,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::IVar#fail">Concurrent::IVar#fail</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::Exchanger">Concurrent::Exchanger</span>
         </td>
         <td>
@@ -4639,7 +4989,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Postable">Concurrent::Postable</span>
+          <span title="Concurrent::Stoppable">Concurrent::Stoppable</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::MVar#take">Concurrent::MVar#take</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4667,35 +5031,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::Postable">Concurrent::Postable</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::IVar#set">Concurrent::IVar#set</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent.configure">Concurrent.configure</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ActorRef">Concurrent::ActorRef</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4751,34 +5101,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::Probe">Concurrent::Probe</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::IVar">Concurrent::IVar</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::MVar">Concurrent::MVar</span>
         </td>
         <td>
@@ -4807,7 +5129,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::IVar">Concurrent::IVar</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::ThreadLocalSymbolAllocator#allocate_symbol">Concurrent::ThreadLocalSymbolAllocator#allocate_symbol</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor#new_worker_thread">Concurrent::RubySingleThreadExecutor#new_worker_thread</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4835,6 +5185,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::ThreadLocalNewStorage#allocate_storage">Concurrent::ThreadLocalNewStorage#allocate_storage</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::ThreadLocalOldStorage#allocate_storage">Concurrent::ThreadLocalOldStorage#allocate_storage</span>
         </td>
         <td>
@@ -4849,7 +5213,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ThreadLocalNewStorage#allocate_storage">Concurrent::ThreadLocalNewStorage#allocate_storage</span>
+          <span title="Concurrent::RubySingleThreadExecutor#supervise">Concurrent::RubySingleThreadExecutor#supervise</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::RubySingleThreadExecutor#work">Concurrent::RubySingleThreadExecutor#work</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4877,20 +5255,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ThreadLocalJavaStorage#get">Concurrent::ThreadLocalJavaStorage#get</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Stoppable#before_stop_proc">Concurrent::Stoppable#before_stop_proc</span>
         </td>
         <td>
@@ -4905,7 +5269,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Concurrent::ThreadLocalJavaStorage#get">Concurrent::ThreadLocalJavaStorage#get</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Concurrent::ThreadLocalOldStorage#set">Concurrent::ThreadLocalOldStorage#set</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Concurrent::ThreadLocalOldStorage#get">Concurrent::ThreadLocalOldStorage#get</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4947,20 +5339,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ThreadLocalOldStorage#get">Concurrent::ThreadLocalOldStorage#get</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Promise#notify_child">Concurrent::Promise#notify_child</span>
         </td>
         <td>
@@ -4989,49 +5367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concurrent::ActorRef#observers">Concurrent::ActorRef#observers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::ScheduledTask#work">Concurrent::ScheduledTask#work</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Concurrent::Runnable#mutex">Concurrent::Runnable#mutex</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Concurrent::JavaCachedThreadPool#initialize">Concurrent::JavaCachedThreadPool#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -5069,7 +5405,7 @@
 
     <a name="about"></a>
     <div class="what-is-this">
-      <h2>Let&#39;s raise the visiblity of documentation in Ruby!</h2>
+      <h2>Let&#39;s raise the visibility of documentation in Ruby!</h2>
 
 <p>This page is for <code>jdantonio/concurrent-ruby</code> and is part of a project called &quot;Inch Pages&quot;, showing documentation measurements provided by <a href="http://trivelop.de/inch">Inch</a>.
 <span style="white-space: nowrap;">Inch Pages</span> also provides a badge: <img src="/github/jdantonio/concurrent-ruby.png">
