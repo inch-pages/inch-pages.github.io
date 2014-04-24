@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/pboling/sanitize_email.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/pboling/sanitize_email.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/pboling/sanitize_email.png)](http://inch-pages.github.io/github/pboling/sanitize_email)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/pboling/sanitize_email.png)](http://inch-pages.github.io/github/pboling/sanitize_email)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/pboling/sanitize_email.png!:http://inch-pages.github.io/github/pboling/sanitize_email" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/pboling/sanitize_email.png!:http://inch-pages.github.io/github/pboling/sanitize_email" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/pboling/sanitize_email.png" alt="Inline docs" />}[http://inch-pages.github.io/github/pboling/sanitize_email]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/pboling/sanitize_email.png" alt="Inline docs" />}[http://inch-pages.github.io/github/pboling/sanitize_email]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -163,7 +163,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::OverriddenAddresses#overridden_to">SanitizeEmail::OverriddenAddresses#overridden_to</span>
+          <span title="SanitizeEmail::OverriddenAddresses#overridden_cc">SanitizeEmail::OverriddenAddresses#overridden_cc</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -177,7 +177,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::OverriddenAddresses#overridden_cc">SanitizeEmail::OverriddenAddresses#overridden_cc</span>
+          <span title="SanitizeEmail::OverriddenAddresses#overridden_to">SanitizeEmail::OverriddenAddresses#overridden_to</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -213,6 +213,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SanitizeEmail::OverriddenAddresses#sanitized_cc">SanitizeEmail::OverriddenAddresses#sanitized_cc</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="SanitizeEmail::Deprecation.deprecate_in_silence">SanitizeEmail::Deprecation.deprecate_in_silence</span>
         </td>
         <td>
@@ -228,20 +242,6 @@
         </td>
         <td class="path">
           <span title="SanitizeEmail::OverriddenAddresses#sanitized_to">SanitizeEmail::OverriddenAddresses#sanitized_to</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SanitizeEmail::OverriddenAddresses#sanitized_cc">SanitizeEmail::OverriddenAddresses#sanitized_cc</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -353,20 +353,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::OverriddenAddresses#overridden_to=">SanitizeEmail::OverriddenAddresses#overridden_to=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="SanitizeEmail::OverriddenAddresses#sanitized_bcc=">SanitizeEmail::OverriddenAddresses#sanitized_bcc=</span>
         </td>
         <td>
@@ -395,7 +381,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::OverriddenAddresses#sanitized_to=">SanitizeEmail::OverriddenAddresses#sanitized_to=</span>
+          <span title="SanitizeEmail::OverriddenAddresses#overridden_to=">SanitizeEmail::OverriddenAddresses#overridden_to=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SanitizeEmail::Deprecation.deprecate_in_silence=">SanitizeEmail::Deprecation.deprecate_in_silence=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -423,7 +423,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::Deprecation.deprecate_in_silence=">SanitizeEmail::Deprecation.deprecate_in_silence=</span>
+          <span title="SanitizeEmail::OverriddenAddresses#sanitized_to=">SanitizeEmail::OverriddenAddresses#sanitized_to=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -465,7 +465,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::Bleach#overridden_addresses=">SanitizeEmail::Bleach#overridden_addresses=</span>
+          <span title="SanitizeEmail::Deprecation#deprecated_alias">SanitizeEmail::Deprecation#deprecated_alias</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -479,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::Deprecation#deprecated_alias">SanitizeEmail::Deprecation#deprecated_alias</span>
+          <span title="SanitizeEmail::Bleach#overridden_addresses=">SanitizeEmail::Bleach#overridden_addresses=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -549,6 +549,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SanitizeEmail.force_sanitize=">SanitizeEmail.force_sanitize=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="SanitizeEmail::Bleach#engage=">SanitizeEmail::Bleach#engage=</span>
         </td>
         <td>
@@ -564,20 +578,6 @@
         </td>
         <td class="path">
           <span title="SanitizeEmail::Config.config=">SanitizeEmail::Config.config=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SanitizeEmail.force_sanitize=">SanitizeEmail.force_sanitize=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -887,7 +887,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::TestHelpers#string_matching_attribute">SanitizeEmail::TestHelpers#string_matching_attribute</span>
+          <span title="SanitizeEmail::MailHeaderTools.prepend_subject_array">SanitizeEmail::MailHeaderTools.prepend_subject_array</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -901,7 +901,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SanitizeEmail::MailHeaderTools.prepend_subject_array">SanitizeEmail::MailHeaderTools.prepend_subject_array</span>
+          <span title="SanitizeEmail::TestHelpers#string_matching_attribute">SanitizeEmail::TestHelpers#string_matching_attribute</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

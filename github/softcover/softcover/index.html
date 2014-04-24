@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/softcover/softcover.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/softcover/softcover.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/softcover/softcover.png)](http://inch-pages.github.io/github/softcover/softcover)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/softcover/softcover.png)](http://inch-pages.github.io/github/softcover/softcover)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/softcover/softcover.png!:http://inch-pages.github.io/github/softcover/softcover" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/softcover/softcover.png!:http://inch-pages.github.io/github/softcover/softcover" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/softcover/softcover.png" alt="Inline docs" />}[http://inch-pages.github.io/github/softcover/softcover]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/softcover/softcover.png" alt="Inline docs" />}[http://inch-pages.github.io/github/softcover/softcover]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -149,7 +149,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest.find_book_root!">Softcover::BookManifest.find_book_root!</span>
+          <span title="Softcover::Commands::Deployment#deploy!">Softcover::Commands::Deployment#deploy!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -163,7 +163,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Commands::Deployment#deploy!">Softcover::Commands::Deployment#deploy!</span>
+          <span title="Softcover::BookManifest.find_book_root!">Softcover::BookManifest.find_book_root!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -269,20 +269,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest::Chapter#menu_heading">Softcover::BookManifest::Chapter#menu_heading</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Commands::Deployment#deploy_config">Softcover::Commands::Deployment#deploy_config</span>
         </td>
         <td>
@@ -297,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Commands::Generator#directories">Softcover::Commands::Generator#directories</span>
+          <span title="Softcover::BookManifest::Chapter#menu_heading">Softcover::BookManifest::Chapter#menu_heading</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -339,7 +325,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest#pdf_chapter_names">Softcover::BookManifest#pdf_chapter_names</span>
+          <span title="Softcover::Commands::Generator#directories">Softcover::Commands::Generator#directories</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -353,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Commands::Server#ignore_regex">Softcover::Commands::Server#ignore_regex</span>
+          <span title="Softcover::BookManifest#pdf_chapter_names">Softcover::BookManifest#pdf_chapter_names</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -381,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Commands::Server#no_listener">Softcover::Commands::Server#no_listener</span>
+          <span title="Softcover::Commands::Server#ignore_regex">Softcover::Commands::Server#ignore_regex</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -409,7 +395,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Epub#content_opf">Softcover::Builders::Epub#content_opf</span>
+          <span title="Softcover::Commands::Server#no_listener">Softcover::Commands::Server#no_listener</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -424,6 +410,20 @@
         </td>
         <td class="path">
           <span title="Softcover::Book#processed_screencasts">Softcover::Book#processed_screencasts</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Builders::Epub#content_opf">Softcover::Builders::Epub#content_opf</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -465,7 +465,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book::BookFile#checksum">Softcover::Book::BookFile#checksum</span>
+          <span title="Softcover::Builders::Epub#inkscape">Softcover::Builders::Epub#inkscape</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -493,7 +493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Epub#inkscape">Softcover::Builders::Epub#inkscape</span>
+          <span title="Softcover::Book::BookFile#checksum">Softcover::Book::BookFile#checksum</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -508,6 +508,20 @@
         </td>
         <td class="path">
           <span title="Softcover::Builders::Epub#chapters">Softcover::Builders::Epub#chapters</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Builders::Epub#toc_ncx">Softcover::Builders::Epub#toc_ncx</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -549,20 +563,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Epub#toc_ncx">Softcover::Builders::Epub#toc_ncx</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Utils#language_labels">Softcover::Utils#language_labels</span>
         </td>
         <td>
@@ -591,7 +591,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Utils#unpublish_slug">Softcover::Utils#unpublish_slug</span>
+          <span title="Softcover::Book::BookFile#path=">Softcover::Book::BookFile#path=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -619,21 +619,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book::BookFile#path=">Softcover::Book::BookFile#path=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Book::BookFile#path">Softcover::Book::BookFile#path</span>
+          <span title="Softcover::Utils#unpublish_slug">Softcover::Utils#unpublish_slug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -648,6 +634,20 @@
         </td>
         <td class="path">
           <span title="Softcover::Builder#built_files">Softcover::Builder#built_files</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Book::BookFile#path">Softcover::Book::BookFile#path</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -703,6 +703,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::Output.silent">Softcover::Output.silent</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::Book#uploader">Softcover::Book#uploader</span>
         </td>
         <td>
@@ -718,20 +732,6 @@
         </td>
         <td class="path">
           <span title="Softcover::Book#manifest">Softcover::Book#manifest</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Output.silent">Softcover::Output.silent</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -773,7 +773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Client#host">Softcover::Client#host</span>
+          <span title="Softcover::Client#book">Softcover::Client#book</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -787,7 +787,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Client#book">Softcover::Client#book</span>
+          <span title="Softcover::Client#host">Softcover::Client#host</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -871,20 +871,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest#ensure_template_files">Softcover::BookManifest#ensure_template_files</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Builders::Epub#write_container_xml">Softcover::Builders::Epub#write_container_xml</span>
         </td>
         <td>
@@ -900,6 +886,20 @@
         </td>
         <td class="path">
           <span title="Softcover::BookManifest#preview_chapter_range">Softcover::BookManifest#preview_chapter_range</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::BookManifest#ensure_template_files">Softcover::BookManifest#ensure_template_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -941,35 +941,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Epub#write_mimetype">Softcover::Builders::Epub#write_mimetype</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Commands::Server#no_listener=">Softcover::Commands::Server#no_listener=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::BookManifest#chapter_includes">Softcover::BookManifest#chapter_includes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Builders::Html#converted_html">Softcover::Builders::Html#converted_html</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -997,7 +983,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Html#converted_html">Softcover::Builders::Html#converted_html</span>
+          <span title="Softcover::Commands::Server#no_listener=">Softcover::Commands::Server#no_listener=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Builders::Epub#write_mimetype">Softcover::Builders::Epub#write_mimetype</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1123,7 +1123,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book#process_screencasts">Softcover::Book#process_screencasts</span>
+          <span title="Softcover::Book::BookFile#checksum=">Softcover::Book::BookFile#checksum=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1151,21 +1151,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book::BookFile#checksum=">Softcover::Book::BookFile#checksum=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Builders::Epub#move_epub">Softcover::Builders::Epub#move_epub</span>
+          <span title="Softcover::Book#process_screencasts">Softcover::Book#process_screencasts</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1180,6 +1166,20 @@
         </td>
         <td class="path">
           <span title="Softcover::Builders::Epub#write_toc">Softcover::Builders::Epub#write_toc</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Builders::Epub#move_epub">Softcover::Builders::Epub#move_epub</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1221,20 +1221,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Output.verbosity_level=">Softcover::Output.verbosity_level=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Builders::Epub#nav_link">Softcover::Builders::Epub#nav_link</span>
         </td>
         <td>
@@ -1249,7 +1235,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Mathjax.escaped_config">Softcover::Mathjax.escaped_config</span>
+          <span title="Softcover::Output.verbosity_level=">Softcover::Output.verbosity_level=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1263,7 +1249,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Utils#book_file_lines">Softcover::Utils#book_file_lines</span>
+          <span title="Softcover::Mathjax.escaped_config">Softcover::Mathjax.escaped_config</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1305,6 +1291,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::Utils#book_file_lines">Softcover::Utils#book_file_lines</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Builder#built_files=">Softcover::Builder#built_files=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::Utils#master_content">Softcover::Utils#master_content</span>
         </td>
         <td>
@@ -1320,20 +1334,6 @@
         </td>
         <td class="path">
           <span title="Softcover::Book#open_in_browser">Softcover::Book#open_in_browser</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Builder#built_files=">Softcover::Builder#built_files=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1375,6 +1375,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::BookManifest#url">Softcover::BookManifest#url</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::Utils#executable">Softcover::Utils#executable</span>
         </td>
         <td>
@@ -1403,49 +1417,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest#url">Softcover::BookManifest#url</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Utils#raw_lines">Softcover::Utils#raw_lines</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Output.silent=">Softcover::Output.silent=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Book#uploader=">Softcover::Book#uploader=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1501,7 +1473,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book#errors=">Softcover::Book#errors=</span>
+          <span title="Softcover::Book#uploader=">Softcover::Book#uploader=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Output.silent=">Softcover::Output.silent=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1529,7 +1515,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Client#book=">Softcover::Client#book=</span>
+          <span title="Softcover#custom_styles">Softcover#custom_styles</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Book#errors=">Softcover::Book#errors=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1557,7 +1557,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover#custom_styles">Softcover#custom_styles</span>
+          <span title="Softcover::Client#book=">Softcover::Client#book=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1732,7 +1732,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Html#update_cross_references">Softcover::Builders::Html#update_cross_references</span>
+          <span title="Softcover::Commands::Generator#generate_file_tree">Softcover::Commands::Generator#generate_file_tree</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1746,7 +1746,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Commands::Generator#generate_file_tree">Softcover::Commands::Generator#generate_file_tree</span>
+          <span title="Softcover::Builders::Html#update_cross_references">Softcover::Builders::Html#update_cross_references</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1788,7 +1788,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Html#write_fragment_file">Softcover::Builders::Html#write_fragment_file</span>
+          <span title="Softcover::Builders::Html#split_into_chapters">Softcover::Builders::Html#split_into_chapters</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1802,7 +1802,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Html#split_into_chapters">Softcover::Builders::Html#split_into_chapters</span>
+          <span title="Softcover::Builders::Html#write_fragment_file">Softcover::Builders::Html#write_fragment_file</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1844,20 +1844,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Epub#strip_attributes">Softcover::Builders::Epub#strip_attributes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::BookManifest#remove_frontmatter">Softcover::BookManifest#remove_frontmatter</span>
         </td>
         <td>
@@ -1872,7 +1858,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Utils#write_master_latex_file">Softcover::Utils#write_master_latex_file</span>
+          <span title="Softcover::Builders::Epub#strip_attributes">Softcover::Builders::Epub#strip_attributes</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1900,7 +1886,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Client#create_or_update_book">Softcover::Client#create_or_update_book</span>
+          <span title="Softcover::Utils#write_master_latex_file">Softcover::Utils#write_master_latex_file</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1915,6 +1901,20 @@
         </td>
         <td class="path">
           <span title="Softcover::Builders::Epub#clean_book_id">Softcover::Builders::Epub#clean_book_id</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Client#create_or_update_book">Softcover::Client#create_or_update_book</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2363,7 +2363,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builder#clean!">Softcover::Builder#clean!</span>
+          <span title="Softcover::Builder#build!">Softcover::Builder#build!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2377,7 +2377,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builder#build!">Softcover::Builder#build!</span>
+          <span title="Softcover::Builder#clean!">Softcover::Builder#clean!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2671,20 +2671,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest::Chapter#fragment_name">Softcover::BookManifest::Chapter#fragment_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::BookManifest#find_chapter_by_number">Softcover::BookManifest#find_chapter_by_number</span>
         </td>
         <td>
@@ -2699,7 +2685,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::BookManifest::Chapter#fragment_name">Softcover::BookManifest::Chapter#fragment_name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::BookManifest::Chapter#fragment_path">Softcover::BookManifest::Chapter#fragment_path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Builders::Epub#create_style_files">Softcover::Builders::Epub#create_style_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2742,20 +2756,6 @@
         </td>
         <td class="path">
           <span title="Softcover::Commands::Check#dependency_labels">Softcover::Commands::Check#dependency_labels</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Builders::Epub#create_style_files">Softcover::Builders::Epub#create_style_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2825,20 +2825,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest::Chapter#to_hash">Softcover::BookManifest::Chapter#to_hash</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Client#notify_upload_complete">Softcover::Client#notify_upload_complete</span>
         </td>
         <td>
@@ -2854,6 +2840,20 @@
         </td>
         <td class="path">
           <span title="Softcover::Commands::Server#start_server">Softcover::Commands::Server#start_server</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::BookManifest::Chapter#to_hash">Softcover::BookManifest::Chapter#to_hash</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2909,7 +2909,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest::Chapter#nodes">Softcover::BookManifest::Chapter#nodes</span>
+          <span title="Softcover::Book#notify_upload_complete">Softcover::Book#notify_upload_complete</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2923,7 +2923,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book#notify_upload_complete">Softcover::Book#notify_upload_complete</span>
+          <span title="Softcover::BookManifest::Chapter#nodes">Softcover::BookManifest::Chapter#nodes</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2979,20 +2979,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Client#notify_file_upload">Softcover::Client#notify_file_upload</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::BookManifest#read_from_md">Softcover::BookManifest#read_from_md</span>
         </td>
         <td>
@@ -3007,35 +2993,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::Client#notify_file_upload">Softcover::Client#notify_file_upload</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::Commands::Server#rebuild">Softcover::Commands::Server#rebuild</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::BookManifest#initialize">Softcover::BookManifest#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Book#chapter_attributes">Softcover::Book#chapter_attributes</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3077,6 +3049,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::Book#chapter_attributes">Softcover::Book#chapter_attributes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::BookManifest#extensions">Softcover::BookManifest#extensions</span>
         </td>
         <td>
@@ -3091,21 +3077,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book::BookFile#to_json">Softcover::Book::BookFile#to_json</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::BookManifest::NotFound">Softcover::BookManifest::NotFound</span>
+          <span title="Softcover::BookManifest#initialize">Softcover::BookManifest#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3133,7 +3105,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BookManifest::Chapter">Softcover::BookManifest::Chapter</span>
+          <span title="Softcover::BookManifest::NotFound">Softcover::BookManifest::NotFound</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Book::BookFile#to_json">Softcover::Book::BookFile#to_json</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Book#create_or_update">Softcover::Book#create_or_update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3175,21 +3175,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book#create_or_update">Softcover::Book#create_or_update</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Commands::Auth#login">Softcover::Commands::Auth#login</span>
+          <span title="Softcover::BookManifest::Chapter">Softcover::BookManifest::Chapter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3231,34 +3217,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Builders::Html#build">Softcover::Builders::Html#build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Commands::Server#run">Softcover::Commands::Server#run</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Client.new_with_book">Softcover::Client.new_with_book</span>
         </td>
         <td>
@@ -3273,7 +3231,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Utils#chapter_label">Softcover::Utils#chapter_label</span>
+          <span title="Softcover::Builders::Html#build">Softcover::Builders::Html#build</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3287,7 +3245,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Uploader#total_size">Softcover::Uploader#total_size</span>
+          <span title="Softcover::Commands::Auth#login">Softcover::Commands::Auth#login</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Commands::Server#run">Softcover::Commands::Server#run</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3329,20 +3301,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Commands::Publisher">Softcover::Commands::Publisher</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Softcover::Book::BookFile.find">Softcover::Book::BookFile.find</span>
         </td>
         <td>
@@ -3357,7 +3315,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Utils#current_book">Softcover::Utils#current_book</span>
+          <span title="Softcover::Utils#chapter_label">Softcover::Utils#chapter_label</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Uploader#total_size">Softcover::Uploader#total_size</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Commands::Publisher">Softcover::Commands::Publisher</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3385,7 +3371,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BaseConfig.remove">Softcover::BaseConfig.remove</span>
+          <span title="Softcover::Utils#current_book">Softcover::Utils#current_book</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::MarketingManifest">Softcover::MarketingManifest</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3427,21 +3427,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::MarketingManifest">Softcover::MarketingManifest</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Commands::Server">Softcover::Commands::Server</span>
+          <span title="Softcover::BaseConfig.remove">Softcover::BaseConfig.remove</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3469,35 +3455,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Commands::Build">Softcover::Commands::Build</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::BaseConfig.read">Softcover::BaseConfig.read</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Commands::Check">Softcover::Commands::Check</span>
+          <span title="Softcover::Commands::Server">Softcover::Commands::Server</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3525,49 +3483,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::BaseConfig.read">Softcover::BaseConfig.read</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Commands::Build">Softcover::Commands::Build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Commands::Check">Softcover::Commands::Check</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::Book#initialize">Softcover::Book#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Commands::Auth">Softcover::Commands::Auth</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Builders::Html">Softcover::Builders::Html</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Book#filenames">Softcover::Book#filenames</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3595,7 +3553,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BaseConfig.[]=">Softcover::BaseConfig.[]=</span>
+          <span title="Softcover::Book::BookFile">Softcover::Book::BookFile</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3609,7 +3567,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Book::BookFile">Softcover::Book::BookFile</span>
+          <span title="Softcover::Builders::Html">Softcover::Builders::Html</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3637,7 +3595,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::BaseConfig.[]">Softcover::BaseConfig.[]</span>
+          <span title="Softcover::Book#filenames">Softcover::Book#filenames</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3651,7 +3609,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::CLI#unpublish">Softcover::CLI#unpublish</span>
+          <span title="Softcover::BaseConfig.[]=">Softcover::BaseConfig.[]=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3665,7 +3623,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Utils#as_size">Softcover::Utils#as_size</span>
+          <span title="Softcover::Commands::Auth">Softcover::Commands::Auth</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3680,6 +3638,20 @@
         </td>
         <td class="path">
           <span title="Softcover::Builders::Pdf">Softcover::Builders::Pdf</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::CLI#unpublish">Softcover::CLI#unpublish</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3721,7 +3693,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::Utils#as_size">Softcover::Utils#as_size</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::BaseConfig.[]">Softcover::BaseConfig.[]</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::Book#destroy">Softcover::Book#destroy</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::CLI#publish">Softcover::CLI#publish</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3750,34 +3764,6 @@
         </td>
         <td class="path">
           <span title="Softcover::CLI#version">Softcover::CLI#version</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::CLI#publish">Softcover::CLI#publish</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::CLI#config">Softcover::CLI#config</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3847,7 +3833,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Softcover::CLI#config">Softcover::CLI#config</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Softcover::CLI#build">Softcover::CLI#build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::CLI#login">Softcover::CLI#login</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Softcover::Sanitizer">Softcover::Sanitizer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3876,34 +3904,6 @@
         </td>
         <td class="path">
           <span title="Softcover::CLI#clean">Softcover::CLI#clean</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::Sanitizer">Softcover::Sanitizer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Softcover::CLI#login">Softcover::CLI#login</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3987,7 +3987,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Output">Softcover::Output</span>
+          <span title="Softcover::Client">Softcover::Client</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4001,7 +4001,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Softcover::Client">Softcover::Client</span>
+          <span title="Softcover::Output">Softcover::Output</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

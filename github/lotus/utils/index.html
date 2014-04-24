@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/lotus/utils.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/lotus/utils.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/lotus/utils.png)](http://inch-pages.github.io/github/lotus/utils)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/lotus/utils.png)](http://inch-pages.github.io/github/lotus/utils)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/lotus/utils.png!:http://inch-pages.github.io/github/lotus/utils" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/lotus/utils.png!:http://inch-pages.github.io/github/lotus/utils" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/lotus/utils.png" alt="Inline docs" />}[http://inch-pages.github.io/github/lotus/utils]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/lotus/utils.png" alt="Inline docs" />}[http://inch-pages.github.io/github/lotus/utils]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -96,7 +96,7 @@
         Ruby core extentions and class utilities for Lotus
         
           &ndash;
-          <a target="_blank" href="http://rubydoc.info/gems/lotus-utils/0.1.0/frames">Read the documentation</a>
+          <a target="_blank" href="http://rubydoc.info/gems/lotus-utils/0.1.1/frames">Read the documentation</a>
         
       </p>
     </div>
@@ -105,8 +105,8 @@
       <div class='progress'>
         <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 87%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 10%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 11%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 19 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 25 more ...</a>
         </td>
       </tr>
     
@@ -241,7 +241,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Utils::String#initialize">Lotus::Utils::String#initialize</span>
+          <span title="Lotus::Utils::String#demodulize">Lotus::Utils::String#demodulize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -255,7 +255,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Utils::String#demodulize">Lotus::Utils::String#demodulize</span>
+          <span title="Lotus::Utils::String#initialize">Lotus::Utils::String#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -409,7 +409,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Utils::Kernel.Integer">Lotus::Utils::Kernel.Integer</span>
+          <span title="Lotus::Utils::Kernel.DateTime">Lotus::Utils::Kernel.DateTime</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -437,6 +437,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Utils::Kernel.Boolean">Lotus::Utils::Kernel.Boolean</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Utils::Kernel.Integer">Lotus::Utils::Kernel.Integer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Utils::Kernel.String">Lotus::Utils::Kernel.String</span>
         </td>
         <td>
@@ -451,7 +479,63 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Utils::Kernel.Float">Lotus::Utils::Kernel.Float</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Utils::Kernel.Array">Lotus::Utils::Kernel.Array</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Utils::Kernel.Date">Lotus::Utils::Kernel.Date</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Utils::Kernel.Time">Lotus::Utils::Kernel.Time</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Utils::Kernel.Set">Lotus::Utils::Kernel.Set</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -558,6 +642,20 @@
         </td>
         <td class="path">
           <span title="Lotus::Utils::ClassAttribute.included">Lotus::Utils::ClassAttribute.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Utils::Kernel.Hash">Lotus::Utils::Kernel.Hash</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

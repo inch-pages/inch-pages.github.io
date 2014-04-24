@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/webhat/oplerno.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/webhat/oplerno.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/webhat/oplerno.png)](http://inch-pages.github.io/github/webhat/oplerno)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/webhat/oplerno.png)](http://inch-pages.github.io/github/webhat/oplerno)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/webhat/oplerno.png!:http://inch-pages.github.io/github/webhat/oplerno" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/webhat/oplerno.png!:http://inch-pages.github.io/github/webhat/oplerno" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/webhat/oplerno.png" alt="Inline docs" />}[http://inch-pages.github.io/github/webhat/oplerno]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/webhat/oplerno.png" alt="Inline docs" />}[http://inch-pages.github.io/github/webhat/oplerno]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -325,6 +325,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="CoursesController#create">CoursesController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="TeachersController#index">TeachersController#index</span>
         </td>
         <td>
@@ -353,35 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CoursesController#create">CoursesController#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="UsersController#destroy">UsersController#destroy</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="TeachersController#show">TeachersController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -409,21 +395,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CoursesController#edit">CoursesController#edit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="UsersController#create">UsersController#create</span>
+          <span title="TeachersController#show">TeachersController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -451,7 +423,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="UsersController#create">UsersController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="UsersController#update">UsersController#update</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CoursesController#edit">CoursesController#edit</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -521,7 +521,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Student">Student</span>
+          <span title="Teacher">Teacher</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -535,7 +535,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Teacher">Teacher</span>
+          <span title="Student">Student</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -633,7 +633,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SubjectsController">SubjectsController</span>
+          <span title="SearchesController">SearchesController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -647,7 +647,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SearchesController">SearchesController</span>
+          <span title="SubjectsController">SubjectsController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -935,20 +935,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="User#encrypted_first_name=">User#encrypted_first_name=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="OrderTransaction#response=">OrderTransaction#response=</span>
         </td>
         <td>
@@ -963,7 +949,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="User#encrypted_first_name">User#encrypted_first_name</span>
+          <span title="User#encrypted_first_name=">User#encrypted_first_name=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -991,35 +977,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="User#encrypted_first_name">User#encrypted_first_name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="SearchesController#create">SearchesController#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="SubjectsController#index">SubjectsController#index</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="CanvasCourses.update_all">CanvasCourses.update_all</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1047,6 +1019,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SearchesController#index">SearchesController#index</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="User#encrypted_last_name">User#encrypted_last_name</span>
         </td>
         <td>
@@ -1061,7 +1047,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="SearchesController#index">SearchesController#index</span>
+          <span title="CanvasCourses.update_all">CanvasCourses.update_all</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SubjectsController#index">SubjectsController#index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1089,7 +1089,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CartsController#destroy">CartsController#destroy</span>
+          <span title="OrdersController#create">OrdersController#create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1117,7 +1117,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="OrdersController#create">OrdersController#create</span>
+          <span title="CartsController#destroy">CartsController#destroy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1159,21 +1159,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CartsController#create">CartsController#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="UsersController#whoami">UsersController#whoami</span>
+          <span title="CanvasUsers.update_all">CanvasUsers.update_all</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1215,7 +1201,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="CanvasUsers.update_all">CanvasUsers.update_all</span>
+          <span title="UsersController#whoami">UsersController#whoami</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="CartsController#create">CartsController#create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1257,7 +1257,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CartsController#show">CartsController#show</span>
+          <span title="Course#subject_list=">Course#subject_list=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1285,20 +1285,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Order#price_in_cents">Order#price_in_cents</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="User#encrypted_title">User#encrypted_title</span>
         </td>
         <td>
@@ -1313,7 +1299,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Course#subject_list=">Course#subject_list=</span>
+          <span title="Order#price_in_cents">Order#price_in_cents</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="CartsController#show">CartsController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1355,7 +1355,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Course#skill_list=">Course#skill_list=</span>
+          <span title="CanvasUsers.update">CanvasUsers.update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1369,7 +1369,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CanvasUsers.update">CanvasUsers.update</span>
+          <span title="Course#skill_list=">Course#skill_list=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1397,7 +1397,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Course#subject=">Course#subject=</span>
+          <span title="User.find_by_id">User.find_by_id</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1411,7 +1411,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="User.find_by_id">User.find_by_id</span>
+          <span title="Course#subject=">Course#subject=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1453,7 +1453,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Course#skill">Course#skill</span>
+          <span title="User#destroy">User#destroy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1467,7 +1467,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="User#destroy">User#destroy</span>
+          <span title="Course#skill">Course#skill</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

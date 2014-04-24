@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/ankane/searchkick.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/ankane/searchkick.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/ankane/searchkick.png)](http://inch-pages.github.io/github/ankane/searchkick)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/ankane/searchkick.png)](http://inch-pages.github.io/github/ankane/searchkick)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/ankane/searchkick.png!:http://inch-pages.github.io/github/ankane/searchkick" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/ankane/searchkick.png!:http://inch-pages.github.io/github/ankane/searchkick" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/ankane/searchkick.png" alt="Inline docs" />}[http://inch-pages.github.io/github/ankane/searchkick]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/ankane/searchkick.png" alt="Inline docs" />}[http://inch-pages.github.io/github/ankane/searchkick]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -96,7 +96,7 @@
         Intelligent search made easy
         
           &ndash;
-          <a target="_blank" href="http://rubydoc.info/gems/searchkick/0.7.0/frames">Read the documentation</a>
+          <a target="_blank" href="http://rubydoc.info/gems/searchkick/0.7.1/frames">Read the documentation</a>
         
       </p>
     </div>
@@ -191,7 +191,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Results#klass">Searchkick::Results#klass</span>
+          <span title="Searchkick::LogSubscriber">Searchkick::LogSubscriber</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -205,20 +205,6 @@
         </td>
       </tr>
     
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Searchkick::LogSubscriber">Searchkick::LogSubscriber</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
     
       <tr class="more_object">
         <td>
@@ -241,7 +227,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Query#klass">Searchkick::Query#klass</span>
+          <span title="Searchkick::Results#klass">Searchkick::Results#klass</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -255,7 +241,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Query#body">Searchkick::Query#body</span>
+          <span title="Searchkick::Query#klass">Searchkick::Query#klass</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -284,6 +270,20 @@
         </td>
         <td class="path">
           <span title="Searchkick::Index#name">Searchkick::Index#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Searchkick::Query#body">Searchkick::Query#body</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -593,20 +593,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::LogSubscriber.runtime">Searchkick::LogSubscriber.runtime</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Searchkick::Results#previous_page">Searchkick::Results#previous_page</span>
         </td>
         <td>
@@ -621,7 +607,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::LogSubscriber#search">Searchkick::LogSubscriber#search</span>
+          <span title="Searchkick::LogSubscriber.runtime">Searchkick::LogSubscriber.runtime</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -635,7 +621,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Results#offset_value">Searchkick::Results#offset_value</span>
+          <span title="Searchkick::LogSubscriber#search">Searchkick::LogSubscriber#search</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -677,6 +663,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Searchkick::Results#offset_value">Searchkick::Results#offset_value</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Searchkick::Results#suggestions">Searchkick::Results#suggestions</span>
         </td>
         <td>
@@ -705,20 +705,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Results#initialize">Searchkick::Results#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Searchkick::Results#model_name">Searchkick::Results#model_name</span>
         </td>
         <td>
@@ -733,7 +719,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Searchkick::Results#initialize">Searchkick::Results#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Searchkick::Results#next_page">Searchkick::Results#next_page</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Searchkick::Query#initialize">Searchkick::Query#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -789,7 +803,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Query#initialize">Searchkick::Query#initialize</span>
+          <span title="Searchkick.enable_callbacks">Searchkick.enable_callbacks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -831,7 +845,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick.enable_callbacks">Searchkick.enable_callbacks</span>
+          <span title="Searchkick::Index#retrieve">Searchkick::Index#retrieve</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -859,21 +873,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Index#retrieve">Searchkick::Index#retrieve</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Searchkick::Search#search">Searchkick::Search#search</span>
+          <span title="Searchkick::Query#execute">Searchkick::Query#execute</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -901,7 +901,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Query#execute">Searchkick::Query#execute</span>
+          <span title="Searchkick::Search#search">Searchkick::Search#search</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Searchkick::Index#delete">Searchkick::Index#delete</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Searchkick::Query#params">Searchkick::Query#params</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Searchkick::Index#create">Searchkick::Index#create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -943,77 +985,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Index#delete">Searchkick::Index#delete</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Searchkick::Index#create">Searchkick::Index#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Searchkick::Query#params">Searchkick::Query#params</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Searchkick::Index#store">Searchkick::Index#store</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Searchkick::Results">Searchkick::Results</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Searchkick::Reindex">Searchkick::Reindex</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1041,7 +1013,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Search">Searchkick::Search</span>
+          <span title="Searchkick::Reindex">Searchkick::Reindex</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1055,7 +1027,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick.client">Searchkick.client</span>
+          <span title="Searchkick::Results">Searchkick::Results</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Searchkick::Search">Searchkick::Search</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1083,6 +1069,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Searchkick::Query">Searchkick::Query</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Searchkick::Index">Searchkick::Index</span>
         </td>
         <td>
@@ -1097,7 +1097,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Query">Searchkick::Query</span>
+          <span title="Searchkick.client">Searchkick.client</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1167,7 +1167,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Index#client">Searchkick::Index#client</span>
+          <span title="Searchkick::Results#hits">Searchkick::Results#hits</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1181,7 +1181,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Searchkick::Results#hits">Searchkick::Results#hits</span>
+          <span title="Searchkick::Index#client">Searchkick::Index#client</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>

@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/jamesrwhite/minicron.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/jamesrwhite/minicron.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/jamesrwhite/minicron.png)](http://inch-pages.github.io/github/jamesrwhite/minicron)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/jamesrwhite/minicron.png)](http://inch-pages.github.io/github/jamesrwhite/minicron)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/jamesrwhite/minicron.png!:http://inch-pages.github.io/github/jamesrwhite/minicron" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/jamesrwhite/minicron.png!:http://inch-pages.github.io/github/jamesrwhite/minicron" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/jamesrwhite/minicron.png" alt="Inline docs" />}[http://inch-pages.github.io/github/jamesrwhite/minicron]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/jamesrwhite/minicron.png" alt="Inline docs" />}[http://inch-pages.github.io/github/jamesrwhite/minicron]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 69%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 68%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 25%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 26%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 80 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 81 more ...</a>
         </td>
       </tr>
     
@@ -339,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::FayeServer#server">Minicron::Transport::FayeServer#server</span>
+          <span title="Minicron::Transport::Client#initialize">Minicron::Transport::Client#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -353,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::Client#initialize">Minicron::Transport::Client#initialize</span>
+          <span title="Minicron::Transport::FayeServer#server">Minicron::Transport::FayeServer#server</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -633,20 +633,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron.get_user">Minicron.get_user</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Minicron::Monitor">Minicron::Monitor</span>
         </td>
         <td>
@@ -662,6 +648,20 @@
         </td>
         <td class="path">
           <span title="Minicron.get_fqdn">Minicron.get_fqdn</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Minicron.get_user">Minicron.get_user</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -731,7 +731,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::SMS">Minicron::SMS</span>
+          <span title="Minicron::CLI">Minicron::CLI</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -745,7 +745,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::CLI">Minicron::CLI</span>
+          <span title="Minicron::SMS">Minicron::SMS</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -801,7 +801,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::FayeClient#request">Minicron::Transport::FayeClient#request</span>
+          <span title="Minicron::Transport::FayeClient#tidy_up">Minicron::Transport::FayeClient#tidy_up</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -815,7 +815,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::FayeClient#tidy_up">Minicron::Transport::FayeClient#tidy_up</span>
+          <span title="Minicron::Transport::FayeClient#request">Minicron::Transport::FayeClient#request</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -857,7 +857,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::Client#publish">Minicron::Transport::Client#publish</span>
+          <span title="Minicron::Transport::Server.server=">Minicron::Transport::Server.server=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -871,7 +871,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::Server.server=">Minicron::Transport::Server.server=</span>
+          <span title="Minicron::Transport::Client#publish">Minicron::Transport::Client#publish</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -955,7 +955,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron.parse_file_config">Minicron.parse_file_config</span>
+          <span title="Minicron::Monitor#setup_db">Minicron::Monitor#setup_db</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -969,7 +969,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Monitor#setup_db">Minicron::Monitor#setup_db</span>
+          <span title="Minicron.parse_file_config">Minicron.parse_file_config</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1011,7 +1011,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::PagerDuty#send">Minicron::PagerDuty#send</span>
+          <span title="Minicron::Hub::Host#name">Minicron::Hub::Host#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1025,7 +1025,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Hub::Host#name">Minicron::Hub::Host#name</span>
+          <span title="Minicron::PagerDuty#send">Minicron::PagerDuty#send</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1095,7 +1095,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::FayeJobHandler#handle_setup">Minicron::Transport::FayeJobHandler#handle_setup</span>
+          <span title="Minicron::Transport::FayeJobHandler#handle_start">Minicron::Transport::FayeJobHandler#handle_start</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1109,7 +1109,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::FayeJobHandler#handle_start">Minicron::Transport::FayeJobHandler#handle_start</span>
+          <span title="Minicron::Transport::FayeJobHandler#handle_setup">Minicron::Transport::FayeJobHandler#handle_setup</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1166,6 +1166,20 @@
         </td>
         <td class="path">
           <span title="Minicron::Cron#add_schedule">Minicron::Cron#add_schedule</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Minicron::Cron#test_host_permissions">Minicron::Cron#test_host_permissions</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1263,7 +1277,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::SMS#get_message">Minicron::SMS#get_message</span>
+          <span title="Minicron::CLI.run_command">Minicron::CLI.run_command</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1277,7 +1291,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::CLI.run_command">Minicron::CLI.run_command</span>
+          <span title="Minicron::SMS#get_message">Minicron::SMS#get_message</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1575,7 +1589,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 27 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 29 more ...</a>
         </td>
       </tr>
     
@@ -1615,20 +1629,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Hub::ExecutionSerializer#initialize">Minicron::Hub::ExecutionSerializer#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Minicron::Hub::JobSerializer#do_serialization">Minicron::Hub::JobSerializer#do_serialization</span>
         </td>
         <td>
@@ -1643,7 +1643,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Hub::ExecutionSerializer#serialize">Minicron::Hub::ExecutionSerializer#serialize</span>
+          <span title="Minicron::Hub::ExecutionSerializer#initialize">Minicron::Hub::ExecutionSerializer#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1671,7 +1671,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Hub::JobExecutionOutputSerializer">Minicron::Hub::JobExecutionOutputSerializer</span>
+          <span title="Minicron::Hub::ExecutionSerializer#serialize">Minicron::Hub::ExecutionSerializer#serialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Minicron::Hub::ScheduleSerializer#serialize">Minicron::Hub::ScheduleSerializer#serialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1699,7 +1713,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Hub::ScheduleSerializer#serialize">Minicron::Hub::ScheduleSerializer#serialize</span>
+          <span title="Minicron::Hub::JobExecutionOutputSerializer">Minicron::Hub::JobExecutionOutputSerializer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1811,7 +1825,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::FayeServer">Minicron::Transport::FayeServer</span>
+          <span title="Minicron::Transport::FayeClient">Minicron::Transport::FayeClient</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1825,7 +1839,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Minicron::Transport::FayeClient">Minicron::Transport::FayeClient</span>
+          <span title="Minicron::Transport::FayeServer">Minicron::Transport::FayeServer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1955,6 +1969,34 @@
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="EventMachine">EventMachine</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Sinatra">Sinatra</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
         </td>
       </tr>
     

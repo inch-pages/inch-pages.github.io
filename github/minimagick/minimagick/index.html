@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/minimagick/minimagick.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/minimagick/minimagick.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/minimagick/minimagick.png)](http://inch-pages.github.io/github/minimagick/minimagick)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/minimagick/minimagick.png)](http://inch-pages.github.io/github/minimagick/minimagick)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/minimagick/minimagick.png!:http://inch-pages.github.io/github/minimagick/minimagick" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/minimagick/minimagick.png!:http://inch-pages.github.io/github/minimagick/minimagick" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/minimagick/minimagick.png" alt="Inline docs" />}[http://inch-pages.github.io/github/minimagick/minimagick]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/minimagick/minimagick.png" alt="Inline docs" />}[http://inch-pages.github.io/github/minimagick/minimagick]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -191,7 +191,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MiniMagick::Image#to_blob">MiniMagick::Image#to_blob</span>
+          <span title="MiniMagick.processor_path">MiniMagick.processor_path</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -213,7 +213,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MiniMagick.processor_path">MiniMagick.processor_path</span>
+          <span title="MiniMagick::Image#to_blob">MiniMagick::Image#to_blob</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -283,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MiniMagick::Image#path">MiniMagick::Image#path</span>
+          <span title="MiniMagick::Image.read">MiniMagick::Image.read</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -297,7 +297,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MiniMagick::Image.read">MiniMagick::Image.read</span>
+          <span title="MiniMagick::Image#path">MiniMagick::Image#path</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -635,6 +635,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="MiniMagick::Image#composite">MiniMagick::Image#composite</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="MiniMagick::Image#destroy!">MiniMagick::Image#destroy!</span>
         </td>
         <td>
@@ -670,7 +684,15 @@
         </td>
       </tr>
     
-      <tr>
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('U'); return false;">Show 14 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-U">
             U
@@ -683,14 +705,6 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 14 more ...</a>
-        </td>
-      </tr>
-    
     
       <tr class="more_object">
         <td>
@@ -742,20 +756,6 @@
         </td>
         <td class="path">
           <span title="MiniMagick::CommandBuilder#+">MiniMagick::CommandBuilder#+</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="MiniMagick::Image#composite">MiniMagick::Image#composite</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/hajee/easy_type.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/hajee/easy_type.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/hajee/easy_type.png)](http://inch-pages.github.io/github/hajee/easy_type)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/hajee/easy_type.png)](http://inch-pages.github.io/github/hajee/easy_type)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/hajee/easy_type.png!:http://inch-pages.github.io/github/hajee/easy_type" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/hajee/easy_type.png!:http://inch-pages.github.io/github/hajee/easy_type" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/hajee/easy_type.png" alt="Inline docs" />}[http://inch-pages.github.io/github/hajee/easy_type]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/hajee/easy_type.png" alt="Inline docs" />}[http://inch-pages.github.io/github/hajee/easy_type]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 65%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 63%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 3%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 31%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 33%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -127,20 +127,6 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="EasyType">EasyType</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
     
       <tr>
         <td>
@@ -198,15 +184,7 @@
         </td>
       </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 46 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
+      <tr>
         <td>
           <div class="grade-circle grade-circle-A">
             A
@@ -219,6 +197,14 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('A'); return false;">Show 45 more ...</a>
+        </td>
+      </tr>
+    
     
       <tr class="more_object">
         <td>
@@ -297,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::Provider#property_hash">EasyType::Provider#property_hash</span>
+          <span title="EasyType::Provider::ClassMethods">EasyType::Provider::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -311,7 +297,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::Provider::ClassMethods">EasyType::Provider::ClassMethods</span>
+          <span title="EasyType::Provider#property_hash">EasyType::Provider#property_hash</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -353,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::ScriptBuilder">EasyType::ScriptBuilder</span>
+          <span title="EasyType::Mungers::Size">EasyType::Mungers::Size</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -381,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::Mungers::Size">EasyType::Mungers::Size</span>
+          <span title="EasyType::ScriptBuilder">EasyType::ScriptBuilder</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -437,7 +423,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CommandEntry#context">CommandEntry#context</span>
+          <span title="CommandEntry#command">CommandEntry#command</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -451,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CommandEntry#command">CommandEntry#command</span>
+          <span title="CommandEntry#context">CommandEntry#context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -479,7 +465,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::Provider">EasyType::Provider</span>
+          <span title="EasyType::Template">EasyType::Template</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -493,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::Template">EasyType::Template</span>
+          <span title="BlankSlate#entries">BlankSlate#entries</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -521,7 +507,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="BlankSlate#entries">BlankSlate#entries</span>
+          <span title="EasyType::Provider">EasyType::Provider</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -999,7 +985,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="#ruby_19">#ruby_19</span>
+          <span title="EasyType">EasyType</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1023,10 +1009,38 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 20 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 22 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="#ruby_19">#ruby_19</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="EasyType::Type#method_missing">EasyType::Type#method_missing</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -1161,7 +1175,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::ScriptBuilder#entries">EasyType::ScriptBuilder#entries</span>
+          <span title="EasyType::ScriptBuilder#execute">EasyType::ScriptBuilder#execute</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1175,7 +1189,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::ScriptBuilder#execute">EasyType::ScriptBuilder#execute</span>
+          <span title="EasyType::ScriptBuilder#entries">EasyType::ScriptBuilder#entries</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1231,7 +1245,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::Mungers::Integer">EasyType::Mungers::Integer</span>
+          <span title="EasyType::ScriptBuilder#<<">EasyType::ScriptBuilder#<<</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1245,7 +1259,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="EasyType::ScriptBuilder#<<">EasyType::ScriptBuilder#<<</span>
+          <span title="EasyType::Mungers::Integer">EasyType::Mungers::Integer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

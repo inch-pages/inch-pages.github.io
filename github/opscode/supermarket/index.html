@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/opscode/supermarket.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/opscode/supermarket.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/opscode/supermarket.png)](http://inch-pages.github.io/github/opscode/supermarket)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/opscode/supermarket.png)](http://inch-pages.github.io/github/opscode/supermarket)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/opscode/supermarket.png!:http://inch-pages.github.io/github/opscode/supermarket" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/opscode/supermarket.png!:http://inch-pages.github.io/github/opscode/supermarket" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/opscode/supermarket.png" alt="Inline docs" />}[http://inch-pages.github.io/github/opscode/supermarket]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/opscode/supermarket.png" alt="Inline docs" />}[http://inch-pages.github.io/github/opscode/supermarket]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -103,9 +103,9 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 57%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 58%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 5%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 4%' title='Needs work'></div>
         <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 37%' title='Undocumented'></div>
       </div>
     </div>
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 140 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 149 more ...</a>
         </td>
       </tr>
     
@@ -339,20 +339,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Supermarket::LocationStorage#stored_location">Supermarket::LocationStorage#stored_location</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Curry::ImportUnknownPullRequestCommitAuthors">Curry::ImportUnknownPullRequestCommitAuthors</span>
         </td>
         <td>
@@ -367,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Supermarket::Authentication#current_user">Supermarket::Authentication#current_user</span>
+          <span title="Supermarket::LocationStorage#stored_location">Supermarket::LocationStorage#stored_location</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -381,35 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookUpload::Parameters#category_name">CookbookUpload::Parameters#category_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="User#unverified_commit_author_identities">User#unverified_commit_author_identities</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::V1::CookbookVersionsController#show">Api::V1::CookbookVersionsController#show</span>
+          <span title="CookbookCollaborator.with_cookbook_and_user">CookbookCollaborator.with_cookbook_and_user</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -437,7 +395,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Curry::PullRequestAnnotator#initialize">Curry::PullRequestAnnotator#initialize</span>
+          <span title="User#unverified_commit_author_identities">User#unverified_commit_author_identities</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -451,7 +409,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Curry::RepositorySubscriber#repository">Curry::RepositorySubscriber#repository</span>
+          <span title="Supermarket::Authentication#current_user">Supermarket::Authentication#current_user</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Api::V1::CookbookVersionsController#show">Api::V1::CookbookVersionsController#show</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CookbookUpload::Parameters#category_name">CookbookUpload::Parameters#category_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -479,7 +465,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="User#verified_commit_author_identities">User#verified_commit_author_identities</span>
+          <span title="Curry::RepositorySubscriber#repository">Curry::RepositorySubscriber#repository</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Curry::PullRequestAnnotator#initialize">Curry::PullRequestAnnotator#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -494,6 +494,20 @@
         </td>
         <td class="path">
           <span title="Curry::RepositorySubscriber#initialize">Curry::RepositorySubscriber#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="User#verified_commit_author_identities">User#verified_commit_author_identities</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -535,20 +549,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookVersionsHelper#render_readme">CookbookVersionsHelper#render_readme</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Api::V1::CookbooksController#destroy">Api::V1::CookbooksController#destroy</span>
         </td>
         <td>
@@ -577,6 +577,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="CookbookVersionsHelper#render_readme">CookbookVersionsHelper#render_readme</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="MarkdownHelper::TargetBlankRenderer">MarkdownHelper::TargetBlankRenderer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="CookbookUpload::Metadata#maintainer">CookbookUpload::Metadata#maintainer</span>
         </td>
         <td>
@@ -592,20 +620,6 @@
         </td>
         <td class="path">
           <span title="Api::V1::CookbooksController#search">Api::V1::CookbooksController#search</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="MarkdownHelper::TargetBlankRenderer">MarkdownHelper::TargetBlankRenderer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -661,20 +675,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookUpload::Metadata#platforms">CookbookUpload::Metadata#platforms</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Api::V1::CookbooksController#index">Api::V1::CookbooksController#index</span>
         </td>
         <td>
@@ -703,7 +703,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookUpload::Parameters#errors">CookbookUpload::Parameters#errors</span>
+          <span title="CookbookUpload::Metadata#platforms">CookbookUpload::Metadata#platforms</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -745,7 +745,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="CookbookUpload::Parameters#errors">CookbookUpload::Parameters#errors</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Api::V1::CookbooksController#show">Api::V1::CookbooksController#show</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CookbookUpload::Metadata#version">CookbookUpload::Metadata#version</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -787,7 +815,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookUpload::Metadata#version">CookbookUpload::Metadata#version</span>
+          <span title="CookbooksHelper#dependency_link">CookbooksHelper#dependency_link</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -815,7 +843,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbooksHelper#dependency_link">CookbooksHelper#dependency_link</span>
+          <span title="Cookbook#cookbook_dependencies">Cookbook#cookbook_dependencies</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="User#collaborator_for_cookbook">User#collaborator_for_cookbook</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -843,7 +885,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Curry::PullRequestAnnotator">Curry::PullRequestAnnotator</span>
+          <span title="Cookbook#supported_platforms">Cookbook#supported_platforms</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -857,7 +899,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Authorizer::Base#initialize">Authorizer::Base#initialize</span>
+          <span title="Curry::PullRequestAnnotator">Curry::PullRequestAnnotator</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -885,7 +927,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbooksHelper#feed_title">CookbooksHelper#feed_title</span>
+          <span title="Authorizer::Base#initialize">Authorizer::Base#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="User#latest_icla_signature">User#latest_icla_signature</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -913,7 +969,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="User#latest_icla_signature">User#latest_icla_signature</span>
+          <span title="CookbooksHelper#feed_title">CookbooksHelper#feed_title</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CookbooksController#index">CookbooksController#index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -942,20 +1012,6 @@
         </td>
         <td class="path">
           <span title="Extractor::Base#signature">Extractor::Base#signature</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="CookbooksController#index">CookbooksController#index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1039,7 +1095,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Authorizable#roles=">Authorizable#roles=</span>
+          <span title="Organization#admins">Organization#admins</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1053,7 +1109,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Organization#admins">Organization#admins</span>
+          <span title="Authorizable#roles=">Authorizable#roles=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1081,7 +1137,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Organization#name">Organization#name</span>
+          <span title="Cookbook#to_param">Cookbook#to_param</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1109,7 +1165,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Contributor#email">Contributor#email</span>
+          <span title="Organization#name">Organization#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1123,7 +1179,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Cookbook#to_param">Cookbook#to_param</span>
+          <span title="Contributor#email">Contributor#email</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1249,7 +1305,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Curry::PullRequestUpdatesController#create">Curry::PullRequestUpdatesController#create</span>
+          <span title="CookbookMailer#follower_notification_email">CookbookMailer#follower_notification_email</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1263,7 +1319,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookMailer#follower_notification_email">CookbookMailer#follower_notification_email</span>
+          <span title="Curry::PullRequestUpdatesController#create">Curry::PullRequestUpdatesController#create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1305,20 +1361,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="OrganizationInvitationsController#update">OrganizationInvitationsController#update</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="OrganizationInvitationsController#revoke">OrganizationInvitationsController#revoke</span>
         </td>
         <td>
@@ -1334,6 +1376,20 @@
         </td>
         <td class="path">
           <span title="OrganizationInvitationsController#create">OrganizationInvitationsController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="OrganizationInvitationsController#update">OrganizationInvitationsController#update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1473,6 +1529,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="IclaSignaturesController#create">IclaSignaturesController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CollaboratorsController#destroy">CollaboratorsController#destroy</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="CookbookVersionsController#show">CookbookVersionsController#show</span>
         </td>
         <td>
@@ -1501,35 +1585,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="IclaSignaturesController#create">IclaSignaturesController#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ChefOauth2Extractor#public_key">ChefOauth2Extractor#public_key</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="CclaSignaturesController#index">CclaSignaturesController#index</span>
+          <span title="CollaboratorMailer#added_email">CollaboratorMailer#added_email</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1571,35 +1627,63 @@
           </div>
         </td>
         <td class="path">
+          <span title="ChefOauth2Extractor#public_key">ChefOauth2Extractor#public_key</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CclaSignaturesController#index">CclaSignaturesController#index</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CollaboratorsController#create">CollaboratorsController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CollaboratorsController#index">CollaboratorsController#index</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="CookbooksController#directory">CookbooksController#directory</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="CclaSignaturesController#show">CclaSignaturesController#show</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="IclaSignaturesController#show">IclaSignaturesController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1627,7 +1711,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbooksController#unfollow">CookbooksController#unfollow</span>
+          <span title="IclaSignaturesController#show">IclaSignaturesController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1641,7 +1725,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookNotifyWorker#perform">CookbookNotifyWorker#perform</span>
+          <span title="CclaSignaturesController#show">CclaSignaturesController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1669,6 +1753,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="CookbooksController#download">CookbooksController#download</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="IclaSignaturesController#new">IclaSignaturesController#new</span>
         </td>
         <td>
@@ -1683,7 +1781,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbooksController#download">CookbooksController#download</span>
+          <span title="CookbookNotifyWorker#perform">CookbookNotifyWorker#perform</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CookbooksController#unfollow">CookbooksController#unfollow</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1711,49 +1823,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="GithubExtractor#public_key">GithubExtractor#public_key</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="CookbooksController#follow">CookbooksController#follow</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="AccountsController#destroy">AccountsController#destroy</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="SessionsController#destroy">SessionsController#destroy</span>
+          <span title="CollaboratorsController#new">CollaboratorsController#new</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1781,7 +1851,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SessionsController#create">SessionsController#create</span>
+          <span title="CookbooksController#follow">CookbooksController#follow</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1795,7 +1865,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="ExceptionsController#show">ExceptionsController#show</span>
+          <span title="SessionsController#destroy">SessionsController#destroy</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="GithubExtractor#public_key">GithubExtractor#public_key</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="AccountsController#destroy">AccountsController#destroy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1823,6 +1921,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="SessionsController#create">SessionsController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="PagesController#dashboard">PagesController#dashboard</span>
         </td>
         <td>
@@ -1837,7 +1949,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="IclaSignature#agreement=">IclaSignature#agreement=</span>
+          <span title="ExceptionsController#show">ExceptionsController#show</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="CookbooksController#show">CookbooksController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1879,6 +2005,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="IclaSignature#agreement=">IclaSignature#agreement=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="IclaSignature#agreement">IclaSignature#agreement</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="PagesController#welcome">PagesController#welcome</span>
         </td>
         <td>
@@ -1894,20 +2048,6 @@
         </td>
         <td class="path">
           <span title="CclaSignature#agreement">CclaSignature#agreement</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="IclaSignature#agreement">IclaSignature#agreement</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1963,7 +2103,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Ccla.latest">Ccla.latest</span>
+          <span title="Icla.latest">Icla.latest</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1977,7 +2117,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Icla.latest">Icla.latest</span>
+          <span title="Ccla.latest">Ccla.latest</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2089,7 +2229,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ExceptionsController#exception">ExceptionsController#exception</span>
+          <span title="ExceptionsController#backtrace">ExceptionsController#backtrace</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2103,7 +2243,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ExceptionsController#backtrace">ExceptionsController#backtrace</span>
+          <span title="ExceptionsController#exception">ExceptionsController#exception</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2132,20 +2272,6 @@
         </td>
         <td class="path">
           <span title="UsersHelper#gravatar_for">UsersHelper#gravatar_for</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="CookbooksController#show">CookbooksController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2461,6 +2587,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="CookbookCollaboratorAuthorizer">CookbookCollaboratorAuthorizer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="CookbookVersionsController">CookbookVersionsController</span>
         </td>
         <td>
@@ -2489,20 +2629,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SupportedPlatformsHelper">SupportedPlatformsHelper</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="IclaSignaturesController">IclaSignaturesController</span>
         </td>
         <td>
@@ -2513,10 +2639,38 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 92 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 97 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SupportedPlatformsHelper">SupportedPlatformsHelper</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="CollaboratorsController">CollaboratorsController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -2595,20 +2749,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ApplicationController">ApplicationController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="InvitationsController">InvitationsController</span>
         </td>
         <td>
@@ -2623,21 +2763,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ExceptionsController">ExceptionsController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="InvitationAuthorizer">InvitationAuthorizer</span>
+          <span title="ApplicationController">ApplicationController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2665,7 +2791,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbooksController">CookbooksController</span>
+          <span title="InvitationAuthorizer">InvitationAuthorizer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="CookbookCollaborator">CookbookCollaborator</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ExceptionsController">ExceptionsController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2693,6 +2847,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="CookbooksController">CookbooksController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="ContributorsHelper">ContributorsHelper</span>
         </td>
         <td>
@@ -2707,21 +2875,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ClaSignatureMailer">ClaSignatureMailer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AccountsController">AccountsController</span>
+          <span title="CollaboratorMailer">CollaboratorMailer</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2749,7 +2903,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="ProfileController">ProfileController</span>
+          <span title="ClaSignatureMailer">ClaSignatureMailer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="CookbookAuthorizer">CookbookAuthorizer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="AccountsController">AccountsController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2777,6 +2959,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="ProfileController">ProfileController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="InvitationMailer">InvitationMailer</span>
         </td>
         <td>
@@ -2791,7 +2987,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="PagesController">PagesController</span>
+          <span title="GithubExtractor">GithubExtractor</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2819,7 +3015,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="GithubExtractor">GithubExtractor</span>
+          <span title="PagesController">PagesController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2861,7 +3057,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MarkdownHelper">MarkdownHelper</span>
+          <span title="CookbookUpload">CookbookUpload</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2875,7 +3071,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CookbookUpload">CookbookUpload</span>
+          <span title="MarkdownHelper">MarkdownHelper</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2931,6 +3127,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Authorizable">Authorizable</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Organization">Organization</span>
         </td>
         <td>
@@ -2945,7 +3155,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Authorizable">Authorizable</span>
+          <span title="MailPreview">MailPreview</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2974,20 +3184,6 @@
         </td>
         <td class="path">
           <span title="UsersHelper">UsersHelper</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="MailPreview">MailPreview</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -3057,7 +3253,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="User">User</span>
+          <span title="Icla">Icla</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -3071,7 +3267,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Icla">Icla</span>
+          <span title="User">User</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -3113,7 +3309,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MailPreview#cookbook_version_notification_email">MailPreview#cookbook_version_notification_email</span>
+          <span title="MailPreview#cookbook_follower_notification_email">MailPreview#cookbook_follower_notification_email</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3141,7 +3337,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MailPreview#ccla_signature_notification_email">MailPreview#ccla_signature_notification_email</span>
+          <span title="MailPreview#icla_signature_notification_email">MailPreview#icla_signature_notification_email</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3169,7 +3365,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MailPreview#icla_signature_notification_email">MailPreview#icla_signature_notification_email</span>
+          <span title="MailPreview#ccla_signature_notification_email">MailPreview#ccla_signature_notification_email</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3267,7 +3463,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ContributorAuthorizer#contributor">ContributorAuthorizer#contributor</span>
+          <span title="Curry::PullRequestAppraiserWorker">Curry::PullRequestAppraiserWorker</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3281,7 +3477,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Curry::PullRequestAppraiserWorker">Curry::PullRequestAppraiserWorker</span>
+          <span title="ContributorAuthorizer#contributor">ContributorAuthorizer#contributor</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3351,20 +3547,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Supermarket::LocationStorage">Supermarket::LocationStorage</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="InvitationsController#accept">InvitationsController#accept</span>
         </td>
         <td>
@@ -3379,7 +3561,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Supermarket::LocationStorage">Supermarket::LocationStorage</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Api::V1::CookbooksController">Api::V1::CookbooksController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Curry::RepositorySubscriber">Curry::RepositorySubscriber</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3408,20 +3618,6 @@
         </td>
         <td class="path">
           <span title="Curry::Repository#full_name">Curry::Repository#full_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Curry::RepositorySubscriber">Curry::RepositorySubscriber</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3561,7 +3757,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="IclaSignature#name">IclaSignature#name</span>
+          <span title="CclaSignature#name">CclaSignature#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3589,7 +3785,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="CclaSignature#name">CclaSignature#name</span>
+          <span title="IclaSignature#name">IclaSignature#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Api::V1Controller">Api::V1Controller</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3618,20 +3828,6 @@
         </td>
         <td class="path">
           <span title="Invitation#accept">Invitation#accept</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::V1Controller">Api::V1Controller</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3743,7 +3939,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Supermarket">Supermarket</span>
+          <span title="ActiveModel">ActiveModel</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3757,7 +3953,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActiveModel">ActiveModel</span>
+          <span title="Supermarket">Supermarket</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>

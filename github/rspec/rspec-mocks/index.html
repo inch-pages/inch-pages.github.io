@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/rspec/rspec-mocks.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/rspec/rspec-mocks.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/rspec/rspec-mocks.png)](http://inch-pages.github.io/github/rspec/rspec-mocks)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/rspec/rspec-mocks.png)](http://inch-pages.github.io/github/rspec/rspec-mocks)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/rspec/rspec-mocks.png!:http://inch-pages.github.io/github/rspec/rspec-mocks" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/rspec/rspec-mocks.png!:http://inch-pages.github.io/github/rspec/rspec-mocks" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/rspec/rspec-mocks.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rspec/rspec-mocks]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/rspec/rspec-mocks.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rspec/rspec-mocks]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -353,6 +353,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="RSpec::Mocks::ArgumentMatchers#anything">RSpec::Mocks::ArgumentMatchers#anything</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="RSpec::Mocks::ArgumentMatchers#any_args">RSpec::Mocks::ArgumentMatchers#any_args</span>
         </td>
         <td>
@@ -368,20 +382,6 @@
         </td>
         <td class="path">
           <span title="RSpec::Mocks::ExampleMethods#hide_const">RSpec::Mocks::ExampleMethods#hide_const</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="RSpec::Mocks::ArgumentMatchers#anything">RSpec::Mocks::ArgumentMatchers#anything</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -871,20 +871,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Mocks::ConstantMutator.hide">RSpec::Mocks::ConstantMutator.hide</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="RSpec::Mocks::ExampleMethods#allow">RSpec::Mocks::ExampleMethods#allow</span>
         </td>
         <td>
@@ -900,6 +886,20 @@
         </td>
         <td class="path">
           <span title="RSpec::Mocks::ConstantMutator.stub">RSpec::Mocks::ConstantMutator.stub</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="RSpec::Mocks::ConstantMutator.hide">RSpec::Mocks::ConstantMutator.hide</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -969,7 +969,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Class#any_instance">Class#any_instance</span>
+          <span title="BasicObject#unstub">BasicObject#unstub</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -983,7 +983,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="BasicObject#unstub">BasicObject#unstub</span>
+          <span title="Class#any_instance">Class#any_instance</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>

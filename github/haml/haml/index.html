@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/haml/haml.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/haml/haml.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/haml/haml.png)](http://inch-pages.github.io/github/haml/haml)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/haml/haml.png)](http://inch-pages.github.io/github/haml/haml)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/haml/haml.png!:http://inch-pages.github.io/github/haml/haml" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/haml/haml.png!:http://inch-pages.github.io/github/haml/haml" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/haml/haml.png" alt="Inline docs" />}[http://inch-pages.github.io/github/haml/haml]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/haml/haml.png" alt="Inline docs" />}[http://inch-pages.github.io/github/haml/haml]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 65%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 66%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 9%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 26%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 25%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -297,7 +297,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Engine#render_proc">Haml::Engine#render_proc</span>
+          <span title="Haml::Buffer.merge_attrs">Haml::Buffer.merge_attrs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -311,7 +311,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Buffer.merge_attrs">Haml::Buffer.merge_attrs</span>
+          <span title="Haml::Engine#render_proc">Haml::Engine#render_proc</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -409,20 +409,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options.buffer_option_keys">Haml::Options.buffer_option_keys</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Haml::Filters::SassRailsTemplate">Haml::Filters::SassRailsTemplate</span>
         </td>
         <td>
@@ -438,6 +424,20 @@
         </td>
         <td class="path">
           <span title="Haml::Filters::ScssRailsTemplate">Haml::Filters::ScssRailsTemplate</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Options.buffer_option_keys">Haml::Options.buffer_option_keys</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -577,35 +577,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters::Javascript">Haml::Filters::Javascript</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Haml::Engine#indentation=">Haml::Engine#indentation=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Helpers#escape_once">Haml::Helpers#escape_once</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -633,35 +605,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Haml::Filters::Javascript">Haml::Filters::Javascript</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Helpers#escape_once">Haml::Helpers#escape_once</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::Helpers#haml_indent">Haml::Helpers#haml_indent</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Exec::Generic#to_s">Haml::Exec::Generic#to_s</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Engine#indentation">Haml::Engine#indentation</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -689,6 +661,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Haml::Exec::Generic#to_s">Haml::Exec::Generic#to_s</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::Helpers#html_attrs">Haml::Helpers#html_attrs</span>
         </td>
         <td>
@@ -703,7 +689,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers#with_tabs">Haml::Helpers#with_tabs</span>
+          <span title="Haml::Engine#indentation">Haml::Engine#indentation</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -745,77 +731,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers#surround">Haml::Helpers#surround</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Util#caller_info">Haml::Util#caller_info</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Template#options">Haml::Template#options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Filters::Escaped">Haml::Filters::Escaped</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Helpers#tab_down">Haml::Helpers#tab_down</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Util#inspect_obj">Haml::Util#inspect_obj</span>
+          <span title="Haml::Helpers#with_tabs">Haml::Helpers#with_tabs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -843,7 +759,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers::XssMods">Haml::Helpers::XssMods</span>
+          <span title="Haml::Helpers#surround">Haml::Helpers#surround</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Filters::Escaped">Haml::Filters::Escaped</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Util#caller_info">Haml::Util#caller_info</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -871,7 +815,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters#defined">Haml::Filters#defined</span>
+          <span title="Haml::Helpers#tab_down">Haml::Helpers#tab_down</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Template#options">Haml::Template#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Helpers::XssMods">Haml::Helpers::XssMods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Util#inspect_obj">Haml::Util#inspect_obj</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -913,6 +899,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Haml::Helpers#succeed">Haml::Helpers#succeed</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::Helpers#precede">Haml::Helpers#precede</span>
         </td>
         <td>
@@ -941,7 +941,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers#succeed">Haml::Helpers#succeed</span>
+          <span title="Haml::Filters#defined">Haml::Filters#defined</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -969,35 +969,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters::Cdata">Haml::Filters::Cdata</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Filters::Plain">Haml::Filters::Plain</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Haml::Util#html_safe">Haml::Util#html_safe</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Filters::Cdata">Haml::Filters::Cdata</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1039,77 +1025,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Buffer#buffer">Haml::Buffer#buffer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Exec::Generic">Haml::Exec::Generic</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Buffer#upper=">Haml::Buffer#upper=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Engine#parser">Haml::Engine#parser</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Util#powerset">Haml::Util#powerset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Filters::Base">Haml::Filters::Base</span>
+          <span title="Haml::Filters::Plain">Haml::Filters::Plain</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1137,7 +1053,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters::Erb">Haml::Filters::Erb</span>
+          <span title="Haml::Exec::Generic">Haml::Exec::Generic</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1151,7 +1067,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters::Css">Haml::Filters::Css</span>
+          <span title="Haml::Filters::Base">Haml::Filters::Base</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Engine#parser">Haml::Engine#parser</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Buffer#upper=">Haml::Buffer#upper=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Buffer#buffer">Haml::Buffer#buffer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Util#powerset">Haml::Util#powerset</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1179,7 +1151,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Parser#root">Haml::Parser#root</span>
+          <span title="Haml::Filters::Css">Haml::Filters::Css</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1193,7 +1165,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Exec::Haml">Haml::Exec::Haml</span>
+          <span title="Haml::Filters::Erb">Haml::Filters::Erb</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Parser#root">Haml::Parser#root</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1221,6 +1207,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Haml::Exec::Haml">Haml::Exec::Haml</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::Filters">Haml::Filters</span>
         </td>
         <td>
@@ -1235,7 +1235,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Engine">Haml::Engine</span>
+          <span title="Haml::Plugin">Haml::Plugin</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1249,7 +1249,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Plugin">Haml::Plugin</span>
+          <span title="Haml::Engine">Haml::Engine</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1361,20 +1361,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#compiler_class">Haml::Options#compiler_class</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Haml::Options#suppress_eval=">Haml::Options#suppress_eval=</span>
         </td>
         <td>
@@ -1389,7 +1375,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Haml::Options#compiler_class">Haml::Options#compiler_class</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::Filters::Base.included">Haml::Filters::Base.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Options#parser_class=">Haml::Options#parser_class=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1445,7 +1459,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#parser_class=">Haml::Options#parser_class=</span>
+          <span title="Haml::Options#attr_wrapper">Haml::Options#attr_wrapper</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1473,7 +1487,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#attr_wrapper">Haml::Options#attr_wrapper</span>
+          <span title="Haml::Options#escape_attrs">Haml::Options#escape_attrs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1501,7 +1515,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#escape_attrs">Haml::Options#escape_attrs</span>
+          <span title="Haml::Options#escape_html">Haml::Options#escape_html</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1529,21 +1543,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#escape_html">Haml::Options#escape_html</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Buffer#tabulation=">Haml::Buffer#tabulation=</span>
+          <span title="Haml::Exec::Generic#puts">Haml::Exec::Generic#puts</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1571,6 +1571,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Haml::Buffer#adjust_tabs">Haml::Buffer#adjust_tabs</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Buffer#tabulation=">Haml::Buffer#tabulation=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::Options#mime_type=">Haml::Options#mime_type=</span>
         </td>
         <td>
@@ -1585,7 +1613,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Exec::Generic#puts">Haml::Exec::Generic#puts</span>
+          <span title="Haml::Options#preserve=">Haml::Options#preserve=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1599,7 +1627,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Buffer#adjust_tabs">Haml::Buffer#adjust_tabs</span>
+          <span title="Haml::Options#mime_type">Haml::Options#mime_type</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1655,48 +1683,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#preserve=">Haml::Options#preserve=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Options#mime_type">Haml::Options#mime_type</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Options#filename">Haml::Options#filename</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Haml::Buffer#push_text">Haml::Buffer#push_text</span>
         </td>
         <td>
@@ -1725,20 +1711,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Engine#compiler=">Haml::Engine#compiler=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Haml::Options#encoding">Haml::Options#encoding</span>
         </td>
         <td>
@@ -1753,7 +1725,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#cdata=">Haml::Options#cdata=</span>
+          <span title="Haml::Engine#compiler=">Haml::Engine#compiler=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Options#filename">Haml::Options#filename</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1768,6 +1754,20 @@
         </td>
         <td class="path">
           <span title="Haml::Options#trace=">Haml::Options#trace=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Options#cdata=">Haml::Options#cdata=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1809,7 +1809,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#line=">Haml::Options#line=</span>
+          <span title="Haml::Options#trace">Haml::Options#trace</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Haml::Options#ugly=">Haml::Options#ugly=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1837,21 +1851,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Options#trace">Haml::Options#trace</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Options#ugly=">Haml::Options#ugly=</span>
+          <span title="Haml::Options#line=">Haml::Options#line=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1963,7 +1963,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Util#silence_warnings">Haml::Util#silence_warnings</span>
+          <span title="Haml::Filters::Base#compile">Haml::Filters::Base#compile</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1977,7 +1977,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters::Base#compile">Haml::Filters::Base#compile</span>
+          <span title="Haml::Util#silence_warnings">Haml::Util#silence_warnings</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2005,7 +2005,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Exec::Generic#color">Haml::Exec::Generic#color</span>
+          <span title="Haml::Util#check_encoding">Haml::Util#check_encoding</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2019,7 +2019,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Util#check_encoding">Haml::Util#check_encoding</span>
+          <span title="Haml::Exec::Generic#color">Haml::Exec::Generic#color</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2047,7 +2047,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters::Preserve">Haml::Filters::Preserve</span>
+          <span title="Haml::Engine#initialize">Haml::Engine#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2061,7 +2061,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Engine#initialize">Haml::Engine#initialize</span>
+          <span title="Haml::Filters::Preserve">Haml::Filters::Preserve</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2228,7 +2228,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers::XssMods#haml_tag_with_haml_xss">Haml::Helpers::XssMods#haml_tag_with_haml_xss</span>
+          <span title="Haml::Helpers::XssMods#preserve_with_haml_xss">Haml::Helpers::XssMods#preserve_with_haml_xss</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2242,7 +2242,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers::XssMods#preserve_with_haml_xss">Haml::Helpers::XssMods#preserve_with_haml_xss</span>
+          <span title="Haml::Helpers::XssMods#haml_tag_with_haml_xss">Haml::Helpers::XssMods#haml_tag_with_haml_xss</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2390,7 +2390,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers::XssMods#html_escape_with_haml_xss">Haml::Helpers::XssMods#html_escape_with_haml_xss</span>
+          <span title="Haml::Helpers::XssMods#haml_concat_with_haml_xss">Haml::Helpers::XssMods#haml_concat_with_haml_xss</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2404,7 +2404,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Helpers::XssMods#haml_concat_with_haml_xss">Haml::Helpers::XssMods#haml_concat_with_haml_xss</span>
+          <span title="Haml::Helpers::XssMods#html_escape_with_haml_xss">Haml::Helpers::XssMods#html_escape_with_haml_xss</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2601,7 +2601,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActionView::Helpers::TagHelper#content_tag_with_haml">ActionView::Helpers::TagHelper#content_tag_with_haml</span>
+          <span title="ActionView::Helpers::CaptureHelper#capture_with_haml">ActionView::Helpers::CaptureHelper#capture_with_haml</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2611,7 +2611,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 55 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 54 more ...</a>
         </td>
       </tr>
     
@@ -2623,7 +2623,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActionView::Helpers::CaptureHelper#capture_with_haml">ActionView::Helpers::CaptureHelper#capture_with_haml</span>
+          <span title="ActionView::Helpers::TagHelper#content_tag_with_haml">ActionView::Helpers::TagHelper#content_tag_with_haml</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2680,20 +2680,6 @@
         </td>
         <td class="path">
           <span title="ActionView::Helpers::TextHelper#concat_with_haml_xss">ActionView::Helpers::TextHelper#concat_with_haml_xss</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActionView::Helpers::FormHelper#form_for_with_haml">ActionView::Helpers::FormHelper#form_for_with_haml</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2889,7 +2875,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::SafeErubisTemplate#precompiled_preamble">Haml::SafeErubisTemplate#precompiled_preamble</span>
+          <span title="Haml::Filters::SassRailsTemplate#sass_options">Haml::Filters::SassRailsTemplate#sass_options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2903,7 +2889,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Haml::Filters::SassRailsTemplate#sass_options">Haml::Filters::SassRailsTemplate#sass_options</span>
+          <span title="Haml::SafeErubisTemplate#precompiled_preamble">Haml::SafeErubisTemplate#precompiled_preamble</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3029,6 +3015,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="ActionView::Helpers::InstanceTag">ActionView::Helpers::InstanceTag</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::SafeErubisTemplate#prepare">Haml::SafeErubisTemplate#prepare</span>
         </td>
         <td>
@@ -3044,34 +3044,6 @@
         </td>
         <td class="path">
           <span title="Haml::Options#remove_whitespace=">Haml::Options#remove_whitespace=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActionView::Helpers::InstanceTag">ActionView::Helpers::InstanceTag</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActionView::Helpers::TextHelper">ActionView::Helpers::TextHelper</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3113,6 +3085,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="ActionView::Helpers::TextHelper">ActionView::Helpers::TextHelper</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::Filters::Erb.precompiled">Haml::Filters::Erb.precompiled</span>
         </td>
         <td>
@@ -3141,6 +3127,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Haml::Plugin#cache_fragment">Haml::Plugin#cache_fragment</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Haml::ErubisTemplateHandler">Haml::ErubisTemplateHandler</span>
         </td>
         <td>
@@ -3156,20 +3156,6 @@
         </td>
         <td class="path">
           <span title="Haml::Options#attr_wrapper=">Haml::Options#attr_wrapper=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Haml::Plugin#cache_fragment">Haml::Plugin#cache_fragment</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

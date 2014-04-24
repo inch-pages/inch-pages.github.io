@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/rspec/rspec-expectations.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/rspec/rspec-expectations.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/rspec/rspec-expectations.png)](http://inch-pages.github.io/github/rspec/rspec-expectations)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/rspec/rspec-expectations.png)](http://inch-pages.github.io/github/rspec/rspec-expectations)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/rspec/rspec-expectations.png!:http://inch-pages.github.io/github/rspec/rspec-expectations" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/rspec/rspec-expectations.png!:http://inch-pages.github.io/github/rspec/rspec-expectations" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/rspec/rspec-expectations.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rspec/rspec-expectations]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/rspec/rspec-expectations.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rspec/rspec-expectations]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 62 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 64 more ...</a>
         </td>
       </tr>
     
@@ -241,7 +241,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers#be_falsey">RSpec::Matchers#be_falsey</span>
+          <span title="RSpec::Matchers#be_truthy">RSpec::Matchers#be_truthy</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -255,7 +255,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers#be_truthy">RSpec::Matchers#be_truthy</span>
+          <span title="RSpec::Matchers#be_falsey">RSpec::Matchers#be_falsey</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -353,6 +353,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="RSpec::Matchers::Composable#or">RSpec::Matchers::Composable#or</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="RSpec::Matchers#output">RSpec::Matchers#output</span>
         </td>
         <td>
@@ -382,6 +396,20 @@
         </td>
         <td class="path">
           <span title="RSpec::Expectations::Configuration#add_should_and_should_not_to">RSpec:: <em>&hellip;</em> #add_should_and_should_not_to</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="RSpec::Matchers::Composable#and">RSpec::Matchers::Composable#and</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -479,20 +507,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Expectations::ExpectationTarget">RSpec::Expectations::ExpectationTarget</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="RSpec::Matchers::BuiltIn::Compound::Or">RSpec::Matchers::BuiltIn::Compound::Or</span>
         </td>
         <td>
@@ -535,20 +549,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers::DSL::Matcher">RSpec::Matchers::DSL::Matcher</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="RSpec::Matchers.configuration">RSpec::Matchers.configuration</span>
         </td>
         <td>
@@ -564,6 +564,20 @@
         </td>
         <td class="path">
           <span title="RSpec::Matchers.alias_matcher">RSpec::Matchers.alias_matcher</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="RSpec::Matchers::DSL::Matcher">RSpec::Matchers::DSL::Matcher</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -675,6 +689,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="RSpec::Matchers::DSL::Macros#supports_block_expectations">RSpec:: <em>&hellip;</em> #supports_block_expectations</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="RSpec::Expectations::Configuration#backtrace_formatter=">RSpec::Expectations::Configuration#backtrace_formatter=</span>
         </td>
         <td>
@@ -717,7 +745,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers::BuiltIn::YieldControl#times">RSpec::Matchers::BuiltIn::YieldControl#times</span>
+          <span title="RSpec::Matchers::BuiltIn::YieldControl#twice">RSpec::Matchers::BuiltIn::YieldControl#twice</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -731,7 +759,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers::BuiltIn::YieldControl#twice">RSpec::Matchers::BuiltIn::YieldControl#twice</span>
+          <span title="RSpec::Matchers::BuiltIn::YieldControl#times">RSpec::Matchers::BuiltIn::YieldControl#times</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -801,7 +829,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers::DSL::Matcher#inspect">RSpec::Matchers::DSL::Matcher#inspect</span>
+          <span title="RSpec::Matchers::DSL::Macros#diffable">RSpec::Matchers::DSL::Macros#diffable</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -815,7 +843,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers::DSL::Macros#diffable">RSpec::Matchers::DSL::Macros#diffable</span>
+          <span title="RSpec::Matchers::DSL::Matcher#inspect">RSpec::Matchers::DSL::Matcher#inspect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -997,6 +1025,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="RSpec::Expectations::ExpectationTarget">RSpec::Expectations::ExpectationTarget</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="RSpec::Matchers#expect">RSpec::Matchers#expect</span>
         </td>
         <td>
@@ -1011,35 +1053,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="RSpec::Matchers#all">RSpec::Matchers#all</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="RSpec">RSpec</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="RSpec::Matchers::Composable#or">RSpec::Matchers::Composable#or</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="RSpec::Matchers::Composable#and">RSpec::Matchers::Composable#and</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1592,7 +1620,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers::BuiltIn::Change#to">RSpec::Matchers::BuiltIn::Change#to</span>
+          <span title="RSpec::Matchers::BuiltIn::Change#by">RSpec::Matchers::BuiltIn::Change#by</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1606,7 +1634,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RSpec::Matchers::BuiltIn::Change#by">RSpec::Matchers::BuiltIn::Change#by</span>
+          <span title="RSpec::Matchers::BuiltIn::Change#to">RSpec::Matchers::BuiltIn::Change#to</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png)](http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png)](http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png!:http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png!:http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png" alt="Inline docs" />}[http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax.png" alt="Inline docs" />}[http://inch-pages.github.io/github/Muriel-Salvan/rails-ajax]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 33%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 54%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 40%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 50%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 13%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 10%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -135,10 +135,10 @@
           </div>
         </td>
         <td class="path">
-          <span title="RailsAjax::Configuration#initialize">RailsAjax::Configuration#initialize</span>
+          <span title="RailsAjax">RailsAjax</span>
         </td>
         <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
+          <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
     
@@ -149,7 +149,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RailsAjax::FormTagHelper">RailsAjax::FormTagHelper</span>
+          <span title="RailsAjax::Configuration#initialize">RailsAjax::Configuration#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -177,7 +177,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RailsAjax::Controller">RailsAjax::Controller</span>
+          <span title="RailsAjax::FormTagHelper">RailsAjax::FormTagHelper</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -191,7 +191,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="RailsAjax::UrlHelper">RailsAjax::UrlHelper</span>
+          <span title="RailsAjax::Controller">RailsAjax::Controller</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -201,10 +201,24 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 2 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 3 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="RailsAjax::UrlHelper">RailsAjax::UrlHelper</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -320,7 +334,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 7 more ...</a>
+          <a href="#" onclick="showMore('B'); return false;">Show 5 more ...</a>
         </td>
       </tr>
     
@@ -395,34 +409,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="RailsAjax::Controller#refresh_dom_with_partial">RailsAjax::Controller#refresh_dom_with_partial</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="RailsAjax::Controller#execute_javascript">RailsAjax::Controller#execute_javascript</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -457,20 +443,6 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="RailsAjax">RailsAjax</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
     
       <tr>
         <td>

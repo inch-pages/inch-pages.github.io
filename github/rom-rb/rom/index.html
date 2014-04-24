@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/rom-rb/rom.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/rom-rb/rom.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/rom-rb/rom.png)](http://inch-pages.github.io/github/rom-rb/rom)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/rom-rb/rom.png)](http://inch-pages.github.io/github/rom-rb/rom)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/rom-rb/rom.png!:http://inch-pages.github.io/github/rom-rb/rom" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/rom-rb/rom.png!:http://inch-pages.github.io/github/rom-rb/rom" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/rom-rb/rom.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rom-rb/rom]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/rom-rb/rom.png" alt="Inline docs" />}[http://inch-pages.github.io/github/rom-rb/rom]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 48%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 29%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 11%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 12%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 47%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 24%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 13%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 16%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -177,7 +177,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Environment::Builder#repositories">ROM::Environment::Builder#repositories</span>
+          <span title="ROM::Relation::MapperBuilder#definitions">ROM::Relation::MapperBuilder#definitions</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -191,7 +191,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Environment::Builder#relations">ROM::Environment::Builder#relations</span>
+          <span title="ROM::Relation::MapperBuilder#mappers">ROM::Relation::MapperBuilder#mappers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 33 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 37 more ...</a>
         </td>
       </tr>
     
@@ -227,7 +227,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Environment::Builder#mappers">ROM::Environment::Builder#mappers</span>
+          <span title="ROM::Environment::Builder#relations">ROM::Environment::Builder#relations</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Schema::Builder#automapped">ROM::Schema::Builder#automapped</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Schema::Builder#relations">ROM::Schema::Builder#relations</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Relation::MapperBuilder">ROM::Relation::MapperBuilder</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -255,6 +297,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="ROM::Schema::Builder#options">ROM::Schema::Builder#options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Axiom::Adapter::DataObjects">Axiom::Adapter::DataObjects</span>
         </td>
         <td>
@@ -269,7 +325,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Axiom::Adapter#uri_scheme">Axiom::Adapter#uri_scheme</span>
+          <span title="ROM::Session::Environment">ROM::Session::Environment</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -283,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Session::Environment">ROM::Session::Environment</span>
+          <span title="Axiom::Adapter#uri_scheme">Axiom::Adapter#uri_scheme</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -381,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper::Builder">ROM::Mapper::Builder</span>
+          <span title="ROM::Relation#reader">ROM::Relation#reader</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -423,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Session#flush">ROM::Session#flush</span>
+          <span title="ROM::Relation#take">ROM::Relation#take</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -451,21 +507,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper#loader">ROM::Mapper#loader</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Repository#[]">ROM::Repository#[]</span>
+          <span title="ROM::Mapper#dumper">ROM::Mapper#dumper</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -493,7 +535,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#take">ROM::Relation#take</span>
+          <span title="ROM::Repository#[]">ROM::Repository#[]</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -507,7 +549,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper#dumper">ROM::Mapper#dumper</span>
+          <span title="ROM::Mapper#loader">ROM::Mapper#loader</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Session#flush">ROM::Session#flush</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -549,7 +605,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Environment">ROM::Environment</span>
+          <span title="ROM::Mapper#type">ROM::Mapper#type</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -563,7 +619,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper#type">ROM::Mapper#type</span>
+          <span title="ROM::Environment">ROM::Environment</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -633,7 +689,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#first">ROM::Relation#first</span>
+          <span title="ROM::Relation#each">ROM::Relation#each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -647,10 +703,10 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#each">ROM::Relation#each</span>
+          <span title="ROM::Relation#first">ROM::Relation#first</span>
         </td>
         <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -702,6 +758,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="ROM::Mapper.build">ROM::Mapper.build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="ROM::Session::Relation#new">ROM::Session::Relation#new</span>
         </td>
         <td>
@@ -730,21 +800,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#inject_mapper">ROM::Relation#inject_mapper</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Schema::Builder.build">ROM::Schema::Builder.build</span>
+          <span title="ROM::Environment#[]">ROM::Environment#[]</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -754,24 +810,10 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 19 more ...</a>
+          <a href="#" onclick="showMore('B'); return false;">Show 17 more ...</a>
         </td>
       </tr>
     
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="ROM::Environment#[]">ROM::Environment#[]</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
     
       <tr class="more_object">
         <td>
@@ -808,7 +850,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#project">ROM::Relation#project</span>
+          <span title="ROM::Relation#replace">ROM::Relation#replace</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -822,7 +864,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#replace">ROM::Relation#replace</span>
+          <span title="ROM::Relation#project">ROM::Relation#project</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -906,20 +948,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#drop">ROM::Relation#drop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="ROM::Relation#wrap">ROM::Relation#wrap</span>
         </td>
         <td>
@@ -934,7 +962,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper.build">ROM::Mapper.build</span>
+          <span title="ROM::Relation#drop">ROM::Relation#drop</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -990,7 +1018,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper#wrap">ROM::Mapper#wrap</span>
+          <span title="ROM::Mapper#dump">ROM::Mapper#dump</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1004,7 +1032,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper#dump">ROM::Mapper#dump</span>
+          <span title="ROM::Mapper#wrap">ROM::Mapper#wrap</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1073,7 +1101,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Session::Relation#state">ROM::Session::Relation#state</span>
+          <span title="ROM::Session::Relation#track">ROM::Session::Relation#track</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1087,7 +1115,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Session::Relation#track">ROM::Session::Relation#track</span>
+          <span title="ROM::Session::Relation#state">ROM::Session::Relation#state</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1111,10 +1139,52 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('C'); return false;">Show 4 more ...</a>
+          <a href="#" onclick="showMore('C'); return false;">Show 7 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Session::Relation#delete!">ROM::Session::Relation#delete!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Session::Relation#update!">ROM::Session::Relation#update!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Session::Relation#insert!">ROM::Session::Relation#insert!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -1193,7 +1263,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper::Builder.call">ROM::Mapper::Builder.call</span>
+          <span title="ROM::Relation::MapperBuilder.call">ROM::Relation::MapperBuilder.call</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1207,7 +1277,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Mapper::Builder#relation">ROM::Mapper::Builder#relation</span>
+          <span title="ROM::Relation#restrict">ROM::Relation#restrict</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Relation#sort_by">ROM::Relation#sort_by</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Relation::MapperBuilder#relation">ROM::Relation::MapperBuilder#relation</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1215,6 +1313,28 @@
       </tr>
     
       <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Relation::MapperBuilder#call">ROM::Relation::MapperBuilder#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('U'); return false;">Show 10 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-U">
             U
@@ -1228,7 +1348,7 @@
         </td>
       </tr>
     
-      <tr>
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-U">
             U
@@ -1242,7 +1362,7 @@
         </td>
       </tr>
     
-      <tr>
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-U">
             U
@@ -1256,14 +1376,6 @@
         </td>
       </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 5 more ...</a>
-        </td>
-      </tr>
-    
-    
       <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-U">
@@ -1271,7 +1383,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Session::Mapper#identity">ROM::Session::Mapper#identity</span>
+          <span title="ROM::Relation::MapperBuilder#automap">ROM::Relation::MapperBuilder#automap</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1285,7 +1397,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="ROM::Relation#initialize">ROM::Relation#initialize</span>
+          <span title="ROM::Session::Relation#identity_map">ROM::Session::Relation#identity_map</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Session::Relation#tracker">ROM::Session::Relation#tracker</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1314,6 +1440,20 @@
         </td>
         <td class="path">
           <span title="ROM::Mapper#rename">ROM::Mapper#rename</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ROM::Relation.new">ROM::Relation.new</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

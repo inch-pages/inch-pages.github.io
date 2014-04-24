@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/trema/switch_manager.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/trema/switch_manager.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/trema/switch_manager.png)](http://inch-pages.github.io/github/trema/switch_manager)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/trema/switch_manager.png)](http://inch-pages.github.io/github/trema/switch_manager)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/trema/switch_manager.png!:http://inch-pages.github.io/github/trema/switch_manager" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/trema/switch_manager.png!:http://inch-pages.github.io/github/trema/switch_manager" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/trema/switch_manager.png" alt="Inline docs" />}[http://inch-pages.github.io/github/trema/switch_manager]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/trema/switch_manager.png" alt="Inline docs" />}[http://inch-pages.github.io/github/trema/switch_manager]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 50%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 44%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 50%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 56%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -136,20 +136,6 @@
         </td>
         <td class="path">
           <span title="SwitchDaemon">SwitchDaemon</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Message">Message</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -198,15 +184,7 @@
         </td>
       </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 11 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
+      <tr>
         <td>
           <div class="grade-circle grade-circle-A">
             A
@@ -219,6 +197,14 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('A'); return false;">Show 11 more ...</a>
+        </td>
+      </tr>
+    
     
       <tr class="more_object">
         <td>
@@ -242,6 +228,34 @@
         </td>
         <td class="path">
           <span title="SwitchManager::Options#initialize">SwitchManager::Options#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SwitchManager::Server#initialize">SwitchManager::Server#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SwitchManager::Server#pid_file">SwitchManager::Server#pid_file</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -297,6 +311,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="SwitchManager::PidFile">SwitchManager::PidFile</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="SwitchManager::Server">SwitchManager::Server</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="SwitchManager::CLI">SwitchManager::CLI</span>
         </td>
         <td>
@@ -311,52 +353,10 @@
           </div>
         </td>
         <td class="path">
-          <span title="OpenflowServiceHeader">OpenflowServiceHeader</span>
+          <span title="Trema::Message">Trema::Message</span>
         </td>
         <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="ListSwitchesReply">ListSwitchesReply</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="MessageContext">MessageContext</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="MessageHeader">MessageHeader</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -437,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SwitchManager::MessengerServer#socket_file">SwitchManager::MessengerServer#socket_file</span>
+          <span title="SwitchManager::OpenflowChannelServer#start">SwitchManager::OpenflowChannelServer#start</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -451,7 +451,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SwitchManager::OpenflowChannelServer#start">SwitchManager::OpenflowChannelServer#start</span>
+          <span title="SwitchManager::MessengerServer#socket_file">SwitchManager::MessengerServer#socket_file</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -479,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SwitchManager::MessengerServer#start">SwitchManager::MessengerServer#start</span>
+          <span title="SwitchManager::MessengerServer#close">SwitchManager::MessengerServer#close</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -489,7 +489,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 11 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 16 more ...</a>
         </td>
       </tr>
     
@@ -501,7 +501,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SwitchManager::MessengerServer#close">SwitchManager::MessengerServer#close</span>
+          <span title="SwitchManager::MessengerServer#start">SwitchManager::MessengerServer#start</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -529,6 +529,48 @@
           </div>
         </td>
         <td class="path">
+          <span title="SwitchManager::PidFile#initialize">SwitchManager::PidFile#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Trema::Message#transaction_id">Trema::Message#transaction_id</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SwitchManager::PidFile#write">SwitchManager::PidFile#write</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="SwitchManager::Options#parse">SwitchManager::Options#parse</span>
         </td>
         <td>
@@ -543,7 +585,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="SwitchManager::CLI#pid_file">SwitchManager::CLI#pid_file</span>
+          <span title="SwitchManager::Server#start">SwitchManager::Server#start</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -557,7 +599,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Message#transaction_id">Message#transaction_id</span>
+          <span title="Trema::Message#message_type">Trema::Message#message_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SwitchManager::PidFile#to_i">SwitchManager::PidFile#to_i</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Trema::Message#service_name">Trema::Message#service_name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Trema::Message#datapath_id">Trema::Message#datapath_id</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SwitchManager::CLI#kill">SwitchManager::CLI#kill</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -572,48 +670,6 @@
         </td>
         <td class="path">
           <span title="SwitchManager::CLI#run">SwitchManager::CLI#run</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Message#service_name">Message#service_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Message#message_type">Message#message_type</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Message#datapath_id">Message#datapath_id</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -642,6 +698,20 @@
         </td>
         <td class="path">
           <span title="SwitchManager">SwitchManager</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Trema">Trema</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>

@@ -71,19 +71,19 @@
     <div id="badge-image-markup" style="display: none;">
       <p>
         <label>Image URL:</label>
-        <input value="http://inch-pages.github.io/github/troessner/reek.png" type="text" class="url">
+        <input value="http://inch-pages.github.io/github/troessner/reek.png" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Markdown:</label>
-        <input value="[![Inline docs](http://inch-pages.github.io/github/troessner/reek.png)](http://inch-pages.github.io/github/troessner/reek)" type="text" class="url">
+        <input value="[![Inline docs](http://inch-pages.github.io/github/troessner/reek.png)](http://inch-pages.github.io/github/troessner/reek)" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>Textile:</label>
-        <input value="!http://inch-pages.github.io/github/troessner/reek.png!:http://inch-pages.github.io/github/troessner/reek" type="text" class="url">
+        <input value="!http://inch-pages.github.io/github/troessner/reek.png!:http://inch-pages.github.io/github/troessner/reek" type="text" class="url" onClick="this.select();">
       </p>
       <p>
         <label>RDoc:</label>
-        <input value='{<img src="http://inch-pages.github.io/github/troessner/reek.png" alt="Inline docs" />}[http://inch-pages.github.io/github/troessner/reek]' type="text" class="url">
+        <input value='{<img src="http://inch-pages.github.io/github/troessner/reek.png" alt="Inline docs" />}[http://inch-pages.github.io/github/troessner/reek]' type="text" class="url" onClick="this.select();">
       </p>
     </div>
 
@@ -353,6 +353,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Smells::UncommunicativeModuleName">Reek::Smells::UncommunicativeModuleName</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Smells::UncommunicativeMethodName">Reek::Smells::UncommunicativeMethodName</span>
         </td>
         <td>
@@ -368,20 +382,6 @@
         </td>
         <td class="path">
           <span title="Reek::Core::WarningCollector#initialize">Reek::Core::WarningCollector#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Smells::UncommunicativeModuleName">Reek::Smells::UncommunicativeModuleName</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -451,6 +451,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Core::SingletonMethodContext">Reek::Core::SingletonMethodContext</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Core::StopContext#initialize">Reek::Core::StopContext#initialize</span>
         </td>
         <td>
@@ -479,7 +493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::SingletonMethodContext">Reek::Core::SingletonMethodContext</span>
+          <span title="Reek::Smells::DuplicateMethodCall">Reek::Smells::DuplicateMethodCall</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -521,7 +535,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::DuplicateMethodCall">Reek::Smells::DuplicateMethodCall</span>
+          <span title="Reek::Smells::TooManyStatements">Reek::Smells::TooManyStatements</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -549,7 +563,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::TooManyStatements">Reek::Smells::TooManyStatements</span>
+          <span title="Reek::Core::MethodContext#refs">Reek::Core::MethodContext#refs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -591,7 +605,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::SmellConfiguration">Reek::Core::SmellConfiguration</span>
+          <span title="Reek::Smells::BooleanParameter">Reek::Smells::BooleanParameter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -619,35 +633,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::MethodContext#refs">Reek::Core::MethodContext#refs</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Smells::BooleanParameter">Reek::Smells::BooleanParameter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Smells::UtilityFunction">Reek::Smells::UtilityFunction</span>
+          <span title="Reek::Core::SmellConfiguration">Reek::Core::SmellConfiguration</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -662,6 +648,20 @@
         </td>
         <td class="path">
           <span title="Reek::Smells::NestedIterators">Reek::Smells::NestedIterators</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Smells::UtilityFunction">Reek::Smells::UtilityFunction</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -717,35 +717,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Examiner#smells_count">Reek::Examiner#smells_count</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::SmellWarning#location">Reek::SmellWarning#location</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Smells::ClassVariable">Reek::Smells::ClassVariable</span>
+          <span title="Reek::Core::CodeContext#exp">Reek::Core::CodeContext#exp</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -773,20 +745,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::LongYieldList">Reek::Smells::LongYieldList</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Core::SmellRepository">Reek::Core::SmellRepository</span>
         </td>
         <td>
@@ -801,7 +759,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::CodeContext#exp">Reek::Core::CodeContext#exp</span>
+          <span title="Reek::Smells::ClassVariable">Reek::Smells::ClassVariable</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -815,7 +773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::ModuleContext">Reek::Core::ModuleContext</span>
+          <span title="Reek::Smells::LongYieldList">Reek::Smells::LongYieldList</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -829,7 +787,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::MethodContext">Reek::Core::MethodContext</span>
+          <span title="Reek::Examiner#smells_count">Reek::Examiner#smells_count</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -843,7 +801,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::SmellWarning#status">Reek::SmellWarning#status</span>
+          <span title="Reek::SmellWarning#location">Reek::SmellWarning#location</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -885,7 +843,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::VerboseReport">Reek::Cli::VerboseReport</span>
+          <span title="Reek::SmellWarning#status">Reek::SmellWarning#status</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::ModuleContext">Reek::Core::ModuleContext</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::MethodContext">Reek::Core::MethodContext</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -900,6 +886,20 @@
         </td>
         <td class="path">
           <span title="Reek::SmellWarning#smell">Reek::SmellWarning#smell</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::VerboseReport">Reek::Cli::VerboseReport</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -983,34 +983,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::NilCheck">Reek::Smells::NilCheck</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::Application">Reek::Cli::Application</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Cli::QuietReport">Reek::Cli::QuietReport</span>
         </td>
         <td>
@@ -1025,7 +997,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Smells::NilCheck">Reek::Smells::NilCheck</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Cli::ReekCommand">Reek::Cli::ReekCommand</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::Application">Reek::Cli::Application</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1207,6 +1207,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Rake::Task#source_files=">Reek::Rake::Task#source_files=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Rake::Task#fail_on_error">Reek::Rake::Task#fail_on_error</span>
         </td>
         <td>
@@ -1235,7 +1249,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Rake::Task#source_files=">Reek::Rake::Task#source_files=</span>
+          <span title="Reek::Rake::Task#source_files">Reek::Rake::Task#source_files</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1263,21 +1277,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Rake::Task#source_files">Reek::Rake::Task#source_files</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Rake::Task#ruby_opts=">Reek::Rake::Task#ruby_opts=</span>
+          <span title="Reek::Rake::Task#reek_opts=">Reek::Rake::Task#reek_opts=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1305,21 +1305,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Rake::Task#reek_opts=">Reek::Rake::Task#reek_opts=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Examiner#description">Reek::Examiner#description</span>
+          <span title="Reek::Rake::Task#ruby_opts=">Reek::Rake::Task#ruby_opts=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1348,6 +1334,20 @@
         </td>
         <td class="path">
           <span title="Reek::Rake::Task#reek_opts">Reek::Rake::Task#reek_opts</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Examiner#description">Reek::Examiner#description</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1417,7 +1417,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Rake::Task#libs">Reek::Rake::Task#libs</span>
+          <span title="Reek::Rake::Task#name">Reek::Rake::Task#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1431,7 +1431,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Rake::Task#name">Reek::Rake::Task#name</span>
+          <span title="Reek::Rake::Task#libs">Reek::Rake::Task#libs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1473,7 +1473,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Examiner#num_active_smells">Reek::Examiner#num_active_smells</span>
+          <span title="Reek::Examiner#all_active_smells">Reek::Examiner#all_active_smells</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1501,7 +1501,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Examiner#all_active_smells">Reek::Examiner#all_active_smells</span>
+          <span title="Reek::Examiner#num_active_smells">Reek::Examiner#num_active_smells</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1662,7 +1662,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::UncommunicativeMethodName#examine_context">Reek::Smells::UncommunicativeMethodName#examine_context</span>
+          <span title="Reek::Smells::UncommunicativeModuleName#examine_context">Reek::Smells::UncommunicativeModuleName#examine_context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1676,7 +1676,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::UncommunicativeModuleName#examine_context">Reek::Smells::UncommunicativeModuleName#examine_context</span>
+          <span title="Reek::Smells::UncommunicativeMethodName#examine_context">Reek::Smells::UncommunicativeMethodName#examine_context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1732,7 +1732,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::TooManyStatements#examine_context">Reek::Smells::TooManyStatements#examine_context</span>
+          <span title="Reek::Smells::LongParameterList#examine_context">Reek::Smells::LongParameterList#examine_context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1746,7 +1746,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::LongParameterList#examine_context">Reek::Smells::LongParameterList#examine_context</span>
+          <span title="Reek::Smells::TooManyStatements#examine_context">Reek::Smells::TooManyStatements#examine_context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1774,7 +1774,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::UnusedParameters#examine_context">Reek::Smells::UnusedParameters#examine_context</span>
+          <span title="Reek::Smells::BooleanParameter#examine_context">Reek::Smells::BooleanParameter#examine_context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1788,7 +1788,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::BooleanParameter#examine_context">Reek::Smells::BooleanParameter#examine_context</span>
+          <span title="Reek::Smells::UnusedParameters#examine_context">Reek::Smells::UnusedParameters#examine_context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2189,7 +2189,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::UncommunicativeVariableName#find_block_argument_variable_names">Reek:: <em>&hellip;</em> #find_block_argument_variable_names</span>
+          <span title="Reek::Smells::ControlParameter::ControlParameterCollector#control_parameters">Reek:: <em>&hellip;</em> #control_parameters</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2203,7 +2203,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::ControlParameter::ControlParameterCollector#control_parameters">Reek:: <em>&hellip;</em> #control_parameters</span>
+          <span title="Reek::Smells::UncommunicativeVariableName#find_block_argument_variable_names">Reek:: <em>&hellip;</em> #find_block_argument_variable_names</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2357,7 +2357,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::DuplicateMethodCall::FoundCall#smell_message">Reek:: <em>&hellip;</em> ::FoundCall#smell_message</span>
+          <span title="Reek::Smells::ControlParameter::FoundControlParameter#name">Reek:: <em>&hellip;</em> ::FoundControlParameter#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2371,7 +2371,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::ControlParameter::FoundControlParameter#name">Reek:: <em>&hellip;</em> ::FoundControlParameter#name</span>
+          <span title="Reek::Smells::DuplicateMethodCall::FoundCall#smell_message">Reek:: <em>&hellip;</em> ::FoundCall#smell_message</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2469,7 +2469,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::DuplicateMethodCall::FoundCall#call">Reek::Smells::DuplicateMethodCall::FoundCall#call</span>
+          <span title="Reek::Cli::WarningFormatterWithLineNumbers.format">Reek::Cli::WarningFormatterWithLineNumbers.format</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2483,7 +2483,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::WarningFormatterWithLineNumbers.format">Reek::Cli::WarningFormatterWithLineNumbers.format</span>
+          <span title="Reek::Smells::DuplicateMethodCall::FoundCall#call">Reek::Smells::DuplicateMethodCall::FoundCall#call</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2511,20 +2511,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::PrimaDonnaMethod#examine_context">Reek::Smells::PrimaDonnaMethod#examine_context</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Smells::ExcludeInitialize.default_config">Reek::Smells::ExcludeInitialize.default_config</span>
         </td>
         <td>
@@ -2539,7 +2525,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::NilCheck::CaseNodeFinder#smelly">Reek::Smells::NilCheck::CaseNodeFinder#smelly</span>
+          <span title="Reek::Smells::PrimaDonnaMethod#examine_context">Reek::Smells::PrimaDonnaMethod#examine_context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2567,7 +2553,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::NilCheck::NodeFinder#initialize">Reek::Smells::NilCheck::NodeFinder#initialize</span>
+          <span title="Reek::Smells::NilCheck::CaseNodeFinder#smelly">Reek::Smells::NilCheck::CaseNodeFinder#smelly</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2595,6 +2581,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Smells::NilCheck::NodeFinder#initialize">Reek::Smells::NilCheck::NodeFinder#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Core::MethodContext#record_use_of_self">Reek::Core::MethodContext#record_use_of_self</span>
         </td>
         <td>
@@ -2609,7 +2609,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::SmellDetector.smell_class_name">Reek::Smells::SmellDetector.smell_class_name</span>
+          <span title="Reek::Core::SmellConfiguration#overrides_for">Reek::Core::SmellConfiguration#overrides_for</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2623,7 +2623,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::SmellConfiguration#overrides_for">Reek::Core::SmellConfiguration#overrides_for</span>
+          <span title="Reek::Smells::SmellDetector.smell_class_name">Reek::Smells::SmellDetector.smell_class_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2665,7 +2665,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::SmellDetector#configure_with">Reek::Smells::SmellDetector#configure_with</span>
+          <span title="Reek::Smells::SmellDetector.default_config">Reek::Smells::SmellDetector.default_config</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2693,7 +2693,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::SmellDetector.default_config">Reek::Smells::SmellDetector.default_config</span>
+          <span title="Reek::Smells::SmellDetector#configure_with">Reek::Smells::SmellDetector#configure_with</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2749,35 +2749,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::SimpleWarningFormatter.format">Reek::Cli::SimpleWarningFormatter.format</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Core::StopContext#count_statements">Reek::Core::StopContext#count_statements</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Core::WarningCollector#found_smell">Reek::Core::WarningCollector#found_smell</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2805,7 +2777,77 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Cli::SimpleWarningFormatter.format">Reek::Cli::SimpleWarningFormatter.format</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::WarningCollector#found_smell">Reek::Core::WarningCollector#found_smell</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Cli::VerboseReport#gather_results">Reek::Cli::VerboseReport#gather_results</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::ReportFormatter.format_list">Reek::Cli::ReportFormatter.format_list</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::CodeParser#process_resbody">Reek::Core::CodeParser#process_resbody</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Smells::SmellDetector#config_for">Reek::Smells::SmellDetector#config_for</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2875,35 +2917,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::SmellDetector#config_for">Reek::Smells::SmellDetector#config_for</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::ReportFormatter.format_list">Reek::Cli::ReportFormatter.format_list</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Core::CodeParser#process_resbody">Reek::Core::CodeParser#process_resbody</span>
+          <span title="Reek::Core::SmellRepository#report_on">Reek::Core::SmellRepository#report_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2931,7 +2945,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::Application#report_success">Reek::Cli::Application#report_success</span>
+          <span title="Reek::Core::SmellRepository#configure">Reek::Core::SmellRepository#configure</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2959,35 +2973,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::SmellRepository#report_on">Reek::Core::SmellRepository#report_on</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Core::CodeParser#process_rescue">Reek::Core::CodeParser#process_rescue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Smells::SmellDetector#report_on">Reek::Smells::SmellDetector#report_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3015,7 +3001,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::SmellRepository#configure">Reek::Core::SmellRepository#configure</span>
+          <span title="Reek::Smells::SmellDetector#report_on">Reek::Smells::SmellDetector#report_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3029,49 +3015,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::SmellDetector#register">Reek::Smells::SmellDetector#register</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::VersionCommand#initialize">Reek::Cli::VersionCommand#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::Application#report_smells">Reek::Cli::Application#report_smells</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Core::CodeParser#process_block">Reek::Core::CodeParser#process_block</span>
+          <span title="Reek::Cli::Application#report_success">Reek::Cli::Application#report_success</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3099,7 +3043,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::SmellDetector#examine">Reek::Smells::SmellDetector#examine</span>
+          <span title="Reek::Core::CodeParser#process_block">Reek::Core::CodeParser#process_block</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3113,7 +3057,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::CodeContext#num_methods">Reek::Core::CodeContext#num_methods</span>
+          <span title="Reek::Cli::Application#report_smells">Reek::Cli::Application#report_smells</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3127,7 +3071,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::CodeParser#process_defs">Reek::Core::CodeParser#process_defs</span>
+          <span title="Reek::Cli::VersionCommand#initialize">Reek::Cli::VersionCommand#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3141,7 +3085,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::SmellRepository#examine">Reek::Core::SmellRepository#examine</span>
+          <span title="Reek::Smells::SmellDetector#register">Reek::Smells::SmellDetector#register</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3169,7 +3113,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::CodeParser#process_defn">Reek::Core::CodeParser#process_defn</span>
+          <span title="Reek::Smells::SmellDetector#examine">Reek::Smells::SmellDetector#examine</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::SmellRepository#examine">Reek::Core::SmellRepository#examine</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3197,7 +3155,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::CodeContext#config_for">Reek::Core::CodeContext#config_for</span>
+          <span title="Reek::Core::CodeContext#num_methods">Reek::Core::CodeContext#num_methods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::CodeParser#process_defn">Reek::Core::CodeParser#process_defn</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::CodeParser#process_defs">Reek::Core::CodeParser#process_defs</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3239,119 +3225,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::SimpleWarningFormatter">Reek::Cli::SimpleWarningFormatter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::ReportFormatter.header">Reek::Cli::ReportFormatter.header</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Core::CodeContext#full_name">Reek::Core::CodeContext#full_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::Application#initialize">Reek::Cli::Application#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Core::StopContext#full_name">Reek::Core::StopContext#full_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::VersionCommand#execute">Reek::Cli::VersionCommand#execute</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::HelpCommand#initialize">Reek::Cli::HelpCommand#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Core::CodeParser#initialize">Reek::Core::CodeParser#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::ReekCommand#initialize">Reek::Cli::ReekCommand#initialize</span>
+          <span title="Reek::Core::CodeContext#config_for">Reek::Core::CodeContext#config_for</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3379,7 +3253,133 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Core::CodeParser#initialize">Reek::Core::CodeParser#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::VersionCommand#execute">Reek::Cli::VersionCommand#execute</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::Application#initialize">Reek::Cli::Application#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::SimpleWarningFormatter">Reek::Cli::SimpleWarningFormatter</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::StopContext#full_name">Reek::Core::StopContext#full_name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::ReekCommand#initialize">Reek::Cli::ReekCommand#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Core::CodeParser#process_if">Reek::Core::CodeParser#process_if</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::CodeContext#full_name">Reek::Core::CodeContext#full_name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::ReportFormatter.header">Reek::Cli::ReportFormatter.header</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::HelpCommand#initialize">Reek::Cli::HelpCommand#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3421,21 +3421,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::HelpCommand#execute">Reek::Cli::HelpCommand#execute</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Core::Sniffer#initialize">Reek::Core::Sniffer#initialize</span>
+          <span title="Reek::Cli::Options#set_options">Reek::Cli::Options#set_options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3463,35 +3449,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="Reek::Cli::Report#add_examiner">Reek::Cli::Report#add_examiner</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Reek::Core::CodeParser#process">Reek::Core::CodeParser#process</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::Cli::Options#get_sources">Reek::Cli::Options#get_sources</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Reek::SmellWarning#smell_class">Reek::SmellWarning#smell_class</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3519,7 +3491,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::Report#add_examiner">Reek::Cli::Report#add_examiner</span>
+          <span title="Reek::Core::Sniffer#initialize">Reek::Core::Sniffer#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3533,7 +3505,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::Options#set_options">Reek::Cli::Options#set_options</span>
+          <span title="Reek::Cli::HelpCommand#execute">Reek::Cli::HelpCommand#execute</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::SmellWarning#smell_class">Reek::SmellWarning#smell_class</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Cli::Options#get_sources">Reek::Cli::Options#get_sources</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3561,20 +3561,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Cli::Application#output">Reek::Cli::Application#output</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Cli::Options#initialize">Reek::Cli::Options#initialize</span>
         </td>
         <td>
@@ -3589,7 +3575,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::Sniffer#report_on">Reek::Core::Sniffer#report_on</span>
+          <span title="Reek::Cli::Application#output">Reek::Cli::Application#output</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3604,6 +3590,20 @@
         </td>
         <td class="path">
           <span title="Reek::Core::Sniffer#configure">Reek::Core::Sniffer#configure</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::Sniffer#report_on">Reek::Core::Sniffer#report_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3659,20 +3659,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::SmellWarning#subclass">Reek::SmellWarning#subclass</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Core::Sniffer#examine">Reek::Core::Sniffer#examine</span>
         </td>
         <td>
@@ -3687,7 +3673,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::SmellWarning#context">Reek::SmellWarning#context</span>
+          <span title="Reek::SmellWarning#subclass">Reek::SmellWarning#subclass</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::SmellWarning#message">Reek::SmellWarning#message</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3715,7 +3715,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::SmellWarning#message">Reek::SmellWarning#message</span>
+          <span title="Reek::SmellWarning#context">Reek::SmellWarning#context</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3925,20 +3925,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::NilCheck::CallNodeFinder#initialize">Reek::Smells::NilCheck::CallNodeFinder#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Smells::NilCheck::CaseNodeFinder#initialize">Reek::Smells::NilCheck::CaseNodeFinder#initialize</span>
         </td>
         <td>
@@ -3953,7 +3939,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::DuplicateMethodCall.default_config">Reek::Smells::DuplicateMethodCall.default_config</span>
+          <span title="Reek::Smells::NilCheck::CallNodeFinder#initialize">Reek::Smells::NilCheck::CallNodeFinder#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3968,6 +3954,20 @@
         </td>
         <td class="path">
           <span title="Reek::Smells::RepeatedConditional.default_config">Reek::Smells::RepeatedConditional.default_config</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Smells::DuplicateMethodCall.default_config">Reek::Smells::DuplicateMethodCall.default_config</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4023,7 +4023,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::NestedIterators.default_config">Reek::Smells::NestedIterators.default_config</span>
+          <span title="Reek::Smells::UtilityFunction.default_config">Reek::Smells::UtilityFunction.default_config</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4037,7 +4037,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::UtilityFunction.default_config">Reek::Smells::UtilityFunction.default_config</span>
+          <span title="Reek::Smells::NestedIterators.default_config">Reek::Smells::NestedIterators.default_config</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4093,20 +4093,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Smells::Attribute.default_config">Reek::Smells::Attribute.default_config</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Reek::Smells::DataClump.default_config">Reek::Smells::DataClump.default_config</span>
         </td>
         <td>
@@ -4121,7 +4107,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Reek::Core::MethodContext#initialize">Reek::Core::MethodContext#initialize</span>
+          <span title="Reek::Smells::Attribute.default_config">Reek::Smells::Attribute.default_config</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4136,6 +4122,20 @@
         </td>
         <td class="path">
           <span title="Reek::Core::ModuleContext#initialize">Reek::Core::ModuleContext#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Reek::Core::MethodContext#initialize">Reek::Core::MethodContext#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>

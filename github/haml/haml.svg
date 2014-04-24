@@ -46,7 +46,7 @@
       <stop offset=".9" stop-color="#8f7eb4" stop-opacity=".9"/>
       <stop offset="1" stop-color="#888" stop-opacity=".3"/>
     </linearGradient>
-    <rect x="64" y="4" width="11" height="10" fill="url(#gU)"/>
+    <rect x="64" y="4" width="10" height="10" fill="url(#gU)"/>
     
   
 
