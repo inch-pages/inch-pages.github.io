@@ -339,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Stat#decr">Resque::Stat#decr</span>
+          <span title="Resque::Stat#incr">Resque::Stat#incr</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -353,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Stat#incr">Resque::Stat#incr</span>
+          <span title="Resque::Stat#decr">Resque::Stat#decr</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -381,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#dequeue">Resque#dequeue</span>
+          <span title="Resque#enqueue">Resque#enqueue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -395,7 +395,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#enqueue">Resque#enqueue</span>
+          <span title="Resque#dequeue">Resque#dequeue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -493,7 +493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::JsonCoder::MultiEncodeExceptionWrapper">Resque::JsonCoder::MultiEncodeExceptionWrapper</span>
+          <span title="Resque::Failure::RedisMultiQueue.requeue_queue">Resque::Failure::RedisMultiQueue.requeue_queue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -507,7 +507,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::RedisMultiQueue.requeue_queue">Resque::Failure::RedisMultiQueue.requeue_queue</span>
+          <span title="Resque::JsonCoder::MultiEncodeExceptionWrapper">Resque::JsonCoder::MultiEncodeExceptionWrapper</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -563,7 +563,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::ProcessCoordinator#worker_pids">Resque::ProcessCoordinator#worker_pids</span>
+          <span title="Resque::WorkerRegistry#remote_shutdown">Resque::WorkerRegistry#remote_shutdown</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -577,7 +577,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerRegistry#remote_shutdown">Resque::WorkerRegistry#remote_shutdown</span>
+          <span title="Resque::ProcessCoordinator#worker_pids">Resque::ProcessCoordinator#worker_pids</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -605,20 +605,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Redis.requeue_queue">Resque::Failure::Redis.requeue_queue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::WorkerQueueList#search_order">Resque::WorkerQueueList#search_order</span>
         </td>
         <td>
@@ -633,35 +619,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Redis.remove_queue">Resque::Failure::Redis.remove_queue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Plugin#before_enqueue_hooks">Resque::Plugin#before_enqueue_hooks</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Plugin#before_dequeue_hooks">Resque::Plugin#before_dequeue_hooks</span>
+          <span title="Resque::Failure::Redis.requeue_queue">Resque::Failure::Redis.requeue_queue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -689,7 +647,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Plugin#after_enqueue_hooks">Resque::Plugin#after_enqueue_hooks</span>
+          <span title="Resque::Plugin#before_enqueue_hooks">Resque::Plugin#before_enqueue_hooks</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure::Redis.remove_queue">Resque::Failure::Redis.remove_queue</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Plugin#before_dequeue_hooks">Resque::Plugin#before_dequeue_hooks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -717,20 +703,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure.failure_queue_name">Resque::Failure.failure_queue_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::Plugin#after_dequeue_hooks">Resque::Plugin#after_dequeue_hooks</span>
         </td>
         <td>
@@ -745,7 +717,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::HookRegister#after_pause=">Resque::HookRegister#after_pause=</span>
+          <span title="Resque::Plugin#after_enqueue_hooks">Resque::Plugin#after_enqueue_hooks</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure.failure_queue_name">Resque::Failure.failure_queue_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -773,35 +759,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#prune_dead_workers">Resque::Worker#prune_dead_workers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::WorkerRegistry#unregister">Resque::WorkerRegistry#unregister</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::HookRegister#before_fork=">Resque::HookRegister#before_fork=</span>
+          <span title="Resque::ChildProcess#worker_hooks">Resque::ChildProcess#worker_hooks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -829,7 +787,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::ChildProcess#worker_hooks">Resque::ChildProcess#worker_hooks</span>
+          <span title="Resque::HookRegister#before_fork=">Resque::HookRegister#before_fork=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::HookRegister#after_pause=">Resque::HookRegister#after_pause=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::WorkerRegistry#unregister">Resque::WorkerRegistry#unregister</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Worker#prune_dead_workers">Resque::Worker#prune_dead_workers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -885,7 +885,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerQueueList#to_set">Resque::WorkerQueueList#to_set</span>
+          <span title="Resque::WorkerRegistry#started">Resque::WorkerRegistry#started</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -899,7 +899,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Job#payload_class_name">Resque::Job#payload_class_name</span>
+          <span title="Resque::WorkerQueueList#to_set">Resque::WorkerQueueList#to_set</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -927,34 +927,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::MultiQueue.from_queues">Resque::MultiQueue.from_queues</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::WorkerRegistry#started">Resque::WorkerRegistry#started</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::Failure.job_queue_name">Resque::Failure.job_queue_name</span>
         </td>
         <td>
@@ -969,7 +941,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerRegistry.remove">Resque::WorkerRegistry.remove</span>
+          <span title="Resque::Job#payload_class_name">Resque::Job#payload_class_name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::MultiQueue.from_queues">Resque::MultiQueue.from_queues</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::MultiQueue#initialize">Resque::MultiQueue#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::WorkerQueueList#first">Resque::WorkerQueueList#first</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1011,21 +1025,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerQueueList#first">Resque::WorkerQueueList#first</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::MultiQueue#initialize">Resque::MultiQueue#initialize</span>
+          <span title="Resque::WorkerRegistry.remove">Resque::WorkerRegistry.remove</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1053,34 +1053,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Plugin#failure_hooks">Resque::Plugin#failure_hooks</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::WorkerRegistry#redis">Resque::WorkerRegistry#redis</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::WorkerRegistry#state">Resque::WorkerRegistry#state</span>
         </td>
         <td>
@@ -1095,7 +1067,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerQueueList#size">Resque::WorkerQueueList#size</span>
+          <span title="Resque::Plugin#failure_hooks">Resque::Plugin#failure_hooks</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::WorkerQueueList#to_s">Resque::WorkerQueueList#to_s</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1137,7 +1123,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerQueueList#to_s">Resque::WorkerQueueList#to_s</span>
+          <span title="Resque::WorkerRegistry#redis">Resque::WorkerRegistry#redis</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1151,7 +1137,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::ChildProcess#logger">Resque::ChildProcess#logger</span>
+          <span title="Resque::WorkerQueueList#size">Resque::WorkerQueueList#size</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1166,20 +1152,6 @@
         </td>
         <td class="path">
           <span title="Resque::Plugin#around_hooks">Resque::Plugin#around_hooks</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::WorkerRegistry.find">Resque::WorkerRegistry.find</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1221,7 +1193,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::ChildProcess#worker">Resque::ChildProcess#worker</span>
+          <span title="Resque::ChildProcess#logger">Resque::ChildProcess#logger</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::WorkerRegistry.find">Resque::WorkerRegistry.find</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1249,7 +1235,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::ProcessCoordinator">Resque::ProcessCoordinator</span>
+          <span title="Resque::ChildProcess#worker">Resque::ChildProcess#worker</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1263,7 +1249,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerRegistry.all">Resque::WorkerRegistry.all</span>
+          <span title="Resque::Plugin#job_methods">Resque::Plugin#job_methods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1277,7 +1263,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Base#save">Resque::Failure::Base#save</span>
+          <span title="Resque::WorkerHooks#logger">Resque::WorkerHooks#logger</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1319,7 +1305,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerHooks#logger">Resque::WorkerHooks#logger</span>
+          <span title="Resque::WorkerRegistry.all">Resque::WorkerRegistry.all</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1333,7 +1319,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Plugin#job_methods">Resque::Plugin#job_methods</span>
+          <span title="Resque::ProcessCoordinator">Resque::ProcessCoordinator</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1347,21 +1333,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::ChildProcess#wait">Resque::ChildProcess#wait</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::ChildProcess#kill">Resque::ChildProcess#kill</span>
+          <span title="Resque::Failure::Base#save">Resque::Failure::Base#save</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1389,21 +1361,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Multiple">Resque::Failure::Multiple</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Failure::Airbrake">Resque::Failure::Airbrake</span>
+          <span title="Resque::ChildProcess#kill">Resque::ChildProcess#kill</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1431,7 +1389,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#processed">Resque::Worker#processed</span>
+          <span title="Resque::Failure::Airbrake">Resque::Failure::Airbrake</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1445,7 +1403,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::JobPerformer#job">Resque::JobPerformer#job</span>
+          <span title="Resque::Failure::Multiple">Resque::Failure::Multiple</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1459,7 +1417,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure.backend=">Resque::Failure.backend=</span>
+          <span title="Resque::ChildProcess#wait">Resque::ChildProcess#wait</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1487,77 +1445,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Resque::Worker#processed">Resque::Worker#processed</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure.backend=">Resque::Failure.backend=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::JobPerformer#job">Resque::JobPerformer#job</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Resque::Queue#redis_name">Resque::Queue#redis_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::WorkerQueueList">Resque::WorkerQueueList</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Worker#shutdown">Resque::Worker#shutdown</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::IOAwaiter#await">Resque::IOAwaiter#await</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque#queue_from_class">Resque#queue_from_class</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque#failed_job_count">Resque#failed_job_count</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1585,7 +1515,119 @@
           </div>
         </td>
         <td class="path">
+          <span title="Resque::Worker#shutdown">Resque::Worker#shutdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque#failed_job_count">Resque#failed_job_count</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque#queue_from_class">Resque#queue_from_class</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::IOAwaiter#await">Resque::IOAwaiter#await</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Resque::Failure.backend">Resque::Failure.backend</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::WorkerQueueList">Resque::WorkerQueueList</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Worker#process">Resque::Worker#process</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure::Redis">Resque::Failure::Redis</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::MultiQueue#pop">Resque::MultiQueue#pop</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1627,7 +1669,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#process">Resque::Worker#process</span>
+          <span title="Resque::Worker#failed">Resque::Worker#failed</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1641,49 +1683,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::MultiQueue#pop">Resque::MultiQueue#pop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Failure::Redis">Resque::Failure::Redis</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Failure::Each">Resque::Failure::Each</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Worker#logger">Resque::Worker#logger</span>
+          <span title="Resque::Worker#queues">Resque::Worker#queues</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1711,7 +1711,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#failed">Resque::Worker#failed</span>
+          <span title="Resque::Worker#logger">Resque::Worker#logger</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure::Each">Resque::Failure::Each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1753,7 +1767,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#queues">Resque::Worker#queues</span>
+          <span title="Resque::Worker#pause">Resque::Worker#pause</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1767,7 +1781,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#pause">Resque::Worker#pause</span>
+          <span title="Resque::Config#redis">Resque::Config#redis</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1795,7 +1809,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Config#redis">Resque::Config#redis</span>
+          <span title="Resque::Job#perform">Resque::Job#perform</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1837,35 +1851,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Job#inspect">Resque::Job#inspect</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Job#perform">Resque::Job#perform</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::WorkerHooks">Resque::WorkerHooks</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Job#inspect">Resque::Job#inspect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1893,7 +1893,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::MultiQueue">Resque::MultiQueue</span>
+          <span title="Resque#environment">Resque#environment</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1908,6 +1908,20 @@
         </td>
         <td class="path">
           <span title="Resque::Queue#name">Resque::Queue#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::MultiQueue">Resque::MultiQueue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1949,7 +1963,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#environment">Resque#environment</span>
+          <span title="Resque::IOAwaiter">Resque::IOAwaiter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2005,20 +2019,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::IOAwaiter">Resque::IOAwaiter</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::Job#args">Resque::Job#args</span>
         </td>
         <td>
@@ -2061,49 +2061,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Logging">Resque::Logging</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Stat#<<">Resque::Stat#<<</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::Stat#[]">Resque::Stat#[]</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Stat#>>">Resque::Stat#>></span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2131,6 +2089,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Resque::Stat#<<">Resque::Stat#<<</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Resque::Backend">Resque::Backend</span>
         </td>
         <td>
@@ -2145,7 +2117,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Resque::Logging">Resque::Logging</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Stat#>>">Resque::Stat#>></span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Resque::Plugin">Resque::Plugin</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque.config=">Resque.config=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2187,20 +2201,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#backend">Resque#backend</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque#logger=">Resque#logger=</span>
         </td>
         <td>
@@ -2215,7 +2215,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque.config=">Resque.config=</span>
+          <span title="Resque#backend">Resque#backend</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Queue">Resque::Queue</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque#redis=">Resque#redis=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque#logger">Resque#logger</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2257,34 +2299,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#decode">Resque#decode</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque#logger">Resque#logger</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque#encode">Resque#encode</span>
         </td>
         <td>
@@ -2299,21 +2313,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Queue">Resque::Queue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque#redis=">Resque#redis=</span>
+          <span title="Resque#decode">Resque#decode</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2369,7 +2369,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#info">Resque#info</span>
+          <span title="Resque#keys">Resque#keys</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2383,7 +2383,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#keys">Resque#keys</span>
+          <span title="Resque#info">Resque#info</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2439,7 +2439,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Multiple.classes=">Resque::Failure::Multiple.classes=</span>
+          <span title="Resque::HookRegister#after_perform">Resque::HookRegister#after_perform</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2453,7 +2453,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::HookRegister#after_perform">Resque::HookRegister#after_perform</span>
+          <span title="Resque::Failure::Multiple.classes=">Resque::Failure::Multiple.classes=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2481,7 +2481,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Base#exception=">Resque::Failure::Base#exception=</span>
+          <span title="Resque::HookRegister#before_fork">Resque::HookRegister#before_fork</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2509,21 +2509,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::HookRegister#before_fork">Resque::HookRegister#before_fork</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Failure::Base#exception">Resque::Failure::Base#exception</span>
+          <span title="Resque::Failure::Base#exception=">Resque::Failure::Base#exception=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2551,7 +2537,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Base#payload=">Resque::Failure::Base#payload=</span>
+          <span title="Resque::Failure::Base#exception">Resque::Failure::Base#exception</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2565,7 +2551,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Base#worker=">Resque::Failure::Base#worker=</span>
+          <span title="Resque::Failure::Base#payload=">Resque::Failure::Base#payload=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2593,7 +2579,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure.requeue_queue">Resque::Failure.requeue_queue</span>
+          <span title="Resque::Failure::Base#worker=">Resque::Failure::Base#worker=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2607,7 +2593,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure.remove_queue">Resque::Failure.remove_queue</span>
+          <span title="Resque::Failure.requeue_queue">Resque::Failure.requeue_queue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2649,7 +2635,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Base.clear">Resque::Failure::Base.clear</span>
+          <span title="Resque::Failure.remove_queue">Resque::Failure.remove_queue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2664,6 +2650,20 @@
         </td>
         <td class="path">
           <span title="Resque::Failure::Base#queue">Resque::Failure::Base#queue</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure::Base.clear">Resque::Failure::Base.clear</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2747,6 +2747,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Resque::Worker#options=">Resque::Worker#options=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Resque::MultiQueue#poll">Resque::MultiQueue#poll</span>
         </td>
         <td>
@@ -2762,20 +2776,6 @@
         </td>
         <td class="path">
           <span title="Resque::Job#after_hooks">Resque::Job#after_hooks</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Worker#options=">Resque::Worker#options=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2817,7 +2817,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Config#redis=">Resque::Config#redis=</span>
+          <span title="Resque::Queue#destroy">Resque::Queue#destroy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2845,21 +2845,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Queue#destroy">Resque::Queue#destroy</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Worker#to_s=">Resque::Worker#to_s=</span>
+          <span title="Resque::Config#redis=">Resque::Config#redis=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2887,7 +2873,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#inline_block">Resque#inline_block</span>
+          <span title="Resque::Worker#to_s=">Resque::Worker#to_s=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2902,6 +2888,20 @@
         </td>
         <td class="path">
           <span title="Resque::Failure.url">Resque::Failure.url</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque#inline_block">Resque#inline_block</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3097,20 +3097,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Job#payload_class">Resque::Job#payload_class</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::Worker#initialize">Resque::Worker#initialize</span>
         </td>
         <td>
@@ -3125,7 +3111,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#procline">Resque::Worker#procline</span>
+          <span title="Resque::Job#payload_class">Resque::Job#payload_class</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3139,7 +3125,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#perform">Resque::Worker#perform</span>
+          <span title="Resque::Worker#procline">Resque::Worker#procline</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3168,6 +3154,20 @@
         </td>
         <td class="path">
           <span title="Resque::Worker#startup">Resque::Worker#startup</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Worker#perform">Resque::Worker#perform</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3237,7 +3237,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Plugin#lint">Resque::Plugin#lint</span>
+          <span title="Resque::Job#payload">Resque::Job#payload</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3251,7 +3251,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Job#payload">Resque::Job#payload</span>
+          <span title="Resque::Plugin#lint">Resque::Plugin#lint</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3321,7 +3321,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#validate">Resque#validate</span>
+          <span title="Resque::Options">Resque::Options</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3335,7 +3335,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Options">Resque::Options</span>
+          <span title="Resque#validate">Resque#validate</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3503,20 +3503,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Redis.queues">Resque::Failure::Redis.queues</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::Failure::Multiple.url">Resque::Failure::Multiple.url</span>
         </td>
         <td>
@@ -3531,7 +3517,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure::Redis.count">Resque::Failure::Redis.count</span>
+          <span title="Resque::Failure::Redis.queues">Resque::Failure::Redis.queues</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3546,6 +3532,20 @@
         </td>
         <td class="path">
           <span title="Resque::Worker#should_pause?">Resque::Worker#should_pause?</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure::Redis.count">Resque::Failure::Redis.count</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -3846,7 +3846,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque#remove_queue">Resque#remove_queue</span>
+          <span title="Resque::Job.reserve">Resque::Job.reserve</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3860,7 +3860,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Job.reserve">Resque::Job.reserve</span>
+          <span title="Resque#remove_queue">Resque#remove_queue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3944,20 +3944,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::JobPerformer#initialize">Resque::JobPerformer#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::ChildProcess#initialize">Resque::ChildProcess#initialize</span>
         </td>
         <td>
@@ -3972,7 +3958,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::WorkerRegistry.attach">Resque::WorkerRegistry.attach</span>
+          <span title="Resque::JobPerformer#initialize">Resque::JobPerformer#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4000,21 +3986,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Backend#initialize">Resque::Backend#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Failure.requeue_to">Resque::Failure.requeue_to</span>
+          <span title="Resque::WorkerRegistry.attach">Resque::WorkerRegistry.attach</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4056,7 +4028,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure.requeue">Resque::Failure.requeue</span>
+          <span title="Resque::Failure.requeue_to">Resque::Failure.requeue_to</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4070,7 +4042,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure.remove">Resque::Failure.remove</span>
+          <span title="Resque::Backend#initialize">Resque::Backend#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure.requeue">Resque::Failure.requeue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4098,7 +4084,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Logging.fatal">Resque::Logging.fatal</span>
+          <span title="Resque::Failure.remove">Resque::Failure.remove</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4140,7 +4126,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Failure.all">Resque::Failure.all</span>
+          <span title="Resque::Logging.fatal">Resque::Logging.fatal</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4169,6 +4155,20 @@
         </td>
         <td class="path">
           <span title="Resque::Queue#slice">Resque::Queue#slice</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Failure.all">Resque::Failure.all</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4405,7 +4405,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Worker#worker_registry">Resque::Worker#worker_registry</span>
+          <span title="Resque::ChildProcess#reconnect">Resque::ChildProcess#reconnect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4427,7 +4427,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::ChildProcess#reconnect">Resque::ChildProcess#reconnect</span>
+          <span title="Resque::Worker#worker_registry">Resque::Worker#worker_registry</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4442,20 +4442,6 @@
         </td>
         <td class="path">
           <span title="Resque::WorkerQueueList#queues">Resque::WorkerQueueList#queues</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Resque::Options#fork_per_job">Resque::Options#fork_per_job</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4484,6 +4470,20 @@
         </td>
         <td class="path">
           <span title="Resque::Worker#worker_queues">Resque::Worker#worker_queues</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::Options#fork_per_job">Resque::Options#fork_per_job</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4827,20 +4827,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Logging.debug">Resque::Logging.debug</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Resque::Logging.error">Resque::Logging.error</span>
         </td>
         <td>
@@ -4855,7 +4841,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::Logging.info">Resque::Logging.info</span>
+          <span title="Resque::Logging.debug">Resque::Logging.debug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4883,7 +4869,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::CLI#workers">Resque::CLI#workers</span>
+          <span title="Resque::Logging.info">Resque::Logging.info</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4897,7 +4883,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::CLI#remove">Resque::CLI#remove</span>
+          <span title="Resque::CLI#workers">Resque::CLI#workers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4925,7 +4911,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::CLI#kill">Resque::CLI#kill</span>
+          <span title="Resque::CLI#remove">Resque::CLI#remove</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Resque::CLI#work">Resque::CLI#work</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4953,7 +4953,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Resque::CLI#work">Resque::CLI#work</span>
+          <span title="Resque::CLI#kill">Resque::CLI#kill</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
