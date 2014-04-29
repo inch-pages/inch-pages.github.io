@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 65%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 61%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 34%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 37%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -269,7 +269,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Session">Lotus::Action::Session</span>
+          <span title="Lotus::Controller::Dsl">Lotus::Controller::Dsl</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -283,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Controller::Dsl">Lotus::Controller::Dsl</span>
+          <span title="Lotus::Action::Session">Lotus::Action::Session</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -367,20 +367,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Cookies#cookies">Lotus::Action::Cookies#cookies</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Lotus::Action::Session#session">Lotus::Action::Session#session</span>
         </td>
         <td>
@@ -395,7 +381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Rack#status=">Lotus::Action::Rack#status=</span>
+          <span title="Lotus::Action::Cookies#cookies">Lotus::Action::Cookies#cookies</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -423,6 +409,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Action::Rack#status=">Lotus::Action::Rack#status=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Action::Rack#body=">Lotus::Action::Rack#body=</span>
         </td>
         <td>
@@ -437,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Throwable">Lotus::Action::Throwable</span>
+          <span title="Lotus::Action::Callbacks">Lotus::Action::Callbacks</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -465,7 +465,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Callbacks">Lotus::Action::Callbacks</span>
+          <span title="Lotus::Action::Throwable">Lotus::Action::Throwable</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -610,12 +610,20 @@
   </thead>
   <tbody>
     
-      <tr class="show_more">
-        <td colspan=3>
-          &ndash;
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Action::Rack::ClassMethods#use">Lotus::Action::Rack::ClassMethods#use</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
-    
     
     
     
@@ -669,7 +677,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Throwable::ClassMethods.extended">Lotus::Action::Throwable::ClassMethods.extended</span>
+          <span title="Lotus::Action::Callbacks::ClassMethods.extended">Lotus::Action::Callbacks::ClassMethods.extended</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -683,7 +691,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Callbacks::ClassMethods.extended">Lotus::Action::Callbacks::ClassMethods.extended</span>
+          <span title="Lotus::Action::Throwable::ClassMethods.extended">Lotus::Action::Throwable::ClassMethods.extended</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -725,7 +733,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Exposable::ClassMethods">Lotus::Action::Exposable::ClassMethods</span>
+          <span title="Lotus::Action::Callbacks::ClassMethods">Lotus::Action::Callbacks::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -735,7 +743,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 13 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 16 more ...</a>
         </td>
       </tr>
     
@@ -747,7 +755,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Lotus::Action::Callbacks::ClassMethods">Lotus::Action::Callbacks::ClassMethods</span>
+          <span title="Lotus::Action::Exposable::ClassMethods">Lotus::Action::Exposable::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -762,34 +770,6 @@
         </td>
         <td class="path">
           <span title="Lotus::Controller::Dsl::ClassMethods">Lotus::Controller::Dsl::ClassMethods</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Callbacks.included">Lotus::Action::Callbacks.included</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Lotus::Action::Exposable.included">Lotus::Action::Exposable.included</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -831,6 +811,48 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Action::Callbacks.included">Lotus::Action::Callbacks.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Action::Rack::ClassMethods">Lotus::Action::Rack::ClassMethods</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Action::Exposable.included">Lotus::Action::Exposable.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Controller::Dsl.included">Lotus::Controller::Dsl.included</span>
         </td>
         <td>
@@ -859,6 +881,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Lotus::Action::Rack.included">Lotus::Action::Rack.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Lotus::Action::Mime.included">Lotus::Action::Mime.included</span>
         </td>
         <td>
@@ -874,6 +910,20 @@
         </td>
         <td class="path">
           <span title="Lotus::Controller.included">Lotus::Controller.included</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Lotus::Action::Params#env">Lotus::Action::Params#env</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

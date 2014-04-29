@@ -103,8 +103,8 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 100%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 100%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
         <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Undocumented'></div>
       </div>
@@ -127,12 +127,20 @@
   </thead>
   <tbody>
     
-      <tr class="show_more">
-        <td colspan=3>
-          &ndash;
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="#silent">#silent</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
-    
     
     
     
@@ -148,20 +156,12 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="#silent">#silent</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
+      <tr class="show_more">
+        <td colspan=3>
+          &ndash;
         </td>
       </tr>
+    
     
     
     
