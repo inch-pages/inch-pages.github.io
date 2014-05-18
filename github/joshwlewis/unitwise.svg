@@ -16,7 +16,7 @@
       <stop offset=".9" stop-color="#46cc1e" stop-opacity=".9"/>
       <stop offset="1" stop-color="#888" stop-opacity=".3"/>
     </linearGradient>
-    <rect x="34" y="4" width="10" height="10" fill="url(#gA)"/>
+    <rect x="34" y="4" width="14" height="10" fill="url(#gA)"/>
     
   
     <linearGradient id="gB" x2="0" y2="100%">
@@ -26,7 +26,7 @@
       <stop offset=".9" stop-color="#87ae10" stop-opacity=".9"/>
       <stop offset="1" stop-color="#888" stop-opacity=".3"/>
     </linearGradient>
-    <rect x="44" y="4" width="1" height="10" fill="url(#gB)"/>
+    <rect x="48" y="4" width="2" height="10" fill="url(#gB)"/>
     
   
     <linearGradient id="gC" x2="0" y2="100%">
@@ -36,7 +36,7 @@
       <stop offset=".9" stop-color="#c05946" stop-opacity=".9"/>
       <stop offset="1" stop-color="#888" stop-opacity=".3"/>
     </linearGradient>
-    <rect x="45" y="4" width="0" height="10" fill="url(#gC)"/>
+    <rect x="50" y="4" width="0" height="10" fill="url(#gC)"/>
     
   
     <linearGradient id="gU" x2="0" y2="100%">
@@ -46,7 +46,7 @@
       <stop offset=".9" stop-color="#8f7eb4" stop-opacity=".9"/>
       <stop offset="1" stop-color="#888" stop-opacity=".3"/>
     </linearGradient>
-    <rect x="45" y="4" width="29" height="10" fill="url(#gU)"/>
+    <rect x="50" y="4" width="24" height="10" fill="url(#gU)"/>
     
   
 

@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 18%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 17%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 8%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 73%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 75%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -407,20 +407,12 @@
   </thead>
   <tbody>
     
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="SanitizeEmail::Config.configure">SanitizeEmail::Config.configure</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
+      <tr class="show_more">
+        <td colspan=3>
+          &ndash;
         </td>
       </tr>
+    
     
     
     
@@ -449,6 +441,20 @@
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SanitizeEmail::Config.configure">SanitizeEmail::Config.configure</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -494,7 +500,15 @@
         </td>
       </tr>
     
-      <tr>
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('U'); return false;">Show 47 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-U">
             U
@@ -507,14 +521,6 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 46 more ...</a>
-        </td>
-      </tr>
-    
     
       <tr class="more_object">
         <td>

@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 13%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 12%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 85%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 86%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 33 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 31 more ...</a>
         </td>
       </tr>
     
@@ -339,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MessageAuthor#person_with_updated_name">MessageAuthor#person_with_updated_name</span>
+          <span title="ConversationsInbox#conversations_queue">ConversationsInbox#conversations_queue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -353,7 +353,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsInbox#conversations_queue">ConversationsInbox#conversations_queue</span>
+          <span title="MessageAuthor#person_with_updated_name">MessageAuthor#person_with_updated_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -437,7 +437,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActiveModel::HalSerializer">ActiveModel::HalSerializer</span>
+          <span title="Conversation#mailbox_email">Conversation#mailbox_email</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -451,7 +451,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Conversation#mailbox_email">Conversation#mailbox_email</span>
+          <span title="ActiveModel::HalSerializer">ActiveModel::HalSerializer</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -549,20 +549,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Users::InvitationsController#create">Users::InvitationsController#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="AttachmentUploader#store_dir">AttachmentUploader#store_dir</span>
         </td>
         <td>
@@ -606,20 +592,6 @@
         </td>
         <td class="path">
           <span title="Conversation.match_mailbox">Conversation.match_mailbox</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="User#primary_owned_account">User#primary_owned_account</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -827,12 +799,20 @@
   </thead>
   <tbody>
     
-      <tr class="show_more">
-        <td colspan=3>
-          &ndash;
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
+          <span title="Account#billing_plan_slug=">Account#billing_plan_slug=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
-    
     
     
     
@@ -858,6 +838,20 @@
         </td>
         <td class="path">
           <span title="ActiveModel::HalSerializer#include_associations!">ActiveModel::HalSerializer#include_associations!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Users::InvitationsController#find_account!">Users::InvitationsController#find_account!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -906,7 +900,15 @@
         </td>
       </tr>
     
-      <tr>
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('U'); return false;">Show 285 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-U">
             U
@@ -919,14 +921,6 @@
           <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 275 more ...</a>
-        </td>
-      </tr>
-    
     
       <tr class="more_object">
         <td>
@@ -1033,7 +1027,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MostRecentMessageHelper">MostRecentMessageHelper</span>
+          <span title="ConversationsController">ConversationsController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1061,7 +1055,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsController">ConversationsController</span>
+          <span title="MostRecentMessageHelper">MostRecentMessageHelper</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1103,6 +1097,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="TimestampedSerializer">TimestampedSerializer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Conversation#archive!">Conversation#archive!</span>
         </td>
         <td>
@@ -1131,7 +1139,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="TimestampedSerializer">TimestampedSerializer</span>
+          <span title="InvitationsController">InvitationsController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1173,6 +1181,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="ConversationManager">ConversationManager</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="ConversationsSearch">ConversationsSearch</span>
         </td>
         <td>
@@ -1201,49 +1223,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationManager">ConversationManager</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationStream">ConversationStream</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="TextcompleteSearch">TextcompleteSearch</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AttachmentUploader">AttachmentUploader</span>
+          <span title="Account#subscribe!">Account#subscribe!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1285,7 +1265,63 @@
           </div>
         </td>
         <td class="path">
+          <span title="TextcompleteSearch">TextcompleteSearch</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Account#add_owner!">Account#add_owner!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="BillingsController">BillingsController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationStream">ConversationStream</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="AttachmentUploader">AttachmentUploader</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1313,7 +1349,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="WebhookSerializer">WebhookSerializer</span>
+          <span title="AccountReadPolicy">AccountReadPolicy</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1327,7 +1363,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Webhook#dispatch!">Webhook#dispatch!</span>
+          <span title="WebhookSerializer">WebhookSerializer</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1355,21 +1391,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="AccountReadPolicy">AccountReadPolicy</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="UsersController">UsersController</span>
+          <span title="Webhook#dispatch!">Webhook#dispatch!</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1397,7 +1419,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MessageMailman">MessageMailman</span>
+          <span title="UsersController">UsersController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1412,20 +1434,6 @@
         </td>
         <td class="path">
           <span title="BaseSerializer">BaseSerializer</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="TagsController">TagsController</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1467,6 +1475,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="MessageMailman">MessageMailman</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="AccountsHelper">AccountsHelper</span>
         </td>
         <td>
@@ -1482,6 +1504,48 @@
         </td>
         <td class="path">
           <span title="BillingsHelper">BillingsHelper</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="TagsController">TagsController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="WebhookWorker">WebhookWorker</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="SummaryHelper">SummaryHelper</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1523,34 +1587,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="SummaryHelper">SummaryHelper</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="WebhookWorker">WebhookWorker</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="AvatarHelper">AvatarHelper</span>
         </td>
         <td>
@@ -1579,7 +1615,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Chargify">Chargify</span>
+          <span title="BillingPlan">BillingPlan</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1593,7 +1629,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Account">Account</span>
+          <span title="Chargify">Chargify</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1621,7 +1657,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Person">Person</span>
+          <span title="Account">Account</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1649,7 +1685,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="User">User</span>
+          <span title="Person">Person</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1761,7 +1797,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActiveModel::HalArraySerializer#embedded_resource_name">ActiveModel::HalArraySerializer#embedded_resource_name</span>
+          <span title="AttachmentUploader#save_content_type_and_size_in_model">AttachmentUploader#save_content_type_and_size_in_model</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1775,7 +1811,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="AttachmentUploader#save_content_type_and_size_in_model">AttachmentUploader#save_content_type_and_size_in_model</span>
+          <span title="ActiveModel::HalArraySerializer#embedded_resource_name">ActiveModel::HalArraySerializer#embedded_resource_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1817,7 +1853,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Chargify.subscription_id_from_customer_reference">Chargify.subscription_id_from_customer_reference</span>
+          <span title="ActiveModel::HalArraySerializer#serialize_object">ActiveModel::HalArraySerializer#serialize_object</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1831,7 +1867,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActiveModel::HalArraySerializer#serialize_object">ActiveModel::HalArraySerializer#serialize_object</span>
+          <span title="Chargify.subscription_id_from_customer_reference">Chargify.subscription_id_from_customer_reference</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1901,7 +1937,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationManager#update_conversation">ConversationManager#update_conversation</span>
+          <span title="TextcompleteSearch#matching_assignments">TextcompleteSearch#matching_assignments</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1929,7 +1965,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="TextcompleteSearch#matching_assignments">TextcompleteSearch#matching_assignments</span>
+          <span title="ConversationManager#update_conversation">ConversationManager#update_conversation</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1985,20 +2021,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationSummarizer#first_message">ConversationSummarizer#first_message</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ConversationSummarizer#conversation=">ConversationSummarizer#conversation=</span>
         </td>
         <td>
@@ -2027,6 +2049,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="ConversationSummarizer#first_message">ConversationSummarizer#first_message</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="ConversationSummarizer#conversation">ConversationSummarizer#conversation</span>
         </td>
         <td>
@@ -2041,7 +2077,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationSerializer#account_slug">ConversationSerializer#account_slug</span>
+          <span title="Users::InvitationsController#create">Users::InvitationsController#create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2069,20 +2105,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Users::InvitationsController#update">Users::InvitationsController#update</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ConversationStream#subsequent_items">ConversationStream#subsequent_items</span>
         </td>
         <td>
@@ -2097,7 +2119,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Oauth::ApplicationsController#index">Oauth::ApplicationsController#index</span>
+          <span title="Users::InvitationsController#update">Users::InvitationsController#update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2125,7 +2147,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Oauth::ApplicationsController#index">Oauth::ApplicationsController#index</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Api::ConversationsController#create">Api::ConversationsController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationSerializer#account_slug">ConversationSerializer#account_slug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2167,6 +2217,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Conversation#notify_account_people">Conversation#notify_account_people</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Api::ConversationsController#index">Api::ConversationsController#index</span>
         </td>
         <td>
@@ -2195,21 +2259,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Conversation#notify_account_people">Conversation#notify_account_people</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::ConversationsController#show">Api::ConversationsController#show</span>
+          <span title="ConversationManager#lookup_action">ConversationManager#lookup_action</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2237,49 +2287,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mailgun::DeliveryMethod#settings=">Mailgun::DeliveryMethod#settings=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="IncomingMessagesController#create">IncomingMessagesController#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ConversationSummarizer#initialize">ConversationSummarizer#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationManager#lookup_action">ConversationManager#lookup_action</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2307,6 +2315,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Mailgun::DeliveryMethod#settings=">Mailgun::DeliveryMethod#settings=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="ConversationManager#conversation=">ConversationManager#conversation=</span>
         </td>
         <td>
@@ -2321,7 +2343,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsController#archived">ConversationsController#archived</span>
+          <span title="IncomingMessagesController#create">IncomingMessagesController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Api::ConversationsController#show">Api::ConversationsController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2363,7 +2399,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Api::AttachmentsController#index">Api::AttachmentsController#index</span>
+          <span title="ConversationStream#conversation=">ConversationStream#conversation=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2377,21 +2413,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mailgun::DeliveryMethod#settings">Mailgun::DeliveryMethod#settings</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="CannedResponsesController#update">CannedResponsesController#update</span>
+          <span title="ConversationsController#archived">ConversationsController#archived</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2419,7 +2441,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationStream#conversation=">ConversationStream#conversation=</span>
+          <span title="MessageAuthor#email_display_name">MessageAuthor#email_display_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2461,7 +2483,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MessageAuthor#email_display_name">MessageAuthor#email_display_name</span>
+          <span title="Api::AttachmentsController#index">Api::AttachmentsController#index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2475,7 +2497,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsSearch#clean_query">ConversationsSearch#clean_query</span>
+          <span title="CannedResponsesController#update">CannedResponsesController#update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2489,7 +2511,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActiveModel::HalArraySerializer">ActiveModel::HalArraySerializer</span>
+          <span title="AccountsController#configuration">AccountsController#configuration</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2503,7 +2525,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationManager#take_action">ConversationManager#take_action</span>
+          <span title="Mailgun::DeliveryMethod#settings">Mailgun::DeliveryMethod#settings</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2531,49 +2553,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationStream#stream_items">ConversationStream#stream_items</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Mailgun::DeliveryMethod#api_key">Mailgun::DeliveryMethod#api_key</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsArchive#initialize">ConversationsArchive#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::AttachmentsController#show">Api::AttachmentsController#show</span>
+          <span title="ConversationManager#take_action">ConversationManager#take_action</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2601,7 +2581,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CannedResponsesController#show">CannedResponsesController#show</span>
+          <span title="Mailgun::DeliveryMethod#api_key">Mailgun::DeliveryMethod#api_key</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2615,7 +2595,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="TextcompleteSearch#assignments">TextcompleteSearch#assignments</span>
+          <span title="ActiveModel::HalArraySerializer">ActiveModel::HalArraySerializer</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsArchive#initialize">ConversationsArchive#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationStream#stream_items">ConversationStream#stream_items</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Api::AttachmentsController#show">Api::AttachmentsController#show</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsSearch#clean_query">ConversationsSearch#clean_query</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2643,7 +2679,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MessageMailman#deliver_to_each">MessageMailman#deliver_to_each</span>
+          <span title="ConversationsController#search">ConversationsController#search</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2671,49 +2707,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="TextcompleteSearch#query_regex">TextcompleteSearch#query_regex</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationSummarizer#summary">ConversationSummarizer#summary</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="CannedResponsesController#edit">CannedResponsesController#edit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsController#search">ConversationsController#search</span>
+          <span title="ConversationsController#update">ConversationsController#update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2741,7 +2735,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsController#update">ConversationsController#update</span>
+          <span title="Api::AccountsController#update">Api::AccountsController#update</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="CannedResponsesController#show">CannedResponsesController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2769,7 +2777,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Api::AccountsController#update">Api::AccountsController#update</span>
+          <span title="TextcompleteSearch#query_regex">TextcompleteSearch#query_regex</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2783,7 +2791,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="CannedResponsesController#new">CannedResponsesController#new</span>
+          <span title="MessageMailman#deliver_to_each">MessageMailman#deliver_to_each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2797,7 +2805,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="TextcompletesController#index">TextcompletesController#index</span>
+          <span title="CannedResponsesController#edit">CannedResponsesController#edit</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2811,7 +2819,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsArchive#account=">ConversationsArchive#account=</span>
+          <span title="ConversationSummarizer#summary">ConversationSummarizer#summary</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2825,7 +2833,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationStream#initialize">ConversationStream#initialize</span>
+          <span title="TextcompleteSearch#assignments">TextcompleteSearch#assignments</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2839,21 +2847,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Conversation#last_activity_at">Conversation#last_activity_at</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="TextcompleteSearch#initialize">TextcompleteSearch#initialize</span>
+          <span title="Oauth::ApplicationsController">Oauth::ApplicationsController</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2881,7 +2875,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsController#inbox">ConversationsController#inbox</span>
+          <span title="TextcompleteSearch#initialize">TextcompleteSearch#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="TextcompletesController#index">TextcompletesController#index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2909,7 +2917,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsInbox#initialize">ConversationsInbox#initialize</span>
+          <span title="ConversationsController#inbox">ConversationsController#inbox</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationStream#initialize">ConversationStream#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsArchive#account=">ConversationsArchive#account=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Conversation#last_activity_at">Conversation#last_activity_at</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="UsersController#person_params">UsersController#person_params</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2951,49 +3015,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationStream#first_item">ConversationStream#first_item</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Oauth::ApplicationsController">Oauth::ApplicationsController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::AccountsController#index">Api::AccountsController#index</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="UsersController#person_params">UsersController#person_params</span>
+          <span title="ConversationsInbox#initialize">ConversationsInbox#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3021,7 +3043,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Api::AccountsController#show">Api::AccountsController#show</span>
+          <span title="CannedResponsesController#new">CannedResponsesController#new</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3035,7 +3057,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Conversation#to_mailbox_hash">Conversation#to_mailbox_hash</span>
+          <span title="Api::AccountsController#index">Api::AccountsController#index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3049,77 +3071,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Api::ConversationsController">Api::ConversationsController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AccountReadPolicy#initialize">AccountReadPolicy#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Users::InvitationsController">Users::InvitationsController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationManager#assignee">ConversationManager#assignee</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsController#show">ConversationsController#show</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsController#list">ConversationsController#list</span>
+          <span title="ConversationStream#first_item">ConversationStream#first_item</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3147,21 +3099,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="AccountsHelper#web_form_code">AccountsHelper#web_form_code</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsArchive#account">ConversationsArchive#account</span>
+          <span title="ConversationManager#assignee">ConversationManager#assignee</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3189,6 +3127,76 @@
           </div>
         </td>
         <td class="path">
+          <span title="AccountReadPolicy#initialize">AccountReadPolicy#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Api::AccountsController#show">Api::AccountsController#show</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsController#list">ConversationsController#list</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Conversation#to_mailbox_hash">Conversation#to_mailbox_hash</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsController#show">ConversationsController#show</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Api::MessagesController#show">Api::MessagesController#show</span>
         </td>
         <td>
@@ -3203,7 +3211,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsInbox#account=">ConversationsInbox#account=</span>
+          <span title="ConversationsArchive#account">ConversationsArchive#account</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3217,7 +3225,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MessageAuthor#email_address">MessageAuthor#email_address</span>
+          <span title="AccountsHelper#web_form_code">AccountsHelper#web_form_code</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3231,7 +3239,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="AvatarHelper#avatar_default">AvatarHelper#avatar_default</span>
+          <span title="Users::InvitationsController">Users::InvitationsController</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3245,21 +3253,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsArchive#query=">ConversationsArchive#query=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AccountsController#web_form">AccountsController#web_form</span>
+          <span title="Api::ConversationsController">Api::ConversationsController</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3274,76 +3268,6 @@
         </td>
         <td class="path">
           <span title="MessageSerializer#body_html">MessageSerializer#body_html</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Conversation#creator_person">Conversation#creator_person</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Conversation#messages_count">Conversation#messages_count</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationStream#messages">ConversationStream#messages</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Webhooks::MailgunController">Webhooks::MailgunController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::PeopleController#index">Api::PeopleController#index</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3385,6 +3309,160 @@
           </div>
         </td>
         <td class="path">
+          <span title="Conversation#messages_count">Conversation#messages_count</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="BillingPlan#formatted_price">BillingPlan#formatted_price</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsArchive#query=">ConversationsArchive#query=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="InvitationsController#index">InvitationsController#index</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="AvatarHelper#avatar_default">AvatarHelper#avatar_default</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Conversation#creator_person">Conversation#creator_person</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="AccountsController#web_form">AccountsController#web_form</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationStream#messages">ConversationStream#messages</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsInbox#account=">ConversationsInbox#account=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="MessageAuthor#email_address">MessageAuthor#email_address</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Webhooks::MailgunController">Webhooks::MailgunController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Account#conversations_limit">Account#conversations_limit</span>
         </td>
         <td>
@@ -3399,7 +3477,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationSerializer#url">ConversationSerializer#url</span>
+          <span title="Api::PeopleController#index">Api::PeopleController#index</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="TextcompleteSearch#account">TextcompleteSearch#account</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="WebhookSerializer#response">WebhookSerializer#response</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationManager.manage">ConversationManager.manage</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3427,7 +3547,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="WebhookSerializer#response">WebhookSerializer#response</span>
+          <span title="ConversationManager#manage">ConversationManager#manage</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationSerializer#url">ConversationSerializer#url</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3469,34 +3603,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationManager.manage">ConversationManager.manage</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="TextcompleteSearch#account">TextcompleteSearch#account</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ConversationsInbox#account">ConversationsInbox#account</span>
         </td>
         <td>
@@ -3511,63 +3617,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationManager#manage">ConversationManager#manage</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AccountsController#create">AccountsController#create</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsInbox#query=">ConversationsInbox#query=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AvatarHelper#avatar_image">AvatarHelper#avatar_image</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Account#new_account_user=">Account#new_account_user=</span>
+          <span title="MessagesController#create">MessagesController#create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3609,7 +3659,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="MessagesController#create">MessagesController#create</span>
+          <span title="AvatarHelper#avatar_image">AvatarHelper#avatar_image</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="AccountsController#create">AccountsController#create</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ConversationsInbox#query=">ConversationsInbox#query=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Account#billing_plan_slug">Account#billing_plan_slug</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3651,119 +3743,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="AccountsController#invite">AccountsController#invite</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="ConversationManager#user=">ConversationManager#user=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="DashboardController#show">DashboardController#show</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AttachmentSerializer#url">AttachmentSerializer#url</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="MarkdownHelper#stripdown">MarkdownHelper#stripdown</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="MessageAuthor#initialize">MessageAuthor#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Account#new_account_user">Account#new_account_user</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsInbox#query">ConversationsInbox#query</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ConversationsInbox#user=">ConversationsInbox#user=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="TextcompleteSearch#query">TextcompleteSearch#query</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3791,7 +3785,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Webhook#request_options">Webhook#request_options</span>
+          <span title="MarkdownHelper#stripdown">MarkdownHelper#stripdown</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3805,7 +3799,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="MessageMailman#message=">MessageMailman#message=</span>
+          <span title="ConversationsInbox#user=">ConversationsInbox#user=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3819,7 +3813,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Mailgun::DeliveryMethod">Mailgun::DeliveryMethod</span>
+          <span title="MessageAuthor#initialize">MessageAuthor#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3833,7 +3827,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="BillingsController#show">BillingsController#show</span>
+          <span title="AttachmentSerializer#url">AttachmentSerializer#url</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3847,7 +3841,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Chargify.management_url">Chargify.management_url</span>
+          <span title="ConversationsInbox#query">ConversationsInbox#query</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3861,7 +3855,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ConversationsInbox#user">ConversationsInbox#user</span>
+          <span title="TextcompleteSearch#query">TextcompleteSearch#query</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3875,63 +3869,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="TextcompleteSearch.call">TextcompleteSearch.call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="TextcompleteSearch#tags">TextcompleteSearch#tags</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::MessagesController">Api::MessagesController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="AccountsController#edit">AccountsController#edit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Message#mail_recipients">Message#mail_recipients</span>
+          <span title="DashboardController#show">DashboardController#show</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3959,7 +3897,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="MarkdownHelper#markdown">MarkdownHelper#markdown</span>
+          <span title="AccountsController#edit">AccountsController#edit</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="TextcompleteSearch#tags">TextcompleteSearch#tags</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3987,6 +3939,104 @@
           </div>
         </td>
         <td class="path">
+          <span title="Message#mail_recipients">Message#mail_recipients</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="MessageMailman#message=">MessageMailman#message=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="TextcompleteSearch.call">TextcompleteSearch.call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Api::MessagesController">Api::MessagesController</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="MarkdownHelper#markdown">MarkdownHelper#markdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Mailgun::DeliveryMethod">Mailgun::DeliveryMethod</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Chargify.management_url">Chargify.management_url</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="NicknameHelper#nickname">NicknameHelper#nickname</span>
         </td>
         <td>
@@ -4001,7 +4051,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="UsersController#update">UsersController#update</span>
+          <span title="ConversationsInbox#user">ConversationsInbox#user</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4015,7 +4065,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="AccountsController#new">AccountsController#new</span>
+          <span title="BillingsController#show">BillingsController#show</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Webhook#request_options">Webhook#request_options</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Chargify.shared_secret">Chargify.shared_secret</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4030,6 +4108,20 @@
         </td>
         <td class="path">
           <span title="MessageSerializer#body">MessageSerializer#body</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="UsersController#update">UsersController#update</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4071,77 +4163,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Chargify.shared_secret">Chargify.shared_secret</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="WebhookWorker#perform">WebhookWorker#perform</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Conversation#to_param">Conversation#to_param</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="PagesController#embed">PagesController#embed</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Api::PeopleController">Api::PeopleController</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="TagsController#create">TagsController#create</span>
+          <span title="AccountsController#new">AccountsController#new</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4169,7 +4191,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Message#send_webhook">Message#send_webhook</span>
+          <span title="Api::PeopleController">Api::PeopleController</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4183,7 +4205,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="UsersController#edit">UsersController#edit</span>
+          <span title="Conversation#to_param">Conversation#to_param</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4197,7 +4219,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Nicknamer#initialize">Nicknamer#initialize</span>
+          <span title="Account#stripe_token=">Account#stripe_token=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4211,7 +4233,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Message#webhook_data">Message#webhook_data</span>
+          <span title="TagsController#create">TagsController#create</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4225,7 +4247,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Concierge#initialize">Concierge#initialize</span>
+          <span title="PagesController#embed">PagesController#embed</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4239,7 +4261,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Conversation#subject">Conversation#subject</span>
+          <span title="WebhookWorker#perform">WebhookWorker#perform</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4267,7 +4289,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="PagesController#home">PagesController#home</span>
+          <span title="Concierge#initialize">Concierge#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Account#stripe_token">Account#stripe_token</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Conversation#subject">Conversation#subject</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Nicknamer#initialize">Nicknamer#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Message#send_webhook">Message#send_webhook</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4295,7 +4373,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="BaseSerializer#type">BaseSerializer#type</span>
+          <span title="UsersController#edit">UsersController#edit</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4309,7 +4387,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActiveRecord::UUID">ActiveRecord::UUID</span>
+          <span title="Message#webhook_data">Message#webhook_data</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="PagesController#home">PagesController#home</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="BaseSerializer#type">BaseSerializer#type</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4337,7 +4443,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Nicknamer#nickname">Nicknamer#nickname</span>
+          <span title="ActiveRecord::UUID">ActiveRecord::UUID</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4365,7 +4471,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Account#add_owner">Account#add_owner</span>
+          <span title="Nicknamer#nickname">Nicknamer#nickname</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4379,7 +4485,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Webhook#signature">Webhook#signature</span>
+          <span title="Account#add_owner">Account#add_owner</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4407,7 +4513,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Webhook#signature">Webhook#signature</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Chargify.api_key">Chargify.api_key</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Account#owner">Account#owner</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4533,20 +4667,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Account#generate_webhook_secret">Account#generate_webhook_secret</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ApiController#parameter_missing">ApiController#parameter_missing</span>
         </td>
         <td>
@@ -4561,7 +4681,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Webhook#enqueue_to_send">Webhook#enqueue_to_send</span>
+          <span title="Account#generate_webhook_secret">Account#generate_webhook_secret</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4575,7 +4695,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Account#save_new_user">Account#save_new_user</span>
+          <span title="Webhook#enqueue_to_send">Webhook#enqueue_to_send</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4673,20 +4793,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="RespondLater">RespondLater</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ActiveRecord">ActiveRecord</span>
         </td>
         <td>
@@ -4701,7 +4807,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="BillingPlan">BillingPlan</span>
+          <span title="RespondLater">RespondLater</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4729,7 +4835,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="BetaInvite">BetaInvite</span>
+          <span title="Attachment">Attachment</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4743,7 +4849,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Attachment">Attachment</span>
+          <span title="BetaInvite">BetaInvite</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -4772,6 +4878,20 @@
         </td>
         <td class="path">
           <span title="Mailgun">Mailgun</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="User">User</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>

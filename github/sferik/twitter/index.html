@@ -103,9 +103,9 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 38%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 39%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 2%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 7%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 6%' title='Needs work'></div>
         <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 53%' title='Undocumented'></div>
       </div>
     </div>
@@ -201,7 +201,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 147 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 151 more ...</a>
         </td>
       </tr>
     
@@ -423,6 +423,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::REST::Users#unmute">Twitter::REST::Users#unmute</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::REST::Lists#lists">Twitter::REST::Lists#lists</span>
         </td>
         <td>
@@ -452,6 +466,20 @@
         </td>
         <td class="path">
           <span title="Twitter::REST::Users#block">Twitter::REST::Users#block</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Users#mute">Twitter::REST::Users#mute</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -535,7 +563,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Profile#profile_banner_uri_https">Twitter::Profile#profile_banner_uri_https</span>
+          <span title="Twitter::REST::SuggestedUsers#suggestions">Twitter::REST::SuggestedUsers#suggestions</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -549,7 +577,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::SuggestedUsers#suggestions">Twitter::REST::SuggestedUsers#suggestions</span>
+          <span title="Twitter::Profile#profile_banner_uri_https">Twitter::Profile#profile_banner_uri_https</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -605,7 +633,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Lists#list_unsubscribe">Twitter::REST::Lists#list_unsubscribe</span>
+          <span title="Twitter::REST::Lists#list_subscribers">Twitter::REST::Lists#list_subscribers</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -633,7 +661,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Lists#list_subscribers">Twitter::REST::Lists#list_subscribers</span>
+          <span title="Twitter::REST::Lists#list_unsubscribe">Twitter::REST::Lists#list_unsubscribe</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -661,7 +689,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Lists#list_subscribe">Twitter::REST::Lists#list_subscribe</span>
+          <span title="Twitter::REST::Users#profile_banner">Twitter::REST::Users#profile_banner</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -689,49 +717,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Users#profile_banner">Twitter::REST::Users#profile_banner</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::Favorites#favorites">Twitter::REST::Favorites#favorites</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::Lists#list_timeline">Twitter::REST::Lists#list_timeline</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Profile#profile_image_uri">Twitter::Profile#profile_image_uri</span>
+          <span title="Twitter::REST::Lists#list_subscribe">Twitter::REST::Lists#list_subscribe</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -759,7 +745,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Lists#destroy_list">Twitter::REST::Lists#destroy_list</span>
+          <span title="Twitter::Profile#profile_image_uri">Twitter::Profile#profile_image_uri</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Lists#list_timeline">Twitter::REST::Lists#list_timeline</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Favorites#favorites">Twitter::REST::Favorites#favorites</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -802,6 +816,20 @@
         </td>
         <td class="path">
           <span title="Twitter::REST::Lists#list_members">Twitter::REST::Lists#list_members</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Lists#destroy_list">Twitter::REST::Lists#destroy_list</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -899,7 +927,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Users#user">Twitter::REST::Users#user</span>
+          <span title="Twitter::List#members_uri">Twitter::List#members_uri</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -913,7 +941,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::List#members_uri">Twitter::List#members_uri</span>
+          <span title="Twitter::REST::Users#user">Twitter::REST::Users#user</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -955,7 +983,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::List#uri">Twitter::List#uri</span>
+          <span title="Twitter::User#uri">Twitter::User#uri</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -969,7 +997,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::User#uri">Twitter::User#uri</span>
+          <span title="Twitter::List#uri">Twitter::List#uri</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1081,20 +1109,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Timelines#mentions_timeline">Twitter::REST::Timelines#mentions_timeline</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::REST::PlacesAndGeo#similar_places">Twitter::REST::PlacesAndGeo#similar_places</span>
         </td>
         <td>
@@ -1123,6 +1137,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::REST::Timelines#mentions_timeline">Twitter::REST::Timelines#mentions_timeline</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::REST::Users#verify_credentials">Twitter::REST::Users#verify_credentials</span>
         </td>
         <td>
@@ -1137,7 +1165,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Trends#trends_available">Twitter::REST::Trends#trends_available</span>
+          <span title="Twitter::REST::PlacesAndGeo#geo_search">Twitter::REST::PlacesAndGeo#geo_search</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1151,7 +1179,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::PlacesAndGeo#geo_search">Twitter::REST::PlacesAndGeo#geo_search</span>
+          <span title="Twitter::REST::Trends#trends_available">Twitter::REST::Trends#trends_available</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1291,7 +1319,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::Client#sample">Twitter::Streaming::Client#sample</span>
+          <span title="Twitter::SearchResults#initialize">Twitter::SearchResults#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1305,7 +1333,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::SearchResults#initialize">Twitter::SearchResults#initialize</span>
+          <span title="Twitter::Streaming::Client#sample">Twitter::Streaming::Client#sample</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1333,7 +1361,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Users#blocked_ids">Twitter::REST::Users#blocked_ids</span>
+          <span title="Twitter::TrendResults#initialize">Twitter::TrendResults#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1347,7 +1375,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::TrendResults#initialize">Twitter::TrendResults#initialize</span>
+          <span title="Twitter::REST::Users#blocked_ids">Twitter::REST::Users#blocked_ids</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1403,6 +1431,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::REST::Users#muted_ids">Twitter::REST::Users#muted_ids</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::Utils.pmap_with_index">Twitter::Utils.pmap_with_index</span>
         </td>
         <td>
@@ -1445,20 +1487,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Error.from_response">Twitter::Error.from_response</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::REST::Search#search">Twitter::REST::Search#search</span>
         </td>
         <td>
@@ -1473,7 +1501,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::TrendResults#as_of">Twitter::TrendResults#as_of</span>
+          <span title="Twitter::Error.from_response">Twitter::Error.from_response</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1501,7 +1529,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Base#initialize">Twitter::Base#initialize</span>
+          <span title="Twitter::TrendResults#as_of">Twitter::TrendResults#as_of</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1516,6 +1544,20 @@
         </td>
         <td class="path">
           <span title="Twitter::Utils.flat_pmap">Twitter::Utils.flat_pmap</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Base#initialize">Twitter::Base#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1641,7 +1683,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Users#update_profile_background_image">Twitter::REST::Users#update_profile_background_image</span>
+          <span title="Twitter::REST::FriendsAndFollowers#friendship_update">Twitter::REST::FriendsAndFollowers#friendship_update</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1655,7 +1697,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::FriendsAndFollowers#friendship_update">Twitter::REST::FriendsAndFollowers#friendship_update</span>
+          <span title="Twitter::REST::Users#update_profile_background_image">Twitter::REST::Users#update_profile_background_image</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1711,7 +1753,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Users#update_delivery_device">Twitter::REST::Users#update_delivery_device</span>
+          <span title="Twitter::REST::PlacesAndGeo#reverse_geocode">Twitter::REST::PlacesAndGeo#reverse_geocode</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1739,7 +1781,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::PlacesAndGeo#reverse_geocode">Twitter::REST::PlacesAndGeo#reverse_geocode</span>
+          <span title="Twitter::REST::Users#update_delivery_device">Twitter::REST::Users#update_delivery_device</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Users#update_profile_banner">Twitter::REST::Users#update_profile_banner</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1781,20 +1837,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Users#update_profile_banner">Twitter::REST::Users#update_profile_banner</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::REST::SavedSearches#saved_search">Twitter::REST::SavedSearches#saved_search</span>
         </td>
         <td>
@@ -1823,20 +1865,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Timelines#retweeted_to_me">Twitter::REST::Timelines#retweeted_to_me</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::REST::Timelines#retweeted_by_me">Twitter::REST::Timelines#retweeted_by_me</span>
         </td>
         <td>
@@ -1851,7 +1879,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Tweets#update_with_media">Twitter::REST::Tweets#update_with_media</span>
+          <span title="Twitter::REST::Timelines#retweeted_to_me">Twitter::REST::Timelines#retweeted_to_me</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1880,6 +1908,20 @@
         </td>
         <td class="path">
           <span title="Twitter::REST::Timelines#retweets_of_me">Twitter::REST::Timelines#retweets_of_me</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Tweets#update_with_media">Twitter::REST::Tweets#update_with_media</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -1977,20 +2019,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::PlacesAndGeo#place">Twitter::REST::PlacesAndGeo#place</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::REST::Help#configuration">Twitter::REST::Help#configuration</span>
         </td>
         <td>
@@ -2005,7 +2033,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Lists#create_list">Twitter::REST::Lists#create_list</span>
+          <span title="Twitter::REST::PlacesAndGeo#place">Twitter::REST::PlacesAndGeo#place</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2020,6 +2048,20 @@
         </td>
         <td class="path">
           <span title="Twitter::REST::Users#user_search">Twitter::REST::Users#user_search</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Lists#create_list">Twitter::REST::Lists#create_list</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2061,20 +2103,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Users#blocking">Twitter::REST::Users#blocking</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::REST::Help#languages">Twitter::REST::Help#languages</span>
         </td>
         <td>
@@ -2090,6 +2118,20 @@
         </td>
         <td class="path">
           <span title="Twitter::REST::Tweets#oembed">Twitter::REST::Tweets#oembed</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Users#blocked">Twitter::REST::Users#blocked</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2132,6 +2174,20 @@
         </td>
         <td class="path">
           <span title="Twitter::REST::Help#privacy">Twitter::REST::Help#privacy</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Users#muted">Twitter::REST::Users#muted</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2362,7 +2418,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::Event#initialize">Twitter::Streaming::Event#initialize</span>
+          <span title="Twitter::Request#perform_with_cursor">Twitter::Request#perform_with_cursor</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2376,7 +2432,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Request#perform_with_cursor">Twitter::Request#perform_with_cursor</span>
+          <span title="Twitter::Streaming::Event#initialize">Twitter::Streaming::Event#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2621,6 +2677,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::RateLimit#reset_at">Twitter::RateLimit#reset_at</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-C">
+            C
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::Place#country_code">Twitter::Place#country_code</span>
         </td>
         <td>
@@ -2636,20 +2706,6 @@
         </td>
         <td class="path">
           <span title="Twitter::Client#credentials">Twitter::Client#credentials</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::RateLimit#reset_at">Twitter::RateLimit#reset_at</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2691,7 +2747,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::GeoResults#token">Twitter::GeoResults#token</span>
+          <span title="Twitter::Suggestion#users">Twitter::Suggestion#users</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2705,7 +2761,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Suggestion#users">Twitter::Suggestion#users</span>
+          <span title="Twitter::GeoResults#token">Twitter::GeoResults#token</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2953,7 +3009,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 216 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 219 more ...</a>
         </td>
       </tr>
     
@@ -2993,20 +3049,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::SearchResults#attrs">Twitter::SearchResults#attrs</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::User#statuses_count">Twitter::User#statuses_count</span>
         </td>
         <td>
@@ -3021,7 +3063,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::DirectMessage#text">Twitter::DirectMessage#text</span>
+          <span title="Twitter::SearchResults#attrs">Twitter::SearchResults#attrs</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -3050,6 +3092,20 @@
         </td>
         <td class="path">
           <span title="Twitter::Token#access_token">Twitter::Token#access_token</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::DirectMessage#text">Twitter::DirectMessage#text</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -3119,7 +3175,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Size#w">Twitter::Size#w</span>
+          <span title="Twitter::Size#h">Twitter::Size#h</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -3133,7 +3189,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Size#h">Twitter::Size#h</span>
+          <span title="Twitter::Size#w">Twitter::Size#w</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -3217,20 +3273,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Lists">Twitter::REST::Lists</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::REST::Users">Twitter::REST::Users</span>
         </td>
         <td>
@@ -3245,7 +3287,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::REST::Lists">Twitter::REST::Lists</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::OEmbed">Twitter::OEmbed</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Client">Twitter::Client</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3329,20 +3399,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Response::RaiseError#on_complete">Twitter::REST::Response::RaiseError#on_complete</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::Streaming::Connection#ssl_socket_class">Twitter::Streaming::Connection#ssl_socket_class</span>
         </td>
         <td>
@@ -3358,6 +3414,20 @@
         </td>
         <td class="path">
           <span title="Twitter::Streaming::Connection#tcp_socket_class">Twitter::Streaming::Connection#tcp_socket_class</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Response::RaiseError#on_complete">Twitter::REST::Response::RaiseError#on_complete</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3413,20 +3483,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Utils::ClassMethods#deprecate_alias">Twitter::Utils::ClassMethods#deprecate_alias</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::Streaming::Client#ssl_socket_class=">Twitter::Streaming::Client#ssl_socket_class=</span>
         </td>
         <td>
@@ -3441,7 +3497,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::Client#tcp_socket_class=">Twitter::Streaming::Client#tcp_socket_class=</span>
+          <span title="Twitter::Utils::ClassMethods#deprecate_alias">Twitter::Utils::ClassMethods#deprecate_alias</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3455,7 +3511,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::Client#ssl_socket_class">Twitter::Streaming::Client#ssl_socket_class</span>
+          <span title="Twitter::Streaming::Client#tcp_socket_class=">Twitter::Streaming::Client#tcp_socket_class=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3484,6 +3540,20 @@
         </td>
         <td class="path">
           <span title="Twitter::Configuration#max_media_per_upload">Twitter::Configuration#max_media_per_upload</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Streaming::Client#ssl_socket_class">Twitter::Streaming::Client#ssl_socket_class</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3553,35 +3623,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::StallWarning#message">Twitter::Streaming::StallWarning#message</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::Response::ParseJson#parse">Twitter::REST::Response::ParseJson#parse</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Streaming::DeletedTweet#user_id">Twitter::Streaming::DeletedTweet#user_id</span>
+          <span title="Twitter::Entity::UserMention#screen_name">Twitter::Entity::UserMention#screen_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3609,7 +3651,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Entity::UserMention#screen_name">Twitter::Entity::UserMention#screen_name</span>
+          <span title="Twitter::Streaming::DeletedTweet#user_id">Twitter::Streaming::DeletedTweet#user_id</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Response::ParseJson#parse">Twitter::REST::Response::ParseJson#parse</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Streaming::StallWarning#message">Twitter::Streaming::StallWarning#message</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Configuration#photo_size_limit">Twitter::Configuration#photo_size_limit</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3651,7 +3735,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Configuration#photo_size_limit">Twitter::Configuration#photo_size_limit</span>
+          <span title="Twitter::Tweet#in_reply_to_screen_name">Twitter::Tweet#in_reply_to_screen_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3666,20 +3750,6 @@
         </td>
         <td class="path">
           <span title="Twitter::Streaming::Client#connection=">Twitter::Streaming::Client#connection=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Tweet#in_reply_to_screen_name">Twitter::Tweet#in_reply_to_screen_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3763,20 +3833,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Client#bearer_token=">Twitter::REST::Client#bearer_token=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::Client#access_token_secret">Twitter::Client#access_token_secret</span>
         </td>
         <td>
@@ -3806,6 +3862,20 @@
         </td>
         <td class="path">
           <span title="Twitter::Tweet#in_reply_to_attrs_id">Twitter::Tweet#in_reply_to_attrs_id</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Client#bearer_token=">Twitter::REST::Client#bearer_token=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3889,7 +3959,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Client#consumer_secret=">Twitter::Client#consumer_secret=</span>
+          <span title="Twitter::Streaming::DeletedTweet">Twitter::Streaming::DeletedTweet</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3917,7 +3987,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Request#request_method=">Twitter::Request#request_method=</span>
+          <span title="Twitter::Streaming::Event#target">Twitter::Streaming::Event#target</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3945,7 +4015,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::DeletedTweet">Twitter::Streaming::DeletedTweet</span>
+          <span title="Twitter::User#profile_link_color">Twitter::User#profile_link_color</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Client#consumer_secret=">Twitter::Client#consumer_secret=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3973,21 +4057,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::Event#target">Twitter::Streaming::Event#target</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::User#profile_link_color">Twitter::User#profile_link_color</span>
+          <span title="Twitter::Request#request_method=">Twitter::Request#request_method=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4043,34 +4113,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Streaming::Event#name">Twitter::Streaming::Event#name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Streaming::Connection">Twitter::Streaming::Connection</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::BasicUser#screen_name">Twitter::BasicUser#screen_name</span>
         </td>
         <td>
@@ -4099,77 +4141,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::Streaming::Event#name">Twitter::Streaming::Event#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Streaming::Connection">Twitter::Streaming::Connection</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::List#subscriber_count">Twitter::List#subscriber_count</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::DirectMessages">Twitter::REST::DirectMessages</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Settings#screen_name">Twitter::Settings#screen_name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Entity::Hashtag#text">Twitter::Entity::Hashtag#text</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::SuggestedUsers">Twitter::REST::SuggestedUsers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::SavedSearch#position">Twitter::SavedSearch#position</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4211,7 +4211,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Metadata#result_type">Twitter::Metadata#result_type</span>
+          <span title="Twitter::Client#consumer_key=">Twitter::Client#consumer_key=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Entity::Hashtag#text">Twitter::Entity::Hashtag#text</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4239,7 +4253,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::User#followers_count">Twitter::User#followers_count</span>
+          <span title="Twitter::SavedSearch#position">Twitter::SavedSearch#position</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4253,7 +4267,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Client#consumer_key=">Twitter::Client#consumer_key=</span>
+          <span title="Twitter::Metadata#result_type">Twitter::Metadata#result_type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::User#followers_count">Twitter::User#followers_count</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4281,7 +4309,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::SpamReporting">Twitter::REST::SpamReporting</span>
+          <span title="Twitter::REST::SuggestedUsers">Twitter::REST::SuggestedUsers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4295,7 +4323,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Entity::Symbol#text">Twitter::Entity::Symbol#text</span>
+          <span title="Twitter::REST::DirectMessages">Twitter::REST::DirectMessages</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4309,35 +4337,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Client#consumer_key">Twitter::Client#consumer_key</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Streaming::Response">Twitter::Streaming::Response</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::SavedSearches">Twitter::REST::SavedSearches</span>
+          <span title="Twitter::Settings#screen_name">Twitter::Settings#screen_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4352,34 +4352,6 @@
         </td>
         <td class="path">
           <span title="Twitter::Tweet#retweet_count">Twitter::Tweet#retweet_count</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Client#access_token">Twitter::Client#access_token</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Settings#sleep_time">Twitter::Settings#sleep_time</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4421,7 +4393,105 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Settings#time_zone">Twitter::Settings#time_zone</span>
+          <span title="Twitter::Streaming::Response">Twitter::Streaming::Response</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Settings#sleep_time">Twitter::Settings#sleep_time</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Entity::Symbol#text">Twitter::Entity::Symbol#text</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Client#access_token">Twitter::Client#access_token</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::SavedSearches">Twitter::REST::SavedSearches</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Client#consumer_key">Twitter::Client#consumer_key</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::SpamReporting">Twitter::REST::SpamReporting</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Undocumented">Twitter::REST::Undocumented</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4449,7 +4519,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Undocumented">Twitter::REST::Undocumented</span>
+          <span title="Twitter::Settings#time_zone">Twitter::Settings#time_zone</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Client#user_agent=">Twitter::Client#user_agent=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4492,6 +4576,20 @@
         </td>
         <td class="path">
           <span title="Twitter::REST::PlacesAndGeo">Twitter::REST::PlacesAndGeo</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Arguments#options">Twitter::Arguments#options</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4575,77 +4673,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Arguments#options">Twitter::Arguments#options</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Token#token_type">Twitter::Token#token_type</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::List#description">Twitter::List#description</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::User#connections">Twitter::User#connections</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::User#description">Twitter::User#description</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::OEmbed#cache_age">Twitter::OEmbed#cache_age</span>
+          <span title="Twitter::SavedSearch#name">Twitter::SavedSearch#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4660,34 +4688,6 @@
         </td>
         <td class="path">
           <span title="Twitter::Place#attributes">Twitter::Place#attributes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Request#options=">Twitter::Request#options=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::SavedSearch#name">Twitter::SavedSearch#name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4729,7 +4729,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Suggestion#size">Twitter::Suggestion#size</span>
+          <span title="Twitter::User#description">Twitter::User#description</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4743,7 +4743,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Timelines">Twitter::REST::Timelines</span>
+          <span title="Twitter::Token#token_type">Twitter::Token#token_type</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4757,7 +4757,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Suggestion#name">Twitter::Suggestion#name</span>
+          <span title="Twitter::User#connections">Twitter::User#connections</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4771,7 +4771,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Suggestion#slug">Twitter::Suggestion#slug</span>
+          <span title="Twitter::OEmbed#cache_age">Twitter::OEmbed#cache_age</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4785,7 +4785,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Favorites">Twitter::REST::Favorites</span>
+          <span title="Twitter::List#description">Twitter::List#description</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Request#options=">Twitter::Request#options=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4813,20 +4827,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::User#utc_offset">Twitter::User#utc_offset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::Request#client=">Twitter::Request#client=</span>
         </td>
         <td>
@@ -4841,7 +4841,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Entity::Hashtag">Twitter::Entity::Hashtag</span>
+          <span title="Twitter::REST::Favorites">Twitter::REST::Favorites</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Timelines">Twitter::REST::Timelines</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4883,7 +4897,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Entity#indices">Twitter::Entity#indices</span>
+          <span title="Twitter::Entity::Hashtag">Twitter::Entity::Hashtag</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4897,7 +4911,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Request#client">Twitter::Request#client</span>
+          <span title="Twitter::User#utc_offset">Twitter::User#utc_offset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Suggestion#slug">Twitter::Suggestion#slug</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Suggestion#name">Twitter::Suggestion#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Suggestion#size">Twitter::Suggestion#size</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Entity#indices">Twitter::Entity#indices</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4925,7 +4995,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::User#time_zone">Twitter::User#time_zone</span>
+          <span title="Twitter::OEmbed#version">Twitter::OEmbed#version</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4939,7 +5009,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::OEmbed#version">Twitter::OEmbed#version</span>
+          <span title="Twitter::Request#client">Twitter::Request#client</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4967,7 +5037,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Place#country">Twitter::Place#country</span>
+          <span title="Twitter::User#time_zone">Twitter::User#time_zone</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4981,7 +5051,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::DirectMessage">Twitter::DirectMessage</span>
+          <span title="Twitter::Client#proxy=">Twitter::Client#proxy=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5023,6 +5093,48 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::Request#path=">Twitter::Request#path=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Place#country">Twitter::Place#country</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Language#name">Twitter::Language#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::User#location">Twitter::User#location</span>
         </td>
         <td>
@@ -5051,21 +5163,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Language#name">Twitter::Language#name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Request#path=">Twitter::Request#path=</span>
+          <span title="Twitter::DirectMessage">Twitter::DirectMessage</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5093,49 +5191,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Tweet#source">Twitter::Tweet#source</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::Tweets">Twitter::REST::Tweets</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Place#woe_id">Twitter::Place#woe_id</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Request#path">Twitter::Request#path</span>
+          <span title="Twitter::Relationship">Twitter::Relationship</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5163,7 +5219,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::OEmbed#width">Twitter::OEmbed#width</span>
+          <span title="Twitter::REST::Tweets">Twitter::REST::Tweets</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Media::Photo">Twitter::Media::Photo</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Tweet#source">Twitter::Tweet#source</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5178,6 +5262,62 @@
         </td>
         <td class="path">
           <span title="Twitter::MediaFactory">Twitter::MediaFactory</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Request#path">Twitter::Request#path</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::REST::Trends">Twitter::REST::Trends</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::OEmbed#width">Twitter::OEmbed#width</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Place#woe_id">Twitter::Place#woe_id</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5219,133 +5359,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Trends">Twitter::REST::Trends</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Relationship">Twitter::Relationship</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Media::Photo">Twitter::Media::Photo</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::SavedSearch">Twitter::SavedSearch</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::OEmbed#html">Twitter::OEmbed#html</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::OEmbed#type">Twitter::OEmbed#type</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::OAuth">Twitter::REST::OAuth</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Size#resize">Twitter::Size#resize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::REST::Utils">Twitter::REST::Utils</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Trend#query">Twitter::Trend#query</span>
+          <span title="Twitter::Client#proxy">Twitter::Client#proxy</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5373,6 +5387,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::Size#resize">Twitter::Size#resize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Trend#query">Twitter::Trend#query</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::Identity#id">Twitter::Identity#id</span>
         </td>
         <td>
@@ -5387,7 +5429,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Geo::Point">Twitter::Geo::Point</span>
+          <span title="Twitter::REST::OAuth">Twitter::REST::OAuth</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5401,7 +5443,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::GeoResults">Twitter::GeoResults</span>
+          <span title="Twitter::REST::Utils">Twitter::REST::Utils</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5415,7 +5457,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Trend#name">Twitter::Trend#name</span>
+          <span title="Twitter::OEmbed#type">Twitter::OEmbed#type</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5429,7 +5471,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::REST::Help">Twitter::REST::Help</span>
+          <span title="Twitter::OEmbed#html">Twitter::OEmbed#html</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5443,35 +5485,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Enumerable">Twitter::Enumerable</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::GeoFactory">Twitter::GeoFactory</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Suggestion">Twitter::Suggestion</span>
+          <span title="Twitter::SavedSearch">Twitter::SavedSearch</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5499,7 +5513,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Tweet#lang">Twitter::Tweet#lang</span>
+          <span title="Twitter::GeoFactory">Twitter::GeoFactory</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5513,7 +5527,77 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Tweet#text">Twitter::Tweet#text</span>
+          <span title="Twitter::REST::Help">Twitter::REST::Help</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Trend#name">Twitter::Trend#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::GeoResults">Twitter::GeoResults</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Geo::Point">Twitter::Geo::Point</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Enumerable">Twitter::Enumerable</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Suggestion">Twitter::Suggestion</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5541,6 +5625,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::Tweet#text">Twitter::Tweet#text</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::User#tweet">Twitter::User#tweet</span>
         </td>
         <td>
@@ -5555,21 +5653,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::BasicUser">Twitter::BasicUser</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Arguments">Twitter::Arguments</span>
+          <span title="Twitter::Tweet#lang">Twitter::Tweet#lang</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5597,6 +5681,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::User#lang">Twitter::User#lang</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::RateLimit">Twitter::RateLimit</span>
         </td>
         <td>
@@ -5611,7 +5709,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Twitter::List#name">Twitter::List#name</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Twitter::List#slug">Twitter::List#slug</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::BasicUser">Twitter::BasicUser</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5653,77 +5779,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::User#lang">Twitter::User#lang</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::List#name">Twitter::List#name</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Entities">Twitter::Entities</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Settings">Twitter::Settings</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Identity">Twitter::Identity</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Language">Twitter::Language</span>
+          <span title="Twitter::Arguments">Twitter::Arguments</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5751,7 +5807,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Request">Twitter::Request</span>
+          <span title="Twitter::Entities">Twitter::Entities</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5765,7 +5821,63 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Version">Twitter::Version</span>
+          <span title="Twitter::Language">Twitter::Language</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Identity">Twitter::Identity</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Settings">Twitter::Settings</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Factory">Twitter::Factory</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Request">Twitter::Request</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5793,7 +5905,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Factory">Twitter::Factory</span>
+          <span title="Twitter::Version">Twitter::Version</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5835,7 +5947,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Client">Twitter::Client</span>
+          <span title="Twitter::Token">Twitter::Token</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5863,35 +5975,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Twitter::Utils">Twitter::Utils</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Twitter::Token">Twitter::Token</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Twitter::Trend">Twitter::Trend</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Twitter::Utils">Twitter::Utils</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

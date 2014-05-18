@@ -53,7 +53,7 @@
       </div>
     -->
       <div class="container disclaimer">
-        Let's raise the visiblity of code documentation in Ruby!
+        Let's raise the visibility of code documentation in Ruby!
         
           
             <a href="#about">What is this about?</a>
@@ -65,6 +65,28 @@
     <div class="container content">
       <div class="repo-wrapper">
   <div class="repo-card">
+    <div class="badge-info">
+      <a href="#" onclick="$('#badge-image-markup').toggle();"><img src="/github/redis/redis-rb.png"> &#9660;</a>
+    </div>
+    <div id="badge-image-markup" style="display: none;">
+      <p>
+        <label>Image URL:</label>
+        <input value="http://inch-pages.github.io/github/redis/redis-rb.png" type="text" class="url" onClick="this.select();">
+      </p>
+      <p>
+        <label>Markdown:</label>
+        <input value="[![Inline docs](http://inch-pages.github.io/github/redis/redis-rb.png)](http://inch-pages.github.io/github/redis/redis-rb)" type="text" class="url" onClick="this.select();">
+      </p>
+      <p>
+        <label>Textile:</label>
+        <input value="!http://inch-pages.github.io/github/redis/redis-rb.png!:http://inch-pages.github.io/github/redis/redis-rb" type="text" class="url" onClick="this.select();">
+      </p>
+      <p>
+        <label>RDoc:</label>
+        <input value='{<img src="http://inch-pages.github.io/github/redis/redis-rb.png" alt="Inline docs" />}[http://inch-pages.github.io/github/redis/redis-rb]' type="text" class="url" onClick="this.select();">
+      </p>
+    </div>
+
     <div class="topbar">
       <h1>
         redis/redis-rb
@@ -81,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 38%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 25%' title='Properly documented'></div>
-        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 1%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 36%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 35%' title='Really good'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 27%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 38%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -179,10 +201,24 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 175 more ...</a>
+          <a href="#" onclick="showMore('A'); return false;">Show 153 more ...</a>
         </td>
       </tr>
     
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#bitpos">Redis#bitpos</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr class="more_object">
         <td>
@@ -261,7 +297,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#sdiffstore">Redis#sdiffstore</span>
+          <span title="Redis#zscan_each">Redis#zscan_each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -289,7 +325,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#hscan_each">Redis#hscan_each</span>
+          <span title="Redis#sdiffstore">Redis#sdiffstore</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -303,7 +339,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#zscan_each">Redis#zscan_each</span>
+          <span title="Redis#hscan_each">Redis#hscan_each</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -331,7 +367,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#select">Redis#select</span>
+          <span title="Redis#sunion">Redis#sunion</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -359,20 +395,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#sunion">Redis#sunion</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis#sinter">Redis#sinter</span>
         </td>
         <td>
@@ -387,7 +409,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#bitop">Redis#bitop</span>
+          <span title="Redis#select">Redis#select</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -415,35 +437,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis#bitop">Redis#bitop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis#sdiff">Redis#sdiff</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#scan">Redis#scan</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#mget">Redis#mget</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -472,6 +480,34 @@
         </td>
         <td class="path">
           <span title="Redis#move">Redis#move</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#scan">Redis#scan</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#mget">Redis#mget</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -541,105 +577,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Subscription#callbacks">Redis::Subscription#callbacks</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::HashRing#sorted_keys">Redis::HashRing#sorted_keys</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Pipeline#initialize">Redis::Pipeline#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client#command_map">Redis::Client#command_map</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::HashRing#replicas">Redis::HashRing#replicas</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client#connection">Redis::Client#connection</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#ring">Redis::Distributed#ring</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Pipeline#futures">Redis::Pipeline#futures</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -681,63 +619,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::HashRing#nodes">Redis::HashRing#nodes</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client#logger">Redis::Client#logger</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::HashRing#ring">Redis::HashRing#ring</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::ProtocolError">Redis::ProtocolError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#bgrewriteaof">Redis#bgrewriteaof</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -765,7 +647,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Pipeline#db">Redis::Pipeline#db</span>
+          <span title="Redis#mapped_hmget">Redis#mapped_hmget</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -779,7 +661,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#mapped_hmget">Redis#mapped_hmget</span>
+          <span title="Redis#bgrewriteaof">Redis#bgrewriteaof</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#zunionstore">Redis#zunionstore</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#zinterstore">Redis#zinterstore</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -821,35 +731,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#zinterstore">Redis#zinterstore</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis#incrbyfloat">Redis#incrbyfloat</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#zunionstore">Redis#zunionstore</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -877,7 +759,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#rpoplpush">Redis#rpoplpush</span>
+          <span title="Redis#sismember">Redis#sismember</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -891,7 +773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#sismember">Redis#sismember</span>
+          <span title="Redis#rpoplpush">Redis#rpoplpush</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -933,21 +815,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#getrange">Redis#getrange</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#setrange">Redis#setrange</span>
+          <span title="Redis#expireat">Redis#expireat</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -962,6 +830,48 @@
         </td>
         <td class="path">
           <span title="Redis#renamenx">Redis#renamenx</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#smembers">Redis#smembers</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#lastsave">Redis#lastsave</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#flushall">Redis#flushall</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1003,7 +913,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#expireat">Redis#expireat</span>
+          <span title="Redis#getrange">Redis#getrange</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1017,7 +927,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#flushall">Redis#flushall</span>
+          <span title="Redis#setrange">Redis#setrange</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1031,35 +941,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#lastsave">Redis#lastsave</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#smembers">Redis#smembers</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#flushdb">Redis#flushdb</span>
+          <span title="Redis#hexists">Redis#hexists</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1087,21 +969,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#persist">Redis#persist</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#slowlog">Redis#slowlog</span>
+          <span title="Redis#flushdb">Redis#flushdb</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1129,7 +997,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#hgetall">Redis#hgetall</span>
+          <span title="Redis#slowlog">Redis#slowlog</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1143,21 +1011,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#restore">Redis#restore</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#hexists">Redis#hexists</span>
+          <span title="Redis#persist">Redis#persist</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1199,161 +1053,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#hsetnx">Redis#hsetnx</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#lrange">Redis#lrange</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#append">Redis#append</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#getbit">Redis#getbit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#setbit">Redis#setbit</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#strlen">Redis#strlen</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#decrby">Redis#decrby</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#bgsave">Redis#bgsave</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#zscore">Redis#zscore</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#zcount">Redis#zcount</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#psetex">Redis#psetex</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#dbsize">Redis#dbsize</span>
+          <span title="Redis#hgetall">Redis#hgetall</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1381,20 +1081,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#incrby">Redis#incrby</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis#rename">Redis#rename</span>
         </td>
         <td>
@@ -1409,7 +1095,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#lpushx">Redis#lpushx</span>
+          <span title="Redis#script">Redis#script</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1423,7 +1109,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#exists">Redis#exists</span>
+          <span title="Redis#setbit">Redis#setbit</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#getbit">Redis#getbit</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1438,20 +1138,6 @@
         </td>
         <td class="path">
           <span title="Redis#lindex">Redis#lindex</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#script">Redis#script</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1493,7 +1179,119 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#client">Redis#client</span>
+          <span title="Redis#incrby">Redis#incrby</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#lrange">Redis#lrange</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#append">Redis#append</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#zcount">Redis#zcount</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#decrby">Redis#decrby</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#hsetnx">Redis#hsetnx</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#zscore">Redis#zscore</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#exists">Redis#exists</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#dbsize">Redis#dbsize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1521,7 +1319,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#rpush">Redis#rpush</span>
+          <span title="Redis#strlen">Redis#strlen</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#lpushx">Redis#lpushx</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#bgsave">Redis#bgsave</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1536,6 +1362,48 @@
         </td>
         <td class="path">
           <span title="Redis#hvals">Redis#hvals</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#rpush">Redis#rpush</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#zrank">Redis#zrank</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#hkeys">Redis#hkeys</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1577,21 +1445,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#hkeys">Redis#hkeys</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#smove">Redis#smove</span>
+          <span title="Redis#scard">Redis#scard</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1619,34 +1473,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#hmset">Redis#hmset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#scard">Redis#scard</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis#ltrim">Redis#ltrim</span>
         </td>
         <td>
@@ -1661,7 +1487,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#setex">Redis#setex</span>
+          <span title="Redis#hmset">Redis#hmset</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1675,7 +1501,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#zrank">Redis#zrank</span>
+          <span title="Redis#smove">Redis#smove</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1689,21 +1515,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#auth">Redis#auth</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#rpop">Redis#rpop</span>
+          <span title="Redis#save">Redis#save</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1731,133 +1543,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#incr">Redis#incr</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#lrem">Redis#lrem</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#echo">Redis#echo</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#lset">Redis#lset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#info">Redis#info</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#llen">Redis#llen</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#hlen">Redis#hlen</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#lpop">Redis#lpop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#decr">Redis#decr</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#type">Redis#type</span>
+          <span title="Redis#auth">Redis#auth</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1885,7 +1571,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#sadd">Redis#sadd</span>
+          <span title="Redis#hlen">Redis#hlen</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1913,7 +1599,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#keys">Redis#keys</span>
+          <span title="Redis#hget">Redis#hget</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1927,21 +1613,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#srem">Redis#srem</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#dump">Redis#dump</span>
+          <span title="Redis#hdel">Redis#hdel</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1997,7 +1669,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#pttl">Redis#pttl</span>
+          <span title="Redis#srem">Redis#srem</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2011,7 +1683,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#save">Redis#save</span>
+          <span title="Redis#sadd">Redis#sadd</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2025,7 +1697,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#hget">Redis#hget</span>
+          <span title="Redis#echo">Redis#echo</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2039,21 +1711,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#sort">Redis#sort</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#hdel">Redis#hdel</span>
+          <span title="Redis#incr">Redis#incr</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2081,6 +1739,174 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis#lrem">Redis#lrem</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#info">Redis#info</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#llen">Redis#llen</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#pttl">Redis#pttl</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#dump">Redis#dump</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#rpop">Redis#rpop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#lpop">Redis#lpop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#keys">Redis#keys</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#sort">Redis#sort</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#type">Redis#type</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#decr">Redis#decr</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#lset">Redis#lset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis#ttl">Redis#ttl</span>
         </td>
         <td>
@@ -2095,7 +1921,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#flushall">Redis::Distributed#flushall</span>
+          <span title="Redis::Distributed#randomkey">Redis::Distributed#randomkey</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2123,7 +1949,63 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Distributed#flushall">Redis::Distributed#flushall</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#discard">Redis::Distributed#discard</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#unwatch">Redis::Distributed#unwatch</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Distributed#flushdb">Redis::Distributed#flushdb</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#monitor">Redis::Distributed#monitor</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2193,21 +2075,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#save">Redis::Distributed#save</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#ping">Redis::Distributed#ping</span>
+          <span title="Redis::Distributed#multi">Redis::Distributed#multi</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2235,6 +2103,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Distributed#exec">Redis::Distributed#exec</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#save">Redis::Distributed#save</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Distributed#time">Redis::Distributed#time</span>
         </td>
         <td>
@@ -2249,21 +2145,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#logger=">Redis::Client#logger=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Pipeline#db=">Redis::Pipeline#db=</span>
+          <span title="Redis::Distributed#ping">Redis::Distributed#ping</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2291,7 +2173,49 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis#restore">Redis#restore</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis#monitor">Redis#monitor</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#psetex">Redis#psetex</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis#setex">Redis#setex</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2320,90 +2244,6 @@
         </td>
         <td class="path">
           <span title="Redis::Subscription#initialize">Redis::Subscription#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#randomkey">Redis::Distributed#randomkey</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#monitor">Redis::Distributed#monitor</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#unwatch">Redis::Distributed#unwatch</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#discard">Redis::Distributed#discard</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#multi">Redis::Distributed#multi</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#exec">Redis::Distributed#exec</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2459,7 +2299,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#discard">Redis#discard</span>
+          <span title="Redis#unwatch">Redis#unwatch</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2473,7 +2313,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#unwatch">Redis#unwatch</span>
+          <span title="Redis#discard">Redis#discard</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -2505,132 +2345,6 @@
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::HashRing::POINTS_PER_SERVER">Redis::HashRing::POINTS_PER_SERVER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::BaseConnectionError">Redis::BaseConnectionError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::CannotConnectError">Redis::CannotConnectError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::ConnectionError">Redis::ConnectionError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::InheritedError">Redis::InheritedError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::TimeoutError">Redis::TimeoutError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::CommandError">Redis::CommandError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::BaseError">Redis::BaseError</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#connected?">Redis#connected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
         </td>
       </tr>
     
@@ -2746,7 +2460,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zrevrange">Redis::Distributed#zrevrange</span>
+          <span title="Redis::Distributed#psubscribe">Redis::Distributed#psubscribe</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2774,7 +2488,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Distributed#zrevrange">Redis::Distributed#zrevrange</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Distributed#linsert">Redis::Distributed#linsert</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#bitpos">Redis::Distributed#bitpos</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -2844,7 +2586,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#psubscribe">Redis::Distributed#psubscribe</span>
+          <span title="Redis::Distributed#punsubscribe">Redis::Distributed#punsubscribe</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2858,21 +2600,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#[]">Redis#[]</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#sinterstore">Redis::Distributed#sinterstore</span>
+          <span title="Redis::Distributed#unsubscribe">Redis::Distributed#unsubscribe</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2887,6 +2615,20 @@
         </td>
         <td class="path">
           <span title="Redis::Distributed#sunionstore">Redis::Distributed#sunionstore</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#sinterstore">Redis::Distributed#sinterstore</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2942,7 +2684,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#script">Redis::Distributed#script</span>
+          <span title="Redis::Distributed#msetnx">Redis::Distributed#msetnx</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -2984,7 +2726,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#hmset">Redis::Distributed#hmset</span>
+          <span title="Redis::Distributed#script">Redis::Distributed#script</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3012,35 +2754,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#hmget">Redis::Distributed#hmget</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Distributed#bitop">Redis::Distributed#bitop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#blpop">Redis::Distributed#blpop</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3068,7 +2782,77 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Distributed#watch">Redis::Distributed#watch</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#hmget">Redis::Distributed#hmget</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#hmset">Redis::Distributed#hmset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#blpop">Redis::Distributed#blpop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis#without_reconnect">Redis#without_reconnect</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#zadd">Redis::Distributed#zadd</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3096,6 +2880,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Distributed#mset">Redis::Distributed#mset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Distributed#eval">Redis::Distributed#eval</span>
         </td>
         <td>
@@ -3110,7 +2908,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zadd">Redis::Distributed#zadd</span>
+          <span title="Redis::Distributed#mget">Redis::Distributed#mget</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3180,90 +2978,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#punsubscribe">Redis::Distributed#punsubscribe</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#unsubscribe">Redis::Distributed#unsubscribe</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#msetnx">Redis::Distributed#msetnx</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#watch">Redis::Distributed#watch</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#mset">Redis::Distributed#mset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#mget">Redis::Distributed#mget</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Distributed#zremrangebyscore">Redis::Distributed#zremrangebyscore</span>
         </td>
         <td>
@@ -3320,7 +3034,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#srandmember">Redis::Distributed#srandmember</span>
+          <span title="Redis::Distributed#zunionstore">Redis::Distributed#zunionstore</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3348,7 +3062,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zunionstore">Redis::Distributed#zunionstore</span>
+          <span title="Redis::Distributed#srandmember">Redis::Distributed#srandmember</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3390,20 +3104,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#rpoplpush">Redis::Distributed#rpoplpush</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Distributed#pexpireat">Redis::Distributed#pexpireat</span>
         </td>
         <td>
@@ -3418,7 +3118,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#setrange">Redis::Distributed#setrange</span>
+          <span title="Redis::Distributed#rpoplpush">Redis::Distributed#rpoplpush</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3432,21 +3132,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#expireat">Redis::Distributed#expireat</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#getrange">Redis::Distributed#getrange</span>
+          <span title="Redis::Distributed#bitcount">Redis::Distributed#bitcount</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3502,7 +3188,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#bitcount">Redis::Distributed#bitcount</span>
+          <span title="Redis::Distributed#getrange">Redis::Distributed#getrange</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3516,7 +3202,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zincrby">Redis::Distributed#zincrby</span>
+          <span title="Redis::Distributed#expireat">Redis::Distributed#expireat</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#setrange">Redis::Distributed#setrange</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3544,7 +3244,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#hexists">Redis::Distributed#hexists</span>
+          <span title="Redis::Distributed#pexpire">Redis::Distributed#pexpire</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::HashRing#initialize">Redis::HashRing#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#zincrby">Redis::Distributed#zincrby</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#publish">Redis::Distributed#publish</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3586,21 +3328,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#publish">Redis::Distributed#publish</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::HashRing#initialize">Redis::HashRing#initialize</span>
+          <span title="Redis::Distributed#migrate">Redis::Distributed#migrate</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3628,77 +3356,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#pexpire">Redis::Distributed#pexpire</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#lpushx">Redis::Distributed#lpushx</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#strlen">Redis::Distributed#strlen</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#append">Redis::Distributed#append</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#getset">Redis::Distributed#getset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#setbit">Redis::Distributed#setbit</span>
+          <span title="Redis::Distributed#hexists">Redis::Distributed#hexists</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3726,7 +3384,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#lindex">Redis::Distributed#lindex</span>
+          <span title="Redis::Distributed#getset">Redis::Distributed#getset</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3740,7 +3398,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#expire">Redis::Distributed#expire</span>
+          <span title="Redis::Distributed#strlen">Redis::Distributed#strlen</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3754,7 +3412,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#lrange">Redis::Distributed#lrange</span>
+          <span title="Redis::Distributed#lpushx">Redis::Distributed#lpushx</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#append">Redis::Distributed#append</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3782,7 +3454,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zscore">Redis::Distributed#zscore</span>
+          <span title="Redis::Distributed#setbit">Redis::Distributed#setbit</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3796,7 +3468,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zcount">Redis::Distributed#zcount</span>
+          <span title="Redis::Distributed#zscore">Redis::Distributed#zscore</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3824,7 +3496,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#decrby">Redis::Distributed#decrby</span>
+          <span title="Redis::Distributed#expire">Redis::Distributed#expire</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3838,7 +3510,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#hsetnx">Redis::Distributed#hsetnx</span>
+          <span title="Redis::Distributed#zcount">Redis::Distributed#zcount</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3866,6 +3538,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Distributed#hsetnx">Redis::Distributed#hsetnx</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Distributed#rename">Redis::Distributed#rename</span>
         </td>
         <td>
@@ -3880,7 +3566,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::HashRing#add_node">Redis::HashRing#add_node</span>
+          <span title="Redis::Distributed#decrby">Redis::Distributed#decrby</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3894,7 +3580,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zcard">Redis::Distributed#zcard</span>
+          <span title="Redis::Distributed#lrange">Redis::Distributed#lrange</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -3908,133 +3594,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::HashRing#get_node">Redis::HashRing#get_node</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#hvals">Redis::Distributed#hvals</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#hkeys">Redis::Distributed#hkeys</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#zrank">Redis::Distributed#zrank</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#smove">Redis::Distributed#smove</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#scard">Redis::Distributed#scard</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#ltrim">Redis::Distributed#ltrim</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#rpush">Redis::Distributed#rpush</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#lpush">Redis::Distributed#lpush</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#setnx">Redis::Distributed#setnx</span>
+          <span title="Redis::Distributed#lindex">Redis::Distributed#lindex</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4062,7 +3622,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#srem">Redis::Distributed#srem</span>
+          <span title="Redis::Distributed#setnx">Redis::Distributed#setnx</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4076,7 +3636,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#dump">Redis::Distributed#dump</span>
+          <span title="Redis::Distributed#lpush">Redis::Distributed#lpush</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4090,7 +3650,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#rpop">Redis::Distributed#rpop</span>
+          <span title="Redis::Distributed#ltrim">Redis::Distributed#ltrim</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4104,7 +3664,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#zrem">Redis::Distributed#zrem</span>
+          <span title="Redis::Distributed#scard">Redis::Distributed#scard</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4118,7 +3678,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#lpop">Redis::Distributed#lpop</span>
+          <span title="Redis::Distributed#zrank">Redis::Distributed#zrank</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4132,7 +3692,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#spop">Redis::Distributed#spop</span>
+          <span title="Redis::HashRing#get_node">Redis::HashRing#get_node</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4146,7 +3706,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#sadd">Redis::Distributed#sadd</span>
+          <span title="Redis::Distributed#hkeys">Redis::Distributed#hkeys</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4160,7 +3720,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#decr">Redis::Distributed#decr</span>
+          <span title="Redis::Distributed#hvals">Redis::Distributed#hvals</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4174,7 +3734,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#pttl">Redis::Distributed#pttl</span>
+          <span title="Redis::HashRing#add_node">Redis::HashRing#add_node</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4188,7 +3748,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#lset">Redis::Distributed#lset</span>
+          <span title="Redis::Distributed#rpush">Redis::Distributed#rpush</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#smove">Redis::Distributed#smove</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#zcard">Redis::Distributed#zcard</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4230,7 +3818,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#lrem">Redis::Distributed#lrem</span>
+          <span title="Redis::Distributed#decr">Redis::Distributed#decr</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#spop">Redis::Distributed#spop</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4258,63 +3860,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#hdel">Redis::Distributed#hdel</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#hset">Redis::Distributed#hset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#info">Redis::Distributed#info</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#llen">Redis::Distributed#llen</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#echo">Redis::Distributed#echo</span>
+          <span title="Redis::Distributed#sort">Redis::Distributed#sort</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4342,7 +3888,161 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#sort">Redis::Distributed#sort</span>
+          <span title="Redis::Distributed#dump">Redis::Distributed#dump</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#pttl">Redis::Distributed#pttl</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#llen">Redis::Distributed#llen</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#info">Redis::Distributed#info</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#zrem">Redis::Distributed#zrem</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#lpop">Redis::Distributed#lpop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#rpop">Redis::Distributed#rpop</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#echo">Redis::Distributed#echo</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#srem">Redis::Distributed#srem</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#hdel">Redis::Distributed#hdel</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#sadd">Redis::Distributed#sadd</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#lset">Redis::Distributed#lset</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4357,6 +4057,34 @@
         </td>
         <td class="path">
           <span title="Redis::Distributed#hlen">Redis::Distributed#hlen</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#lrem">Redis::Distributed#lrem</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#hset">Redis::Distributed#hset</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4433,20 +4161,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-B">
-            B
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#migrate">Redis::Distributed#migrate</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -4467,98 +4181,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis#[]=">Redis#[]=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#mapped_mget">Redis::Distributed#mapped_mget</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Synchrony.connect">Redis::Connection::Synchrony.connect</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#mapped_msetnx">Redis::Distributed#mapped_msetnx</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#mapped_mset">Redis::Distributed#mapped_mset</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('C'); return false;">Show 3 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#pipelined">Redis::Distributed#pipelined</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis.connect">Redis.connect</span>
         </td>
         <td>
@@ -4566,19 +4188,7 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-C">
-            C
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#ensure_same_node">Redis::Distributed#ensure_same_node</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/E.png" title="Priority"/>
-        </td>
-      </tr>
+    
     
   </tbody>
 </table>
@@ -4667,7 +4277,7 @@
     
       <tr class="show_more">
         <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 176 more ...</a>
+          <a href="#" onclick="showMore('U'); return false;">Show 175 more ...</a>
         </td>
       </tr>
     
@@ -4707,7 +4317,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::SubscribedClient#subscription">Redis::SubscribedClient#subscription</span>
+          <span title="Redis::Client#without_socket_timeout">Redis::Client#without_socket_timeout</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4721,7 +4331,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#without_socket_timeout">Redis::Client#without_socket_timeout</span>
+          <span title="Redis::SubscribedClient#subscription">Redis::SubscribedClient#subscription</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4805,20 +4415,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Subscription#unsubscribe">Redis::Subscription#unsubscribe</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Client#call_with_timeout">Redis::Client#call_with_timeout</span>
         </td>
         <td>
@@ -4833,7 +4429,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Subscription#unsubscribe">Redis::Subscription#unsubscribe</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Client#without_reconnect">Redis::Client#without_reconnect</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#mapped_mget">Redis::Distributed#mapped_mget</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4917,20 +4541,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Pipeline#call">Redis::Pipeline#call</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis#method_missing">Redis#method_missing</span>
         </td>
         <td>
@@ -4945,7 +4555,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed">Redis::Distributed</span>
+          <span title="Redis::Pipeline#call">Redis::Pipeline#call</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -4960,6 +4570,20 @@
         </td>
         <td class="path">
           <span title="Redis::Client#call">Redis::Client#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed">Redis::Distributed</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5057,7 +4681,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed::CannotDistribute#initialize">Redis::Distributed::CannotDistribute#initialize</span>
+          <span title="Redis::Connection::Ruby#format_multi_bulk_reply">Redis::Connection::Ruby#format_multi_bulk_reply</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5071,7 +4695,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Ruby#format_multi_bulk_reply">Redis::Connection::Ruby#format_multi_bulk_reply</span>
+          <span title="Redis::Distributed::CannotDistribute#initialize">Redis::Distributed::CannotDistribute#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5127,20 +4751,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Ruby#format_status_reply">Redis::Connection::Ruby#format_status_reply</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Connection::RedisClient#receive_data">Redis::Connection::RedisClient#receive_data</span>
         </td>
         <td>
@@ -5155,7 +4765,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Connection::Ruby#format_status_reply">Redis::Connection::Ruby#format_status_reply</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Connection::Ruby#format_error_reply">Redis::Connection::Ruby#format_error_reply</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Connection::Ruby#format_bulk_reply">Redis::Connection::Ruby#format_bulk_reply</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5197,20 +4835,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Ruby#format_bulk_reply">Redis::Connection::Ruby#format_bulk_reply</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Connection::RedisClient#post_init">Redis::Connection::RedisClient#post_init</span>
         </td>
         <td>
@@ -5239,20 +4863,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Synchrony#disconnect">Redis::Connection::Synchrony#disconnect</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Connection::SocketMixin#timeout=">Redis::Connection::SocketMixin#timeout=</span>
         </td>
         <td>
@@ -5267,21 +4877,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Hiredis#disconnect">Redis::Connection::Hiredis#disconnect</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::RedisClient#unbind">Redis::Connection::RedisClient#unbind</span>
+          <span title="Redis::Connection::Synchrony#disconnect">Redis::Connection::Synchrony#disconnect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5337,7 +4933,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Ruby#format_reply">Redis::Connection::Ruby#format_reply</span>
+          <span title="Redis::Connection::Hiredis#disconnect">Redis::Connection::Hiredis#disconnect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5351,7 +4947,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::TCPSocket.connect">Redis::Connection::TCPSocket.connect</span>
+          <span title="Redis::Connection::RedisClient#unbind">Redis::Connection::RedisClient#unbind</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Connection::Ruby#format_reply">Redis::Connection::Ruby#format_reply</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5379,7 +4989,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::RedisClient#read">Redis::Connection::RedisClient#read</span>
+          <span title="Redis::Connection::Synchrony.connect">Redis::Connection::Synchrony.connect</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Connection::TCPSocket.connect">Redis::Connection::TCPSocket.connect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5422,6 +5046,20 @@
         </td>
         <td class="path">
           <span title="Redis::Connection::SocketMixin#read">Redis::Connection::SocketMixin#read</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Connection::RedisClient#read">Redis::Connection::RedisClient#read</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5519,6 +5157,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Connection::Synchrony#read">Redis::Connection::Synchrony#read</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Client#with_socket_timeout">Redis::Client#with_socket_timeout</span>
         </td>
         <td>
@@ -5533,7 +5185,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Synchrony#read">Redis::Connection::Synchrony#read</span>
+          <span title="Redis::Distributed#mapped_msetnx">Redis::Distributed#mapped_msetnx</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5589,35 +5241,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#on_each_node">Redis::Distributed#on_each_node</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Hiredis#read">Redis::Connection::Hiredis#read</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Connection::Ruby.connect">Redis::Connection::Ruby.connect</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::ProtocolError#initialize">Redis::ProtocolError#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5645,7 +5283,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::ProtocolError#initialize">Redis::ProtocolError#initialize</span>
+          <span title="Redis::Connection::Hiredis#read">Redis::Connection::Hiredis#read</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#on_each_node">Redis::Distributed#on_each_node</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#mapped_mset">Redis::Distributed#mapped_mset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Connection::SocketMixin">Redis::Connection::SocketMixin</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5687,20 +5367,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::SocketMixin">Redis::Connection::SocketMixin</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Connection::UNIXSocket">Redis::Connection::UNIXSocket</span>
         </td>
         <td>
@@ -5715,7 +5381,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#initialize">Redis::Distributed#initialize</span>
+          <span title="Redis::Subscription#callbacks">Redis::Subscription#callbacks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5743,35 +5409,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Distributed#initialize">Redis::Distributed#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::Connection::Ruby#write">Redis::Connection::Ruby#write</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Ruby#read">Redis::Connection::Ruby#read</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client#call_pipelined">Redis::Client#call_pipelined</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5799,6 +5451,34 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Connection::TCPSocket">Redis::Connection::TCPSocket</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#pipelined">Redis::Distributed#pipelined</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis::SubscribedClient#call">Redis::SubscribedClient#call</span>
         </td>
         <td>
@@ -5813,7 +5493,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::TCPSocket">Redis::Connection::TCPSocket</span>
+          <span title="Redis::Connection::Ruby#read">Redis::Connection::Ruby#read</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5855,35 +5535,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#node_for">Redis::Distributed#node_for</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#add_node">Redis::Distributed#add_node</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client#call_pipeline">Redis::Client#call_pipeline</span>
+          <span title="Redis::Client#call_pipelined">Redis::Client#call_pipelined</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5911,7 +5563,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Hiredis">Redis::Connection::Hiredis</span>
+          <span title="Redis::Client#call_pipeline">Redis::Client#call_pipeline</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#add_node">Redis::Distributed#add_node</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#node_for">Redis::Distributed#node_for</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::HashRing#sorted_keys">Redis::HashRing#sorted_keys</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5953,7 +5647,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#_eval">Redis::Distributed#_eval</span>
+          <span title="Redis::Connection::Hiredis">Redis::Connection::Hiredis</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5967,7 +5661,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Pipeline#commands">Redis::Pipeline#commands</span>
+          <span title="Redis::Client#command_map">Redis::Client#command_map</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#nodes">Redis::Distributed#nodes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::HashRing#replicas">Redis::HashRing#replicas</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -5995,21 +5717,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#_bpop">Redis::Distributed#_bpop</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#nodes">Redis::Distributed#nodes</span>
+          <span title="Redis::Pipeline#commands">Redis::Pipeline#commands</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6051,7 +5759,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Connection::Ruby">Redis::Connection::Ruby</span>
+          <span title="Redis::Client#connection">Redis::Client#connection</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6065,7 +5773,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#call_loop">Redis::Client#call_loop</span>
+          <span title="Redis::Distributed#_eval">Redis::Distributed#_eval</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6079,7 +5787,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#reconnect">Redis::Client#reconnect</span>
+          <span title="Redis::Distributed#_bpop">Redis::Distributed#_bpop</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6107,7 +5815,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#location">Redis::Client#location</span>
+          <span title="Redis::Client#call_loop">Redis::Client#call_loop</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6121,7 +5829,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#dup">Redis::Distributed#dup</span>
+          <span title="Redis::Distributed#ring">Redis::Distributed#ring</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Client#reconnect">Redis::Client#reconnect</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Connection::Ruby">Redis::Connection::Ruby</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Pipeline#futures">Redis::Pipeline#futures</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6136,6 +5886,20 @@
         </td>
         <td class="path">
           <span title="Redis::Pipeline::Multi">Redis::Pipeline::Multi</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Client#password">Redis::Client#password</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6177,7 +5941,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#password">Redis::Client#password</span>
+          <span title="Redis::Client#location">Redis::Client#location</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#dup">Redis::Distributed#dup</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Future#inspect">Redis::Future#inspect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6205,7 +5997,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Distributed#[]">Redis::Distributed#[]</span>
+          <span title="Redis::Client#timeout">Redis::Client#timeout</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::HashRing#nodes">Redis::HashRing#nodes</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Client#logger=">Redis::Client#logger=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Client#connect">Redis::Client#connect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6247,7 +6081,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Future#inspect">Redis::Future#inspect</span>
+          <span title="Redis::Distributed#[]">Redis::Distributed#[]</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6261,7 +6095,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#connect">Redis::Client#connect</span>
+          <span title="Redis::HashRing#ring">Redis::HashRing#ring</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6275,21 +6109,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#timeout">Redis::Client#timeout</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client#driver">Redis::Client#driver</span>
+          <span title="Redis::Client#logger">Redis::Client#logger</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6317,7 +6137,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Subscription">Redis::Subscription</span>
+          <span title="Redis::Client#driver">Redis::Client#driver</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Pipeline#db=">Redis::Pipeline#db=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6345,20 +6179,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Future#class">Redis::Future#class</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="Redis::Future#value">Redis::Future#value</span>
         </td>
         <td>
@@ -6373,7 +6193,49 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#read">Redis::Client#read</span>
+          <span title="Redis::Future#class">Redis::Future#class</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Subscription">Redis::Subscription</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Pipeline#db">Redis::Pipeline#db</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Client#path">Redis::Client#path</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6429,21 +6291,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#path">Redis::Client#path</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection">Redis::Connection</span>
+          <span title="Redis::Client#read">Redis::Client#read</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6471,7 +6319,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#id">Redis::Client#id</span>
+          <span title="Redis::Connection">Redis::Connection</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Client#db">Redis::Client#db</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6513,21 +6375,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Client#db">Redis::Client#db</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Pipeline">Redis::Pipeline</span>
+          <span title="Redis::Client#id">Redis::Client#id</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6542,6 +6390,20 @@
         </td>
         <td class="path">
           <span title="Redis#pipelined">Redis#pipelined</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Pipeline">Redis::Pipeline</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6611,6 +6473,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="Redis::Future">Redis::Future</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="Redis.current">Redis.current</span>
         </td>
         <td>
@@ -6625,7 +6501,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="Redis::Future">Redis::Future</span>
+          <span title="Redis#client">Redis#client</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -6696,6 +6572,20 @@
         </td>
         <td class="path">
           <span title="Redis::Connection::CommandHelper#encode">Redis::Connection::CommandHelper#encode</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/E.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="Redis::Distributed#ensure_same_node">Redis::Distributed#ensure_same_node</span>
         </td>
         <td>
           <img src="/public/images/priority/E.png" title="Priority"/>
@@ -6842,300 +6732,6 @@
         </td>
       </tr>
     
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::CommandHelper::COMMAND_DELIMITER">Redis::Connection::CommandHelper::COMMAND_DELIMITER</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::SocketMixin::CRLF">Redis::Connection::SocketMixin::CRLF</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Ruby::ASTERISK">Redis::Connection::Ruby::ASTERISK</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Ruby::DOLLAR">Redis::Connection::Ruby::DOLLAR</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Ruby::COLON">Redis::Connection::Ruby::COLON</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Ruby::MINUS">Redis::Connection::Ruby::MINUS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Future::FutureNotReady">Redis::Future::FutureNotReady</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Ruby::PLUS">Redis::Connection::Ruby::PLUS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client::DEFAULTS">Redis::Client::DEFAULTS</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::VERSION">Redis::VERSION</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::RedisClient#connected?">Redis::Connection::RedisClient#connected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Synchrony#connected?">Redis::Connection::Synchrony#connected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Hiredis#connected?">Redis::Connection::Hiredis#connected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Connection::Ruby#connected?">Redis::Connection::Ruby#connected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Pipeline#without_reconnect?">Redis::Pipeline#without_reconnect?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Pipeline#with_reconnect?">Redis::Pipeline#with_reconnect?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Distributed#subscribed?">Redis::Distributed#subscribed?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Pipeline#shutdown?">Redis::Pipeline#shutdown?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Client#connected?">Redis::Client#connected?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis::Future#is_a?">Redis::Future#is_a?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="Redis#subscribed?">Redis#subscribed?</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/SE.png" title="Priority"/>
-        </td>
-      </tr>
-    
   </tbody>
 </table>
 
@@ -7153,7 +6749,7 @@
 
     <a name="about"></a>
     <div class="what-is-this">
-      <h2>Let&#39;s raise the visiblity of documentation in Ruby!</h2>
+      <h2>Let&#39;s raise the visibility of documentation in Ruby!</h2>
 
 <p>This page is for <code>redis/redis-rb</code> and is part of a project called &quot;Inch Pages&quot;, showing documentation measurements provided by <a href="http://trivelop.de/inch">Inch</a>.
 <span style="white-space: nowrap;">Inch Pages</span> also provides a badge: <img src="/github/redis/redis-rb.png">
@@ -7175,16 +6771,22 @@
   </div>
 </div>
 <!--
-  [![Inline docs](http://inch-pages.github.io/github/redis/redis-rb.png)](http://inch-pages.github.io/github/redis/redis-rb)
--->
-<!--
-Add docs badge to README
-
 I just added the badge you requested to your README: ![Inline docs](http://inch-pages.github.io/github/redis/redis-rb.png)
 
 Your status page for this project is http://inch-pages.github.io/github/redis/redis-rb
 
-Thank you for your support! :man:
+Thanks for giving this a shot!
+-->
+<!--
+Hi there,
+
+this patch adds a docs badge to the README to show off inline-documentation to potential contributors: [![Inline docs](http://inch-pages.github.io/github/redis/redis-rb.png)](http://inch-pages.github.io/github/redis/redis-rb)
+
+The badge links to [Inch Pages](http://inch-pages.github.io), a project that tries to raise the visibility of inline-docs to encourage aspiring Rubyists to document their code. Your status page is http://inch-pages.github.io/github/redis/redis-rb/
+
+Inch Pages is still a young project, but already used by projects like [Guard](https://github.com/guard/guard), [Haml](https://github.com/haml/haml), [Pry](https://github.com/pry/pry), and [ROM](https://github.com/rom-rb/rom).
+
+What do you think?
 -->
 
 
