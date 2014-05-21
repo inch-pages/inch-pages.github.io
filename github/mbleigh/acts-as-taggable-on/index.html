@@ -103,10 +103,10 @@
 
     <div class="stats">
       <div class='progress'>
-        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 12%' title='Really good'></div>
+        <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 13%' title='Really good'></div>
         <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 11%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 77%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 76%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -127,6 +127,20 @@
   </thead>
   <tbody>
     
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="ActsAsTaggableOn">ActsAsTaggableOn</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
     
       <tr>
         <td>
@@ -184,7 +198,15 @@
         </td>
       </tr>
     
-      <tr>
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('A'); return false;">Show 9 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-A">
             A
@@ -197,14 +219,6 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 8 more ...</a>
-        </td>
-      </tr>
-    
     
       <tr class="more_object">
         <td>
@@ -585,20 +599,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn">ActsAsTaggableOn</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/N.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ActsAsTaggableOn::Taggable::Related#find_matching_contexts_for">ActsAsTaggableOn:: <em>&hellip;</em> #find_matching_contexts_for</span>
         </td>
         <td>
@@ -648,15 +648,7 @@
         </td>
       </tr>
     
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('U'); return false;">Show 93 more ...</a>
-        </td>
-      </tr>
-    
-    
-      <tr class="more_object">
+      <tr>
         <td>
           <div class="grade-circle grade-circle-U">
             U
@@ -669,6 +661,14 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('U'); return false;">Show 91 more ...</a>
+        </td>
+      </tr>
+    
     
       <tr class="more_object">
         <td>
@@ -1083,20 +1083,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Ownership#save_owned_tags">ActsAsTaggableOn::Taggable::Ownership#save_owned_tags</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ActsAsTaggableOn::Taggable::Core#process_dirty_object">ActsAsTaggableOn::Taggable::Core#process_dirty_object</span>
         </td>
         <td>
@@ -1111,7 +1097,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Collection::ClassMethods">ActsAsTaggableOn::Taggable::Collection::ClassMethods</span>
+          <span title="ActsAsTaggableOn::Taggable::Ownership#save_owned_tags">ActsAsTaggableOn::Taggable::Ownership#save_owned_tags</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1153,7 +1139,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Ownership#owner_tags_on">ActsAsTaggableOn::Taggable::Ownership#owner_tags_on</span>
+          <span title="ActsAsTaggableOn::Taggable::Collection::ClassMethods">ActsAsTaggableOn::Taggable::Collection::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1195,7 +1181,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Configuration#force_parameterize=">ActsAsTaggableOn::Configuration#force_parameterize=</span>
+          <span title="ActsAsTaggableOn::Taggable::Ownership#owner_tags_on">ActsAsTaggableOn::Taggable::Ownership#owner_tags_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1223,7 +1209,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Ownership::ClassMethods">ActsAsTaggableOn::Taggable::Ownership::ClassMethods</span>
+          <span title="ActsAsTaggableOn::Configuration#force_parameterize=">ActsAsTaggableOn::Configuration#force_parameterize=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1237,7 +1223,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Configuration#strict_case_match=">ActsAsTaggableOn::Configuration#strict_case_match=</span>
+          <span title="ActsAsTaggableOn::Taggable::Ownership::ClassMethods">ActsAsTaggableOn::Taggable::Ownership::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1265,7 +1251,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Cache::InstanceMethods">ActsAsTaggableOn::Taggable::Cache::InstanceMethods</span>
+          <span title="ActsAsTaggableOn::Configuration#strict_case_match=">ActsAsTaggableOn::Configuration#strict_case_match=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1293,7 +1279,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Configuration#force_parameterize">ActsAsTaggableOn::Configuration#force_parameterize</span>
+          <span title="ActsAsTaggableOn::Taggable::Cache::InstanceMethods">ActsAsTaggableOn::Taggable::Cache::InstanceMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1307,7 +1293,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Core#tagging_contexts">ActsAsTaggableOn::Taggable::Core#tagging_contexts</span>
+          <span title="ActsAsTaggableOn::Configuration#force_parameterize">ActsAsTaggableOn::Configuration#force_parameterize</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1335,7 +1321,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Configuration#strict_case_match">ActsAsTaggableOn::Configuration#strict_case_match</span>
+          <span title="ActsAsTaggableOn::Taggable::Core#all_tags_list_on">ActsAsTaggableOn::Taggable::Core#all_tags_list_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1349,7 +1335,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Core#all_tags_list_on">ActsAsTaggableOn::Taggable::Core#all_tags_list_on</span>
+          <span title="ActsAsTaggableOn::Taggable::Core#tagging_contexts">ActsAsTaggableOn::Taggable::Core#tagging_contexts</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ActsAsTaggableOn::Configuration#strict_case_match">ActsAsTaggableOn::Configuration#strict_case_match</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1419,20 +1419,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Configuration#force_lowercase">ActsAsTaggableOn::Configuration#force_lowercase</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ActsAsTaggableOn::Taggable::Cache::ClassMethods">ActsAsTaggableOn::Taggable::Cache::ClassMethods</span>
         </td>
         <td>
@@ -1447,21 +1433,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::TagList.single_quote_pattern">ActsAsTaggableOn::TagList.single_quote_pattern</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActsAsTaggableOn::TagList.double_quote_pattern">ActsAsTaggableOn::TagList.double_quote_pattern</span>
+          <span title="ActsAsTaggableOn::Configuration#force_lowercase">ActsAsTaggableOn::Configuration#force_lowercase</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1489,7 +1461,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Core#tag_list_on">ActsAsTaggableOn::Taggable::Core#tag_list_on</span>
+          <span title="ActsAsTaggableOn::TagList.double_quote_pattern">ActsAsTaggableOn::TagList.double_quote_pattern</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1503,7 +1475,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Configuration#delimiter=">ActsAsTaggableOn::Configuration#delimiter=</span>
+          <span title="ActsAsTaggableOn::TagList.single_quote_pattern">ActsAsTaggableOn::TagList.single_quote_pattern</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ActsAsTaggableOn::Taggable::Core#tag_list_on">ActsAsTaggableOn::Taggable::Core#tag_list_on</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1531,35 +1517,21 @@
           </div>
         </td>
         <td class="path">
+          <span title="ActsAsTaggableOn::Configuration#delimiter=">ActsAsTaggableOn::Configuration#delimiter=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="ActsAsTaggableOn::Taggable::Core#save_tags">ActsAsTaggableOn::Taggable::Core#save_tags</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActsAsTaggableOn::Utils.postgresql_version">ActsAsTaggableOn::Utils.postgresql_version</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActsAsTaggableOn::Tagger::InstanceMethods">ActsAsTaggableOn::Tagger::InstanceMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1587,7 +1559,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Tagger::ClassMethods">ActsAsTaggableOn::Tagger::ClassMethods</span>
+          <span title="ActsAsTaggableOn::Tagger::InstanceMethods">ActsAsTaggableOn::Tagger::InstanceMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1602,6 +1574,20 @@
         </td>
         <td class="path">
           <span title="ActsAsTaggableOn::Taggable::Collection">ActsAsTaggableOn::Taggable::Collection</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ActsAsTaggableOn::Tagger::ClassMethods">ActsAsTaggableOn::Tagger::ClassMethods</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1657,7 +1643,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::TagList.delimiter">ActsAsTaggableOn::TagList.delimiter</span>
+          <span title="ActsAsTaggableOn::Taggable::Related">ActsAsTaggableOn::Taggable::Related</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1671,7 +1657,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Related">ActsAsTaggableOn::Taggable::Related</span>
+          <span title="ActsAsTaggableOn::TagList.delimiter">ActsAsTaggableOn::TagList.delimiter</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1727,20 +1713,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable::Core">ActsAsTaggableOn::Taggable::Core</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="ActsAsTaggableOn::Tag.named_like">ActsAsTaggableOn::Tag.named_like</span>
         </td>
         <td>
@@ -1755,7 +1727,35 @@
           </div>
         </td>
         <td class="path">
+          <span title="ActsAsTaggableOn::Taggable::Core">ActsAsTaggableOn::Taggable::Core</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
           <span title="ActsAsTaggableOn::TagList#owner=">ActsAsTaggableOn::TagList#owner=</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="ActsAsTaggableOn::Tag.named_any">ActsAsTaggableOn::Tag.named_any</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1784,20 +1784,6 @@
         </td>
         <td class="path">
           <span title="ActsAsTaggableOn::Configuration">ActsAsTaggableOn::Configuration</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="ActsAsTaggableOn::Tag.named_any">ActsAsTaggableOn::Tag.named_any</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1853,7 +1839,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Tag#to_s">ActsAsTaggableOn::Tag#to_s</span>
+          <span title="ActsAsTaggableOn::Taggable">ActsAsTaggableOn::Taggable</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1867,7 +1853,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Taggable">ActsAsTaggableOn::Taggable</span>
+          <span title="ActsAsTaggableOn::Tag#to_s">ActsAsTaggableOn::Tag#to_s</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1937,7 +1923,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn.glue">ActsAsTaggableOn.glue</span>
+          <span title="ActsAsTaggableOn::Tag">ActsAsTaggableOn::Tag</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1951,7 +1937,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="ActsAsTaggableOn::Tag">ActsAsTaggableOn::Tag</span>
+          <span title="ActsAsTaggableOn.glue">ActsAsTaggableOn.glue</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>

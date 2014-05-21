@@ -104,9 +104,9 @@
     <div class="stats">
       <div class='progress'>
         <div class='progress-bar progress-bar-A' data-placement='bottom' data-toggle='tooltip' style='width: 50%' title='Really good'></div>
-        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 19%' title='Properly documented'></div>
+        <div class='progress-bar progress-bar-B' data-placement='bottom' data-toggle='tooltip' style='width: 20%' title='Properly documented'></div>
         <div class='progress-bar progress-bar-C' data-placement='bottom' data-toggle='tooltip' style='width: 0%' title='Needs work'></div>
-        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 31%' title='Undocumented'></div>
+        <div class='progress-bar progress-bar-U' data-placement='bottom' data-toggle='tooltip' style='width: 30%' title='Undocumented'></div>
       </div>
     </div>
     <div class="repo-info">
@@ -136,6 +136,20 @@
         </td>
         <td class="path">
           <span title="FiniteMachine::AsyncCall.build">FiniteMachine::AsyncCall.build</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::Event#<<">FiniteMachine::Event#<<</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -184,7 +198,15 @@
         </td>
       </tr>
     
-      <tr>
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('A'); return false;">Show 54 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-A">
             A
@@ -197,14 +219,6 @@
           <img src="/public/images/priority/NE.png" title="Priority"/>
         </td>
       </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('A'); return false;">Show 49 more ...</a>
-        </td>
-      </tr>
-    
     
       <tr class="more_object">
         <td>
@@ -255,7 +269,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::StateParser#parse_states">FiniteMachine::StateParser#parse_states</span>
+          <span title="FiniteMachine::StateMachine#event_names">FiniteMachine::StateMachine#event_names</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -269,7 +283,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::StateMachine#event_names">FiniteMachine::StateMachine#event_names</span>
+          <span title="FiniteMachine::StateParser#parse_states">FiniteMachine::StateParser#parse_states</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -297,20 +311,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Transition#initialize">FiniteMachine::Transition#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="FiniteMachine::EventQueue#initialize">FiniteMachine::EventQueue#initialize</span>
         </td>
         <td>
@@ -325,7 +325,63 @@
           </div>
         </td>
         <td class="path">
+          <span title="FiniteMachine::Transition#initialize">FiniteMachine::Transition#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="FiniteMachine::StateMachine#current">FiniteMachine::StateMachine#current</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::EventQueue#shutdown">FiniteMachine::EventQueue#shutdown</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::Callable#initialize">FiniteMachine::Callable#initialize</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::Transition#to_state">FiniteMachine::Transition#to_state</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -367,48 +423,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Transition#to_state">FiniteMachine::Transition#to_state</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="FiniteMachine::Callable#initialize">FiniteMachine::Callable#initialize</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="FiniteMachine::EventQueue#shutdown">FiniteMachine::EventQueue#shutdown</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
           <span title="FiniteMachine::Transition#inspect">FiniteMachine::Transition#inspect</span>
         </td>
         <td>
@@ -437,6 +451,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="FiniteMachine::Subscribers#reset">FiniteMachine::Subscribers#reset</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
           <span title="FiniteMachine::Subscribers#visit">FiniteMachine::Subscribers#visit</span>
         </td>
         <td>
@@ -451,7 +479,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Subscribers#reset">FiniteMachine::Subscribers#reset</span>
+          <span title="FiniteMachine::StateParser#to_s">FiniteMachine::StateParser#to_s</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -479,7 +507,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::StateParser#to_s">FiniteMachine::StateParser#to_s</span>
+          <span title="FiniteMachine::Transition#to_s">FiniteMachine::Transition#to_s</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -549,7 +577,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::EventQueue#<<">FiniteMachine::EventQueue#<<</span>
+          <span title="FiniteMachine::Event#inspect">FiniteMachine::Event#inspect</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -564,6 +592,20 @@
         </td>
         <td class="path">
           <span title="FiniteMachine::ThreadContext">FiniteMachine::ThreadContext</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::EventQueue#<<">FiniteMachine::EventQueue#<<</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -647,35 +689,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Transition">FiniteMachine::Transition</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="FiniteMachine::EventQueue">FiniteMachine::EventQueue</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="FiniteMachine::GenericDSL">FiniteMachine::GenericDSL</span>
+          <span title="FiniteMachine::Threadable">FiniteMachine::Threadable</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -703,7 +717,35 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Threadable">FiniteMachine::Threadable</span>
+          <span title="FiniteMachine::GenericDSL">FiniteMachine::GenericDSL</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::Event#to_s">FiniteMachine::Event#to_s</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::Transition">FiniteMachine::Transition</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -718,6 +760,34 @@
         </td>
         <td class="path">
           <span title="FiniteMachine::Hooks#call">FiniteMachine::Hooks#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::EventQueue">FiniteMachine::EventQueue</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::ErrorsDSL">FiniteMachine::ErrorsDSL</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -759,7 +829,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::ErrorsDSL">FiniteMachine::ErrorsDSL</span>
+          <span title="FiniteMachine::EventsDSL">FiniteMachine::EventsDSL</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -773,7 +843,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::EventsDSL">FiniteMachine::EventsDSL</span>
+          <span title="FiniteMachine::HookEvent">FiniteMachine::HookEvent</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -815,7 +885,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Hooks">FiniteMachine::Hooks</span>
+          <span title="FiniteMachine::Safety">FiniteMachine::Safety</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -830,6 +900,20 @@
         </td>
         <td class="path">
           <span title="FiniteMachine::Event">FiniteMachine::Event</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-A">
+            A
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::Hooks">FiniteMachine::Hooks</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -858,20 +942,6 @@
         </td>
         <td class="path">
           <span title="FiniteMachine::Catchable#catch_error">FiniteMachine::Catchable#catch_error</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-A">
-            A
-          </div>
-        </td>
-        <td class="path">
-          <span title="FiniteMachine::Transition#to_s">FiniteMachine::Transition#to_s</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -926,6 +996,20 @@
           </div>
         </td>
         <td class="path">
+          <span title="FiniteMachine::Safety#detect_event_conflict!">FiniteMachine::Safety#detect_event_conflict!</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="FiniteMachine::Callable#call">FiniteMachine::Callable#call</span>
         </td>
         <td>
@@ -954,6 +1038,28 @@
           </div>
         </td>
         <td class="path">
+          <span title="FiniteMachine::Event#call">FiniteMachine::Event#call</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/N.png" title="Priority"/>
+        </td>
+      </tr>
+    
+    
+      <tr class="show_more">
+        <td colspan=3>
+          <a href="#" onclick="showMore('B'); return false;">Show 19 more ...</a>
+        </td>
+      </tr>
+    
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-B">
+            B
+          </div>
+        </td>
+        <td class="path">
           <span title="FiniteMachine::EventQueue#subscribe">FiniteMachine::EventQueue#subscribe</span>
         </td>
         <td>
@@ -961,7 +1067,7 @@
         </td>
       </tr>
     
-      <tr>
+      <tr class="more_object">
         <td>
           <div class="grade-circle grade-circle-B">
             B
@@ -974,14 +1080,6 @@
           <img src="/public/images/priority/N.png" title="Priority"/>
         </td>
       </tr>
-    
-    
-      <tr class="show_more">
-        <td colspan=3>
-          <a href="#" onclick="showMore('B'); return false;">Show 17 more ...</a>
-        </td>
-      </tr>
-    
     
       <tr class="more_object">
         <td>
@@ -1088,7 +1186,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::DSL#handlers">FiniteMachine::DSL#handlers</span>
+          <span title="FiniteMachine::Observer#off">FiniteMachine::Observer#off</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1102,7 +1200,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Observer#off">FiniteMachine::Observer#off</span>
+          <span title="FiniteMachine::DSL#handlers">FiniteMachine::DSL#handlers</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1271,7 +1369,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Event#initialize">FiniteMachine::Event#initialize</span>
+          <span title="FiniteMachine::HookEvent#initialize">FiniteMachine::HookEvent#initialize</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1327,7 +1425,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Observer#once_on_enter">FiniteMachine::Observer#once_on_enter</span>
+          <span title="FiniteMachine::Observer#on_transition">FiniteMachine::Observer#on_transition</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1349,7 +1447,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Observer#on_transition">FiniteMachine::Observer#on_transition</span>
+          <span title="FiniteMachine::Observer#once_on_enter">FiniteMachine::Observer#once_on_enter</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1419,7 +1517,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Event#notify">FiniteMachine::Event#notify</span>
+          <span title="FiniteMachine::HookEvent#notify">FiniteMachine::HookEvent#notify</span>
         </td>
         <td>
           <img src="/public/images/priority/N.png" title="Priority"/>
@@ -1531,20 +1629,6 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::TransitionEvent#from">FiniteMachine::TransitionEvent#from</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
           <span title="FiniteMachine::TransitionEvent#name">FiniteMachine::TransitionEvent#name</span>
         </td>
         <td>
@@ -1559,7 +1643,21 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::TransitionEvent#to=">FiniteMachine::TransitionEvent#to=</span>
+          <span title="FiniteMachine::TransitionEvent#from">FiniteMachine::TransitionEvent#from</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::HookEvent.event_name">FiniteMachine::HookEvent.event_name</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1587,7 +1685,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::TransitionEvent#to">FiniteMachine::TransitionEvent#to</span>
+          <span title="FiniteMachine::TransitionEvent#to=">FiniteMachine::TransitionEvent#to=</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1615,7 +1713,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Event.event_name">FiniteMachine::Event.event_name</span>
+          <span title="FiniteMachine::TransitionEvent#to">FiniteMachine::TransitionEvent#to</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1630,6 +1728,20 @@
         </td>
         <td class="path">
           <span title="FiniteMachine::Callable#object">FiniteMachine::Callable#object</span>
+        </td>
+        <td>
+          <img src="/public/images/priority/NE.png" title="Priority"/>
+        </td>
+      </tr>
+    
+      <tr class="more_object">
+        <td>
+          <div class="grade-circle grade-circle-U">
+            U
+          </div>
+        </td>
+        <td class="path">
+          <span title="FiniteMachine::HookEvent.to_s">FiniteMachine::HookEvent.to_s</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1671,7 +1783,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Environment">FiniteMachine::Environment</span>
+          <span title="FiniteMachine::Logger.info">FiniteMachine::Logger.info</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1685,7 +1797,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Logger.info">FiniteMachine::Logger.info</span>
+          <span title="FiniteMachine::Environment">FiniteMachine::Environment</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1713,7 +1825,7 @@
           </div>
         </td>
         <td class="path">
-          <span title="FiniteMachine::Event.to_s">FiniteMachine::Event.to_s</span>
+          <span title="FiniteMachine::Logger">FiniteMachine::Logger</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
@@ -1728,20 +1840,6 @@
         </td>
         <td class="path">
           <span title="FiniteMachine.logger=">FiniteMachine.logger=</span>
-        </td>
-        <td>
-          <img src="/public/images/priority/NE.png" title="Priority"/>
-        </td>
-      </tr>
-    
-      <tr class="more_object">
-        <td>
-          <div class="grade-circle grade-circle-U">
-            U
-          </div>
-        </td>
-        <td class="path">
-          <span title="FiniteMachine::Logger">FiniteMachine::Logger</span>
         </td>
         <td>
           <img src="/public/images/priority/NE.png" title="Priority"/>
