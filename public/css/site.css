@@ -312,6 +312,16 @@ img.github-logo {
   text-align: center;
 }
 
+.disclaimer .inch-ci-banner {
+  margin: 10px 0;
+}
+
+.disclaimer .inch-ci-banner strong {
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
+
 .everything-box {
   text-align: center;
   margin-top: 2rem;
